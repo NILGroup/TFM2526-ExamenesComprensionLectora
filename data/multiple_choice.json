@@ -116,6 +116,879 @@
     },
     {
       "level": "A1",
+      "examId": "A1_Sample_Ines",
+      "exercises": [
+          {
+              "exerciseID": "A1_Sample_Ines_E1",
+              "type": "multiple-choice",
+              "instructions": "Usted va a leer un correo electrónico de Inés a un amigo. A continuación, tiene que leer las preguntas (de la 1 a la 5) y seleccionar la opción correcta (A, B o C).\nTiene que marcar la opción elegida en la Hoja de respuestas.",
+              "num-questions": 5,
+              "exercise": {
+                  "text": "De: ines@mail.com\nPara: pedroizquierdo@hotmail.com\nNoticias\n\nHola, Pedro:\n¿Qué tal estás? ¿Tienes muchos exámenes finales? Yo ahora estudio bastante para tener buenas notas y unas buenas vacaciones.\nEn julio quiero trabajar porque necesito dinero para viajar en agosto. Quiero ir al norte de España con Marta. Primero, vamos a visitar San Sebastián porque tiene una playa muy bonita. Después Bilbao porque las fiestas empiezan el día 15 y queremos verlas. Luego vamos a Santander porque no la conocemos. Además, los tíos de Marta viven allí y no tenemos que ir a un hotel, podemos dormir en su casa.\nDe Madrid a San Sebastián vamos en tren, de allí a Bilbao y a Santander en autobús. En Santander queremos alquilar una moto para visitar los pueblos en el camino de vuelta a Madrid. Es divertido, ¿verdad?\nOtra cosa, el viernes es mi cumpleaños, pero voy a hacer la fiesta el sábado, ¿quieres venir? Necesito saberlo antes del jueves para llamar al restaurante. Ahora me voy, porque hoy ceno en casa de Marta y antes quiero comprar unas flores. Esta noche queremos ir a la discoteca.\nUn beso,\nInés",
+                  "image-path": "",
+                  "questions": [
+                      {
+                          "questionId": "A1_Sample_Ines_E1_Q1",
+                          "text": "En este correo, Inés le cuenta a Pedro...",
+                          "image-path": "",
+                          "correct-option": "B",
+                          "options": [
+                              {
+                                  "optionId": "A",
+                                  "text": "cuándo termina los exámenes.",
+                                  "image-path": ""
+                              },
+                              {
+                                  "optionId": "B",
+                                  "text": "por qué quiere trabajar en verano.",
+                                  "image-path": ""
+                              },
+                              {
+                                  "optionId": "C",
+                                  "text": "dónde va a ir de vacaciones en julio.",
+                                  "image-path": ""
+                              }
+                          ]
+                      },
+                      {
+                          "questionId": "A1_Sample_Ines_E1_Q2",
+                          "text": "En el texto se dice que...",
+                          "image-path": "",
+                          "correct-option": "C",
+                          "options": [
+                              {
+                                  "optionId": "A",
+                                  "text": "las fiestas de San Sebastián son bonitas.",
+                                  "image-path": ""
+                              },
+                              {
+                                  "optionId": "B",
+                                  "text": "la familia de Marta tiene un hotel en Santander.",
+                                  "image-path": ""
+                              },
+                              {
+                                  "optionId": "C",
+                                  "text": "el 15 de agosto Inés va a estar en Bilbao.",
+                                  "image-path": ""
+                              }
+                          ]
+                      },
+                      {
+                          "questionId": "A1_Sample_Ines_E1_Q3",
+                          "text": "Inés y Marta van a ir de Santander a Madrid...",
+                          "image-path": "",
+                          "correct-option": "B",
+                          "options": [
+                              {
+                                  "optionId": "A",
+                                  "text": "en coche.",
+                                  "image-path": ""
+                              },
+                              {
+                                  "optionId": "B",
+                                  "text": "en moto.",
+                                  "image-path": ""
+                              },
+                              {
+                                  "optionId": "C",
+                                  "text": "en autobús.",
+                                  "image-path": ""
+                              }
+                          ]
+                      },
+                      {
+                          "questionId": "A1_Sample_Ines_E1_Q4",
+                          "text": "La fiesta de cumpleaños de Inés es...",
+                          "image-path": "",
+                          "correct-option": "C",
+                          "options": [
+                              {
+                                  "optionId": "A",
+                                  "text": "el jueves.",
+                                  "image-path": ""
+                              },
+                              {
+                                  "optionId": "B",
+                                  "text": "el viernes.",
+                                  "image-path": ""
+                              },
+                              {
+                                  "optionId": "C",
+                                  "text": "el sábado.",
+                                  "image-path": ""
+                              }
+                          ]
+                      },
+                      {
+                          "questionId": "A1_Sample_Ines_E1_Q5",
+                          "text": "¿Dónde es la fiesta de cumpleaños de Inés?",
+                          "image-path": "",
+                          "correct-option": "B",
+                          "options": [
+                              {
+                                  "optionId": "A",
+                                  "text": "",
+                                  "image-path": "img/A1_Sample_Ines_E1_Q5_A.png"
+                              },
+                              {
+                                  "optionId": "B",
+                                  "text": "",
+                                  "image-path": "img/A1_Sample_Ines_E1_Q5_B.png"
+                              },
+                              {
+                                  "optionId": "C",
+                                  "text": "",
+                                  "image-path": "img/A1_Sample_Ines_E1_Q5_C.png"
+                              }
+                          ]
+                      }
+                  ]
+              }
+          }
+      ]
+    },
+    {
+            "level": "A1",
+            "examId": "A1_Sample_Carol",
+            "exercises": [
+                {
+                    "exerciseID": "A1_Sample_Carol_E1",
+                    "type": "multiple-choice",
+                    "instructions": "Usted va a leer un correo electrónico de Carolina a Lucía. A continuación, tiene que leer las preguntas (de la 1 a la 5) y seleccionar la opción correcta.",
+                    "num-questions": 5,
+                    "exercise": {
+                        "text": "De: Carolina\nPara: Lucía\nAsunto: Compañeras de habitación\n\nHola, Lucía:\n\nEn la residencia universitaria me escriben para decirme que vamos a ser compañeras de habitación. Te escribo este correo para conocernos un poco.\n\nMe llamo Carolina, pero en mi familia y en la escuela todo el mundo me llama Carol. También yo voy a estudiar arquitectura en Salamanca. Estoy un poco nerviosa porque es la primera vez que vivo sin mis padres.\n\nMe gusta hacer deporte: correr por las mañanas, zumba y nadar en el mar o en la piscina. Prefiero en el mar, eso sí. No me gusta mucho comer carne, pero no soy vegetariana. Tengo alergia a la leche. Al principio soy un poco tímida, pero después soy habladora y abierta.\n\n¿Cómo vas a Salamanca? Yo voy en coche con mis padres. Hace poco que tengo el carné. Voy a conducir hasta Salamanca. La facultad está cerca de la residencia, al lado del centro. Si quieres, podemos ir juntas a pie el primer día de clase.\n\nNos vemos pronto,\nCarol",
+                        "image-path": "",
+                        "questions": [
+                            {
+                                "questionId": "A1_Sample_Carol_E1_Q1",
+                                "text": "Carol y Lucía...",
+                                "image-path": "",
+                                "correct-option": "C",
+                                "options": [
+                                    {
+                                        "optionId": "A",
+                                        "text": "son amigas del colegio.",
+                                        "image-path": ""
+                                    },
+                                    {
+                                        "optionId": "B",
+                                        "text": "ya son compañeras de habitación.",
+                                        "image-path": ""
+                                    },
+                                    {
+                                        "optionId": "C",
+                                        "text": "van a compartir habitación.",
+                                        "image-path": ""
+                                    }
+                                ]
+                            },
+                            {
+                                "questionId": "A1_Sample_Carol_E1_Q2",
+                                "text": "Lucía...",
+                                "image-path": "",
+                                "correct-option": "B",
+                                "options": [
+                                    {
+                                        "optionId": "A",
+                                        "text": "es de Salamanca.",
+                                        "image-path": ""
+                                    },
+                                    {
+                                        "optionId": "B",
+                                        "text": "va a estudiar arquitectura.",
+                                        "image-path": ""
+                                    },
+                                    {
+                                        "optionId": "C",
+                                        "text": "vive sin sus padres.",
+                                        "image-path": ""
+                                    }
+                                ]
+                            },
+                            {
+                                "questionId": "A1_Sample_Carol_E1_Q3",
+                                "text": "Carol...",
+                                "image-path": "",
+                                "correct-option": "B",
+                                "options": [
+                                    {
+                                        "optionId": "A",
+                                        "text": "no come nunca carne.",
+                                        "image-path": ""
+                                    },
+                                    {
+                                        "optionId": "B",
+                                        "text": "prefiere no comer carne.",
+                                        "image-path": ""
+                                    },
+                                    {
+                                        "optionId": "C",
+                                        "text": "bebe mucha leche.",
+                                        "image-path": ""
+                                    }
+                                ]
+                            },
+                            {
+                                "questionId": "A1_Sample_Carol_E1_Q4",
+                                "text": "Carol...",
+                                "image-path": "",
+                                "correct-option": "B",
+                                "options": [
+                                    {
+                                        "optionId": "A",
+                                        "text": "va en autobús a Salamanca.",
+                                        "image-path": ""
+                                    },
+                                    {
+                                        "optionId": "B",
+                                        "text": "sabe conducir.",
+                                        "image-path": ""
+                                    },
+                                    {
+                                        "optionId": "C",
+                                        "text": "va con Lucía a Salamanca.",
+                                        "image-path": ""
+                                    }
+                                ]
+                            },
+                            {
+                                "questionId": "A1_Sample_Carol_E1_Q5",
+                                "text": "¿Cómo propone Carol ir a la facultad?",
+                                "image-path": "",
+                                "correct-option": "C",
+                                "options": [
+                                    {
+                                        "optionId": "A",
+                                        "text": "",
+                                        "image-path": "img/A1_Sample_Carol_E1_Q5_A.png"
+                                    },
+                                    {
+                                        "optionId": "B",
+                                        "text": "",
+                                        "image-path": "img/A1_Sample_Carol_E1_Q5_B.png"
+                                    },
+                                    {
+                                        "optionId": "C",
+                                        "text": "",
+                                        "image-path": "img/A1_Sample_Carol_E1_Q5_C.png"
+                                    }
+                                ]
+                            }
+                        ]
+                    }
+                }
+            ]
+        },
+    {
+            "level": "A1",
+            "examId": "A1_Sample_Fran",
+            "exercises": [
+                {
+                    "exerciseID": "A1_Sample_Fran_E1",
+                    "type": "multiple-choice",
+                    "instructions": "Usted va a leer un correo electrónico de Fran a un amigo. A continuación, debe leer las preguntas (de la 1 a la 5) y seleccionar la opción correcta (A, B, C o D).\nDebe marcar la selección en la Hoja de respuestas.",
+                    "num-questions": 5,
+                    "exercise": {
+                        "text": "Para: emiliomail.com\nAsunto: Hola\n\nHola, Emilio:\n\n¿Qué tal? Yo estoy de vacaciones en Tazones, el pueblo de mi novia, en una casa en la playa. ¡Ya tengo trabajo! Empiezo en septiembre como profesor en un colegio de Ourense.\n\nEl colegio es privado y el director es el padre de Ángel. Voy a trabajar tres días de nueve a doce y dos de tres a cinco. Voy a enseñar a niños de once años y en primavera a los mayores.\n\nEl colegio está en el centro y yo vivo a las afueras, pero los autobuses funcionan bien, no necesito el coche. Además el mío está viejo y ya no se puede usar.\n\nTe invito a venir a Ourense, es una ciudad muy bonita. No hay playa, pero hay un río muy grande y unas piscinas naturales de agua caliente también en verano. Son muy conocidas y podemos ir en un tren turístico.\n\nBueno, voy a preparar la cena con mi novia y después vamos a tomar algo con unos amigos.\n\nPor cierto, si vienes en septiembre, podemos ir al concierto de guitarra de mi hermano.\n\nHasta pronto,\n\nFran",
+                        "image-path": "",
+                        "questions": [
+                            {
+                                "questionId": "A1_Sample_Fran_E1_Q1",
+                                "text": "En este correo electrónico, Fran...",
+                                "image-path": "",
+                                "correct-option": "B",
+                                "options": [
+                                    {
+                                        "optionId": "A",
+                                        "text": "dice que va a ir de vacaciones.",
+                                        "image-path": ""
+                                    },
+                                    {
+                                        "optionId": "B",
+                                        "text": "cuenta qué va a hacer en septiembre.",
+                                        "image-path": ""
+                                    },
+                                    {
+                                        "optionId": "C",
+                                        "text": "describe cómo es Tazones.",
+                                        "image-path": ""
+                                    },
+                                    {
+                                        "optionId": "D",
+                                        "text": "explica por qué está ahora en Ourense.",
+                                        "image-path": ""
+                                    }
+                                ]
+                            },
+                            {
+                                "questionId": "A1_Sample_Fran_E1_Q2",
+                                "text": "En el texto se dice que...",
+                                "image-path": "",
+                                "correct-option": "D",
+                                "options": [
+                                    {
+                                        "optionId": "A",
+                                        "text": "el padre de Fran es director de un colegio.",
+                                        "image-path": ""
+                                    },
+                                    {
+                                        "optionId": "B",
+                                        "text": "los alumnos de Fran tienen doce años.",
+                                        "image-path": ""
+                                    },
+                                    {
+                                        "optionId": "C",
+                                        "text": "Fran va a empezar a trabajar en primavera.",
+                                        "image-path": ""
+                                    },
+                                    {
+                                        "optionId": "D",
+                                        "text": "las clases de Fran son por la mañana y por la tarde.",
+                                        "image-path": ""
+                                    }
+                                ]
+                            },
+                            {
+                                "questionId": "A1_Sample_Fran_E1_Q3",
+                                "text": "Fran dice a Emilio que...",
+                                "image-path": "",
+                                "correct-option": "D",
+                                "options": [
+                                    {
+                                        "optionId": "A",
+                                        "text": "el autobús llega tarde.",
+                                        "image-path": ""
+                                    },
+                                    {
+                                        "optionId": "B",
+                                        "text": "su coche funciona bien.",
+                                        "image-path": ""
+                                    },
+                                    {
+                                        "optionId": "C",
+                                        "text": "el colegio está cerca de su casa.",
+                                        "image-path": ""
+                                    },
+                                    {
+                                        "optionId": "D",
+                                        "text": "el transporte público es bueno.",
+                                        "image-path": ""
+                                    }
+                                ]
+                            },
+                            {
+                                "questionId": "A1_Sample_Fran_E1_Q4",
+                                "text": "Fran le cuenta a Emilio que su ciudad...",
+                                "image-path": "",
+                                "correct-option": "C",
+                                "options": [
+                                    {
+                                        "optionId": "A",
+                                        "text": "es bastante grande.",
+                                        "image-path": ""
+                                    },
+                                    {
+                                        "optionId": "B",
+                                        "text": "está al lado del mar.",
+                                        "image-path": ""
+                                    },
+                                    {
+                                        "optionId": "C",
+                                        "text": "tiene espacios naturales famosos.",
+                                        "image-path": ""
+                                    },
+                                    {
+                                        "optionId": "D",
+                                        "text": "recibe muchos turistas en verano.",
+                                        "image-path": ""
+                                    }
+                                ]
+                            },
+                            {
+                                "questionId": "A1_Sample_Fran_E1_Q5",
+                                "text": "¿Qué va a hacer Fran ahora?",
+                                "image-path": "",
+                                "correct-option": "A",
+                                "options": [
+                                    {
+                                        "optionId": "A",
+                                        "text": "",
+                                        "image-path": "img/A1_Sample_Fran_E1_Q5_A.png"
+                                    },
+                                    {
+                                        "optionId": "B",
+                                        "text": "",
+                                        "image-path": "img/A1_Sample_Fran_E1_Q5_B.png"
+                                    },
+                                    {
+                                        "optionId": "C",
+                                        "text": "",
+                                        "image-path": "img/A1_Sample_Fran_E1_Q5_C.png"
+                                    },
+                                    {
+                                        "optionId": "D",
+                                        "text": "",
+                                        "image-path": "img/A1_Sample_Fran_E1_Q5_D.png"
+                                    }
+                                ]
+                            }
+                        ]
+                    }
+                }
+            ]
+        },
+    {
+            "level": "A1",
+            "examId": "A1_Sample_Kaki",
+            "exercises": [
+                {
+                    "exerciseID": "A1_Sample_Kaki_E1",
+                    "type": "multiple-choice",
+                    "instructions": "Usted va a leer un correo electrónico. A continuación tiene que leer las preguntas (de la 1 a la 5) y seleccionar la opción correcta (A, B o C).\nTiene que marcar la opción elegida en la Hoja de respuestas.",
+                    "num-questions": 5,
+                    "exercise": {
+                        "text": "Para: luis@gmail.com\nAsunto: favor\n\nHola, Luis:\n\n¿Qué tal estás? ¡Cuánto tiempo sin escribirte!, ¿no? Mi vida sigue tan agitada como siempre. ¿Cómo está tu familia? Me imagino que tu niño está cada día más grande; espero quedar contigo un día para poder verlo, pero no puede ser este mes porque todos los fines de semana voy a estar de viaje.\n\n¿Cómo te va en el trabajo? Yo sigo en la misma empresa farmacéutica desde hace cuatro años; estoy muy contenta porque, desde hacer un año, soy mi propia jefa, pero cada vez tengo más trabajo y casi todos los fines de semana tengo alguna reunión.\n\nBueno, yo te escribo para pedirte un favor, como siempre. Mi hermano, que vive en Sudáfrica, viaja a Madrid para participar en un congreso de medicina. Pero no voy a poder recibirlo en el aeropuerto porque esta semana tenemos una reunión en La Coruña y no puedo pedir vacaciones para estar con él.\n\nLlega el próximo jueves y vas a reconocerlo fácilmente porque somos muy parecidos: es alto, moreno, fuerte, lleva gafas y barba.\n\nDime si puedo contar contigo. Espero tu respuesta. Un abrazo,\n\nKaki",
+                        "image-path": "",
+                        "questions": [
+                            {
+                                "questionId": "A1_Sample_Kaki_E1_Q1",
+                                "text": "Kaki le escribe a Luis para...",
+                                "image-path": "",
+                                "correct-option": "B",
+                                "options": [
+                                    {
+                                        "optionId": "A",
+                                        "text": "hablarle de su familia.",
+                                        "image-path": ""
+                                    },
+                                    {
+                                        "optionId": "B",
+                                        "text": "pedirle ayuda.",
+                                        "image-path": ""
+                                    },
+                                    {
+                                        "optionId": "C",
+                                        "text": "invitarlo a un viaje.",
+                                        "image-path": ""
+                                    }
+                                ]
+                            },
+                            {
+                                "questionId": "A1_Sample_Kaki_E1_Q2",
+                                "text": "Kaki, según este correo...",
+                                "image-path": "",
+                                "correct-option": "B",
+                                "options": [
+                                    {
+                                        "optionId": "A",
+                                        "text": "le escribe muchas veces a Luis.",
+                                        "image-path": ""
+                                    },
+                                    {
+                                        "optionId": "B",
+                                        "text": "tiene mucho trabajo siempre.",
+                                        "image-path": ""
+                                    },
+                                    {
+                                        "optionId": "C",
+                                        "text": "no encuentra un buen trabajo.",
+                                        "image-path": ""
+                                    }
+                                ]
+                            },
+                            {
+                                "questionId": "A1_Sample_Kaki_E1_Q3",
+                                "text": "El hermano de Kaki...",
+                                "image-path": "",
+                                "correct-option": "A",
+                                "options": [
+                                    {
+                                        "optionId": "A",
+                                        "text": "asiste a un congreso en Madrid.",
+                                        "image-path": ""
+                                    },
+                                    {
+                                        "optionId": "B",
+                                        "text": "desde hace años vive en La Coruña.",
+                                        "image-path": ""
+                                    },
+                                    {
+                                        "optionId": "C",
+                                        "text": "tiene una reunión en La Coruña.",
+                                        "image-path": ""
+                                    }
+                                ]
+                            },
+                            {
+                                "questionId": "A1_Sample_Kaki_E1_Q4",
+                                "text": "El hermano de Kaki llega en...",
+                                "image-path": "",
+                                "correct-option": "B",
+                                "options": [
+                                    {
+                                        "optionId": "A",
+                                        "text": "autobús.",
+                                        "image-path": ""
+                                    },
+                                    {
+                                        "optionId": "B",
+                                        "text": "avión.",
+                                        "image-path": ""
+                                    },
+                                    {
+                                        "optionId": "C",
+                                        "text": "coche.",
+                                        "image-path": ""
+                                    }
+                                ]
+                            },
+                            {
+                                "questionId": "A1_Sample_Kaki_E1_Q5",
+                                "text": "El hermano de Kaki...",
+                                "image-path": "",
+                                "correct-option": "C",
+                                "options": [
+                                    {
+                                        "optionId": "A",
+                                        "text": "",
+                                        "image-path": "img/A1_Sample_Kaki_E1_Q5_A.png"
+                                    },
+                                    {
+                                        "optionId": "B",
+                                        "text": "",
+                                        "image-path": "img/A1_Sample_Kaki_E1_Q5_B.png"
+                                    },
+                                    {
+                                        "optionId": "C",
+                                        "text": "",
+                                        "image-path": "img/A1_Sample_Kaki_E1_Q5_C.png"
+                                    }
+                                ]
+                            }
+                        ]
+                    }
+                }
+            ]
+        },
+    {
+            "level": "A1",
+            "examId": "A1_Sample_Susana",
+            "exercises": [
+                {
+                    "exerciseID": "A1_Sample_Susana_E1",
+                    "type": "multiple-choice",
+                    "instructions": "Lea este correo electrónico. A continuación responda a 5 preguntas sobre él. Elija la respuesta correcta (A, B, C o D).\nMarque las opciones elegidas en la Hoja de respuestas.",
+                    "num-questions": 5,
+                    "exercise": {
+                        "text": "Para: ana.garcia@yahoo.coman\nAsunto: Invitación: cena y fiesta\n\nHola, Ana:\n\nEsta noche voy a cenar en un restaurante mexicano con mis compañeros de clase y después vamos a salir de fiesta. ¿Quieres venir con nosotros? Mis compañeros son muy agradables y les gusta mucho bailar. Podemos pasarlo muy bien.\n¿Recuerdas al chico de ayer, el primo de Pablo? También va a venir; se llama Alberto y es muy simpático. Estudia español en Colombia y es del sur de Italia.\nEsta noche quiero estar muy guapa. No tengo dinero para comprarme los pantalones que me gustan, así que voy a ir a la cena con el vestido verde de mi hermana. ¿Qué te vas a poner tú?\nBueno, te veo a las nueve. Lo vamos a pasar muy bien, ya verás.\n\nUn abrazo,\n\nSusana",
+                        "image-path": "",
+                        "questions": [
+                            {
+                                "questionId": "A1_Sample_Susana_E1_Q1",
+                                "text": "Susana envía el correo electrónico para...",
+                                "image-path": "",
+                                "correct-option": "B",
+                                "options": [
+                                    {
+                                        "optionId": "A",
+                                        "text": "salir de compras.",
+                                        "image-path": ""
+                                    },
+                                    {
+                                        "optionId": "B",
+                                        "text": "invitar a Ana a salir con ella y con sus compañeros.",
+                                        "image-path": ""
+                                    },
+                                    {
+                                        "optionId": "C",
+                                        "text": "pedir unos pantalones a Ana.",
+                                        "image-path": ""
+                                    },
+                                    {
+                                        "optionId": "D",
+                                        "text": "contar a Ana que va a una fiesta con Pablo.",
+                                        "image-path": ""
+                                    }
+                                ]
+                            },
+                            {
+                                "questionId": "A1_Sample_Susana_E1_Q2",
+                                "text": "Alberto es...",
+                                "image-path": "",
+                                "correct-option": "C",
+                                "options": [
+                                    {
+                                        "optionId": "A",
+                                        "text": "español.",
+                                        "image-path": ""
+                                    },
+                                    {
+                                        "optionId": "B",
+                                        "text": "de Colombia.",
+                                        "image-path": ""
+                                    },
+                                    {
+                                        "optionId": "C",
+                                        "text": "de Italia.",
+                                        "image-path": ""
+                                    },
+                                    {
+                                        "optionId": "D",
+                                        "text": "mexicano.",
+                                        "image-path": ""
+                                    }
+                                ]
+                            },
+                            {
+                                "questionId": "A1_Sample_Susana_E1_Q3",
+                                "text": "Es una cena...",
+                                "image-path": "",
+                                "correct-option": "A",
+                                "options": [
+                                    {
+                                        "optionId": "A",
+                                        "text": "de amigos.",
+                                        "image-path": ""
+                                    },
+                                    {
+                                        "optionId": "B",
+                                        "text": "de trabajo.",
+                                        "image-path": ""
+                                    },
+                                    {
+                                        "optionId": "C",
+                                        "text": "familiar.",
+                                        "image-path": ""
+                                    },
+                                    {
+                                        "optionId": "D",
+                                        "text": "de cumpleaños.",
+                                        "image-path": ""
+                                    }
+                                ]
+                            },
+                            {
+                                "questionId": "A1_Sample_Susana_E1_Q4",
+                                "text": "A la cena también va...",
+                                "image-path": "",
+                                "correct-option": "A",
+                                "options": [
+                                    {
+                                        "optionId": "A",
+                                        "text": "un chico italiano.",
+                                        "image-path": ""
+                                    },
+                                    {
+                                        "optionId": "B",
+                                        "text": "el primo de Susana.",
+                                        "image-path": ""
+                                    },
+                                    {
+                                        "optionId": "C",
+                                        "text": "un chico colombiano.",
+                                        "image-path": ""
+                                    },
+                                    {
+                                        "optionId": "D",
+                                        "text": "la hermana de Susana.",
+                                        "image-path": ""
+                                    }
+                                ]
+                            },
+                            {
+                                "questionId": "A1_Sample_Susana_E1_Q5",
+                                "text": "Susana va a llevar a la cena...",
+                                "image-path": "",
+                                "correct-option": "A",
+                                "options": [
+                                    {
+                                        "optionId": "A",
+                                        "text": "",
+                                        "image-path": "img/A1_Sample_Susana_E1_Q5_A.png"
+                                    },
+                                    {
+                                        "optionId": "B",
+                                        "text": "",
+                                        "image-path": "img/A1_Sample_Susana_E1_Q5_B.png"
+                                    },
+                                    {
+                                        "optionId": "C",
+                                        "text": "",
+                                        "image-path": "img/A1_Sample_Susana_E1_Q5_C.png"
+                                    },
+                                    {
+                                        "optionId": "D",
+                                        "text": "",
+                                        "image-path": "img/A1_Sample_Susana_E1_Q5_D.png"
+                                    }
+                                ]
+                            }
+                        ]
+                    }
+                }
+            ]
+        },
+    {
+            "level": "A1",
+            "examId": "A1_Sample_Pierre",
+            "exercises": [
+                {
+                    "exerciseID": "A1_Sample_Pierre_E1",
+                    "type": "multiple-choice",
+                    "instructions": "Usted va a leer un correo electrónico. A continuación lea las preguntas (1-5) y seleccione la opción correcta (A, B, C o D).\nDebe marcar la selección en la Hoja de respuestas.",
+                    "num-questions": 5,
+                    "exercise": {
+                        "text": "De: pierrelacroix@yahoo.com\nPara: maria.gonsalves@yahoo.com\n\n¡Hola María!\n\nTe escribo desde Málaga. Mi empresa necesita un informe sobre el turismo en el sur de España y voy a pasar un mes aquí. Es un trabajo difícil porque no hablo muy bien español y utilizo mucho el diccionario; pero la gente aquí es muy simpática y agradable.\n\n¡Tengo una idea! ¿Por qué no te vienes a pasar la última semana del mes conmigo? Volveré a Francia el día treinta de este mes. ¡Ah! Si quieres, puedes traer a tu pequeño perro, porque en este hotel admiten perros y gatos.\n\nMira, te cuento lo que hago cada día:\n\nVivo en un hotel que está a un minuto de la playa, y no muy lejos del centro de la ciudad. Es muy pequeño y muy agradable.\n\nPor las mañanas, me levanto a las ocho, desayuno en el hotel y, después, salgo a trabajar. Cada día visito una parte diferente de la costa; normalmente viajo en autobús porque no tengo coche. Estoy todo el día fuera y cuando vuelvo al hotel, escribo durante una hora en mi ordenador toda la información del día, la envío por correo electrónico a mi jefe en París y llamo por teléfono a mi casa.\n\nEspero tu respuesta, María; podemos divertirnos mucho. Un beso,\n\nPierre",
+                        "image-path": "",
+                        "questions": [
+                            {
+                                "questionId": "A1_Sample_Pierre_E1_Q1",
+                                "text": "Pierre escribe un correo electrónico sobre...",
+                                "image-path": "",
+                                "correct-option": "D",
+                                "options": [
+                                    {
+                                        "optionId": "A",
+                                        "text": "sus vacaciones en la playa.",
+                                        "image-path": ""
+                                    },
+                                    {
+                                        "optionId": "B",
+                                        "text": "su trabajo en Francia.",
+                                        "image-path": ""
+                                    },
+                                    {
+                                        "optionId": "C",
+                                        "text": "su curso de español en Málaga.",
+                                        "image-path": ""
+                                    },
+                                    {
+                                        "optionId": "D",
+                                        "text": "su trabajo en el sur de España.",
+                                        "image-path": ""
+                                    }
+                                ]
+                            },
+                            {
+                                "questionId": "A1_Sample_Pierre_E1_Q2",
+                                "text": "El hotel de Pierre está...",
+                                "image-path": "",
+                                "correct-option": "A",
+                                "options": [
+                                    {
+                                        "optionId": "A",
+                                        "text": "al lado de la playa.",
+                                        "image-path": ""
+                                    },
+                                    {
+                                        "optionId": "B",
+                                        "text": "lejos del mar.",
+                                        "image-path": ""
+                                    },
+                                    {
+                                        "optionId": "C",
+                                        "text": "en el centro.",
+                                        "image-path": ""
+                                    },
+                                    {
+                                        "optionId": "D",
+                                        "text": "fuera de la ciudad.",
+                                        "image-path": ""
+                                    }
+                                ]
+                            },
+                            {
+                                "questionId": "A1_Sample_Pierre_E1_Q3",
+                                "text": "Pierre va a trabajar...",
+                                "image-path": "",
+                                "correct-option": "B",
+                                "options": [
+                                    {
+                                        "optionId": "A",
+                                        "text": "al mediodía.",
+                                        "image-path": ""
+                                    },
+                                    {
+                                        "optionId": "B",
+                                        "text": "después de desayunar.",
+                                        "image-path": ""
+                                    },
+                                    {
+                                        "optionId": "C",
+                                        "text": "cuando se levanta.",
+                                        "image-path": ""
+                                    },
+                                    {
+                                        "optionId": "D",
+                                        "text": "antes de las ocho.",
+                                        "image-path": ""
+                                    }
+                                ]
+                            },
+                            {
+                                "questionId": "A1_Sample_Pierre_E1_Q4",
+                                "text": "Pierre cuando vuelve al hotel escribe...",
+                                "image-path": "",
+                                "correct-option": "D",
+                                "options": [
+                                    {
+                                        "optionId": "A",
+                                        "text": "una carta a su amigo.",
+                                        "image-path": ""
+                                    },
+                                    {
+                                        "optionId": "B",
+                                        "text": "una postal a su familia.",
+                                        "image-path": ""
+                                    },
+                                    {
+                                        "optionId": "C",
+                                        "text": "un mensaje de móvil.",
+                                        "image-path": ""
+                                    },
+                                    {
+                                        "optionId": "D",
+                                        "text": "un correo electrónico.",
+                                        "image-path": ""
+                                    }
+                                ]
+                            },
+                            {
+                                "questionId": "A1_Sample_Pierre_E1_Q5",
+                                "text": "María, la amiga de Pierre, tiene...",
+                                "image-path": "",
+                                "correct-option": "A",
+                                "options": [
+                                    {
+                                        "optionId": "A",
+                                        "text": "",
+                                        "image-path": "img/A1_Sample_Pierre_E1_Q5_A.png"
+                                    },
+                                    {
+                                        "optionId": "B",
+                                        "text": "",
+                                        "image-path": "img/A1_Sample_Pierre_E1_Q5_B.png"
+                                    },
+                                    {
+                                        "optionId": "C",
+                                        "text": "",
+                                        "image-path": "img/A1_Sample_Pierre_E1_Q5_C.png"
+                                    },
+                                    {
+                                        "optionId": "D",
+                                        "text": "",
+                                        "image-path": "img/A1_Sample_Pierre_E1_Q5_D.png"
+                                    }
+                                ]
+                            }
+                        ]
+                    }
+                }
+            ]
+        },
+    {
+      "level": "A1",
       "examId": "A1_2010-11-20",
       "exercises": [
         {
@@ -19714,6 +20587,145 @@
         }
       ]
     },
+    {
+        	"level": "A1",
+            "examId": "A1_2020-07-01",
+            "exercises": [
+                {
+                    "exerciseID": "A1_2020-07-01_E1",
+                    "type": "multiple-choice",
+                    "instructions": "Usted va a leer un correo electrónico de Luisa a su amigo Javier. A continuación, tiene que leer las preguntas (de la 1 a la 5) y seleccionar la opción correcta (A, Β, ο C).\nTiene que marcar la opción elegida en la Hoja de respuestas.\n",
+                    "num-questions": 5,
+                    "exercise": {
+                        "text": "email para: Javier123@gmail.com\nAsunto: Saludos\nHola, Javier:\n¿Qué tal? A ver si esta semana salimos y tomamos algo. Juan y yo vamos a jugar al tenis el miércoles a las cinco y luego al cine. ¿Quieres venir?\nAh, estoy muy contenta porque este año en la universidad puedo aprender chino por la tarde. Son dos días a la semana, de cinco a siete. Para mi es perfecto; es que por la mañana tengo que ir a trabajar al restaurante de mis tíos.\nOye, quiero alquilar una habitación de mi casa a una estudiante, ¿conoces a alguien? La habitación es grande, con todo nuevo: la cama, el armario, la mesa....\nOtra cosa: el próximo mes es el cumpleaños de mi hermano y no sé qué comprarle. Quiero\nir a tu tienda y comprarle algo de ropa: unos pantalones, una camisa... Si no le gustan, puede cambiarlos, ¿verdad?\nBueno, te dejo que voy a dar un paseo con el perro. Esta noche no quiero cocinar. Voy a Ilamar luego al restaurante chino donde vamos siempre para pedir allí la cena.\nNos vemos.\nLuisa",
+                        "image-path": "",
+
+                        "questions": [
+                            {
+                                "questionId": "A1_2020-07-01_E1_Q1",
+                                "text": "Luisa le dice a Javier que esta semana va a…",
+                                "image-path": "",
+
+                                "correct-option": "B",
+                                "options": [
+                                    {
+                                        "optionId": "A",
+                                        "text": "tomar algo con Juan.",
+                                        "image-path": ""
+                                    },
+                                    {
+                                        "optionId": "B",
+                                        "text": "hacer deporte con un amigo.",
+                                        "image-path": ""
+                                    },
+                                    {
+                                        "optionId": "C",
+                                        "text": "ver una película a las cinco.",
+                                        "image-path": ""
+                                    }
+                                ]
+                            },
+                            {
+                                "questionId": "A1_2020-07-01_E1_Q2",
+                                "text": "En el texto se dice que Luisa…",
+                                "image-path": "",
+
+                                "correct-option": "C",
+                                "options": [
+                                    {
+                                        "optionId": "A",
+                                        "text": "tiene un restaurante.",
+                                        "image-path": ""
+                                    },
+                                    {
+                                        "optionId": "B",
+                                        "text": "es profesora de idiomas.",
+                                        "image-path": ""
+                                    },
+                                    {
+                                        "optionId": "C",
+                                        "text": "va a estudiar por la tarde.",
+                                        "image-path": ""
+                                    }
+                                ]
+                            },
+                            {
+                                "questionId": "A1_2020-07-01_E1_Q3",
+                                "text": "Luisa le dice a Javier que…",
+                                "image-path": "",
+
+                                "correct-option": "B",
+                                "options": [
+                                    {
+                                        "optionId": "A",
+                                        "text": "tiene un piso grande.",
+                                        "image-path": ""
+                                    },
+                                    {
+                                        "optionId": "B",
+                                        "text": "busca una compañera de piso.",
+                                        "image-path": ""
+                                    },
+                                    {
+                                        "optionId": "C",
+                                        "text": "va a comprar cosas para su piso.",
+                                        "image-path": ""
+                                    }
+                                ]
+                            },
+                            {
+                                "questionId": "A1_2020-07-01_E1_Q4",
+                                "text": "Luisa le dice a Javier que…",
+                                "image-path": "",
+
+                                "correct-option": "A",
+                                "options": [
+                                    {
+                                        "optionId": "A",
+                                        "text": "va a ir a su tienda a comprar algo.",
+                                        "image-path": ""
+                                    },
+                                    {
+                                        "optionId": "B",
+                                        "text": "ya tiene el regalo de su hermano.",
+                                        "image-path": ""
+                                    },
+                                    {
+                                        "optionId": "C",
+                                        "text": "quiere cambiar un regalo que no le gusta.",
+                                        "image-path": ""
+                                    }
+                                ]
+                            },
+                            {
+                                "questionId": "A1_2020-07-01_E1_Q5",
+                                "text": "¿Qué va a hacer Luisa ahora?",
+                                "image-path": "",
+
+                                "correct-option": "C",
+                                "options": [
+                                    {
+                                        "optionId": "A",
+                                        "text": "",
+                                        "image-path": "img/A1_2020-07-01_E1_Q5_A.png"
+                                    },
+                                    {
+                                        "optionId": "B",
+                                        "text": "",
+                                        "image-path": "img/A1_2020-07-01_E1_Q5_B.png"
+                                    },
+                                    {
+                                        "optionId": "C",
+                                        "text": "",
+                                        "image-path": "img/A1_2020-07-01_E1_Q5_C.png"
+                                    }
+                                ]
+                            }
+                        ]
+                    }
+                }
+            ]
+        },
     {
       "level": "B1",
       "examId": "B1_2008-05-23",

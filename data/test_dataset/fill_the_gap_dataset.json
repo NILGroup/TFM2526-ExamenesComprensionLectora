@@ -1,0 +1,921 @@
+{
+  "dataset-acronym": "IC-UNED-RC-ES",
+  "dataset-name": "IC-UNED Spanish Reading Comprehension",
+  "dataset-desc-es": "Corpus de las tareas de comprensión lectora contenidas en los exámenes creados por el Instituto Cervantes para la evaluación de estudiantes de español en diferentes niveles",
+  "dataset-desc-en": "Corpus of the reading comprehension tasks contained in the exams created by the Cervantes Institute for the evaluation of Spanish students at different levels",
+  "dataset-license": "CC BY-NC-SA 4.0",
+  "dataset-owners": "Instituto Cervantes (IC), Universidad Nacional de Educación a Distancia (UNED)",
+  "agreement": "CONVENIO ENTRE EL INSTITUTO CERVANTES Y LA UNIVERSIDAD NACIONAL DE EDUCACIÓN A DISTANCIA PARA LA APLICACIÓN DEL «PROYECTO DE CREACIÓN DE UN CORPUS DIGITALIZADO DE TAREAS DE COMPRENSIÓN DE LECTURA PARA LA EVALUACIÓN DE LA COMPRENSIÓN EN SISTEMAS DE INTELIGENCIA ARTIFICIAL»",
+  "agreement-date": "25-05-2021",
+  "funding": "DeepInfo Project (AEI PID2021-127777OB-C22), UNED, Spain",
+  "contact": "anselmo@lsi.uned.es",
+  "exams": [
+    {
+      "level": "B1",
+      "examId": "B1_2014-04-01",
+      "exercises": [
+        {
+          "exerciseID": "B1_2014-04-01_E4",
+          "type": "fill-the-gap",
+          "instructions": "Lea el siguiente texto, del que se han extraído seis fragmentos. A continuación lea los ocho fragmentos propuestos (A-H) y decida en qué lugar del texto (19-24) hay que colocar cada uno de ellos.\nHAY DOS FRAGMENTOS QUE NO TIENE QUE ELEGIR. Marque las opciones elegidas en la Hoja de respuestas.",
+          "num-questions": 6,
+          "exercise": {
+            "text": "Recomendaciones para mochileros de viaje por Chile\n\nMiles de mochileros recorren cada año Chile atraídos por el interminable desierto de Atacama o por ciudades. como Santiago o Concepción. Si usted es uno de ellos, le ofrecemos una serie de consejos para que pueda disfrutar plenamente de su viaje.\nEn primer lugar, no necesita mucho equipaje. Con una mochila de unos doce kilos debería ser suficiente, sobre todo si viaja en verano. <s id=19>. Todo lo que lleve en la mochila deberá introducirse en bolsas de plástico para evitar que se moje en caso de lluvia. <s id=20>. Además, si va acompañado, intente que las bolsas no sean de las que hacen mucho ruido. Lleve también un celular cargado para usar en caso necesario, pero manténgalo apagado y envuelto para cuidar la batería.\nComo el territorio de Chile es muy extenso, encontrará bastantes zonas deshabitadas. Para no perderse, tenga en cuenta puntos de referencia y observe siempre por dónde camina. Antes de instalar la tienda de campaña en un sitio aislado, infórmese de las características de cada lugar a través de guardaparques o autoridades. <s id=21>. Especialmente en zonas pantanosas y de altos pastizales, conviene estar prevenido para no tener un encuentro no deseado con la fauna existente en la zona, <s id=22>.\nSi, por el contrario, se decide por visitar grandes ciudades, le recomendamos que tenga el mismo comportamiento que en cualquier ciudad del mundo: aunque sea la primera vez que va allá, muéstrese seguro y tranquilo, como si conociera ese núcleo urbano mejor que su propio barrio. <s id=23>. Ahora bien, cuando viajamos a cualquier país, tampoco debemos estar continuamente a la defensiva o pensando en que se va a ser víctima de un robo. <s id=24>. Lo mejor es prevenir: tenga dos carteras y lleve una en el bolsillo del pantalón y la otra en un cinturón o bolsillo interior\n\n",
+            "fillings": [
+              {
+                "optionId": "A",
+                "text": "Por ello, no deje basura ni restos de comida en platos y ollas fuera de la tienda, ya que atraen a zorros, roedores y otros animales."
+              },
+              {
+                "optionId": "B",
+                "text": "Otras páginas interesantes donde se obtienen bastantes datos son las que contienen diarios de viajes o rutas predeterminadas."
+              },
+              {
+                "optionId": "C",
+                "text": "En cualquier caso, si siente que el área elegida para acampar no ofrece las seguridades básicas, busque otra."
+              },
+              {
+                "optionId": "D",
+                "text": "Esta actitud le impediría disfrutar de una expe- riencia irrepetible y conocer tanto a gente del pais como a otros mochileros."
+              },
+              {
+                "optionId": "E",
+                "text": "Por ejemplo, debemos administrar bien las ener- gías físicas para lograr un máximo rendimiento con un cansancio mínimo."
+              },
+              {
+                "optionId": "F",
+                "text": "Su espalda lo agradecerá, y usted siempre puede. comprar lo que necesite al llegar a su destino."
+              },
+              {
+                "optionId": "G",
+                "text": "Por esta razón, no vaya todo el día con la guía en la mano ni consulte planos en zonas populosas."
+              },
+              {
+                "optionId": "H",
+                "text": "Eso le permitirá tenerla organizada como si fuera un armario, y no necesitará desarmarla entera para localizar algo."
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "level": "B1",
+      "examId": "B1_2014-05-24",
+      "exercises": [
+        {
+          "exerciseID": "B1_2014-05-24_E4",
+          "type": "fill-the-gap",
+          "instructions": "Lea el siguiente texto, del que se han extraído seis fragmentos. A continuación lea los ocho fragmentos propuestos (A-H) y decida en qué lugar del texto (19-24) hay que colocar cada uno de ellos.\nHAY DOS FRAGMENTOS QUE NO TIENE QUE ELEGIR.\nMarque las opciones elegidas en la Hoja de respuestas.",
+          "num-questions": 6,
+          "exercise": {
+            "text": "Tecnologías que veremos en diez años\nEs interesante observar los centros de investigación de algunas compañías para darse cuenta de que vivimos en la prehistoria digital. Las grandes firmas tecnológicas gastan muchos millones cada año en sus inventos. <s id=19>.\nLas ideas más originales giran alrededor del coche del futuro. Según la compañía Intel, en diez años los automóviles estarán conectados a Internet y tendrán sensores inteligentes que les conectarán a su entorno. <s id=20>.\nEl hogar es otro espacio que la tecnología lleva años soñando conquistar. Intel apuesta por la seguridad, convertir nuestro cuerpo en las llaves que nos abran la puerta de casa. Solo se necesita una pequeña cámara integrada en la puerta de entrada y una pantalla táctil. <s id=21>.\nEn el lugar de trabajo, en los próximos años podría extenderse el reconocimiento de voz. Una muestra: un vídeo chat que convierte la voz en texto y lo traduce al instante al idioma seleccionado. En una videoconferencia con un socio chino, por ejemplo, al otro lado verían nuestra imagen y oirían nuestras palabras en español, pero al mismo tiempo las leerían en la pantalla traducidas al chino. <s id=22>.\nEn el ámbito de las compras, Intel apuesta por innovaciones como un robot que recorre los pasillos de las tiendas creando mapas que indican dónde están los productos. El dueño del negocio puede conocer qué productos tiene en cada momento y el consumidor accede desde el móvil al mapa de la tienda. <s id=23>.\nLa tecnología podría acabar también con los probadores. ¿Por qué no probarnos unos pantalones o un vestido digital en lugar de hacerlo físicamente talla a talla, color a color? Un software permite sustituir el espejo del probador por una gran pantalla. <s id=24>.\nSegún la antropóloga Genevieve Bell, hay cosas que jamás cambiarán: siempre necesitaremos pertenecer a un grupo social y desearemos servicios y tecnologías que nos lo faciliten.",
+            "fillings": [
+              {
+                "optionId": "A",
+                "text": "En ocho segundos digitalizará nuestra imagen: nos situamos delante y si giramos o levantamos los brazos, nuestra imagen hará lo mismo."
+              },
+              {
+                "optionId": "B",
+                "text": "Como siempre, el problema está en los errores, en la precisión, aún lejos de lo aceptable, aunque sus creadores son optimistas."
+              },
+              {
+                "optionId": "C",
+                "text": "De este modo, cualquier programador podrá crear páginas web en muy poco tiempo y a bajo coste."
+              },
+              {
+                "optionId": "D",
+                "text": "El 99% de los proyectos fracasan, el resto sobrevive y solo uno o dos acaban transformándolo todo."
+              },
+              {
+                "optionId": "E",
+                "text": "Sin embargo, el investigador jefe de esta firma asegura que se convertirán en una especie de computadoras inteligentes."
+              },
+              {
+                "optionId": "F",
+                "text": "Primero la cámara nos reconoce y después acercamos los dedos a la pantalla, que lee nuestras huellas dactilares."
+              },
+              {
+                "optionId": "G",
+                "text": "Podrán intercambiar información de accidentes, sugerir nuevas rutas o recibir alertas sobre la gasolinera más cercana. Todo en tiempo real."
+              },
+              {
+                "optionId": "H",
+                "text": "Se acabó desesperarse porque no encontramos algo: el teléfono lo localiza al instante y, además, con ofertas y descuentos."
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "level": "B1",
+      "examId": "B1_2014-07-01",
+      "exercises": [
+        {
+          "exerciseID": "B1_2014-07-01_E4",
+          "type": "fill-the-gap",
+          "instructions": "Lea el siguiente texto, del que se han extraído seis fragmentos. A continuación lea los ocho fragmentos propuestos (A-H) y decida en qué lugar del texto (19-24) hay que colocar cada uno de ellos.\nHAY DOS FRAGMENTOS QUE NO TIENE QUE ELEGIR.\nMarque las opciones elegidas en la Hoja de respuestas.",
+          "num-questions": 6,
+          "exercise": {
+            "text": "Consejos para hablar en público\nA algunas personas hablar en público les resulta muy difícil. En realidad, no es algo muy diferente a conversar, y eso se hace prácticamente todo el tiempo. A pesar de ello, hablar en público es una actividad desagradable para muchos, y cuanto mayor sea la importancia del evento, mayor será el miedo. <s id=19>. Y deben hacerlo de la forma correcta para conectar con la audiencia. El misterio desaparece una vez que se han aprendido algunas estrategias.\nLe ofrecemos claves para aprender a expresar sus ideas ante una audiencia, ya sea de diez, de cien o de mil personas.\nLa gente que le escuche captará solamente una o dos de las principales ideas que exponga. <s id=20>. Y si no sabe con anticipación lo que quiere decir y cómo, mucho menos lo sabrá en público. \nSea larga o corta su charla, es importante ordenar los elementos de la misma. Hay que prever la introducción, los puntos principales que se van a exponer y la conclusión. A veces, una buena forma de comenzar resulta ser la frase final. <s id=21>. Es decisivo tener un final poderoso y contundente, pues en la mayoría de los casos es lo que la gente mejor recuerda. \nNo trate de ser distinto a como es, probablemente no va a convencer a nadie. Si no le parece atrayente o graciosa una anécdota, no la cuente. <s id=22>. Si toma la palabra, es porque ha tenido una experiencia que los oyentes desconocen; compártala con ellos. Trate de que sientan lo mismo que usted sintió.\n<s id=23>. Aunque no es recomendable redactar discursos, sí lo es llevar notas para recordar lo que quiere decir y no perderse. Una buena idea es hacer tarjetas con los puntos principales o con datos importantes que quiera dar a conocer.\nCuando estamos sometidos a una tensión nerviosa, a menudo olvidamos cómo respirar correctamente. <s id=24>. Intente no respirar de una manera forzada ni con mayor rapidez de lo normal, se puede hiperventilar.",
+            "fillings": [
+              {
+                "optionId": "A",
+                "text": "Si no expresa en pocos enunciados el punto que desea comunicar, entonces su discurso no estará bien delimitado y los oyentes se perderán en los detalles."
+              },
+              {
+                "optionId": "B",
+                "text": "Cada una de esas personas comprenderá que el orador está hablando para ella, y su cerebro se dispondrá a escucharle."
+              },
+              {
+                "optionId": "C",
+                "text": "Intente leer lo menos posible, la expresión espontánea quizá no sea tan perfecta, pero definitivamente es más eficaz."
+              },
+              {
+                "optionId": "D",
+                "text": "Sin embargo, ciertas personas deberán enfrentarse constantemente a exposiciones y presentaciones ante su equipo, colegas, socios, clientes, etc."
+              },
+              {
+                "optionId": "E",
+                "text": "Si los artistas no logran entretener al público mucho tiempo, ¿qué le hace pensar que usted sí podrá?"
+              },
+              {
+                "optionId": "F",
+                "text": "Una vez que sabe adónde se dirige, puede escoger el camino que más le plazca para llegar allí."
+              },
+              {
+                "optionId": "G",
+                "text": "Para relajarse, solo tiene que mover el diafragma suave y rítmicamente, e inspirar larga y profundamente."
+              },
+              {
+                "optionId": "H",
+                "text": "Cuando la información que pretenda transmitir no le despierte un verdadero interés, tampoco lo despertará en los demás."
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "level": "B1",
+      "examId": "B1_2015-05-01",
+      "exercises": [
+        {
+          "exerciseID": "B1_2015-05-01_E4",
+          "type": "fill-the-gap",
+          "instructions": "Lea el siguiente texto, del que se han extraído seis fragmentos. A continuación lea los ocho fragmentos propuestos (A - H) y decida en qué lugar del texto (19 - 24) hay que colocar cada uno de ellos.\nHAY DOS FRAGMENTOS QUE NO TIENE QUE ELEGIR.\nMarque las opciones elegidas en la Hoja de respuestas.",
+          "num-questions": 6,
+          "exercise": {
+            "text": "La Universidad de Ingeniería de Perú (UTEC) ha creado un cartel publicitario que descontamina el aire al absorber la contaminación de cinco cuadras a la redonda. Como si fuera un gran filtro de aire, el sistema aprovecha la humedad de la ciudad de Lima para mostrar publicidad mientras sana al planeta.\nEn pleno siglo XXI, la necesidad de comprar es una enfermedad sin vacuna. <s id=19>. Pero si logramos que estos enormes carteles, que ya es imposible eliminar de nuestra cultura, sirvan para algo más que alimentar nuestros deseos como consumidores, nuestra mirada sobre ellos podría ser un poco menos negativa. <s id=20> \nEl cartel, aprovechando la humedad de Lima, atrapa las partículas de materia del aire. <s id=21>. Y todo ello con un proceso continuo de alta eficiencia energética y bajo consumo (2.500 watts por hora). \nHay que recordar que Lima tiene uno de los niveles más altos de contaminación del aire de toda América del Sur. Esto se debe, en parte, a que el transporte y las fábricas producen una enorme proporción de contaminación. <s id=22>. Los carteles, al limpiar el aire de partículas contaminantes, producen un agua que cae en grandes depósitos. <s id=23>. \nUTEC lleva años trabajando en proyectos medioambientales que ya están dando respuestas prácticas a los problemas de las grandes ciudades. <s id=24>. Y ha sido suficiente con desarrollar un uso alternativo para un producto que originalmente tenía otra función.",
+            "fillings": [
+              {
+                "optionId": "A",
+                "text": "Con este sencillo sistema, filtra el aire y consigue una purificación equivalente a la de unos 1.200 árboles."
+              },
+              {
+                "optionId": "B",
+                "text": "En ese sentido la publicidad puede salvar vidas, tanto humanas como animales."
+              },
+              {
+                "optionId": "C",
+                "text": "Pero además, las colinas que rodean a la ciudad actúan como una barrera natural, impidiendo que el aire contaminado circule y se purifique."
+              },
+              {
+                "optionId": "D",
+                "text": "Este último proyecto es un claro ejemplo de que, con principios físicos básicos y sin necesidad de grandes inversiones de dinero, se pueden lograr inventos beneficiosos para la comunidad."
+              },
+              {
+                "optionId": "E",
+                "text": "Y eso es lo que puede conseguir el trabajo de un grupo de profesores y estudiantes peruanos que han diseñado un cartel que, además de ofrecer publicidad, descontamina el aire."
+              },
+              {
+                "optionId": "F",
+                "text": "Gracias a ella, se puede hacer frente a la sequía producida por la falta de lluvias en la zona."
+              },
+              {
+                "optionId": "G",
+                "text": "También es importante recordar que la contaminación del aire provoca enfermedades que pueden llegar a ser muy graves."
+              },
+              {
+                "optionId": "H",
+                "text": "La insistente cartelería publicitaria nos recuerda constantemente todos los productos que deberíamos tener."
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "level": "B1",
+      "examId": "B1_2015-10-01",
+      "exercises": [
+        {
+          "exerciseID": "B1_2015-10-01_E4",
+          "type": "fill-the-gap",
+          "instructions": "Lea el siguiente texto, del que se han extraído seis fragmentos. A continuación lea los ocho fragmentos propuestos (A - H) y decida en qué lugar del texto (19 - 24) hay que colocar cada uno de ellos.\nHAY DOS FRAGMENTOS QUE NO TIENE QUE ELEGIR.\nMarque las opciones elegidas en la Hoja de respuestas.",
+          "num-questions": 6,
+          "exercise": {
+            "text": "¿Recibiste un mal servicio?\nLamentablemente, todos, al menos en una ocasión, hemos pagado por un bien o servicio que no nos dejó satisfechos o que, por alguna razón, no resultó como se prometía. En esas situaciones nos quedamos con una molesta sensación de disgusto y sin saber muy bien qué hacer. <s id=19>\nHay quienes prefieren enfrentarse personalmente al vendedor o a la persona con la que han tenido el problema y otros que hacen una llamada telefónica para quejarse. <s id=20>. Así se verá nuestra seriedad, quedará por escrito el mal trato que recibimos, y se registrará en el historial de la empresa. El documento, además, nos dará tiempo para pensar con la cabeza fría y organizar nuestras ideas, ya que cuando estamos disgustados podemos hacer o decir algo de lo que después nos arrepentimos <s id=21>. Cuanto más tiempo pase, menos serio parecerá.\n¿Cómo hacerlo? Aquí te dejamos algunas ideas <s id=22>. Eso le resta valor a nuestro escrito, ya que nos muestra como personas prepotentes. En primer lugar, asegúrate de tener correcto el contacto de la empresa, (generalmente puedes encontrarlo en su página web). Si no sabes el nombre de la persona a quien va dirigida la queja, usa la fórmula «A quien corresponda». Es muy importante ser claros, directos y explicar con detalle la situación que hemos vivido. Por ejemplo, si no nos gustó el trato de un mesero se debe escribir: «La actitud del mesero (su nombre, si lo tenemos) fue descortés», en lugar de tratar de adornar la situación con frases como: «El personal no está lo suficientemente calificado». <s id=23>. No olvides que una carta breve pero directa y precisa es mucho más efectiva que una demasiado larga y ten en cuenta que la ortografía y la gramática tienen que ser correctas.\nPor último, actualmente, las quejas también se pueden realizar a través de las redes sociales de las empresas, las cuales, muchas veces, resultan más rápidas y efectivas para hacernos escuchar <s id=24>.  ",
+            "fillings": [
+              {
+                "optionId": "A",
+                "text": "En estos casos, el escrito debe ser mucho más breve, pero con una redacción más directa."
+              },
+              {
+                "optionId": "B",
+                "text": "Sin embargo, el mejor método para conseguir una respuesta satisfactoria es escribir una carta o un correo electrónico."
+              },
+              {
+                "optionId": "C",
+                "text": "En lugar de permanecer callados, debemos actuar y quejarnos para que se resuelva la situación."
+              },
+              {
+                "optionId": "D",
+                "text": "También es aconsejable incluir una propuesta de cómo y en qué plazo te gustaría recibir una solución."
+              },
+              {
+                "optionId": "E",
+                "text": "Si el servicio que se ha contratado es con una empresa que ha cerrado, el proceso es aún más complicado."
+              },
+              {
+                "optionId": "F",
+                "text": "Pero no hay que tardar demasiado; el escrito se debe redactar como mucho un par de días después."
+              },
+              {
+                "optionId": "G",
+                "text": "Por lo tanto, los departamentos de atención al cliente pueden resultar útiles para ayudarnos a gestionar nuestra queja."
+              },
+              {
+                "optionId": "H",
+                "text": "La regla de oro es mostrarnos firmes, pero educados; no usar un tono amenazante ni insultos."
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "level": "B1",
+      "examId": "B1_2015-11-21",
+      "exercises": [
+        {
+          "exerciseID": "B1_2015-11-21_E4",
+          "type": "fill-the-gap",
+          "instructions": "Lea el siguiente texto, del que se han extraído seis fragmentos. A continuación lea los ocho fragmentos propuestos (A-H) y decida en qué lugar del texto (19 - 24) hay que colocar cada uno de ellos.\nHAY DOS FRAGMENTOS QUE NO TIENE QUE ELEGIR.\nMarque las opciones elegidas en la Hoja de respuestas.",
+          "num-questions": 6,
+          "exercise": {
+            "text": "Un extraño lugar donde no hay carros\nMuchas veces los mejores destinos para viajar no son los más conocidos; esto me pasó con Puerto Obaldía, sin buscarlo como lugar turístico, lo descubrí. <s id=19>. Es un paso obligado que hacen para entrar a Panamá, pero al ver lo bonito que es este lugar, deciden quedarse algunos días.\nPuerto Obaldía es un lugar apartado, sin carreteras o caminos que comuniquen con otro sitio, rodeado de selva y mar <s id=20>. En este paradisiaco lugar hay bicicletas y solo tres motos, y por falta de calles largas los jóvenes se quejan por no poder acelerarlas.\nLos habitantes de Puerto Obaldía se caracterizan por ser muy trabajadores. <s id=21>. Y saben compaginar muy bien todas sus tareas. No hay hoteles, ni restaurantes. <s id=22>. Unas familias tienen la labor de dar servicio de restaurante en la sala de la casa, que está acondicionada para recibir a varias personas que pueden disfrutar de la comida de mar. Otras familias han preparado sus casas para prestar el servicio de hotel, permitiendo convivir algunos días cerca de los habitantes y conocer de cerca su cultura. La tranquilidad que se siente y el ambiente familiar de sus pocos pobladores son una agradable invitación a quedarse.\nDisfrutar de la agradable brisa y el sonido del mar es uno de los mejores planes en la noche para los visitantes. <s id=23>. Pero no se preocupen, que no están totalmente apartados del mundo: para los que necesiten estar comunicados, este retirado territorio cuenta con servicio de Internet y llamadas al exterior.\nEn Puerto Obaldía la mayoría de las casas son de paredes de tabla y techo de paja, aunque hay algunas más modernas de piedra y teja. <s id=24>. Allí los niños panameños, colombianos e indígenas Kuna estudian y juegan juntos en el parque o en las canchas de baloncesto, voleibol y fútbol.\nSin duda es un destino turístico que hay que conocer.",
+            "fillings": [
+              {
+                "optionId": "A",
+                "text": "Muchos de ellos además de emplearse en funciones comerciales, hacen trabajos que corresponden a la administración de la comunidad."
+              },
+              {
+                "optionId": "B",
+                "text": "Incluso se puede hacer en compañía de los dueños, que sacan las sillas a la calle para charlar con ellos."
+              },
+              {
+                "optionId": "C",
+                "text": "Ya que este territorio panameño tiene una población de 672 habitantes distribuidos en cuatro pueblos. "
+              },
+              {
+                "optionId": "D",
+                "text": "Por esta razón, la única forma de entrar o salir de allí es por vía marítima o en avioneta."
+              },
+              {
+                "optionId": "E",
+                "text": "En la segunda mitad de mayo se celebra el Festival de las Tortugas Marinas en Armila, un pueblo cercano."
+              },
+              {
+                "optionId": "F",
+                "text": "Pero más que un inconveniente es un valor agregado para los turistas que buscan vivir experiencias de intercambio cultural. "
+              },
+              {
+                "optionId": "G",
+                "text": "La mayoría de turistas cuando salen de Colombia lo encuentran al recorrer de sur a norte el continente americano. "
+              },
+              {
+                "optionId": "H",
+                "text": "Una de las más grandes es la escuela secundaria, un edificio antiguo con las paredes pintadas de vivos colores."
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "level": "B1",
+      "examId": "B1_2016-04-01",
+      "exercises": [
+        {
+          "exerciseID": "B1_2016-04-01_E4",
+          "type": "fill-the-gap",
+          "instructions": "Lea el siguiente texto, del que se han extraído seis fragmentos. A continuación lea los ocho fragmentos propuestos (A - H) y decida en qué lugar del texto (19 - 24) hay que colocar cada uno de ellos.\nHAY DOS FRAGMENTOS QUE NO TIENE QUE ELEGIR. Marque las opciones elegidas en la Hoja de respuestas.",
+          "num-questions": 6,
+          "exercise": {
+            "text": "Las mejores recomendaciones para comprar una casa\n\nCon frecuencia, los compradores se «enamoran» de una casa, por lo que corren el riesgo de dejar de ver los defectos que tenga la propiedad, y así ponen su patrimonio en riesgo. <s id=19> unos consejos para que compres la casa de tu vida. A continuación, te enlistamos\nEn primer lugar, analiza tu capacidad de compra, es decir, saber cuánto dinero tienes incluyendo el que te puede prestar un banco. Ten muy claro cuál va a ser el precio final con las condiciones que te ofrecen, forma de pago y el tiempo de entrega. <s id=20>.\nA continuación, identifica tus necesidades, toma en cuenta si el tamaño es el adecuado para las personas que habitarán la casa. <s id=21>. También es importante la ubicación: si es la indicada para tus traslados; si hay suficientes vías de comunicación, servicios, comercios, transportes, recreación, etc., y que no está en zonas de riesgo, como depósitos de combustible, líneas de alta tensión, lechos de ríos, etc.\nMuy importante es verificar la estructura. Si ya te has decidido por una casa, pídele a un arquitecto que te acompañe a revisarla e incluso puedes consultar a los vecinos cercanos para que te den su opinión. <s id=22>. Es importante conocer el tipo de acabados en los pisos y muros y los muebles adicionales que pudieran ofrecerte como cocina integral o armarios.\nAsegúrate de que quien vende sea el dueño. Si es una herencia, chequea también que no existan problemas con el testamento o cualquier otra cosa que pueda presentar un problema en la compraventa. <s id=23>. Además, las escrituras o título de propiedad deben ser documentos con validez legal que acrediten al vendedor la propiedad del inmueble.\nCuando estés totalmente convencido, firma el contrato de compraventa solamente con el propietario de la vivienda o con un representante. <s id=24>. Asegúrate de que cualquier pago que realices para reservar la casa, forme parte del precio total de la vivienda y quede registrado en la escritura.\n",
+            "fillings": [
+              {
+                "optionId": "A",
+                "text": "Platica con el vendedor y no te quedes con ninguna duda, pregunta sobre las características constructivas de la vivienda."
+              },
+              {
+                "optionId": "B",
+                "text": "Lo primero de todo es decidir el precio máximo que puedes gastar en la casa que estás buscando."
+              },
+              {
+                "optionId": "C",
+                "text": "Ten en cuenta que puede haber varios propietarios y, en ese caso, todos deben estar de acuerdo con la venta."
+              },
+              {
+                "optionId": "D",
+                "text": "Si al final te decides por comprar la vivienda, puedes reservarla por medio de varios tipos de contratos."
+              },
+              {
+                "optionId": "E",
+                "text": "No olvides que, con la hipoteca que contrates, tus pagos mensuales no deben superar el 35% de todo lo que ganes."
+              },
+              {
+                "optionId": "F",
+                "text": "Los aspectos legales y los financieros y el estado físico pueden ser cosas fundamentales que valorar antes de decidirte a comprar."
+              },
+              {
+                "optionId": "G",
+                "text": "Analiza el número de recámaras y baños, el tipo de casa, que tenga o no jardín y estacionamiento."
+              },
+              {
+                "optionId": "H",
+                "text": "Debe hacerse siempre por duplicado y ante notario; así el propietario puede conservar un original y tú el otro."
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "level": "B1",
+      "examId": "B1_2017-10-01",
+      "exercises": [
+        {
+          "exerciseID": "B1_2017-10-01_E4",
+          "type": "fill-the-gap",
+          "instructions": "Lea el siguiente texto, del que se han extraído seis fragmentos. A continuación lea los ocho fragmentos propuestos (A - H) y decida en qué lugar del texto (19 - 24) hay que colocar cada uno de ellos. \nHAY DOS FRAGMENTOS QUE NO TIENE QUE ELEGIR. \nMarque las opciones elegidas en la Hoja de respuestas. ",
+          "num-questions": 6,
+          "exercise": {
+            "text": "Cómo parecer más inteligente \n\nYa sea para una reunión de trabajo importante, para gustar a alguien en una cita o para tener éxito en una entrevista laboral, a veces queremos parecer más inteligentes. \nPor ejemplo, Juan Machón, ciudadano de 41 años, dice que, cuando se siente inseguro, utiliza palabras complicadas para parecer más intelectual. <s id=19>. Y, otra vez, cuando alguien le preguntó cuál de los dos posibles caminos era mejor para llegar a un monumento de la ciudad, contestó que las dos opciones eran \"equidistantes\", en vez de decirle que se encontraban a la misma distancia. \nLos estudiosos han analizado cómo, en determinadas circunstancias, intentamos parecer más inteligentes, y qué elementos utilizamos para decir si los demás lo son o no. \n <s id=20> . Y, al mismo tiempo, como sabemos que los demás se están formando una idea de nosotros con una simple mirada o una conversación, trabajamos mucho para dar buena imagen.\n <s id=21>.\nA continuación te presentamos los puntos que debés tener en cuenta para parecer más inteligente. \nEn primer lugar, todo indica que es mejor usar gafas. Según un estudio realizado, el 43 % de las personas piensa que llevar gafas les hace parecer más inteligentes.  <s id=22>. Mucha gente cree que los intelectuales llevan gafas con más frecuencia que los que no lo son. Del mismo modo, cualquier otro elemento relacionado con la inteligencia, como los libros o el pelo blanco, también puede ayudarnos. \nEn segundo lugar, comunícate de forma que se te entienda.  <s id=23>.\nAdemás, los estudios dicen que las personas que cuentan historias divertidas nos parecen más inteligentes y atractivas que las que hablan sobre temas cotidianos.  <s id=24>.\nFinalmente, queremos señalar que, durante una conversación, no debés hacer comentarios obligatoriamente. A la inteligencia se la puede comparar con un reloj caro: «No lo sacás para decirle la hora a todos, lo sacás solamente si te preguntan la hora». \n",
+            "fillings": [
+              {
+                "optionId": "A",
+                "text": "Estas son un elemento fácilmente visible que nos permite llegar a una conclusión sencilla."
+              },
+              {
+                "optionId": "B",
+                "text": "Tu lenguaje corporal debe hacer que tu cerebro crea que confías en ti mismo: es mejor no evitar la mirada de los demás."
+              },
+              {
+                "optionId": "C",
+                "text": "Ya que, si tenés una impresión favorable y espon­tánea de una persona, pensarás en ella más posi­tivamente también."
+              },
+              {
+                "optionId": "D",
+                "text": "Hace poco, le pidió a un peluquero que le hiciera un corte de pelo \"simétrico\" en vez de decirle que quería un corte regular."
+              },
+              {
+                "optionId": "E",
+                "text": "La gente asocia inteligencia con facilidad de pala­bra; los más inteligentes emplean palabras com­plicadas, pero lo hacen con claridad."
+              },
+              {
+                "optionId": "F",
+                "text": "Si alguien nos cae bien o mal, es algo que decidi­mos desde el primer encuentro sin pararnos a pensar mucho."
+              },
+              {
+                "optionId": "G",
+                "text": "Cambiar tu forma de vestir, por ejemplo, usando algo más juvenil no significa que debas renunciar a tu personalidad."
+              },
+              {
+                "optionId": "H",
+                "text": "Puede que esta creencia tenga algo de verdad ya que se necesita cierto nivel intelectual para usar el humor."
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "level": "B2",
+      "examId": "B2_2013-08-23",
+      "exercises": [
+        {
+          "exerciseID": "B2_2013-08-23_E3",
+          "type": "fill-the-gap",
+          "instructions": "Lea el siguiente texto, del que se han extraído seis fragmentos. A continuación lea los ocho fragmentos propuestos [A-H] y decida en qué lugar del texto [17-22] hay que colocar cada uno de ellos. \nHAY DOS FRAGMENTOS QUE NO TIENE QUE ELEGIR. \nMarque las opciones elegidas en la Hoja de respuestas. ",
+          "num-questions": 6,
+          "exercise": {
+            "text": "Tamales panameños \n El tamal es probablemente el producto más apreciado, y sin duda el más popular, de la cocina panameña. Sin embargo, debido a la dificultad de su elaboración, a los panameños nos da bastante miedo preparar en casa nuestros propios tamales. \nPara que cualquier persona se atreva a preparar este riquísimo plato tradicional, vamos a aconsejarles sobre los ingredientes que deben utilizarse en el auténtico tamal panameño. <s id=17>. De todos modos el resultado final dependerá también de la calidad de los productos que utilice y de su mano en la cocina. \nComencemos por el componente fundamental: el grano de maíz. <s id=18>. Los tamales preparados a base de maíz nuevo se elaboran con los granos de la mazorca recién cosechada. Su preparación es más sencilla, ya que la mazorca se ralla y los granos se deshacen para formar la masa del tamal. En cambio, el maíz viejo es el grano seco, y es necesario cocinarlo hasta que esté tierno, por lo que prepararlo toma más tiempo. <s id=19>\nOtro componente importante es el relleno: los tamales más típicos en nuestra mesa se preparan con cerdo o gallina. Probablemente lo mejor sea con gallina de patio, pero requiere una cocción larga para lograr una carne más suave. <s id=20> \nAdemás de la carne del relleno, hay otros ingredientes que dan a los tamales panameños unas características especiales. <s id=21>. También en otros países se usan productos propios de cada región. Un ejemplo lo vemos en el sur de México, donde llevan chile y se envuelven con hojas de parra. \nPor último, quiero recordarles algo muy importante: hay que tener en cuenta que, una vez cocidos, los tamales se deben conservar en el frío. <s id=22> . En caso contrario, el maíz se comienza a descomponer y produce un sabor agrio, desagradable al paladar y nocivo para nuestra salud. ",
+            "fillings": [
+              {
+                "optionId": "A",
+                "text": "En el interior del país se prefiere el tamal de maíz nuevo, mientras que en la capital es habitual el de maíz viejo."
+              },
+              {
+                "optionId": "B",
+                "text": "La mezcla de cebollas, ají criollo y tomates cocida lentamente es lo que distingue nuestros tamales panameños de los del resto de América."
+              },
+              {
+                "optionId": "C",
+                "text": "Estamos seguros de que, si elige los ingredientes adecuados y sigue las instrucciones de cualquier receta tradicional, obtendrá un tamal excelente."
+              },
+              {
+                "optionId": "D",
+                "text": "No obstante, el esfuerzo merece la pena porque el sabor que da es mucho más intenso que el del pollo."
+              },
+              {
+                "optionId": "E",
+                "text": "Por ejemplo, este ingrediente es la mejor opción para que el tamal panameño quede sabroso."
+              },
+              {
+                "optionId": "F",
+                "text": "Por ello, si no los vamos a consumir en los tres días siguientes, es necesario congelarlos."
+              },
+              {
+                "optionId": "G",
+                "text": "Este puede ser nuevo o viejo, y el sabor del tamal será completamente diferente en cada caso."
+              },
+              {
+                "optionId": "H",
+                "text": "Por lo tanto, debemos comprar el que esté más fresco para asegurarnos de que el relleno esté jugoso."
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "level": "B2",
+      "examId": "B2_2013-11-23",
+      "exercises": [
+        {
+          "exerciseID": "B2_2013-11-23_E3",
+          "type": "fill-the-gap",
+          "instructions": "Lea el siguiente texto, del que se han extraído seis fragmentos. A continuación lea los ocho fragmentos propuestos [A-H] y decida en qué lugar del texto [17-22] hay que colocar cada uno de ellos. \nHAY DOS FRAGMENTOS QUE NO TIENE QUE ELEGIR. \nMarque las opciones elegidas en la Hoja de respuestas. ",
+          "num-questions": 6,
+          "exercise": {
+            "text": "El nuevo consumidor en un panorama de cambio.\nMela Salazar Velarde \nCada día los profesionales del marketing y de la publicidad intentan descifrar el comportamiento del consumidor y hallar las verdades humanas que lo mueven. <s id=17> Lo cierto es que que en los últimos años el perfil de los consumidores ha cambiado. Hoy nos encontramos ante un consumidor más informado y exigente, que interactúa con distintos medios para distintos propósitos. \nInternet ha revolucionado el mundo del consumidor, que se siente capaz de convertirse en un entendido sobre cualquier sector del mercado que le interese y de elegir con conciencia. Y como valora mucho su tiempo, busca informarse de la forma más rápida que le sea posible. <s id=18>  Conoce muy bien las marcas y es consciente del poder que tiene entre sus manos. Víctor Lozano, de la consultora Future Labs, comenta que hoy en día iiel consumidor puede ejercer su poder de manera mucho más concreta y tangible. Es crítico, hace saber lo que piensa en las redes sociales y tiene la capacidad de destruir una marca a través del boca a boca». <s id=19> \nEl nuevo consumidor quiere sentirse parte de la empresa y adquirir un papel protagonista en la creación de los productos. Desea ser escuchado y tomado en cuenta. Para satisfacer esta necesidad, las empresas se han visto obligadas a establecer puentes que ayuden a acercar la marca a los compradores potenciales. <s id=20> \nPor otro lado, en la actualidad la gente, más que productos, busca vivencias, sentir, emocionarse, disfrutar, y no solo satisfacerse o convencerse de la calidad o conveniencia de un producto a un nivel racional, lo que tiene diversas consecuencias en el marketing. En primer lugar, las marcas se ven forzadas a hacer de sus locales centros temáticos o de experiencia. <s id=21>. Y, por último, los productos y servicios han de constituir propuestas para el disfrute sensorial. El nuevo consumidor es un consumidor «experiencia!». \nEn el caso de los peruanos, nos sentimos más orgullosos que nunca de nuestras raíces, de nuestra fusión de razas y culturas, de nuestra diversidad. <s id=22> . Pero también nos sentimos orgullosos de ser peruanos porque nos caracteriza la creatividad, el emprendimiento y la capacidad de superación, valores que nos han permitido hacer frente a las adversidades y salir adelante. Todo esto lo deben tener en cuenta los profesionales del marketing y la publicidad. ",
+            "fillings": [
+              {
+                "optionId": "A",
+                "text": "Por eso el consumidor es ahora más exigente y, como es un experto, sabe mucho acerca del mer­cado."
+              },
+              {
+                "optionId": "B",
+                "text": "Además, las campañas publicitarias deben proponer historias que sean fuentes de inspiración y presenten verdades humanas con las que nos identifiquemos."
+              },
+              {
+                "optionId": "C",
+                "text": "Pero también puede convertirse en un aliado que ayude a que la marca mejore el valor de su pro­puesta."
+              },
+              {
+                "optionId": "D",
+                "text": "Esta sensibilidad tiene su forma de expresión en diversos ámbitos creativos como la música novoandina, la comida o la ropa étnica."
+              },
+              {
+                "optionId": "E",
+                "text": "No obstante, ha dejado de ser un receptor pasivo para convertirse en un receptor activo que quiere ser amigo de la marca."
+              },
+              {
+                "optionId": "F",
+                "text": "Un claro ejemplo de esto se ve en el uso que se hace de las redes sociales, que representan un canal de comunicación fundamental en el mercado actual."
+              },
+              {
+                "optionId": "G",
+                "text": "El nuevo consumidor, en definitiva, recurre a medios que le ofrecen la inmediatez deseada y que satisfacen su necesidad de conocimientos."
+              },
+              {
+                "optionId": "H",
+                "text": "Este conocimiento les permite conectar con él y hacer que se involucre con las propuestas que hacen las marcas."
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "level": "B2",
+      "examId": "B2_2014-07-18",
+      "exercises": [
+        {
+          "exerciseID": "B2_2014-07-18_E3",
+          "type": "fill-the-gap",
+          "instructions": "Lea el siguiente texto, del que se han extraído seis fragmentos. A continuación lea los ocho fragmentos propuestos [A-Hl y decida en qué lugar del texto [17-22) hay que colocar cada uno de ellos. \nHAY DOS FRAGMENTOS QUE NO TIENE QUE ELEGIR. \nMarque las opciones elegidas en la Hoja de respuestas. ",
+          "num-questions": 6,
+          "exercise": {
+            "text": "Internet y la ortografía \n\nLos avances tecnológicos en el campo de las comunicaciones han creado una serie de recursos de gran eficacia.\nUn ejemplo significativo de esa nueva realidad es el caso de los ordenadores, incorporados de manera dominante a la vida contemporánea. <s id=17>. Esto ha motivado, como respuesta adecuada a las necesidades actuales, el aprendizaje de su uso en la escuela.\nPero el empleo en la vida actual de unos medios tan importantes no está exento de efectos negativos.\n<s id=18>. Es alarmante que haya, en la mayoría de los mensajes, una cantidad tan alta de faltas de ortografía y de errores de redacción, lo que llega a oscurecer el contenido para los ojos de los no iniciados en mensajes crípticos. Este es el motivo de que algunos educadores hayan planteado que Internet está acabando con la ortografía, lo que ha originado un interesante debate sobre dicho tema.\n<s id=19>. El argumento principal es que no se cometen más errores ortográficos que antes,  sino que ahora «se ven con más facilidad». También insisten en que habría que distinguir entre las faltas de\nortografía y las abreviaturas, que suelen ser muy frecuentes, por razones de espacio, en todas las redes sociales.\n<s id=20>. Otro argumento, este bastante curioso, es que hay jóvenes que sí saben escribir correctamente, pero que en internet se niegan a hacerlo «porque si lo hiciesen, quedarían excluidos de su entorno». <s id=21>\nPor último, conviene recordar que los ordenadores ofrecen un recurso muy útil para escribir sin faltas: la corrección ortográfica. En cuanto se comete un error, el ordenador avisa, y el aviso debería servir para que el\nusuario consultara un medio tan «antiguo» como maravilloso, pero a menudo marginado por los adolescentes.\n<s id=22>\nAsí como casi nadie olvida los principios básicos matemáticos aprendidos en la escuela, nadie debería olvidar las normas de ortografía y de redacción, igualmente enseñadas en esa etapa básica de educación, porque, como señalan todos los expertos consultados, escribir mal conlleva a la larga una condena social.",
+            "fillings": [
+              {
+                "optionId": "A",
+                "text": "En general, todos estos argumentos defienden que los errores ortográficos se deben a una enseñanza deficitaria y no a Internet."
+              },
+              {
+                "optionId": "B",
+                "text": "Pero también hay autores de prestigio que opinan que las nuevas tecnologías no van a producir «una catástrofe» en el idioma."
+              },
+              {
+                "optionId": "C",
+                "text": "Las primeras son fruto de la ignorancia, mientras que las segundas sirven para abreviar el texto y condensar el pensamiento."
+              },
+              {
+                "optionId": "D",
+                "text": "No obstante, son muchos los que sostienen que los avances tecnológicos ofrecen posibilidades ilimitadas."
+              },
+              {
+                "optionId": "E",
+                "text": "Por ejemplo, el uso de las nuevas tecnologías por parte de los adolescentes está provocando problemas\ncon la expresión escrita."
+              },
+              {
+                "optionId": "F",
+                "text": "Se han vuelto imprescindibles en el trabajo, en el estudio, en las relaciones sociales y, también, en\nsus inagotables ofertas de juegos."
+              },
+              {
+                "optionId": "G",
+                "text": "Por ejemplo, se han analizado los efectos negativos que pueden resultar del empleo de esos\nmedios."
+              },
+              {
+                "optionId": "H",
+                "text": "Se trata del diccionario, una herramienta de empleo indispensable y que tiene que estar siempre a\nmano."
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "level": "B2",
+      "examId": "B2_2014-11-22",
+      "exercises": [
+        {
+          "exerciseID": "B2_2014-11-22_E3",
+          "type": "fill-the-gap",
+          "instructions": "Lea el siguiente texto, del que se han extraído seis fragmentos. A continuación lea los ocho fragmentos\npropuestos [A-H) y decida en qué lugar del texto (17-22) hay que colocar cada uno de ellos.\n\nHAY DOS FRAGMENTOS QUE NO TIENE QUE ELEGIR.\n\nMarque las opciones elegidas en la Hoja de respuestas.",
+          "num-questions": 6,
+          "exercise": {
+            "text": "Tecnologías que veremos en diez años\n\nEs interesante observar los centros de investigación de algunas compañías para darse cuenta de que vivimos en la prehistoria digital. Las grandes firmas tecnológicas gastan muchos millones cada año en sus inventos. <s id=17>.\nLas ideas más originales giran alrededor del coche del futuro. Según la compañía lntel, en diez años los automóviles estarán conectados a Internet y tendrán sensores inteligentes que les vincularán a su entorno. \n<s id=18>. \nEl hogar es otro espacio que la tecnología lleva años soñando conquistar. lntel apuesta por la seguridad, convertir nuestro cuerpo en las llaves que nos abran la puerta de casa. Solo se necesita una pequeña cámara integrada en la puerta de entrada y una pantalla táctil. <s id=19>. \nEn el lugar de trabajo, en los próximos años podría extenderse el reconocimiento de voz. Una muestra: un vídeo chat que transcribe la voz en texto y lo traduce al instante al idioma seleccionado. En una videoconferencia con un socio chino, por ejemplo, al otro lado verían nuestra imagen y oirían nuestras palabras en español, pero al mismo tiempo las leerían en la pantalla traducidas al chino. \n<s id=20>. \nEn el ámbito de las compras, lntel apuesta por innovaciones como un robot que recorre los pasillos de las tiendas creando mapas que indican dónde están los productos. El dueño del negocio puede conocer qué productos tiene en cada momentoyelconsumidor accede desde el móvil al mapa de la tienda. \n<s id=21>. \nLa tecnología podría acabar también con los probadores. ¿Por qué no probarnos unos pantalones o un vestido digital en lugar de hacerlo físicamente talla a talla, color a color? Un software permite sustituir el espejo del probador por una gran pantalla. <s id=22>. \nSegún la antropóloga Genevieve Bell, hay cosas que jamás cambiarán: siempre necesitaremos pertenecer a un grupo social y desearemos servicios y tecnologías que nos lo faciliten. ",
+            "fillings": [
+              {
+                "optionId": "A",
+                "text": "En ocho segundos digitalizará nuestra imagen: nos situamos delante y si giramos o levantamos los brazos, nuestra imagen hará lo mismo."
+              },
+              {
+                "optionId": "B",
+                "text": "Como siempre, el problema está en los errores, en la precisión, aún lejos de lo aceptable, aunque sus crea­dores son optimistas."
+              },
+              {
+                "optionId": "C",
+                "text": "De este modo, cualquier programador podrá crear páginas web en muy poco tiempo y a bajo coste."
+              },
+              {
+                "optionId": "D",
+                "text": "El 99 % de los proyectos fracasan, el resto sobrevive y solo uno o dos acaban transformándolo todo."
+              },
+              {
+                "optionId": "E",
+                "text": "Sin embargo, el investigador jefe de esta firma asegura que se convertirán en una especie de computadoras inteligentes."
+              },
+              {
+                "optionId": "F",
+                "text": "Primero la cámara nos reconoce y después acercamos los dedos a la pantalla, que lee nuestras huellas dactilares."
+              },
+              {
+                "optionId": "G",
+                "text": "Podrán intercambiar información de accidentes, sugerir nuevas rutas o recibir alertas sobre la gasolinera más cercana. Todo en tiempo real."
+              },
+              {
+                "optionId": "H",
+                "text": "Se acabó desesperarse porque no encontramos algo: el teléfono lo localiza al instante y, además, con ofer­tas y descuentos."
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "level": "B2",
+      "examId": "B2_2015-04-17",
+      "exercises": [
+        {
+          "exerciseID": "B2_2015-04-17_E3",
+          "type": "fill-the-gap",
+          "instructions": "Lea el siguiente texto, del que se han extraído seis fragmentos. A continuación lea los ocho fragmentos propuestos (A-H) y decida en qué lugar del texto (17 - 22) hay que colocar cada uno de ellos.\nHAY DOS FRAGMENTOS QUE NO TIENE QUE ELEGIR.\nMarque las opciones elegidas en la Hoja de respuestas.",
+          "num-questions": 6,
+          "exercise": {
+            "text": "Consejos para hablar en público  \n\nA algunas personas hablar en público les resulta muy difícil. En realidad, no es algo muy diferente a conversar, y eso se hace prácticamente todo el tiempo. A pesar de ello, hablar en público es una actividad desagradable para muchos, y cuanto mayor sea la importancia del evento, mayor será el miedo.<s id=17> . Y\ndeben hacerlo de la forma correcta para conectar con la audiencia. El misterio desaparece una vez que se han aprendido algunas estrategias.\nLe ofrecemos claves para aprender a expresar sus ideas ante una audiencia, ya sea de diez, de cien o de mil personas.\nLa gente que le escuche captará solamente una o dos de las principales ideas que exponga.\n<s id=18> Y si no sabe con anticipación lo que quiere decir y cómo, mucho menos lo sabrá en público.\nSea larga o corta su charla, es importante ordenar los elementos de la misma. Hay que prever la introducción, los puntos principales que se van a exponer y la conclusión. A veces, una buena forma de comenzar resulta ser la frase final. <s id=19>. Es decisivo tener un final poderoso y contundente, pues en la mayoría de los casos es lo que la gente mejor recuerda.\nNo trate de ser distinto a como es, probablemente no va a convencer a nadie. Si no le parece atrayente o graciosa una anécdota, no la cuente. <s id=20> . Si toma la palabra, es porque ha tenido una experiencia que los oyentes desconocen; compártala con ellos. Trate de que sientan lo mismo que usted sintió.\n<s id=21>. Aunque no es recomendable redactar discursos, sí lo es llevar notas para recordar lo que quiere decir y no perderse. Una buena idea es hacer  tarjetas con los puntos principales o con datos importantes que quiera dar a conocer.\nCuando estamos sometidos a una tensión nerviosa, a menudo olvidamos cómo respirar correctamente.\n<s id=22> Intente no respirar de una manera forzada ni con mayor rapidez de lo normal, se puede hiperventilar.",
+            "fillings": [
+              {
+                "optionId": "A",
+                "text": "Si no expresa en pocos enunciados el punto que desea comunicar, entonces su discurso no estará bien delimitado y los oyentes se perderán en los detalles."
+              },
+              {
+                "optionId": "B",
+                "text": "Cada una de esas personas comprenderá que el orador está hablando para ella, y su cerebro se dispondrá a escucharle."
+              },
+              {
+                "optionId": "C",
+                "text": "Intente leer lo menos posible, la expresión espontánea quizá no sea tan perfecta, pero definitivamente es más eficaz."
+              },
+              {
+                "optionId": "D",
+                "text": "Sin embargo, ciertas personas deberán enfrentarse constantemente a exposiciones y presentaciones ante su equipo, colegas, socios, clientes, etc."
+              },
+              {
+                "optionId": "E",
+                "text": "Si los artistas no logran entretener al público mucho tiempo, ¿qué le hace pensar que usted sí podrá?"
+              },
+              {
+                "optionId": "F",
+                "text": "Una vez que sabe adónde se dirige, puede escoger el camino que más le plazca para llegar allí."
+              },
+              {
+                "optionId": "G",
+                "text": "Para relajarse, solo tiene que mover el diafragma suave y rítmicamente, e inspirar larga y profundamente."
+              },
+              {
+                "optionId": "H",
+                "text": "Cuando la información que pretenda transmitir no le despierte un verdadero interés, tampoco lo despertará en los demás."
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "level": "C1",
+      "examId": "C1_2012-05-26",
+      "exercises": [
+        {
+          "exerciseID": "C1_2012-05-26_E2",
+          "type": "fill-the-gap",
+          "instructions": "Lea el siguiente texto, del que se han extraído seis párrafos. A continuación lea los siete fragmentos propuestos (A-G) y decida en qué lugar del texto (7-12) hay que colocar cada uno de ellos.\nHAY UN FRAGMENTO QUE NO TIENE QUE ELEGIR.\nMarque las opciones elegidas en la Hoja de respuestas.",
+          "num-questions": 6,
+          "exercise": {
+            "text": "UN EXPLORADOR DEL SIGLO XXI\n\nRamón Hernando de Larramendi se encuentra ahora mismo en algún punto indeterminado de la Antártida, en la que va a ser su segunda travesía de la parte oriental del continente helado en un vehículo traccionado por el viento, cien por cien ecológico e inventado por él, llamado a revolucionar la exploración polar. \nAunque su nombre empezó a ser conocido después de circunvalar el casquete Ártico durante tres años en piraguas esquimales y trineos de perros, la pasión de Ramón por los continentes helados empezó mucho antes.\nEn 1985, y después de atravesar los Pirineos en invierno con esquís, Ramón convence a varios amigos del colegio para atravesar Islandia con el mismo sistema. «Fue un milagro, teníamos apenas 19 años y pedimos una subvención para nuestra idea. Nos dieron 400.000 pesetas, que para la época era un dinero razonable».\nDe la siguiente expedición, la travesía de Groenlandia, Ramón recuerda que también fue una buena experiencia», financiada gracias al primer premio de un concurso. «Repetimos los mismos amigos de Islandia y pasamos 55 días de travesía, tirando de nuestros trineos cargados con todo lo necesario». <s id=7>.\nY por fin llega 1990. <s id=8>. «Se trataba de una expedición sin prisas, parando en cada comunidad indígena, con tiempo para conocer a sus gentes, aprender su idioma». Le fue más fácil conseguir la financiación que compañeros de viaje. Tras dos años de preparación, el 12 de febrero de 1990 desembarcaban cargados de equipo y expectativas en Jacobson, Groenlandia.\n«Nuestra situación es simplemente desesperada, estamos solos, sin radio, sin tienda, sin comida y sin agua, perdidos en medio de una tormenta ártica. Mi gran sueño de 14.000 kilómetros va a acabar a solo 20 kilómetros del comienzo, qué trágica ironía». <s id=9>. Caminaban directos a la tragedia y Ramón se dio cuenta de que el fuerte viento del norte era el causante de su deriva. Retrocedieron, realizaron un gran arco de diez kilómetros en dirección a la línea de costa y encontraron el camino de regreso al pueblo de Ilulissat, al que llegaron hambrientos, agotados y con varias congelaciones en la cara y las manos.\n<s id=10>. Durante sesenta días de 1999, cuatro hombres caminaron unos mil kilómetros sobre la capa de hielo que cubre el océano en unas condiciones terribles, con temperaturas inferiores a los 40° bajo cero y el suelo abriéndose ante ellos constantemente. Confiesa que la experiencia es la más dura que ha vivido jamás. La que le ha reclamado una mayor resistencia y un estado mental más fuerte. <s id=11>.\n«Un viaje al polo a pie es un ejercicio de tenacidad ante el sufrimiento y la monotonía. Son dos meses caminando, día tras día, por la misma planicie blanca y helada, sin un alma alrededor, sin un accidente geográfico que distraiga la vista, sin otro pensamiento recurrente que la incertidumbre de saber si llegarás o no»\n«Están explorados los símbolos, pero no lo que los rodea. <s id=12>. Si miras el mapa de la Antártida, e incluso el de Groenlandia o ciertas zonas del Ártico, ocurre lo mismo, aún hay espacios en blanco.»",
+            "fillings": [
+              {
+                "optionId": "A",
+                "text": "Si uno mira desde la cumbre del Everest se ven cientos de otros picos, valles ocultos, terrenos, muchos de ellos, en los que el hombre aún no ha puesto el pie."
+              },
+              {
+                "optionId": "B",
+                "text": "En su casa no hay ni una foto, ni un solo objeto que dé pistas sobre su pasión por el Ártico."
+              },
+              {
+                "optionId": "C",
+                "text": "«Seguro que somos los expedicionarios más jóvenes que jamás hayan cruzado Groenlandia», dice entre risas."
+              },
+              {
+                "optionId": "D",
+                "text": "«En la circumpolar o en cualquiera de los otros viajes que he realizado por el ártico, he podido ir cambiando de paisaje, de medio de transporte o de compañía»."
+              },
+              {
+                "optionId": "E",
+                "text": "A Ramón se le quedan pequeños los horizontes y pergeña la aventura de su vida. Algo más allá del reto deportivo, del llegar más lejos o más rápido."
+              },
+              {
+                "optionId": "F",
+                "text": "De la gran aventura a pie hasta el Polo Norte Geográfico con el equipo de TVE, Ramón recuerda sobre todo la terrible rutina polar."
+              },
+              {
+                "optionId": "G",
+                "text": "Así comienza el libro en el que Larramendi relató a la vuelta su experiencia de aquellos tres años en el Ártico."
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "level": "C1",
+      "examId": "C1_2012-08-01",
+      "exercises": [
+        {
+          "exerciseID": "C1_2012-08-01_E2",
+          "type": "fill-the-gap",
+          "instructions": "Lea el siguiente texto, del que se han extraído seis párrafos. A continuación lea los siete fragmentos propuestos (A-G) y decida en qué lugar del texto (7-12) hay que colocar cada uno de ellos.\nHAY UN FRAGMENTO QUE NO TIENE QUE ELEGIR.\nMarque las opciones elegidas en la Hoja de respuestas.",
+          "num-questions": 6,
+          "exercise": {
+            "text": "HISTORIA DE LOS MEDICAMENTOS\nAlfredo Jácome Roca\nLa historia de los medicamentos forma parte del devenir del hombre y de la historia de la medicina. Desde sus comienzos, los homínidos nómadas y sedentarios buscaron una solución a sus males. <s id=7>.\nPero alguna curiosidad intelectual debió generar la observación de los animales que rehuían las plantas venenosas, o que comían determinadas hierbas cuando sufrían de algún mal específico. <s id=8>.\nCon algunas excepciones, hasta que Paracelso introdujo en terapéutica las sustancias inorgánicas, los medicamentos eran hierbas. La concepción original de la enfermedad como un castigo de los dioses hizo de los exorcismos y de los sacrificios rituales, llevados a cabo por los magos tribales o los sacerdotes de una casta, la columna vertebral de los tratamientos. <s id=9>. De ahí surgió la Materia Medica de Teofrasto y de Dioscórides. Más tarde, Galeno tomó los aportes del Corpus Hippocraticum a través de su paso por la cultural Alejandría, usó sus fármacos preferidos y estableció sus propios conceptos, errados muchos de ellos, pero que se basaron en el equilibrio de los humores como fuente de la salud y de la enfermedad y que fueron vigentes hasta el mismo Renacimiento, aceptados por árabes y cristianos por su concepción monoteísta. \n<s id=10>. Los farmacéuticos, por su parte, se iniciaron como simples dispensadores y gozaron de prestigio, por ejemplo, entre los árabes, civilización en la que aparecieron también los primeros recetarios, listados de medicinas o primitivas farmacopeas.\n<s id=11>. Y no solo el de los medicamentos sino sobre todo el de la anatomía, inicialmente, y el de la fisiología, más adelante, para conseguir unas primeras especializaciones y categorías; estas fueron sacando de cierto marasmo el arte de curar, que poco a poco y quizá después de Paracelso se tornó en ciencia.\nLos árabes, como hemos dicho, aportaron mucho a la farmacia. La alquimia, aun con sus errores, es un paso adelante. Aparecieron pioneros listados de hierbas medicinales y las primeras boticas. <s id=12>. \nEl arte de curar, Ars Medica, pasó de los territorios del Islam a la Escuela de Salerno. La medicina y los medicamentos se conservaron en la Edad Media a través de los monjes, copistas y cultivadores en los jardines botánicos, hasta que en el siglo XII, en el alto medievo, aparecieron dos textos fundamentales de farmacología: el Antidotarium de la Escuela de Salerno y el Macer Floridus, poema de 2 200 versos sobre las virtudes de las hierbas. ",
+            "fillings": [
+              {
+                "optionId": "A",
+                "text": "No es que no hubiera fármacos, los había y muchos, más que todo herbales, pero su efectividad dependía de la voluntad de los dioses. Mitos y realidades se fueron mezclando en la práctica médica, donde el uso de una gran cantidad de plantas medicinales, muchas con confusas indicaciones, alternó con algunas medidas preventivas y dietéticas, al igual que con conceptos como: “primero no hacer daño”, de Hipócrates, quien confiaba mucho en el poder sanador de la naturaleza."
+              },
+              {
+                "optionId": "B",
+                "text": "Pero, al fin y al cabo, eran siempre las mismas hierbas con los mismos “yerbateros”, por llamar de alguna manera a aquellos empíricos que de manera artesanal ejercieron la medicina, no para designar a los que hicieron historia. La curiosidad y la observación primero, y el ensayo-error después, fueron mejorando el conocimiento."
+              },
+              {
+                "optionId": "C",
+                "text": "La modernización apareció porque hubo cambios. Poco a poco se fue dando la independencia entre ciencia y religión. Lo uno no excluía lo otro, pero la secularización del conocimiento científico paradójicamente mejoraría la comunicación hombre-divinidad y el amor se interpretaría en un contexto menos rígido."
+              },
+              {
+                "optionId": "D",
+                "text": "En un principio, el pensamiento mágico, acentuado en las tribus y en las más antiguas civilizaciones, hizo importante el poder de los conjuros. Curar era fuente de autoridad y prestigio, en general, una tarea reservada a los sacerdotes y magos. "
+              },
+              {
+                "optionId": "E",
+                "text": "Se respetó y mejoró en algo el conocimiento de la antigüedad clásica, se introdujeron los jarabes, el alcohol, y muchas drogas nuevas, incluso esta misma palabra que designa a los medicamentos."
+              },
+              {
+                "optionId": "F",
+                "text": "La aparición de la medicina como oficio, en casos como los de Hipócrates y Galeno, estuvo rodeada de prestigio; pero en los más fue labor de sirvientes. Estos colegas de la antigüedad aprendieron a manejar sus propios medicamentos, preparados en algunas trastiendas o boticas."
+              },
+              {
+                "optionId": "G",
+                "text": "Poco a poco se fueron señalando propiedades varias a dichas plantas, ya fuesen sus flores, corteza o raíces, y aparecieron los primeros listados para unas enfermedades de diagnóstico tan confuso como absurdas eran las indicaciones y la manera de aplicar esas hierbas."
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "level": "C1",
+      "examId": "C1_2012-11-01",
+      "exercises": [
+        {
+          "exerciseID": "C1_2012-11-01_E2",
+          "type": "fill-the-gap",
+          "instructions": "Lea el siguiente texto, del que se han extraído seis párrafos. A continuación lea los siete fragmentos propuestos (A-G) y decida en qué lugar del texto (7-12) hay que colocar cada uno de ellos.\nHAY UN FRAGMENTO QUE NO TIENE QUE ELEGIR.\nMarque las opciones elegidas en la Hoja de respuestas.",
+          "num-questions": 6,
+          "exercise": {
+            "text": "LOS ARCOIRIS DE LA NOCHE\nComo si fuera una experta en veladuras, la naturaleza se encarga de pintar el cielo de los extremos del mundo con transparencias cuyos brillos capturan todos los matices del espectro solar. El fenómeno tiene nombre y apellido: aurora boreal en el norte, austral en el sur. <s id=7>.\nEn la parte septentrional del globo se las ve a lo largo de un cinturón virtual que va de Alaska al norte de Canadá, sur de Groenlandia, Islandia, norte de Noruega y Suecia, y Rusia. Las auroras australes, en cambio, se ven en el Pacífico Sur y la Antártida. <s id=8>.\nLas auroras son muy distintas entre sí por estructura, forma y color; y también varían en duración. Muchas veces sus ondulaciones dan la impresión de ser una suave cortina ondeando gracias al viento, y cubriendo casi toda la extensión de la bóveda celeste. <s id=9>.\nDesde tiempos muy antiguos, su belleza, pero también la imposibilidad de explicar las auroras, las hizo eje de leyendas. Sobre todo porque, cuando presentaban un color rojizo, se las asociaba con la sangre y con los presagios de catástrofes. <s id=10>.\nEl estudio del sol y las auroras boreales tiene una larga tradición en Noruega. Además del interés científico, los trabajos que se realizan aquí tienen interés turístico, ya que a través del monitoreo de la actividad del sol y la medición de la velocidad de las partículas solares, los científicos pueden predecir la ubicación y fuerza de la aurora boreal y, así, los turistas ya saben perfectamente hacia dónde dirigirse.\n<s id=11>. En todo caso, hay que ser pacientes: aquí se está a total merced de la naturaleza. Con una semana como mínimo debería ser casi seguro verlas.  Se recomienda como buen lugar para descubrirlas las islas Lofoten y toda la costa hasta el Cabo Norte. <s id=12>.\nUn detalle no menor es ingeniárselas para permanecer siempre muy abrigado y mejor aún si es en movimiento, por ejemplo, esquiando o construyendo muñecos de nieve para conservar la temperatura a pesar del intenso frío. ",
+            "fillings": [
+              {
+                "optionId": "A",
+                "text": "Pero son sus primas boreales las más accesibles a todos aquellos que quieran contemplarlas, ya que el norte de Noruega, Finlandia y Suecia, así como Alaska, son una expedición posible para los cazadores de fotos y luces mágicas. Más raro, pero no imposible, es tener la suerte de verlas desde un avión al surcar la noche polar."
+              },
+              {
+                "optionId": "B",
+                "text": "Sin embargo, hay que estar dispuestos a correr ciertos riesgos: aunque las condiciones ideales estén dadas, la observación de las auroras boreales nunca se puede garantizar. Pero cuando sí asoman en el cielo, el espectáculo es inolvidable y puede durar semanas."
+              },
+              {
+                "optionId": "C",
+                "text": "O genéricamente «aurora polar», el nombre que dieron los científicos a esta luminosidad difusa que tiñe los cielos en las regiones más frías y oscuras del mundo. Algo ajenos al romanticismo que ejercen sobre los simples mortales, los científicos explican las auroras como un fenómeno que aparece cuando el viento solar interactúa con la magnetósfera que envuelve a la Tierra. "
+              },
+              {
+                "optionId": "D",
+                "text": "Algunos prefieren las zonas más tierra adentro, por tener cielos más claros y, por lo tanto, presuntamente mejores, pero las costas pueden estar más despejadas gracias a los fuertes vientos del este que soplan en la región. En todo caso, los expertos aconsejan evitar las noches de luna llena y los lugares demasiado iluminados, ya que con un cielo pálido las auroras no brillan en todo su esplendor."
+              },
+              {
+                "optionId": "E",
+                "text": "El sol, por lo tanto, emite continuamente un flujo llamado «plasma» cuyas partículas forman el viento solar que viaja hacia la Tierra. A una distancia que oscila entre los 90 y los 110 kilómetros de la superficie, el choque de esas partículas genera los destellos de luz que se observan en los cielos polares."
+              },
+              {
+                "optionId": "F",
+                "text": "En realidad, estos cambios entre unas y otras dependen de las reacciones químicas entre los distintos componentes de las capas que recubren la Tierra y el plasma solar, que así van generando luces rojizas, verdosas, amarillentas, azuladas o violáceas."
+              },
+              {
+                "optionId": "G",
+                "text": "Para algunos pueblos esquimales eran, además, la danza de los espíritus de algunos de los animales propios del lugar, como los salmones, los renos y las focas, que se divertían jugando a la pelota con un cráneo de morsa."
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "level": "C1",
+      "examId": "C1_2017-11-01",
+      "exercises": [
+        {
+          "exerciseID": "C1_2017-11-01_E2",
+          "type": "fill-the-gap",
+          "instructions": "Lea el siguiente texto, del que se han extraído seis párrafos. A continuación lea los siete fragmentos propuestos (A - G) y decida en qué lugar del texto (7 - 12) hay que colocar cada uno de ellos.\nHAY UN FRAGMENTO QUE NO TIENE QUE ELEGIR.\nMarque las opciones elegidas en la Hoja de respuestas.",
+          "num-questions": 6,
+          "exercise": {
+            "text": "La normalidad en medicina\nTeodoro Martínez Arán\nCuando recogemos una analítica, medimos nuestra tensión arterial o pesamos a nuestros hijos, en seguida nos surge la duda de si la cifra que obtenemos es normal o no. <s id=7>.\nLa normalidad en medicina es un concepto con un fuerte componente estadístico. Es normal que nuestra altura sea tal o cual a una determinada edad, porque la mayoría de las personas sanas tienen tal o cual altura a dicha edad. Por ello, es evidente que esa normalidad depende de variables al margen de la salud: etnia, hábitos alimenticios, o incluso rituales culturales pueden influir en la altura sin que estemos ante circunstancias patológicas. A la hora de evaluar si una determinada medición, prueba diagnóstica o constante vital es normal, los sanitarios consideran varios aspectos. <s id=8>.\nNo es lo mismo medir la talla de un crío en un estudio de salud en la escuela que medirla en otro que esté recibiendo tratamiento con hormona de crecimiento. En el primer caso, la intención es detectar los casos claramente diferentes en una única medida puntual con objeto de estudiar cuál de ellos puede tener una patología que podamos tratar, y cuál es más bajo o alto de manera constitucional. En el segundo, queremos asegurarnos de que el tratamiento sea efectivo y monitorizar que sigue mereciendo la pena utilizarlo sin riesgos para el niño. <s id=9>.\nEs necesario evaluar el contexto de la medida. Por ejemplo, la comparación de medidas de peso y talla de los niños amamantados con las de niños alimentados con biberón ha sido y es una frecuente causa de abandono de la lactancia natural, puesto que la curva de crecimiento de ambos lactantes es diferente en las primeras semanas. Hasta que la Organización Mundial de la Salud no elaboró una tabla de niños amamantados naturalmente, estos niños estaban siempre situados en valores anormales, cuando los que seguían ritmos de crecimiento anómalos eran los otros. <s id=10>.\nMás importante que el valor absoluto de la medición de un determinado parámetro es la evolución del mismo en la historia del paciente. Un niño que padece una gastroenteritis pierde bruscamente mucho peso, y puede dar un valor puntual anormalmente desviado. Sin embargo, su curva de peso se recupera enseguida tras curar su enfermedad. <s id=11>.\nDada la relativa dificultad para la interpretación, debemos huir de realizar por nuestra cuenta mediciones de constantes o analíticas si estas no van a ser supervisadas por profesionales sanitarios. <s id=12>. No nos arriesguemos a ser víctimas del atrevimiento que nos da la ignorancia, que puede producirnos desde un inocente susto hasta una engañosa y peligrosa tranquilidad.",
+            "fillings": [
+              {
+                "optionId": "A",
+                "text": "En definitiva, unas veces buscaremos sensibilidad en la medición (detectar todos los casos patológicos, aunque no todos los individuos con valores anormales estén enfermos) y, en otros casos, precisión. Y, por eso, seremos tolerantes con errores de medida en el primer caso, y exigiremos precisión hasta las décimas de milímetro en el segundo."
+              },
+              {
+                "optionId": "B",
+                "text": "En el otro extremo, un niño que se hace alérgico a un alimento que forma parte de su dieta puede tener valores normales de peso y talla al inicio de la sensibilización, pero su curva de peso empeora progresivamente hasta que no se elimina de su dieta el alimento que le produce los síntomas. "
+              },
+              {
+                "optionId": "C",
+                "text": "En muchos casos, dichas mediciones derivan en acciones diagnósticas o terapéuticas inmediatas pero, en otras ocasiones, los profesionales sanitarios parecen mirar con una cansina indiferencia la que nos aparece como una anomalía incuestionable, sin que nos sepamos explicar el porqué de esa aparente displicencia."
+              },
+              {
+                "optionId": "D",
+                "text": "Lo mismo podría suceder si se hiciera una tabla de peso en una población con una tasa de obesidad infantil o con malnutrición severa."
+              },
+              {
+                "optionId": "E",
+                "text": "Un valor anormal no tiene por qué ser equivalente a una enfermedad, ni uno normal asegurar nuestra salud."
+              },
+              {
+                "optionId": "F",
+                "text": "También hay que recordar que,  junto a una  alimentación adecuada, está también la necesidad de hacer ejercicio. El ejercicio es como cocinar el alimento, es la preparación del cuerpo para recibirlo bien."
+              },
+              {
+                "optionId": "G",
+                "text": "Entre ellos, hay tres que son especialmente relevantes: la intención de la medición, el contexto en el que ha sido recogida, y la evolución de la misma. Para ilustrarlos, pensemos en la medición de un niño."
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "level": "C2",
+      "examId": "C2_2011-11-19",
+      "exercises": [
+        {
+          "exerciseID": "C2_2011-11-19_E1",
+          "type": "fill-the-gap",
+          "instructions": "Lea el siguiente texto, del que se han extraído seis párrafos. A continuación lea los siete fragmentos propuestos (A-G) y decida en qué lugar del texto (1-6) hay que colocar cada uno de ellos.\nHAY UN FRAGMENTO QUE NO TIENE QUE ELEGIR.\nMarque las opciones elegidas en la Hoja de respuestas.",
+          "num-questions": 6,
+          "exercise": {
+            "text": "EL CEREBRO Y LA MÚSICA\nHay quien expresa su identidad por medio de su atuendo y usa la ropa como si fuera una tarjeta de presentación. Otras personas se definen por lo que leen: se puede obtener mucha información acerca de ellas examinando el contenido de sus libreros.\n<s id=1>.\nLa música nos gusta por diversas razones, pero sobre todo porque inspira emociones, desde la oleada de placer abstracto que nos pone la carne de gallina sin saber por qué, hasta la nostalgia del recuerdo que nos evoca. Tanto significado emocional le damos a la música que es fácil ponerse sentimental y no apreciar el enigma que entraña. Y es que, desde el punto de vista evolutivo, el origen de la música es un misterio. <s id=2>.\nLa mayoría de los investigadores que buscan el origen de las habilidades musicales se basan en dos hechos observados y una suposición. Los hechos observados son que todas las socieda- des humanas conocidas hasta hoy tienen música y que las habilidades musicales se manifiestan desde las primeras etapas del desarrollo de los niños. Un bebé de dos meses ya discrimina entre sonidos considerados agradables y sonidos que para la mayoría son desagradables, además de ser capaz de recordar melodías escuchadas varios días antes. <s id=3>.\nAsí pues, indagar acerca del origen de las facultades musicales equivale a buscar qué ventajas da la música a un grupo de homínidos en las llanuras primitivas. Hay quien alega que la música servía para mantener unido al grupo, lo cual tiene ventajas más o menos evidentes para unos organismos que tienen que defenderse de fieras más fuertes y veloces que ellos, y que han de darles cacería para obtener alimento. <s id=4>.\nEl psicólogo experimental Steven Pinker tiene una opinión iconoclasta: la música no es una adaptación, sino una especie de efecto secundario de otras habilidades y necesidades del organismo humano. Pinker compara la música con el pastel de queso, una \"tecnología\" que hemos inventado para estimular artificialmente los circuitos artificiales del placer.\n<s id=5>. La música sería igual. Sus sonidos repetitivos, ordenados y predecibles, nos hacen cosquillas en los centros del placer que sirven para indicarnos que hemos encontrado un ambiente ordenado y seguro.\n<s id=6>.\nAdemás, dice Pinker, la hipótesis de la cohesión social y otras de ese tenor -que la música tranquiliza o fortalece el vínculo entre la madre y la cría-, en el fondo no dicen nada acerca del origen de la música. En efecto, habría que explicar entonces por qué la música favorece la cohesión social, tranquiliza o fortalece el vínculo con la madre.",
+            "fillings": [
+              {
+                "optionId": "A",
+                "text": "De aquí se puede concluir que la música es innata: nacemos dotados para apreciarla sin que nadie nos enseñe. La suposición es que las habilidades innatas son adaptaciones en el sentido evolucionista del término, capacidades que dan a los organismos mayores probabilidades de procrear y que, por lo tanto, van cundiendo en la población al paso de las generaciones hasta que solo quedan individuos con esas capacidades."
+              },
+              {
+                "optionId": "B",
+                "text": "Estos han evolucionado para indicarnos que hemos efectuado una acción que mejora nuestras probabilidades de vivir; por ejemplo, obtener alimentos llenos de energía para sobrellevar las épocas de \"vacas flacas\". Un pastel concentra estímulos placenteros que en cierta manera engañan al cerebro, haciéndole creer que hemos llevado a cabo una acción que promueve nuestra supervivencia."
+              },
+              {
+                "optionId": "C",
+                "text": "Para extraerla e interpretarla el cerebro no actúa como una simple grabadora, sino que distribuye el estímulo sonoro a diversas regiones del cerebro donde se llevan a cabo los procesos de reconocimiento e interpretación."
+              },
+              {
+                "optionId": "D",
+                "text": "Pero no todo el mundo les da importancia a estos asuntos, ni confía su imagen personal a su vestuario o a su biblioteca. Una expresión de identidad más común es la música que escuchamos."
+              },
+              {
+                "optionId": "E",
+                "text": "Darwin, por su parte, pensaba que la música en los humanos surgió como herramienta para el cortejo, igual que la cola del pavorreal y el canto de muchas aves. Esta opinión es hoy minoritaria: si la música fuera de origen. sexual, ¿por qué cumple tantas otras funciones y aparece en actividades tan diversas?"
+              },
+              {
+                "optionId": "F",
+                "text": "Para sustentar esta tesis, el autor señala que la música puede ser innata sin ser adaptativa, como otras formas de placer, por ejemplo la gastronomía: el organismo solo exige nutrientes, sin requerir que estos vengan bien aderezados."
+              },
+              {
+                "optionId": "G",
+                "text": "Charles Darwin lo expresó por primera vez en 1871, en su tratado sobre el origen de los humanos: \"Puesto que ni la capacidad de disfrutar ni la de producir notas musicales tienen la menor utilidad para el hombre en sus hábitos cotidianos, hay que clasificarlas entre las facultades más misteriosas de las que está dotado\". Se refiere a que las facultades musicales no nos sirven para defendernos de las fieras ni para cazar a nuestras presas; no calientan nuestro hogar, no nos ayudan a obtener agua ni cuidan nuestros cultivos,"
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "level": "C2",
+      "examId": "C2_2012-05-25",
+      "exercises": [
+        {
+          "exerciseID": "C2_2012-05-25_E1",
+          "type": "fill-the-gap",
+          "instructions": "Lea el siguiente texto, del que se han extraído seis párrafos. A continuación lea los siete fragmentos propuestos (A-G) y decida en qué lugar del texto (1-6) hay que colocar cada uno de ellos.\nHAY UN FRAGMENTO QUE NO TIENE QUE ELEGIR.\nMarque las opciones elegidas en la Hoja de respuestas.",
+          "num-questions": 6,
+          "exercise": {
+            "text": "LA NUEVA COCINA CIENTÍFICA\nClaudi Mans y Pere Castells\nPara muchas personas, la alimentación y los alimentos deberían mantenerse alejados de la química, en el sentido de que no deberían llevar aditivos, sobre todo sintéticos. Pero la relación entre la química y la cocina va mucho más allá del uso de sustancias en alimentos preparados.\nA lo largo de los últimos años se ha producido una renovación en la cocina de numerosos restaurantes, una verdadera revolución basada en la ciencia. <s id=1>. Todo ello, junto con la escrupulosa redacción de las recetas en forma de fichas técnicas exhaustivas, buscaba la reproducibilidad de las preparaciones culinarias y su difusión a la sociedad de forma exacta.\nLa implicación de científicos en cuestiones culinarias, en cualquier caso, no es un fenómeno. tan reciente. Recordemos, por ejemplo, el invento del físico estadounidense Benjamin Thomson, quien en 1804 propuso la «tortilla noruega», denominada también «pastel de Alaska» o «tortilla sorpresa», como ejemplo del uso de una espuma a modo de aislante térmico. Dicha preparación consiste en colocar un helado sobre un bizcocho, envolverlo en merengue y gratinarlo todo: caliente en la superficie, helado en el interior.\n<s id=2>. Y de ahí surge el movimiento Gastronomía Molecular, cuyo objetivo último es aplicar el conocimiento científico a las preparaciones gastronómicas con el fin de lograr una perfecta preparación. <s id=3>.\nY es que la cocina no es un laboratorio en el que se trabaje con sustancias de composición conocida, sino un espacio en el que se utilizan materiales compuestos de una complejidad que normalmente desconocemos. En la cocina se hallan especies químicas casi puras, como el agua, la sal, el azúcar refinado o el bicarbonato de sodio, pero también otras sustancias en apariencia sencillas que no lo son en absoluto. <s id=4>. Otra gran parte de alimentos corresponde a organismos enteros, como una sardina o un rábano, que están estructurados en órganos, tejidos y células. <s id=5>.\nEn definitiva, la composición química de los alimentos dista mucho de ser conocida en su totalidad. Una gran cantidad de las moléculas constituyentes, que a su vez forman parte de mezclas complejas, corresponden a estructuras de gran tamaño, como las macromoléculas del almidón o las proteínas. <s id=6>. La química permite el análisis de esas moléculas, pero es la biología molecular la que describe las estructuras. biológicas, responsables en gran medida de su comportamiento, incluido el culinario.",
+            "fillings": [
+              {
+                "optionId": "A",
+                "text": "Esta corriente inundó numerosas cocinas al final del siglo XX y principios del presente siglo, pero la avalancha de optimismo que generó, topó con ciertas limitaciones debidas a la ausencia de diálogo entre científicos y cocineros, que frenaron su desarrollo."
+              },
+              {
+                "optionId": "B",
+                "text": "Se han desarrollado operaciones culinarias que no han llegado todavía de forma masiva a restaurantes y domicilios -algunas quizá no lo hagan nunca-, pero que cada día son más utilizadas en todo el mundo."
+              },
+              {
+                "optionId": "C",
+                "text": "Se han modificado metodologías clásicas mediante la introducción de aspectos más propios de un laboratorio de química: precisión en la medición de masas, volúmenes, temperaturas y tiempos, control de parámetros de operación, búsqueda y utilización de nuevos productos e introducción de nuevas técnicas operativas."
+              },
+              {
+                "optionId": "D",
+                "text": "Finalmente, en la cocina empleamos también elementos no existentes en la naturaleza, obtenidos a partir de los productos anteriores mediante distintas técnicas (un fideo, por ejemplo)."
+              },
+              {
+                "optionId": "E",
+                "text": "Nos referimos, por ejemplo, a sistemas dispersos o dispersiones comestibles como la leche o la clara de huevo. Asimismo, se trabaja con productos resultantes de la trituración de determinadas partes de plantas, como harinas, féculas o especias en polvo, cuya descripción química suele ser muy compleja."
+              },
+              {
+                "optionId": "F",
+                "text": "La mayoría no tiene una fórmula molecular definida; pueden presentarse en forma de mezclas de familias de sustancias. Por ello, conceptos simples como «punto de fusión» no tienen en muchos casos significado para productos de uso gastronómico."
+              },
+              {
+                "optionId": "G",
+                "text": "Muchos años más tarde, en 1992, se celebró en el Centro Ettore Majorana de Sicilia el primer Taller internacional sobre gastronomía molecular y física. El evento, centrado en la comprensión de los fenómenos físicos y químicos involucrados en la cocina, se celebraría de forma anual hasta 2004."
+              }
+            ]
+          }
+        }
+      ]
+    }
+  ]
+}
