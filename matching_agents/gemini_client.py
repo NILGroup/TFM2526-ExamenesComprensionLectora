@@ -5,6 +5,8 @@ import os
 from typing import Any
 
 from langchain_core.messages import HumanMessage, SystemMessage
+from dotenv import load_dotenv
+load_dotenv()
 
 try:
     from langchain_google_genai import ChatGoogleGenerativeAI  # type: ignore[import-not-found]
@@ -26,7 +28,6 @@ class GeminiClient:
     ) -> None:
         self.model = model
         self.api_key = api_key or os.getenv("GEMINI_API_KEY") or os.getenv("GOOGLE_API_KEY")
-        self.api_key = "AIzaSyA1nd0cXJjQmL_uHFXdZdFR021EZOLowGQ"
         if not self.api_key:
             raise ValueError(
                 "Falta la API key de Gemini. Pasa api_key o define GEMINI_API_KEY/GOOGLE_API_KEY."
