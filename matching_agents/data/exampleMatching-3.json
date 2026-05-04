@@ -1,0 +1,124 @@
+{
+  "dataset-acronym": "IC-UNED-RC-ES",
+  "dataset-name": "IC-UNED Spanish Reading Comprehension",
+  "dataset-desc-es": "Corpus de las tareas de comprensión lectora contenidas en los exámenes creados por el Instituto Cervantes para la evaluación de estudiantes de español en diferentes niveles",
+  "dataset-desc-en": "Corpus of the reading comprehension tasks contained in the exams created by the Cervantes Institute for the evaluation of Spanish students at different levels",
+  "dataset-license": "CC BY-NC-SA 4.0",
+  "dataset-owners": "Instituto Cervantes (IC), Universidad Nacional de Educación a Distancia (UNED)",
+  "agreement": "CONVENIO ENTRE EL INSTITUTO CERVANTES Y LA UNIVERSIDAD NACIONAL DE EDUCACIÓN A DISTANCIA PARA LA APLICACIÓN DEL «PROYECTO DE CREACIÓN DE UN CORPUS DIGITALIZADO DE TAREAS DE COMPRENSIÓN DE LECTURA PARA LA EVALUACIÓN DE LA COMPRENSIÓN EN SISTEMAS DE INTELIGENCIA ARTIFICIAL»",
+  "agreement-date": "25-05-2021",
+  "funding": "DeepInfo Project (AEI PID2021-127777OB-C22), UNED, Spain",
+  "contact": "anselmo@lsi.uned.es",
+  "exams": [
+    {
+      "level": "B2",
+      "examId": "B2_2013-11-22",
+      "exercises": [
+        {
+                    "exerciseID": "B1_2013-11-22_E1",
+                    "type": "matching",
+                    "instructions": "Usted va a leer seis enunciados que resumen los textos de algunos signos del horóscopo para la próxima semana y diez textos que corresponden a distintos signos. Relacione los enunciados (1-6) con los textos del horóscopo (A-J). HAY TRES TEXTOS QUE NO DEBE RELACIONAR. \nMarque las opciones elegidas en la Hoja de respuestas.",
+                    "num-questions": 7,
+                    "exercise": {
+                        "set1": [
+                            {
+                                "optionId": "A",
+                                "text": "Aries\nEsta semana tiene que cuidarse, se va a sentir mal: un poco cansado, ligeros dolores de cabeza, pequeñas molestias en el estómago. Necesita relajarse, beber mucho líquido y dormir ocho horas. \nMejor día de la semana: domingo.\nNúmero de la suerte: 8.",
+                                "image-path": ""
+                            },
+                            {
+                                "optionId": "B",
+                                "text": "Tauro\nUsted está pasando una época baja emocionalmente y eso se nota en su aspecto físico. Debería ir a un gimnasio, el ejercicio ayuda a mejorar la salud y a estar en forma. Si no es capaz de ir solo/a, llame a algún amigo/a y se sentirá mucho mejor. \nMejor día de la semana: sábado.\nNúmero de la suerte: 7.",
+                                "image-path": ""
+                            },
+                            {
+                                "optionId": "C",
+                                "text": "Géminis\n¡Enhorabuena! Usted va a tener una buena semana en la salud, en el trabajo, en la economía y en las relaciones con su familia. \nCon su pareja puede llegar a tener pequeñas discusiones. Si no tiene pareja todavía, no es el momento para una relación estable. \nMejor día de la semana: jueves.\nNúmero de la suerte: 5.",
+                                "image-path": ""
+                            },
+                            {
+                                "optionId": "D",
+                                "text": "Cáncer\n¡Felicidades! Usted va a recibir toda la energía positiva del sol y a vivir una semana increíble en la salud, el dinero, el trabajo y, especialmente, el amor. Esta semana alguien puede entrar en su vida y despertarle nuevas emociones.\nMejor día de la semana: viernes.\nNúmero de la suerte: 2.",
+                                "image-path": ""
+                            },
+                            {
+                                "optionId": "E",
+                                "text": "Leo\nLa suerte está cerca de usted. Si no juega a la lotería, es el momento de intentarlo. Su futuro profesional puede mejorar si dirige un buen equipo de trabajo. Buen momento para hacer un viaje de negocios.\nMejor día de la semana: lunes.\nNúmero de la suerte: 0.",
+                                "image-path": ""
+                            },
+                            {
+                                "optionId": "F",
+                                "text": "Virgo\n¿Está aburrido y no sabe qué hacer? Esta semana debería relajarse, leer ese libro que ha comprado y todavía no ha leído por falta de tiempo, escuchar su música favorita, preparar esa receta que tanto le gusta, llamar a sus amigos...\nMejor día de la semana: viernes.\nNúmero de la suerte: 1.",
+                                "image-path": ""
+                            },
+                            {
+                                "optionId": "G",
+                                "text": "Piscis\nÚltimamente está muy estresado/a y ha pensado dejar su empleo. Estudie con mucha atención esas ofertas que ha recibido porque es lo mejor en este momento. Tiene que ser optimista y no ponerse nervioso/a.\nMejor día de la semana: domingo.\nNúmero de la suerte: 3.",
+                                "image-path": ""
+                            },
+                            {
+                                "optionId": "H",
+                                "text": "Escorpio\nSemana un poco complicada. Usted va a sentirse nervioso, debe tomar una de las decisiones más importantes de su vida. Es importante escuchar la opinión de los padres y los consejos de las personas que están cerca de usted. ¡No está solo! \nMejor día de la semana: martes.\nNúmero de la suerte: 1.",
+                                "image-path": ""
+                            },
+                            {
+                                "optionId": "I",
+                                "text": "Sagitario\n¡Enhorabuena! Va a recibir una cantidad de dinero extra que usted no esperaba. Es el momento de realizar ese viaje maravilloso que usted siempre ha soñado, cambiar de coche o hacer una reforma en su casa. \nMejor día de la semana: miércoles.\nNúmero de la suerte: 4.",
+                                "image-path": ""
+                            },
+                            {
+                                "optionId": "J",
+                                "text": "Acuario\nBuena semana en lo profesional, va a tener éxito en sus negocios. En la salud, la familia o el amor, la situación es la habitual, sin grandes cambios.\nTiene que intentar evitar las compras innecesarias y no usar de forma exagerada las tarjetas de crédito.\nMejor día de la semana: sábado.\nNúmero de la suerte: 3.",
+                                "image-path": ""
+                            }
+                        ],
+                        "set2": [
+                            {
+                                "optionId": 0,
+                                "text": "Esta semana va a tener problemas de salud.",
+                                "image-path": "",
+                                "set1-correct-match": "A"
+                            },
+                            {
+                                "optionId": 1,
+                                "text": "Es un buen momento para cambiar de trabajo.",
+                                "image-path": "",
+                                "set1-correct-match": "G"
+                            },
+                            {
+                                "optionId": 2,
+                                "text": "Es bueno para usted hacer un poco de deporte.",
+                                "image-path": "",
+                                "set1-correct-match": "B"
+                            },
+                            {
+                                "optionId": 3,
+                                "text": "Debería escuchar a su familia con atención.",
+                                "image-path": "",
+                                "set1-correct-match": "H"
+                            },
+                            {
+                                "optionId": 4,
+                                "text": "Le recomiendan controlar sus gastos.",
+                                "image-path": "",
+                                "set1-correct-match": "J"
+                            },
+                            {
+                                "optionId": 5,
+                                "text": "Puede conocer a una persona muy especial.",
+                                "image-path": "",
+                                "set1-correct-match": "D"
+                            },
+                            {
+                                "optionId": 6,
+                                "text": "Le dan consejos para pasar su tiempo libre.",
+                                "image-path": "",
+                                "set1-correct-match": "F"
+                            }
+                        ]
+                    }
+                }
+      ]
+    }
+  ]
+}

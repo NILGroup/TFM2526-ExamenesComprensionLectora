@@ -1,0 +1,112 @@
+{
+    "dataset-acronym": "IC-UNED-RC-ES",
+    "dataset-name": "IC-UNED Spanish Reading Comprehension",
+    "dataset-desc-es": "Corpus de las tareas de comprensión lectora contenidas en los exámenes creados por el Instituto Cervantes para la evaluación de estudiantes de español en diferentes niveles",
+    "dataset-desc-en": "Corpus of the reading comprehension tasks contained in the exams created by the Cervantes Institute for the evaluation of Spanish students at different levels",
+    "dataset-license": "CC BY-NC-SA 4.0",
+    "dataset-owners": "Instituto Cervantes (IC), Universidad Nacional de Educación a Distancia (UNED)",
+    "agreement": "CONVENIO ENTRE EL INSTITUTO CERVANTES Y LA UNIVERSIDAD NACIONAL DE EDUCACIÓN A DISTANCIA PARA LA APLICACIÓN DEL «PROYECTO DE CREACIÓN DE UN CORPUS DIGITALIZADO DE TAREAS DE COMPRENSIÓN DE LECTURA PARA LA EVALUACIÓN DE LA COMPRENSIÓN EN SISTEMAS DE INTELIGENCIA ARTIFICIAL»",
+    "agreement-date": "25-05-2021",
+    "funding": "DeepInfo Project (AEI PID2021-127777OB-C22), UNED, Spain",
+    "contact": "anselmo@lsi.uned.es",
+    "exams": [
+        {
+        	"level": "B2",
+            "examId": "B2_2013-08-23",
+            "exercises": [
+                {
+                    "exerciseID": "B2_2013-08-23_E2",
+                    "type": "matching",
+                    "instructions": "Usted va a leer cuatro textos en los que cuatro personas cuentan cómo crearon su empresa. Relacione las\npreguntas (7-16) con los textos (A, B, C y D).\nMarque las opciones elegidas en la Hoja de respuestas.",
+                    "num-questions": 10,
+                    "exercise": {
+                        "set1": [
+                            {
+                                "optionId": "A",
+                                "text": "EVA\nLa idea de emprender me rondaba por la cabeza desde mi etapa universitaria, cuando estuve a punto de crear una empresa de diseño de joyas con un compañero. Al terminar mis estudios, encontré trabajo en el sector de la comunicación. Aunque seguía con mi sueño en mente, no me atrevía a dar el salto y montar mi agencia. Pero varios años después, con un dinero que me prestó un familiar, monté Pidel a luna, una agencia especializada en el diseño, la produccióy nl a gestión de eventos empresariales e institucionales. Como me daba miedo que la agencia no funcionara bien, durante un año estuve compaginando mi actividad como autónoma con la de relaciones públicas en un hotel. Montar un negocio sin disponer de muchos recursos es un poco temerario, pero te empuja a pelear por sacar adelante tu proyecto, a estar siempre alerta buscando acuerdos de intercambios, colaboraciones...",
+                                "image-path": ""
+                            },
+                            {
+                                "optionId": "B",
+                                "text": "ANA\nEmpecé en este negocio hace 5 años, y ya he decorado 200 restaurantes. Tres son las claves de mi trayectoria: la producción y montaje integral de todos los complementos relacionados con un local, el hecho de terminar los proyectos a tiempo (una obviedad que no se suele cumplir en este sector), y unos diseños novedosos, inspirados en viajes y libros. Cuando surge un nuevo proyecto, lo que hago es contratar yo misma a los carpinteros, escultores y otros profesionales artísticos; y es que, cuando subcontratas, sufres mucho, ya que no sabes si hacen bien el trabajo hasta el final. Además, gasto poco en publicidad, puesto que nuestro trabajo se lo ofrecen a los restaurantes las propias marcas que los abastecen. Si un día lo que hago dejara de funcionar, tengo pensada una alternativa: una empresa online, Lafabricadeideas.com, centrada en el diseño de decorados teatrales.",
+                                "image-path": ""
+                            },
+                            {
+                                "optionId": "C",
+                                "text": "LUZ\nMi empresa es el fruto de una idea surgida en una reunión de compañeros de clase, en la cafetería de la facultad, cuando uno de ellos se quejó de que para traducir los prospectos los laboratorios farmacéuticos no contrataran médicos especialistas. Con uno de esos amigos fundé Lexus, una empresa de traducción médica, y a los tres meses ya trabajábamos para algunos laboratorios farmacéuticos. Pero mi espíritu luchador hizo que no me conformara con la simple traducción técnica, y decidí también ofrecer a nuestros clientes estrategias de marketing de impacto. Me había dado cuenta de que los proveedores del sector farmacéutico promocionaban un fármaco, pero no se\npreocupaban por rentabilizar al máximo la inversión de los clientes. Ante este problema, comenzamos a proponer a los clientes estrategias: tras una primera reunión con ellos para analizar sus objetivos y los mensajes que quieren transmitir, elaboramos propuestas concretas como, por ejemplo, un evento internacional avalado por sociedades médicas de prestigio.",
+                                "image-path": ""
+                            },
+                            {
+                                "optionId": "D",
+                                "text": "MAR\nAunque estudié Ingeniería informática, me dedico al mundo de la moda. Hace dos años estaba en paro y un día se me ocurrió crear un blog de moda y belleza en el que colgué un vídeo sobre cómo personalizar camisetas, un pequeño atrevimiento que solo confesé a mi marido. Este vídeo, al que siguieron muchos más, marcó mi futuro. Me gasté mis pequeños ahorros en una cámara y, gracias al apoyo de mis incondicionales seguidores, me he convertido en una bloguera famosa. Ahora me cuesta creer que mis vídeos lleven más de 40 millones de reproducciones en la red. No llamé a ninguna puerta, pero enseguida me ofrecieron colaborar en un programa de televisión y ser la imagen de distintas promociones. Sin embargo, soy consciente de que la fama es algo efímero, así que no he dejado de grabar mis vídeos caseros.",
+                                "image-path": ""
+                            }
+                        ],
+                        "set2": [
+                            {
+                                "optionId": 7,
+                                "text": "¿Quién dice que ahorra en promocionar su producto? ",
+                                "image-path": "",
+                                "set1-correct-match": "B"
+                            },
+                            {
+                                "optionId": 8,
+                                "text": "¿Quién dice que la escasez de dinero es un estímulo? ",
+                                "image-path": "",
+                                "set1-correct-match": "A"
+                            },
+                            {
+                                "optionId": 9,
+                                "text": "¿Quién dice que controla todas las fases de la creación del producto? ",
+                                "image-path": "",
+                                "set1-correct-match": "B"
+                            },
+                            {
+                                "optionId": 10,
+                                "text": "¿Quién dice que invirtió poco dinero cuando montó su empresa? ",
+                                "image-path": "",
+                                "set1-correct-match": "D"
+                            },
+                            {
+                                "optionId": 11,
+                                "text": "¿Quién se muestra asombrada ante el éxito obtenido? ",
+                                "image-path": "",
+                                "set1-correct-match": "D"
+                            },
+                            {
+                                "optionId": 12,
+                                "text": "¿Quién dice que le costó decidirse a trabajar por cuenta propia? \n",
+                                "image-path": "",
+                                "set1-correct-match": "A"
+                            },
+                            {
+                                "optionId": 13,
+                                "text": "¿Quién dice que se le ocurrió montar su actual empresa en su etapa universitaria? ",
+                                "image-path": "",
+                                "set1-correct-match": "C"
+                            },
+                            {
+                                "optionId": 14,
+                                "text": "¿Quién dice que en su negocio se respetan los plazos de entrega? ",
+                                "image-path": "",
+                                "set1-correct-match": "B"
+                            },
+                            {
+                                "optionId": 15,
+                                "text": "¿Quién dice que gracias a su forma de ser amplió el negocio? ",
+                                "image-path": "",
+                                "set1-correct-match": "C"
+                            },
+                            {
+                                "optionId": 16,
+                                "text": "¿Quién dice que un pariente la ayudó a crear su empresa? ",
+                                "image-path": "",
+                                "set1-correct-match": "A"
+                            }
+                        ]
+                    }
+                }
+            ]
+        }
+        ]
+}

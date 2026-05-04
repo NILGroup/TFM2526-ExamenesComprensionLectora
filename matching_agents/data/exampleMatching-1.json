@@ -1,0 +1,225 @@
+{
+
+   "dataset-acronym": "IC-UNED-RC-ES",
+
+   "dataset-name": "IC-UNED Spanish Reading Comprehension",
+
+   "dataset-desc-es": "Corpus de las tareas de comprensión lectora contenidas en los exámenes creados por el Instituto Cervantes para la evaluación de estudiantes de español en diferentes niveles",
+
+   "dataset-desc-en": "Corpus of the reading comprehension tasks contained in the exams created by the Cervantes Institute for the evaluation of Spanish students at different levels",
+
+   "dataset-license": "CC BY-NC-SA 4.0",
+
+   "dataset-owners": "Instituto Cervantes (IC), Universidad Nacional de Educación a Distancia (UNED)",
+
+   "agreement": "CONVENIO ENTRE EL INSTITUTO CERVANTES Y LA UNIVERSIDAD NACIONAL DE EDUCACIÓN A DISTANCIA PARA LA APLICACIÓN DEL «PROYECTO DE CREACIÓN DE UN CORPUS DIGITALIZADO DE TAREAS DE COMPRENSIÓN DE LECTURA PARA LA EVALUACIÓN DE LA COMPRENSIÓN EN SISTEMAS DE INTELIGENCIA ARTIFICIAL»",
+
+   "agreement-date": "25-05-2021",
+
+   "funding": "DeepInfo Project (AEI PID2021-127777OB-C22), UNED, Spain",
+
+   "contact": "anselmo@lsi.uned.es",
+
+   "exams": [
+
+       {
+
+           "level": "B2",
+
+           "examId": "B2_2013-11-22",
+
+           "exercises": [
+
+                {
+
+                   "exerciseID": "B2_2013-11-22_E2",
+
+                   "type": "matching",
+
+                   "instructions": "Usted va a leer cuatro textos en los que cuatro personas cuentan cuál fue el libro que más les influyó en\nsu infancia. Relacione las preguntas (7-16) con los textos (A, B, C o D).\nMarque las opciones elegidas en la Hoja de respuestas.",
+
+                   "num-questions": 10,
+
+                   "exercise": {
+
+                       "set1": [
+
+                           {
+
+                               "optionId": "A",
+
+                               "text": "PABLO\nCuando les digan que lo audiovisual es enemigo de la lectura, no hagan caso. A través del oído y de las imágenes se puede llegar a descubrir la literatura. Así fue en mi caso. La isla del tesoro, mi relato preferido desde los siete años hasta hoy, lo escuché primero en disco antes de leerlo. Y en uno de los tebeos que devoraba semanalmente con apetito insaciable, me encontré con el cuento El corazón delator, que sirvió de base a mi pasión de lector. Pero no convierto esas obras en fetiches de valor universal: si yo tuviese hoy aquella edad, seguro que me iniciaría en la literatura a través de algún juego de videoconsola. Solo una cosa es segura: los libros que nos enganchan en la infancia son los que nos gustan a nosotros, no a los educadores, porque leer es un vicio maravilloso, no una  virtuosa necesidad formativa.",
+
+                               "image-path": ""
+
+                           },
+
+                           {
+
+                               "optionId": "B",
+
+                               "text": "ÁNGEL\nLa serie de novelas que me enganchó a la ficción fue la de Tarzán. Debí de leerla con siete u ocho años. Cuando mi madre me apagaba la luz, yo encendía la linterna debajo de las sábanas para seguir leyendo, o bien esperaba hasta que sus pasos se alejaban y oía el televisor. Entonces salía sigilosamente al pasillo y me encerraba en el baño con mi libro.\nHasta donde me alcanza la memoria, la primera imagen narrativa fuerte que guardo de la serie es cuando la mona que va a adoptar a Tarzán lo encuentra y lo coge en brazos. Si la marca del buen narrador es ser capaz de encarnar un personaje o una emoción en una\nacción o una actitud que se grabe para siempre en los espíritus, está claro que, conmigo, el autor lo consiguió. Desde entonces, no he dejado de leer.",
+
+                               "image-path": ""
+
+                           },
+
+                           {
+
+                               "optionId": "C",
+
+                               "text": "JORGE\nHubo un libro en mi infancia que me produjo una vivísima impresión. Empecé a leerlo el día de mi primera comunión, a los siete años. Con los altibajos típicos de un acontecimiento excitante en el que puedes pasar muy fácilmente del júbilo exacerbado a la rabieta total, a media tarde escapé disgustado del bullicio del banquete familiar, me encerré en mi cuarto y me puse a leer un libro que me había traído un pariente. Se trataba de una versión extensa, en tapa dura, de La isla misteriosa, de Julio Verne. Seguí leyendo, sorprendido,\nintrigado, expectante y confuso, y cuando al cabo de un rato llamaron a la puerta del cuarto reclamando mi presencia, el disgusto se había desvanecido por completo, y solo tenía ganas de seguir con la lectura, pues la historia me había atrapado desde el principio. Ese\nfue mi primer y muy inesperado encuentro con la literatura.",
+
+                               "image-path": ""
+
+                           },
+
+                           {
+
+                               "optionId": "D",
+
+                               "text": "RAÚL\nEl primer libro que dejó un rastro indeleble en mí fue, sin el menor asomo de duda, El cartero del Rey, de Tagore. Tuve una madre con la sana costumbre de leerme en voz alta cuando yo era muy chico, y ese fue el libro que, aún recuerdo, me encantaba que me leyera una y otra vez cuando yo apenas había aprendido a leer. Todavía permanece, por otro lado, vívida en mí, la impresión que me causó la lectura de La vuelta al mundo en 80 días. Creo que su lectura marcó mi carácter viajero. Desde entonces supe que había un universo vasto y maravilloso que me aguardaba y en el que merecía la pena inmiscuirse. La lectura supuso, para el niño solitario y cerrado que yo era antes, la vía por la que podía conectarme con el mundo.",
+
+                               "image-path": ""
+
+                           }
+
+                       ],
+
+                       "set2": [
+
+                           {
+
+                               "optionId": 7,
+
+                               "text": "¿Quién dice que su primer libro se lo regaló un\nfamiliar?",
+
+                               "image-path": "",
+
+                               "set1-correct-match": "C"
+
+                           },
+
+                           {
+
+                               "optionId": 8,
+
+                               "text": "¿Quién dice que se inició en la literatura con una \ncolección?",
+
+                               "image-path": "",
+
+                               "set1-correct-match": "B"
+
+                           },
+
+                           {
+
+                               "optionId": 9,
+
+                               "text": "¿Quién dice que de pequeño solía leer a escondidas?",
+
+                               "image-path": "",
+
+                               "set1-correct-match": "B"
+
+                           },
+
+                           {
+
+                               "optionId": 10,
+
+                               "text": "¿Quién dice que el libro que más le influyó lo escuchó muchas veces?",
+
+                               "image-path": "",
+
+                               "set1-correct-match": "D"
+
+                           },
+
+                           {
+
+                               "optionId": 11,
+
+                               "text": "¿Quién se aficionó a la literatura en medio de una\n celebración?",
+
+                               "image-path": "",
+
+                               "set1-correct-match": "C"
+
+                           },
+
+                           {
+
+                               "optionId": 12,
+
+                               "text": "¿Quién dice que era un niño introvertido?",
+
+                               "image-path": "",
+
+                               "set1-correct-match": "D"
+
+                           },
+
+                           {
+
+                               "optionId": 13,
+
+                               "text": "¿Quién dice que el primer libro que leyó le enganchó desde las primeras páginas?",
+
+                               "image-path": "",
+
+                               "set1-correct-match": "C"
+
+                           },
+
+                           {
+
+                               "optionId": 14,
+
+                               "text": "¿Quién recuerda vivamente una escena de su historia favorita?",
+
+                               "image-path": "",
+
+                               "set1-correct-match": "B"
+
+                           },
+
+                           {
+
+                               "optionId": 15,
+
+                               "text": "¿Quién estaba enfadado cuando empezó a leer su primer libro?",
+
+                               "image-path": "",
+
+                               "set1-correct-match": "C"
+
+                           },
+
+                           {
+
+                               "optionId": 16,
+
+                               "text": "¿Quién se aficionó a la lectura a través de un cómic?",
+
+                               "image-path": "",
+
+                               "set1-correct-match": "A"
+
+                           }
+
+                       ]
+
+                   }
+
+               }
+
+           ]
+
+      
+
+       } 
+
+   ]
+
+}

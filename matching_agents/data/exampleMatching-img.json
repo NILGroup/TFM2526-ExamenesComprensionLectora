@@ -1,0 +1,249 @@
+{
+
+   "dataset-acronym": "IC-UNED-RC-ES",
+
+   "dataset-name": "IC-UNED Spanish Reading Comprehension",
+
+   "dataset-desc-es": "Corpus de las tareas de comprensión lectora contenidas en los exámenes creados por el Instituto Cervantes para la evaluación de estudiantes de español en diferentes niveles",
+
+   "dataset-desc-en": "Corpus of the reading comprehension tasks contained in the exams created by the Cervantes Institute for the evaluation of Spanish students at different levels",
+
+   "dataset-license": "CC BY-NC-SA 4.0",
+
+   "dataset-owners": "Instituto Cervantes (IC), Universidad Nacional de Educación a Distancia (UNED)",
+
+   "agreement": "CONVENIO ENTRE EL INSTITUTO CERVANTES Y LA UNIVERSIDAD NACIONAL DE EDUCACIÓN A DISTANCIA PARA LA APLICACIÓN DEL «PROYECTO DE CREACIÓN DE UN CORPUS DIGITALIZADO DE TAREAS DE COMPRENSIÓN DE LECTURA PARA LA EVALUACIÓN DE LA COMPRENSIÓN EN SISTEMAS DE INTELIGENCIA ARTIFICIAL»",
+
+   "agreement-date": "25-05-2021",
+
+   "funding": "DeepInfo Project (AEI PID2021-127777OB-C22), UNED, Spain",
+
+   "contact": "anselmo@lsi.uned.es",
+
+   "exams": [
+
+       {
+
+           "level": "A1",
+
+           "examId": "A1_2019-11-23",
+
+           "exercises": [
+
+                 {
+
+                   "exerciseID": "A1_2019-11-23_E3",
+
+                   "type": "matching",
+
+                   "instructions": "Usted va a leer una información sobre los cines de la ciudad. Tiene que relacionar los anuncios (A - J)\ncon los textos (del 12 al 17). Hay diez anuncios, incluido el ejemplo. Seleccione seis.\n \nTiene que marcar la opción elegida en la Hoja de respuestas.",
+
+                   "num-questions": 7,
+
+                   "exercise": {
+
+                       "set1": [
+
+                           {
+
+                               "optionId": "A",
+
+                               "text": "Cine Gran Vía\nCine de verano: Martes. 22 Hora: 18.30 h.\nPelícula: Picasso Exposición de fotografías: Picasso y el color.\nPrecio: 4 euros\nHorario: 20.30 h.",
+
+                               "image-path": ""
+
+                           },
+
+                           {
+
+                               "optionId": "B",
+
+                               "text": "Cine Bretón\nOctubre: Cine argentino. El programa empieza con una pelicula que cuenta la historia de\ncuatro policías que viven en Buenos Aires.\nHorario: 20 h.",
+
+                               "image-path": ""
+
+                           },
+
+                           {
+
+                               "optionId": "C",
+
+                               "text": "Cine Cervantes\nLos martes y los jueves, las películas son en versión original: inglés, francés, alemán y chino.\nHorario: 19.30 h. Venta de entradas: www.cinecervantes.es\n",
+
+                               "image-path": ""
+
+                           },
+
+                           {
+
+                               "optionId": "D",
+
+                               "text": "Cine Asturias\nPresentación de la nueva pelicula de Javier López. Una divertida historia que\ncuenta la vida de tres jóvenes muy simpáticos. Horario: 20 h y 22.30 h",
+
+                               "image-path": ""
+
+                           },
+
+                           {
+
+                               "optionId": "E",
+
+                               "text": "Cine Alcalá\nLa Escuela de Cine de  Madrid presenta seis películas de los estudiantes del curso superior.\nInformación: www.cinemadrid.es",
+
+                               "image-path": ""
+
+                           },
+
+                           {
+
+                               "optionId": "F",
+
+                               "text": "Cine Ayala \n\nEl próximo viernes podemos ver la película musical, Bailar toda la noche. Los actores cantan y bailan durante dos horas. Para toda la familia. Horario: 17 .30 h -19.30 h. ",
+
+                               "image-path": ""
+
+                           },
+
+                           {
+
+                               "optionId": "G",
+
+                               "text": "Cine Ramblas \nDe lunes a jueves: Precios especiales para estudiantes mayores de 18 años. Es necesario presentar el carné. \nHorario: 19 h. \nPrecio: 2 euros. ",
+
+                               "image-path": ""
+
+                           },
+
+                           {
+
+                               "optionId": "H",
+
+                               "text": "Cine Buñuel \nInformación: \nTodos los fines de semana, a las 11 h, películas para los más pequeños de la casa. Precios: \nDe 2 a 13 años: \n2 euros. \nDe 14 a 18 años: \n3 euros. \nMayores de 18 años: 5 euros. ",
+
+                               "image-path": ""
+
+                           },
+
+                           {
+
+                               "optionId": "I",
+
+                               "text": "Cine Paraíso \nPelículas clásicas en blanco y negro. \nEste domingo podemos ver la historia de amor de dos personas de diferente nacionalidad. Precio: 4 euros. ",
+
+                               "image-path": ""
+
+                           },
+
+                           {
+
+                               "optionId": "J",
+
+                               "text": "Cine Trueba \nPrograma especial de películas sobre la naturaleza. \nEl próximo miércoles, Los espacios naturales de Hispanoamérica, una película de Chile. Horario: 18 h. ",
+
+                               "image-path": ""
+
+                           }
+
+                       ],
+
+                       "set2": [
+
+                           {
+
+                               "optionId": 0,
+
+                               "text": "Me gusta mucho el arte, especialmente la pintura de artistas modernos. ",
+
+                               "image-path": "img/A1_2019-11-23_E3_set2_0.jpg",
+
+                               "set1-correct-match": "A"
+
+                           },
+
+                           {
+
+                               "optionId": 12,
+
+                               "text": "Normalmente, mis amigas y yo vamos al cine el miércoles porque es más barato. ",
+
+                               "image-path": "img/A1_2019-11-23_E3_set2_12.jpg",
+
+                               "set1-correct-match": "G"
+
+                           },
+
+                           {
+
+                               "optionId": 13,
+
+                               "text": "El sábado por la mañana, queremos ir al cine con nuestros hijos porque tenemos tiempo libre. ",
+
+                               "image-path": "img/A1_2019-11-23_E3_set2_13.jpg",
+
+                               "set1-correct-match": "H"
+
+                           },
+
+                           {
+
+                               "optionId": 14,
+
+                               "text": "En vacaciones vamos a la montaña para caminar y hacer fotografías de los árboles, de las plantas, del campo ... ",
+
+                               "image-path": "img/A1_2019-11-23_E3_set2_14.jpg",
+
+                               "set1-correct-match": "J"
+
+                           },
+
+                           {
+
+                               "optionId": 15,
+
+                               "text": "Yo prefiero ver una historia divertida, para reír; las películas de miedo no me gustan nada. ",
+
+                               "image-path": "img/A1_2019-11-23_E3_set2_15.jpg",
+
+                               "set1-correct-match": "D"
+
+                           },
+
+                           {
+
+                               "optionId": 16,
+
+                               "text": "Estudio en la Escuela Oficial de Idiomas. Siempre voy al cine para ver películas en otras lenguas. ",
+
+                               "image-path": "img/A1_2019-11-23_E3_set2_16.jpg",
+
+                               "set1-correct-match": "C"
+
+                           },
+
+                           {
+
+                               "optionId": 17,
+
+                               "text": "Me gusta mucho cantar, escuchar música y tocar el piano. ",
+
+                               "image-path": "img/A1_2019-11-23_E3_set2_17.jpg",
+
+                               "set1-correct-match": "F"
+
+                           }
+
+                       ]
+
+                   }
+
+               }
+
+           ]
+
+      
+
+       } 
+
+   ]
+
+}

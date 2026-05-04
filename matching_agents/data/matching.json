@@ -1,0 +1,624 @@
+{
+    "exams": [
+        {
+        	"level": "B2",
+            "examId": "B2_2013-08-23",
+            "exercises": [
+                {
+                    "exerciseID": "B2_2013-08-23_E2",
+                    "type": "matching",
+                    "instructions": "Usted va a leer cuatro textos en los que cuatro personas cuentan cómo crearon su empresa. Relacione las\npreguntas (7-16) con los textos (A, B, C y D).\nMarque las opciones elegidas en la Hoja de respuestas.",
+                    "num-questions": 10,
+                    "exercise": {
+                        "set1": [
+                            {
+                                "optionId": "A",
+                                "text": "EVA\nLa idea de emprender me rondaba por la cabeza desde mi etapa universitaria, cuando estuve a punto de crear una empresa de diseño de joyas con un compañero. Al terminar mis estudios, encontré trabajo en el sector de la comunicación. Aunque seguía con mi sueño en mente, no me atrevía a dar el salto y montar mi agencia. Pero varios años después, con un dinero que me prestó un familiar, monté Pidel a luna, una agencia especializada en el diseño, la produccióy nl a gestión de eventos empresariales e institucionales. Como me daba miedo que la agencia no funcionara bien, durante un año estuve compaginando mi actividad como autónoma con la de relaciones públicas en un hotel. Montar un negocio sin disponer de muchos recursos es un poco temerario, pero te empuja a pelear por sacar adelante tu proyecto, a estar siempre alerta buscando acuerdos de intercambios, colaboraciones...",
+                                "image-path": ""
+                            },
+                            {
+                                "optionId": "B",
+                                "text": "ANA\nEmpecé en este negocio hace 5 años, y ya he decorado 200 restaurantes. Tres son las claves de mi trayectoria: la producción y montaje integral de todos los complementos relacionados con un local, el hecho de terminar los proyectos a tiempo (una obviedad que no se suele cumplir en este sector), y unos diseños novedosos, inspirados en viajes y libros. Cuando surge un nuevo proyecto, lo que hago es contratar yo misma a los carpinteros, escultores y otros profesionales artísticos; y es que, cuando subcontratas, sufres mucho, ya que no sabes si hacen bien el trabajo hasta el final. Además, gasto poco en publicidad, puesto que nuestro trabajo se lo ofrecen a los restaurantes las propias marcas que los abastecen. Si un día lo que hago dejara de funcionar, tengo pensada una alternativa: una empresa online, Lafabricadeideas.com, centrada en el diseño de decorados teatrales.",
+                                "image-path": ""
+                            },
+                            {
+                                "optionId": "C",
+                                "text": "LUZ\nMi empresa es el fruto de una idea surgida en una reunión de compañeros de clase, en la cafetería de la facultad, cuando uno de ellos se quejó de que para traducir los prospectos los laboratorios farmacéuticos no contrataran médicos especialistas. Con uno de esos amigos fundé Lexus, una empresa de traducción médica, y a los tres meses ya trabajábamos para algunos laboratorios farmacéuticos. Pero mi espíritu luchador hizo que no me conformara con la simple traducción técnica, y decidí también ofrecer a nuestros clientes estrategias de marketing de impacto. Me había dado cuenta de que los proveedores del sector farmacéutico promocionaban un fármaco, pero no se\npreocupaban por rentabilizar al máximo la inversión de los clientes. Ante este problema, comenzamos a proponer a los clientes estrategias: tras una primera reunión con ellos para analizar sus objetivos y los mensajes que quieren transmitir, elaboramos propuestas concretas como, por ejemplo, un evento internacional avalado por sociedades médicas de prestigio.",
+                                "image-path": ""
+                            },
+                            {
+                                "optionId": "D",
+                                "text": "MAR\nAunque estudié Ingeniería informática, me dedico al mundo de la moda. Hace dos años estaba en paro y un día se me ocurrió crear un blog de moda y belleza en el que colgué un vídeo sobre cómo personalizar camisetas, un pequeño atrevimiento que solo confesé a mi marido. Este vídeo, al que siguieron muchos más, marcó mi futuro. Me gasté mis pequeños ahorros en una cámara y, gracias al apoyo de mis incondicionales seguidores, me he convertido en una bloguera famosa. Ahora me cuesta creer que mis vídeos lleven más de 40 millones de reproducciones en la red. No llamé a ninguna puerta, pero enseguida me ofrecieron colaborar en un programa de televisión y ser la imagen de distintas promociones. Sin embargo, soy consciente de que la fama es algo efímero, así que no he dejado de grabar mis vídeos caseros.",
+                                "image-path": ""
+                            }
+                        ],
+                        "set2": [
+                            {
+                                "optionId": 7,
+                                "text": "¿Quién dice que ahorra en promocionar su producto? ",
+                                "image-path": "",
+                                "set1-correct-match": "B"
+                            },
+                            {
+                                "optionId": 8,
+                                "text": "¿Quién dice que la escasez de dinero es un estímulo? ",
+                                "image-path": "",
+                                "set1-correct-match": "A"
+                            },
+                            {
+                                "optionId": 9,
+                                "text": "¿Quién dice que controla todas las fases de la creación del producto? ",
+                                "image-path": "",
+                                "set1-correct-match": "B"
+                            },
+                            {
+                                "optionId": 10,
+                                "text": "¿Quién dice que invirtió poco dinero cuando montó su empresa? ",
+                                "image-path": "",
+                                "set1-correct-match": "D"
+                            },
+                            {
+                                "optionId": 11,
+                                "text": "¿Quién se muestra asombrada ante el éxito obtenido? ",
+                                "image-path": "",
+                                "set1-correct-match": "D"
+                            },
+                            {
+                                "optionId": 12,
+                                "text": "¿Quién dice que le costó decidirse a trabajar por cuenta propia? \n",
+                                "image-path": "",
+                                "set1-correct-match": "A"
+                            },
+                            {
+                                "optionId": 13,
+                                "text": "¿Quién dice que se le ocurrió montar su actual empresa en su etapa universitaria? ",
+                                "image-path": "",
+                                "set1-correct-match": "C"
+                            },
+                            {
+                                "optionId": 14,
+                                "text": "¿Quién dice que en su negocio se respetan los plazos de entrega? ",
+                                "image-path": "",
+                                "set1-correct-match": "B"
+                            },
+                            {
+                                "optionId": 15,
+                                "text": "¿Quién dice que gracias a su forma de ser amplió el negocio? ",
+                                "image-path": "",
+                                "set1-correct-match": "C"
+                            },
+                            {
+                                "optionId": 16,
+                                "text": "¿Quién dice que un pariente la ayudó a crear su empresa? ",
+                                "image-path": "",
+                                "set1-correct-match": "A"
+                            }
+                        ]
+                    }
+                }
+            ]
+        },
+        {
+
+           "level": "B2",
+
+           "examId": "B2_2013-11-22",
+
+           "exercises": [
+
+                {
+
+                   "exerciseID": "B2_2013-11-22_E2",
+
+                   "type": "matching",
+
+                   "instructions": "Usted va a leer cuatro textos en los que cuatro personas cuentan cuál fue el libro que más les influyó en\nsu infancia. Relacione las preguntas (7-16) con los textos (A, B, C o D).\nMarque las opciones elegidas en la Hoja de respuestas.",
+
+                   "num-questions": 10,
+
+                   "exercise": {
+
+                       "set1": [
+
+                           {
+
+                               "optionId": "A",
+
+                               "text": "PABLO\nCuando les digan que lo audiovisual es enemigo de la lectura, no hagan caso. A través del oído y de las imágenes se puede llegar a descubrir la literatura. Así fue en mi caso. La isla del tesoro, mi relato preferido desde los siete años hasta hoy, lo escuché primero en disco antes de leerlo. Y en uno de los tebeos que devoraba semanalmente con apetito insaciable, me encontré con el cuento El corazón delator, que sirvió de base a mi pasión de lector. Pero no convierto esas obras en fetiches de valor universal: si yo tuviese hoy aquella edad, seguro que me iniciaría en la literatura a través de algún juego de videoconsola. Solo una cosa es segura: los libros que nos enganchan en la infancia son los que nos gustan a nosotros, no a los educadores, porque leer es un vicio maravilloso, no una  virtuosa necesidad formativa.",
+
+                               "image-path": ""
+
+                           },
+
+                           {
+
+                               "optionId": "B",
+
+                               "text": "ÁNGEL\nLa serie de novelas que me enganchó a la ficción fue la de Tarzán. Debí de leerla con siete u ocho años. Cuando mi madre me apagaba la luz, yo encendía la linterna debajo de las sábanas para seguir leyendo, o bien esperaba hasta que sus pasos se alejaban y oía el televisor. Entonces salía sigilosamente al pasillo y me encerraba en el baño con mi libro.\nHasta donde me alcanza la memoria, la primera imagen narrativa fuerte que guardo de la serie es cuando la mona que va a adoptar a Tarzán lo encuentra y lo coge en brazos. Si la marca del buen narrador es ser capaz de encarnar un personaje o una emoción en una\nacción o una actitud que se grabe para siempre en los espíritus, está claro que, conmigo, el autor lo consiguió. Desde entonces, no he dejado de leer.",
+
+                               "image-path": ""
+
+                           },
+
+                           {
+
+                               "optionId": "C",
+
+                               "text": "JORGE\nHubo un libro en mi infancia que me produjo una vivísima impresión. Empecé a leerlo el día de mi primera comunión, a los siete años. Con los altibajos típicos de un acontecimiento excitante en el que puedes pasar muy fácilmente del júbilo exacerbado a la rabieta total, a media tarde escapé disgustado del bullicio del banquete familiar, me encerré en mi cuarto y me puse a leer un libro que me había traído un pariente. Se trataba de una versión extensa, en tapa dura, de La isla misteriosa, de Julio Verne. Seguí leyendo, sorprendido,\nintrigado, expectante y confuso, y cuando al cabo de un rato llamaron a la puerta del cuarto reclamando mi presencia, el disgusto se había desvanecido por completo, y solo tenía ganas de seguir con la lectura, pues la historia me había atrapado desde el principio. Ese\nfue mi primer y muy inesperado encuentro con la literatura.",
+
+                               "image-path": ""
+
+                           },
+
+                           {
+
+                               "optionId": "D",
+
+                               "text": "RAÚL\nEl primer libro que dejó un rastro indeleble en mí fue, sin el menor asomo de duda, El cartero del Rey, de Tagore. Tuve una madre con la sana costumbre de leerme en voz alta cuando yo era muy chico, y ese fue el libro que, aún recuerdo, me encantaba que me leyera una y otra vez cuando yo apenas había aprendido a leer. Todavía permanece, por otro lado, vívida en mí, la impresión que me causó la lectura de La vuelta al mundo en 80 días. Creo que su lectura marcó mi carácter viajero. Desde entonces supe que había un universo vasto y maravilloso que me aguardaba y en el que merecía la pena inmiscuirse. La lectura supuso, para el niño solitario y cerrado que yo era antes, la vía por la que podía conectarme con el mundo.",
+
+                               "image-path": ""
+
+                           }
+
+                       ],
+
+                       "set2": [
+
+                           {
+
+                               "optionId": 7,
+
+                               "text": "¿Quién dice que su primer libro se lo regaló un\nfamiliar?",
+
+                               "image-path": "",
+
+                               "set1-correct-match": "C"
+
+                           },
+
+                           {
+
+                               "optionId": 8,
+
+                               "text": "¿Quién dice que se inició en la literatura con una \ncolección?",
+
+                               "image-path": "",
+
+                               "set1-correct-match": "B"
+
+                           },
+
+                           {
+
+                               "optionId": 9,
+
+                               "text": "¿Quién dice que de pequeño solía leer a escondidas?",
+
+                               "image-path": "",
+
+                               "set1-correct-match": "B"
+
+                           },
+
+                           {
+
+                               "optionId": 10,
+
+                               "text": "¿Quién dice que el libro que más le influyó lo escuchó muchas veces?",
+
+                               "image-path": "",
+
+                               "set1-correct-match": "D"
+
+                           },
+
+                           {
+
+                               "optionId": 11,
+
+                               "text": "¿Quién se aficionó a la literatura en medio de una\n celebración?",
+
+                               "image-path": "",
+
+                               "set1-correct-match": "C"
+
+                           },
+
+                           {
+
+                               "optionId": 12,
+
+                               "text": "¿Quién dice que era un niño introvertido?",
+
+                               "image-path": "",
+
+                               "set1-correct-match": "D"
+
+                           },
+
+                           {
+
+                               "optionId": 13,
+
+                               "text": "¿Quién dice que el primer libro que leyó le enganchó desde las primeras páginas?",
+
+                               "image-path": "",
+
+                               "set1-correct-match": "C"
+
+                           },
+
+                           {
+
+                               "optionId": 14,
+
+                               "text": "¿Quién recuerda vivamente una escena de su historia favorita?",
+
+                               "image-path": "",
+
+                               "set1-correct-match": "B"
+
+                           },
+
+                           {
+
+                               "optionId": 15,
+
+                               "text": "¿Quién estaba enfadado cuando empezó a leer su primer libro?",
+
+                               "image-path": "",
+
+                               "set1-correct-match": "C"
+
+                           },
+
+                           {
+
+                               "optionId": 16,
+
+                               "text": "¿Quién se aficionó a la lectura a través de un cómic?",
+
+                               "image-path": "",
+
+                               "set1-correct-match": "A"
+
+                           }
+
+                       ]
+
+                   }
+
+               },
+               {
+                    "exerciseID": "B1_2013-11-22_E1",
+                    "type": "matching",
+                    "instructions": "Usted va a leer seis enunciados que resumen los textos de algunos signos del horóscopo para la próxima semana y diez textos que corresponden a distintos signos. Relacione los enunciados (1-6) con los textos del horóscopo (A-J). HAY TRES TEXTOS QUE NO DEBE RELACIONAR. \nMarque las opciones elegidas en la Hoja de respuestas.",
+                    "num-questions": 7,
+                    "exercise": {
+                        "set1": [
+                            {
+                                "optionId": "A",
+                                "text": "Aries\nEsta semana tiene que cuidarse, se va a sentir mal: un poco cansado, ligeros dolores de cabeza, pequeñas molestias en el estómago. Necesita relajarse, beber mucho líquido y dormir ocho horas. \nMejor día de la semana: domingo.\nNúmero de la suerte: 8.",
+                                "image-path": ""
+                            },
+                            {
+                                "optionId": "B",
+                                "text": "Tauro\nUsted está pasando una época baja emocionalmente y eso se nota en su aspecto físico. Debería ir a un gimnasio, el ejercicio ayuda a mejorar la salud y a estar en forma. Si no es capaz de ir solo/a, llame a algún amigo/a y se sentirá mucho mejor. \nMejor día de la semana: sábado.\nNúmero de la suerte: 7.",
+                                "image-path": ""
+                            },
+                            {
+                                "optionId": "C",
+                                "text": "Géminis\n¡Enhorabuena! Usted va a tener una buena semana en la salud, en el trabajo, en la economía y en las relaciones con su familia. \nCon su pareja puede llegar a tener pequeñas discusiones. Si no tiene pareja todavía, no es el momento para una relación estable. \nMejor día de la semana: jueves.\nNúmero de la suerte: 5.",
+                                "image-path": ""
+                            },
+                            {
+                                "optionId": "D",
+                                "text": "Cáncer\n¡Felicidades! Usted va a recibir toda la energía positiva del sol y a vivir una semana increíble en la salud, el dinero, el trabajo y, especialmente, el amor. Esta semana alguien puede entrar en su vida y despertarle nuevas emociones.\nMejor día de la semana: viernes.\nNúmero de la suerte: 2.",
+                                "image-path": ""
+                            },
+                            {
+                                "optionId": "E",
+                                "text": "Leo\nLa suerte está cerca de usted. Si no juega a la lotería, es el momento de intentarlo. Su futuro profesional puede mejorar si dirige un buen equipo de trabajo. Buen momento para hacer un viaje de negocios.\nMejor día de la semana: lunes.\nNúmero de la suerte: 0.",
+                                "image-path": ""
+                            },
+                            {
+                                "optionId": "F",
+                                "text": "Virgo\n¿Está aburrido y no sabe qué hacer? Esta semana debería relajarse, leer ese libro que ha comprado y todavía no ha leído por falta de tiempo, escuchar su música favorita, preparar esa receta que tanto le gusta, llamar a sus amigos...\nMejor día de la semana: viernes.\nNúmero de la suerte: 1.",
+                                "image-path": ""
+                            },
+                            {
+                                "optionId": "G",
+                                "text": "Piscis\nÚltimamente está muy estresado/a y ha pensado dejar su empleo. Estudie con mucha atención esas ofertas que ha recibido porque es lo mejor en este momento. Tiene que ser optimista y no ponerse nervioso/a.\nMejor día de la semana: domingo.\nNúmero de la suerte: 3.",
+                                "image-path": ""
+                            },
+                            {
+                                "optionId": "H",
+                                "text": "Escorpio\nSemana un poco complicada. Usted va a sentirse nervioso, debe tomar una de las decisiones más importantes de su vida. Es importante escuchar la opinión de los padres y los consejos de las personas que están cerca de usted. ¡No está solo! \nMejor día de la semana: martes.\nNúmero de la suerte: 1.",
+                                "image-path": ""
+                            },
+                            {
+                                "optionId": "I",
+                                "text": "Sagitario\n¡Enhorabuena! Va a recibir una cantidad de dinero extra que usted no esperaba. Es el momento de realizar ese viaje maravilloso que usted siempre ha soñado, cambiar de coche o hacer una reforma en su casa. \nMejor día de la semana: miércoles.\nNúmero de la suerte: 4.",
+                                "image-path": ""
+                            },
+                            {
+                                "optionId": "J",
+                                "text": "Acuario\nBuena semana en lo profesional, va a tener éxito en sus negocios. En la salud, la familia o el amor, la situación es la habitual, sin grandes cambios.\nTiene que intentar evitar las compras innecesarias y no usar de forma exagerada las tarjetas de crédito.\nMejor día de la semana: sábado.\nNúmero de la suerte: 3.",
+                                "image-path": ""
+                            }
+                        ],
+                        "set2": [
+                            {
+                                "optionId": 0,
+                                "text": "Esta semana va a tener problemas de salud.",
+                                "image-path": "",
+                                "set1-correct-match": "A"
+                            },
+                            {
+                                "optionId": 1,
+                                "text": "Es un buen momento para cambiar de trabajo.",
+                                "image-path": "",
+                                "set1-correct-match": "G"
+                            },
+                            {
+                                "optionId": 2,
+                                "text": "Es bueno para usted hacer un poco de deporte.",
+                                "image-path": "",
+                                "set1-correct-match": "B"
+                            },
+                            {
+                                "optionId": 3,
+                                "text": "Debería escuchar a su familia con atención.",
+                                "image-path": "",
+                                "set1-correct-match": "H"
+                            },
+                            {
+                                "optionId": 4,
+                                "text": "Le recomiendan controlar sus gastos.",
+                                "image-path": "",
+                                "set1-correct-match": "J"
+                            },
+                            {
+                                "optionId": 5,
+                                "text": "Puede conocer a una persona muy especial.",
+                                "image-path": "",
+                                "set1-correct-match": "D"
+                            },
+                            {
+                                "optionId": 6,
+                                "text": "Le dan consejos para pasar su tiempo libre.",
+                                "image-path": "",
+                                "set1-correct-match": "F"
+                            }
+                        ]
+                    }
+                }
+
+           ]
+
+      
+
+       },
+       {
+
+           "level": "A1",
+
+           "examId": "A1_2019-11-23",
+
+           "exercises": [
+
+                 {
+
+                   "exerciseID": "A1_2019-11-23_E3",
+
+                   "type": "matching",
+
+                   "instructions": "Usted va a leer una información sobre los cines de la ciudad. Tiene que relacionar los anuncios (A - J)\ncon los textos (del 12 al 17). Hay diez anuncios, incluido el ejemplo. Seleccione seis.\n \nTiene que marcar la opción elegida en la Hoja de respuestas.",
+
+                   "num-questions": 7,
+
+                   "exercise": {
+
+                       "set1": [
+
+                           {
+
+                               "optionId": "A",
+
+                               "text": "Cine Gran Vía\nCine de verano: Martes. 22 Hora: 18.30 h.\nPelícula: Picasso Exposición de fotografías: Picasso y el color.\nPrecio: 4 euros\nHorario: 20.30 h.",
+
+                               "image-path": ""
+
+                           },
+
+                           {
+
+                               "optionId": "B",
+
+                               "text": "Cine Bretón\nOctubre: Cine argentino. El programa empieza con una pelicula que cuenta la historia de\ncuatro policías que viven en Buenos Aires.\nHorario: 20 h.",
+
+                               "image-path": ""
+
+                           },
+
+                           {
+
+                               "optionId": "C",
+
+                               "text": "Cine Cervantes\nLos martes y los jueves, las películas son en versión original: inglés, francés, alemán y chino.\nHorario: 19.30 h. Venta de entradas: www.cinecervantes.es\n",
+
+                               "image-path": ""
+
+                           },
+
+                           {
+
+                               "optionId": "D",
+
+                               "text": "Cine Asturias\nPresentación de la nueva pelicula de Javier López. Una divertida historia que\ncuenta la vida de tres jóvenes muy simpáticos. Horario: 20 h y 22.30 h",
+
+                               "image-path": ""
+
+                           },
+
+                           {
+
+                               "optionId": "E",
+
+                               "text": "Cine Alcalá\nLa Escuela de Cine de  Madrid presenta seis películas de los estudiantes del curso superior.\nInformación: www.cinemadrid.es",
+
+                               "image-path": ""
+
+                           },
+
+                           {
+
+                               "optionId": "F",
+
+                               "text": "Cine Ayala \n\nEl próximo viernes podemos ver la película musical, Bailar toda la noche. Los actores cantan y bailan durante dos horas. Para toda la familia. Horario: 17 .30 h -19.30 h. ",
+
+                               "image-path": ""
+
+                           },
+
+                           {
+
+                               "optionId": "G",
+
+                               "text": "Cine Ramblas \nDe lunes a jueves: Precios especiales para estudiantes mayores de 18 años. Es necesario presentar el carné. \nHorario: 19 h. \nPrecio: 2 euros. ",
+
+                               "image-path": ""
+
+                           },
+
+                           {
+
+                               "optionId": "H",
+
+                               "text": "Cine Buñuel \nInformación: \nTodos los fines de semana, a las 11 h, películas para los más pequeños de la casa. Precios: \nDe 2 a 13 años: \n2 euros. \nDe 14 a 18 años: \n3 euros. \nMayores de 18 años: 5 euros. ",
+
+                               "image-path": ""
+
+                           },
+
+                           {
+
+                               "optionId": "I",
+
+                               "text": "Cine Paraíso \nPelículas clásicas en blanco y negro. \nEste domingo podemos ver la historia de amor de dos personas de diferente nacionalidad. Precio: 4 euros. ",
+
+                               "image-path": ""
+
+                           },
+
+                           {
+
+                               "optionId": "J",
+
+                               "text": "Cine Trueba \nPrograma especial de películas sobre la naturaleza. \nEl próximo miércoles, Los espacios naturales de Hispanoamérica, una película de Chile. Horario: 18 h. ",
+
+                               "image-path": ""
+
+                           }
+
+                       ],
+
+                       "set2": [
+
+                           {
+
+                               "optionId": 0,
+
+                               "text": "Me gusta mucho el arte, especialmente la pintura de artistas modernos. ",
+
+                               "image-path": "img/A1_2019-11-23_E3_set2_0.jpg",
+
+                               "set1-correct-match": "A"
+
+                           },
+
+                           {
+
+                               "optionId": 12,
+
+                               "text": "Normalmente, mis amigas y yo vamos al cine el miércoles porque es más barato. ",
+
+                               "image-path": "img/A1_2019-11-23_E3_set2_12.jpg",
+
+                               "set1-correct-match": "G"
+
+                           },
+
+                           {
+
+                               "optionId": 13,
+
+                               "text": "El sábado por la mañana, queremos ir al cine con nuestros hijos porque tenemos tiempo libre. ",
+
+                               "image-path": "img/A1_2019-11-23_E3_set2_13.jpg",
+
+                               "set1-correct-match": "H"
+
+                           },
+
+                           {
+
+                               "optionId": 14,
+
+                               "text": "En vacaciones vamos a la montaña para caminar y hacer fotografías de los árboles, de las plantas, del campo ... ",
+
+                               "image-path": "img/A1_2019-11-23_E3_set2_14.jpg",
+
+                               "set1-correct-match": "J"
+
+                           },
+
+                           {
+
+                               "optionId": 15,
+
+                               "text": "Yo prefiero ver una historia divertida, para reír; las películas de miedo no me gustan nada. ",
+
+                               "image-path": "img/A1_2019-11-23_E3_set2_15.jpg",
+
+                               "set1-correct-match": "D"
+
+                           },
+
+                           {
+
+                               "optionId": 16,
+
+                               "text": "Estudio en la Escuela Oficial de Idiomas. Siempre voy al cine para ver películas en otras lenguas. ",
+
+                               "image-path": "img/A1_2019-11-23_E3_set2_16.jpg",
+
+                               "set1-correct-match": "C"
+
+                           },
+
+                           {
+
+                               "optionId": 17,
+
+                               "text": "Me gusta mucho cantar, escuchar música y tocar el piano. ",
+
+                               "image-path": "img/A1_2019-11-23_E3_set2_17.jpg",
+
+                               "set1-correct-match": "F"
+
+                           }
+
+                       ]
+
+                   }
+
+               }
+
+           ]
+
+      
+
+       }
+    ]
+}
