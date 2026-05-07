@@ -1,0 +1,3370 @@
+{
+  "dataset-acronym": "IC-UNED-RC-ES",
+  "dataset-name": "IC-UNED Spanish Reading Comprehension",
+  "dataset-desc-es": "Corpus de las tareas de comprensión lectora contenidas en los exámenes creados por el Instituto Cervantes para la evaluación de estudiantes de español en diferentes niveles",
+  "dataset-desc-en": "Corpus of the reading comprehension tasks contained in the exams created by the Cervantes Institute for the evaluation of Spanish students at different levels",
+  "dataset-license": "CC BY-NC-SA 4.0",
+  "dataset-owners": "Instituto Cervantes (IC), Universidad Nacional de Educación a Distancia (UNED)",
+  "agreement": "CONVENIO ENTRE EL INSTITUTO CERVANTES Y LA UNIVERSIDAD NACIONAL DE EDUCACIÓN A DISTANCIA PARA LA APLICACIÓN DEL «PROYECTO DE CREACIÓN DE UN CORPUS DIGITALIZADO DE TAREAS DE COMPRENSIÓN DE LECTURA PARA LA EVALUACIÓN DE LA COMPRENSIÓN EN SISTEMAS DE INTELIGENCIA ARTIFICIAL»",
+  "agreement-date": "25-05-2021",
+  "funding": "DeepInfo Project (AEI PID2021-127777OB-C22), UNED, Spain",
+  "contact": "anselmo@lsi.uned.es",
+  "exams": [
+    {
+      "level": "A1",
+      "examId": "A1_2010-11-19",
+      "exercises": [
+        {
+          "exerciseID": "A1_2010-11-19_E1",
+          "type": "multiple-choice",
+          "instructions": "Lea esta carta. A continuación hay 5 preguntas sobre ella. Usted debe seleccionar la\nopción correcta (A, B, C o D). \nDebe marcar la selección en la Hoja de respuestas.",
+          "exercise": {
+            "text": "Duerida ALicia -\n¿Qué tal estás? ¿Te gusta tu nuevo trabajo en Barcelona? Yo en Madrid\nestoy muy bien. Tengo que darte buenas noticias. La próxima semana voy a\nBarcelona con mi hija Celia, ¿ la recuerdas? Va a hacer este verano un curso\nsobre cine allí. El curso es de un mes y empieza el 15 de agosto. Sólo tiene clases\npor las mañanas, de nueve a una. Está muy contenta porque puede vistar los\nmonumentos de Gaudi, le encanta el arte.\nVoy a ir con Luis. Queremos estar con Celia durante la primera semana\nporque es la primera vez que viaja sola. Tengo muchas ganas de verte y visitar\nla ciudad contigo. Luis prefere ir a la playa porque a ál no le gusta mucho\ncaminar y quiere descansar unos días.\nHemos reservado un hotel muy cerca de tu casa, en el contro. Está al lado de un\nrestaurante nuevo muy caro. Hemos comido alll una vez ¿te acuerdas? Tiene\nuna terraza muy grande.\nLlegamos este sábado por la tarde. Vamos en nuestro coche porque el tren y el\nautobiús llegan muy larde. Y bueno, ya sabes que a mí no me qusta el avión.\nBueno, le llamo esta semana.\nUn abrazo, Marta.",
+            "questions": [
+              {
+                "questionId": "A1_2010-11-19_E1_Q1",
+                "text": "Marta va a viajar…",
+                "options": [
+                  {
+                    "optionId": "A",
+                    "text": "por trabajo."
+                  },
+                  {
+                    "optionId": "B",
+                    "text": "a Madrid."
+                  },
+                  {
+                    "optionId": "C",
+                    "text": "para estudiar."
+                  },
+                  {
+                    "optionId": "D",
+                    "text": "a Barcelona."
+                  }
+                ]
+              },
+              {
+                "questionId": "A1_2010-11-19_E1_Q2",
+                "text": "El curso…",
+                "options": [
+                  {
+                    "optionId": "A",
+                    "text": "dura una semana."
+                  },
+                  {
+                    "optionId": "B",
+                    "text": "es de cine"
+                  },
+                  {
+                    "optionId": "C",
+                    "text": "dura 15 días."
+                  },
+                  {
+                    "optionId": "D",
+                    "text": "es de arte."
+                  }
+                ]
+              },
+              {
+                "questionId": "A1_2010-11-19_E1_Q3",
+                "text": "Marta quiere.",
+                "options": [
+                  {
+                    "optionId": "A",
+                    "text": "viajar sola."
+                  },
+                  {
+                    "optionId": "B",
+                    "text": "visitar la ciudad."
+                  },
+                  {
+                    "optionId": "C",
+                    "text": "ir al a playa"
+                  },
+                  {
+                    "optionId": "D",
+                    "text": "descansar unos días."
+                  }
+                ]
+              },
+              {
+                "questionId": "A1_2010-11-19_E1_Q4",
+                "text": "El hotel…",
+                "options": [
+                  {
+                    "optionId": "A",
+                    "text": "está en el centro"
+                  },
+                  {
+                    "optionId": "B",
+                    "text": "es nuevo"
+                  },
+                  {
+                    "optionId": "C",
+                    "text": "tiene una terraza."
+                  },
+                  {
+                    "optionId": "D",
+                    "text": "es caro"
+                  }
+                ]
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "level": "A1",
+      "examId": "A1_Sample_Ines",
+      "exercises": [
+        {
+          "exerciseID": "A1_Sample_Ines_E1",
+          "type": "multiple-choice",
+          "instructions": "Usted va a leer un correo electrónico de Inés a un amigo. A continuación, tiene que leer las preguntas (de la 1 a la 5) y seleccionar la opción correcta (A, B o C).\nTiene que marcar la opción elegida en la Hoja de respuestas.",
+          "num-questions": 5,
+          "exercise": {
+            "text": "De: ines@mail.com\nPara: pedroizquierdo@hotmail.com\nNoticias\n\nHola, Pedro:\n¿Qué tal estás? ¿Tienes muchos exámenes finales? Yo ahora estudio bastante para tener buenas notas y unas buenas vacaciones.\nEn julio quiero trabajar porque necesito dinero para viajar en agosto. Quiero ir al norte de España con Marta. Primero, vamos a visitar San Sebastián porque tiene una playa muy bonita. Después Bilbao porque las fiestas empiezan el día 15 y queremos verlas. Luego vamos a Santander porque no la conocemos. Además, los tíos de Marta viven allí y no tenemos que ir a un hotel, podemos dormir en su casa.\nDe Madrid a San Sebastián vamos en tren, de allí a Bilbao y a Santander en autobús. En Santander queremos alquilar una moto para visitar los pueblos en el camino de vuelta a Madrid. Es divertido, ¿verdad?\nOtra cosa, el viernes es mi cumpleaños, pero voy a hacer la fiesta el sábado, ¿quieres venir? Necesito saberlo antes del jueves para llamar al restaurante. Ahora me voy, porque hoy ceno en casa de Marta y antes quiero comprar unas flores. Esta noche queremos ir a la discoteca.\nUn beso,\nInés",
+            "image-path": "",
+            "questions": [
+              {
+                "questionId": "A1_Sample_Ines_E1_Q1",
+                "text": "En este correo, Inés le cuenta a Pedro...",
+                "image-path": "",
+                "correct-option": "B",
+                "options": [
+                  {
+                    "optionId": "A",
+                    "text": "cuándo termina los exámenes.",
+                    "image-path": ""
+                  },
+                  {
+                    "optionId": "B",
+                    "text": "por qué quiere trabajar en verano.",
+                    "image-path": ""
+                  },
+                  {
+                    "optionId": "C",
+                    "text": "dónde va a ir de vacaciones en julio.",
+                    "image-path": ""
+                  }
+                ]
+              },
+              {
+                "questionId": "A1_Sample_Ines_E1_Q2",
+                "text": "En el texto se dice que...",
+                "image-path": "",
+                "correct-option": "C",
+                "options": [
+                  {
+                    "optionId": "A",
+                    "text": "las fiestas de San Sebastián son bonitas.",
+                    "image-path": ""
+                  },
+                  {
+                    "optionId": "B",
+                    "text": "la familia de Marta tiene un hotel en Santander.",
+                    "image-path": ""
+                  },
+                  {
+                    "optionId": "C",
+                    "text": "el 15 de agosto Inés va a estar en Bilbao.",
+                    "image-path": ""
+                  }
+                ]
+              },
+              {
+                "questionId": "A1_Sample_Ines_E1_Q3",
+                "text": "Inés y Marta van a ir de Santander a Madrid...",
+                "image-path": "",
+                "correct-option": "B",
+                "options": [
+                  {
+                    "optionId": "A",
+                    "text": "en coche.",
+                    "image-path": ""
+                  },
+                  {
+                    "optionId": "B",
+                    "text": "en moto.",
+                    "image-path": ""
+                  },
+                  {
+                    "optionId": "C",
+                    "text": "en autobús.",
+                    "image-path": ""
+                  }
+                ]
+              },
+              {
+                "questionId": "A1_Sample_Ines_E1_Q4",
+                "text": "La fiesta de cumpleaños de Inés es...",
+                "image-path": "",
+                "correct-option": "C",
+                "options": [
+                  {
+                    "optionId": "A",
+                    "text": "el jueves.",
+                    "image-path": ""
+                  },
+                  {
+                    "optionId": "B",
+                    "text": "el viernes.",
+                    "image-path": ""
+                  },
+                  {
+                    "optionId": "C",
+                    "text": "el sábado.",
+                    "image-path": ""
+                  }
+                ]
+              },
+              {
+                "questionId": "A1_Sample_Ines_E1_Q5",
+                "text": "¿Dónde es la fiesta de cumpleaños de Inés?",
+                "image-path": "",
+                "correct-option": "B",
+                "options": [
+                  {
+                    "optionId": "A",
+                    "text": "",
+                    "image-path": "img/A1_Sample_Ines_E1_Q5_A.png"
+                  },
+                  {
+                    "optionId": "B",
+                    "text": "",
+                    "image-path": "img/A1_Sample_Ines_E1_Q5_B.png"
+                  },
+                  {
+                    "optionId": "C",
+                    "text": "",
+                    "image-path": "img/A1_Sample_Ines_E1_Q5_C.png"
+                  }
+                ]
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "level": "A1",
+      "examId": "A1_Sample_Carol",
+      "exercises": [
+        {
+          "exerciseID": "A1_Sample_Carol_E1",
+          "type": "multiple-choice",
+          "instructions": "Usted va a leer un correo electrónico de Carolina a Lucía. A continuación, tiene que leer las preguntas (de la 1 a la 5) y seleccionar la opción correcta.",
+          "num-questions": 5,
+          "exercise": {
+            "text": "De: Carolina\nPara: Lucía\nAsunto: Compañeras de habitación\n\nHola, Lucía:\n\nEn la residencia universitaria me escriben para decirme que vamos a ser compañeras de habitación. Te escribo este correo para conocernos un poco.\n\nMe llamo Carolina, pero en mi familia y en la escuela todo el mundo me llama Carol. También yo voy a estudiar arquitectura en Salamanca. Estoy un poco nerviosa porque es la primera vez que vivo sin mis padres.\n\nMe gusta hacer deporte: correr por las mañanas, zumba y nadar en el mar o en la piscina. Prefiero en el mar, eso sí. No me gusta mucho comer carne, pero no soy vegetariana. Tengo alergia a la leche. Al principio soy un poco tímida, pero después soy habladora y abierta.\n\n¿Cómo vas a Salamanca? Yo voy en coche con mis padres. Hace poco que tengo el carné. Voy a conducir hasta Salamanca. La facultad está cerca de la residencia, al lado del centro. Si quieres, podemos ir juntas a pie el primer día de clase.\n\nNos vemos pronto,\nCarol",
+            "image-path": "",
+            "questions": [
+              {
+                "questionId": "A1_Sample_Carol_E1_Q1",
+                "text": "Carol y Lucía...",
+                "image-path": "",
+                "correct-option": "C",
+                "options": [
+                  {
+                    "optionId": "A",
+                    "text": "son amigas del colegio.",
+                    "image-path": ""
+                  },
+                  {
+                    "optionId": "B",
+                    "text": "ya son compañeras de habitación.",
+                    "image-path": ""
+                  },
+                  {
+                    "optionId": "C",
+                    "text": "van a compartir habitación.",
+                    "image-path": ""
+                  }
+                ]
+              },
+              {
+                "questionId": "A1_Sample_Carol_E1_Q2",
+                "text": "Lucía...",
+                "image-path": "",
+                "correct-option": "B",
+                "options": [
+                  {
+                    "optionId": "A",
+                    "text": "es de Salamanca.",
+                    "image-path": ""
+                  },
+                  {
+                    "optionId": "B",
+                    "text": "va a estudiar arquitectura.",
+                    "image-path": ""
+                  },
+                  {
+                    "optionId": "C",
+                    "text": "vive sin sus padres.",
+                    "image-path": ""
+                  }
+                ]
+              },
+              {
+                "questionId": "A1_Sample_Carol_E1_Q3",
+                "text": "Carol...",
+                "image-path": "",
+                "correct-option": "B",
+                "options": [
+                  {
+                    "optionId": "A",
+                    "text": "no come nunca carne.",
+                    "image-path": ""
+                  },
+                  {
+                    "optionId": "B",
+                    "text": "prefiere no comer carne.",
+                    "image-path": ""
+                  },
+                  {
+                    "optionId": "C",
+                    "text": "bebe mucha leche.",
+                    "image-path": ""
+                  }
+                ]
+              },
+              {
+                "questionId": "A1_Sample_Carol_E1_Q4",
+                "text": "Carol...",
+                "image-path": "",
+                "correct-option": "B",
+                "options": [
+                  {
+                    "optionId": "A",
+                    "text": "va en autobús a Salamanca.",
+                    "image-path": ""
+                  },
+                  {
+                    "optionId": "B",
+                    "text": "sabe conducir.",
+                    "image-path": ""
+                  },
+                  {
+                    "optionId": "C",
+                    "text": "va con Lucía a Salamanca.",
+                    "image-path": ""
+                  }
+                ]
+              },
+              {
+                "questionId": "A1_Sample_Carol_E1_Q5",
+                "text": "¿Cómo propone Carol ir a la facultad?",
+                "image-path": "",
+                "correct-option": "C",
+                "options": [
+                  {
+                    "optionId": "A",
+                    "text": "",
+                    "image-path": "img/A1_Sample_Carol_E1_Q5_A.png"
+                  },
+                  {
+                    "optionId": "B",
+                    "text": "",
+                    "image-path": "img/A1_Sample_Carol_E1_Q5_B.png"
+                  },
+                  {
+                    "optionId": "C",
+                    "text": "",
+                    "image-path": "img/A1_Sample_Carol_E1_Q5_C.png"
+                  }
+                ]
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "level": "A1",
+      "examId": "A1_Sample_Fran",
+      "exercises": [
+        {
+          "exerciseID": "A1_Sample_Fran_E1",
+          "type": "multiple-choice",
+          "instructions": "Usted va a leer un correo electrónico de Fran a un amigo. A continuación, debe leer las preguntas (de la 1 a la 5) y seleccionar la opción correcta (A, B, C o D).\nDebe marcar la selección en la Hoja de respuestas.",
+          "num-questions": 5,
+          "exercise": {
+            "text": "Para: emiliomail.com\nAsunto: Hola\n\nHola, Emilio:\n\n¿Qué tal? Yo estoy de vacaciones en Tazones, el pueblo de mi novia, en una casa en la playa. ¡Ya tengo trabajo! Empiezo en septiembre como profesor en un colegio de Ourense.\n\nEl colegio es privado y el director es el padre de Ángel. Voy a trabajar tres días de nueve a doce y dos de tres a cinco. Voy a enseñar a niños de once años y en primavera a los mayores.\n\nEl colegio está en el centro y yo vivo a las afueras, pero los autobuses funcionan bien, no necesito el coche. Además el mío está viejo y ya no se puede usar.\n\nTe invito a venir a Ourense, es una ciudad muy bonita. No hay playa, pero hay un río muy grande y unas piscinas naturales de agua caliente también en verano. Son muy conocidas y podemos ir en un tren turístico.\n\nBueno, voy a preparar la cena con mi novia y después vamos a tomar algo con unos amigos.\n\nPor cierto, si vienes en septiembre, podemos ir al concierto de guitarra de mi hermano.\n\nHasta pronto,\n\nFran",
+            "image-path": "",
+            "questions": [
+              {
+                "questionId": "A1_Sample_Fran_E1_Q1",
+                "text": "En este correo electrónico, Fran...",
+                "image-path": "",
+                "correct-option": "B",
+                "options": [
+                  {
+                    "optionId": "A",
+                    "text": "dice que va a ir de vacaciones.",
+                    "image-path": ""
+                  },
+                  {
+                    "optionId": "B",
+                    "text": "cuenta qué va a hacer en septiembre.",
+                    "image-path": ""
+                  },
+                  {
+                    "optionId": "C",
+                    "text": "describe cómo es Tazones.",
+                    "image-path": ""
+                  },
+                  {
+                    "optionId": "D",
+                    "text": "explica por qué está ahora en Ourense.",
+                    "image-path": ""
+                  }
+                ]
+              },
+              {
+                "questionId": "A1_Sample_Fran_E1_Q2",
+                "text": "En el texto se dice que...",
+                "image-path": "",
+                "correct-option": "D",
+                "options": [
+                  {
+                    "optionId": "A",
+                    "text": "el padre de Fran es director de un colegio.",
+                    "image-path": ""
+                  },
+                  {
+                    "optionId": "B",
+                    "text": "los alumnos de Fran tienen doce años.",
+                    "image-path": ""
+                  },
+                  {
+                    "optionId": "C",
+                    "text": "Fran va a empezar a trabajar en primavera.",
+                    "image-path": ""
+                  },
+                  {
+                    "optionId": "D",
+                    "text": "las clases de Fran son por la mañana y por la tarde.",
+                    "image-path": ""
+                  }
+                ]
+              },
+              {
+                "questionId": "A1_Sample_Fran_E1_Q3",
+                "text": "Fran dice a Emilio que...",
+                "image-path": "",
+                "correct-option": "D",
+                "options": [
+                  {
+                    "optionId": "A",
+                    "text": "el autobús llega tarde.",
+                    "image-path": ""
+                  },
+                  {
+                    "optionId": "B",
+                    "text": "su coche funciona bien.",
+                    "image-path": ""
+                  },
+                  {
+                    "optionId": "C",
+                    "text": "el colegio está cerca de su casa.",
+                    "image-path": ""
+                  },
+                  {
+                    "optionId": "D",
+                    "text": "el transporte público es bueno.",
+                    "image-path": ""
+                  }
+                ]
+              },
+              {
+                "questionId": "A1_Sample_Fran_E1_Q4",
+                "text": "Fran le cuenta a Emilio que su ciudad...",
+                "image-path": "",
+                "correct-option": "C",
+                "options": [
+                  {
+                    "optionId": "A",
+                    "text": "es bastante grande.",
+                    "image-path": ""
+                  },
+                  {
+                    "optionId": "B",
+                    "text": "está al lado del mar.",
+                    "image-path": ""
+                  },
+                  {
+                    "optionId": "C",
+                    "text": "tiene espacios naturales famosos.",
+                    "image-path": ""
+                  },
+                  {
+                    "optionId": "D",
+                    "text": "recibe muchos turistas en verano.",
+                    "image-path": ""
+                  }
+                ]
+              },
+              {
+                "questionId": "A1_Sample_Fran_E1_Q5",
+                "text": "¿Qué va a hacer Fran ahora?",
+                "image-path": "",
+                "correct-option": "A",
+                "options": [
+                  {
+                    "optionId": "A",
+                    "text": "",
+                    "image-path": "img/A1_Sample_Fran_E1_Q5_A.png"
+                  },
+                  {
+                    "optionId": "B",
+                    "text": "",
+                    "image-path": "img/A1_Sample_Fran_E1_Q5_B.png"
+                  },
+                  {
+                    "optionId": "C",
+                    "text": "",
+                    "image-path": "img/A1_Sample_Fran_E1_Q5_C.png"
+                  },
+                  {
+                    "optionId": "D",
+                    "text": "",
+                    "image-path": "img/A1_Sample_Fran_E1_Q5_D.png"
+                  }
+                ]
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "level": "A1",
+      "examId": "A1_Sample_Kaki",
+      "exercises": [
+        {
+          "exerciseID": "A1_Sample_Kaki_E1",
+          "type": "multiple-choice",
+          "instructions": "Usted va a leer un correo electrónico. A continuación tiene que leer las preguntas (de la 1 a la 5) y seleccionar la opción correcta (A, B o C).\nTiene que marcar la opción elegida en la Hoja de respuestas.",
+          "num-questions": 5,
+          "exercise": {
+            "text": "Para: luis@gmail.com\nAsunto: favor\n\nHola, Luis:\n\n¿Qué tal estás? ¡Cuánto tiempo sin escribirte!, ¿no? Mi vida sigue tan agitada como siempre. ¿Cómo está tu familia? Me imagino que tu niño está cada día más grande; espero quedar contigo un día para poder verlo, pero no puede ser este mes porque todos los fines de semana voy a estar de viaje.\n\n¿Cómo te va en el trabajo? Yo sigo en la misma empresa farmacéutica desde hace cuatro años; estoy muy contenta porque, desde hacer un año, soy mi propia jefa, pero cada vez tengo más trabajo y casi todos los fines de semana tengo alguna reunión.\n\nBueno, yo te escribo para pedirte un favor, como siempre. Mi hermano, que vive en Sudáfrica, viaja a Madrid para participar en un congreso de medicina. Pero no voy a poder recibirlo en el aeropuerto porque esta semana tenemos una reunión en La Coruña y no puedo pedir vacaciones para estar con él.\n\nLlega el próximo jueves y vas a reconocerlo fácilmente porque somos muy parecidos: es alto, moreno, fuerte, lleva gafas y barba.\n\nDime si puedo contar contigo. Espero tu respuesta. Un abrazo,\n\nKaki",
+            "image-path": "",
+            "questions": [
+              {
+                "questionId": "A1_Sample_Kaki_E1_Q1",
+                "text": "Kaki le escribe a Luis para...",
+                "image-path": "",
+                "correct-option": "B",
+                "options": [
+                  {
+                    "optionId": "A",
+                    "text": "hablarle de su familia.",
+                    "image-path": ""
+                  },
+                  {
+                    "optionId": "B",
+                    "text": "pedirle ayuda.",
+                    "image-path": ""
+                  },
+                  {
+                    "optionId": "C",
+                    "text": "invitarlo a un viaje.",
+                    "image-path": ""
+                  }
+                ]
+              },
+              {
+                "questionId": "A1_Sample_Kaki_E1_Q2",
+                "text": "Kaki, según este correo...",
+                "image-path": "",
+                "correct-option": "B",
+                "options": [
+                  {
+                    "optionId": "A",
+                    "text": "le escribe muchas veces a Luis.",
+                    "image-path": ""
+                  },
+                  {
+                    "optionId": "B",
+                    "text": "tiene mucho trabajo siempre.",
+                    "image-path": ""
+                  },
+                  {
+                    "optionId": "C",
+                    "text": "no encuentra un buen trabajo.",
+                    "image-path": ""
+                  }
+                ]
+              },
+              {
+                "questionId": "A1_Sample_Kaki_E1_Q3",
+                "text": "El hermano de Kaki...",
+                "image-path": "",
+                "correct-option": "A",
+                "options": [
+                  {
+                    "optionId": "A",
+                    "text": "asiste a un congreso en Madrid.",
+                    "image-path": ""
+                  },
+                  {
+                    "optionId": "B",
+                    "text": "desde hace años vive en La Coruña.",
+                    "image-path": ""
+                  },
+                  {
+                    "optionId": "C",
+                    "text": "tiene una reunión en La Coruña.",
+                    "image-path": ""
+                  }
+                ]
+              },
+              {
+                "questionId": "A1_Sample_Kaki_E1_Q4",
+                "text": "El hermano de Kaki llega en...",
+                "image-path": "",
+                "correct-option": "B",
+                "options": [
+                  {
+                    "optionId": "A",
+                    "text": "autobús.",
+                    "image-path": ""
+                  },
+                  {
+                    "optionId": "B",
+                    "text": "avión.",
+                    "image-path": ""
+                  },
+                  {
+                    "optionId": "C",
+                    "text": "coche.",
+                    "image-path": ""
+                  }
+                ]
+              },
+              {
+                "questionId": "A1_Sample_Kaki_E1_Q5",
+                "text": "El hermano de Kaki...",
+                "image-path": "",
+                "correct-option": "C",
+                "options": [
+                  {
+                    "optionId": "A",
+                    "text": "",
+                    "image-path": "img/A1_Sample_Kaki_E1_Q5_A.png"
+                  },
+                  {
+                    "optionId": "B",
+                    "text": "",
+                    "image-path": "img/A1_Sample_Kaki_E1_Q5_B.png"
+                  },
+                  {
+                    "optionId": "C",
+                    "text": "",
+                    "image-path": "img/A1_Sample_Kaki_E1_Q5_C.png"
+                  }
+                ]
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "level": "A1",
+      "examId": "A1_Sample_Susana",
+      "exercises": [
+        {
+          "exerciseID": "A1_Sample_Susana_E1",
+          "type": "multiple-choice",
+          "instructions": "Lea este correo electrónico. A continuación responda a 5 preguntas sobre él. Elija la respuesta correcta (A, B, C o D).\nMarque las opciones elegidas en la Hoja de respuestas.",
+          "num-questions": 5,
+          "exercise": {
+            "text": "Para: ana.garcia@yahoo.coman\nAsunto: Invitación: cena y fiesta\n\nHola, Ana:\n\nEsta noche voy a cenar en un restaurante mexicano con mis compañeros de clase y después vamos a salir de fiesta. ¿Quieres venir con nosotros? Mis compañeros son muy agradables y les gusta mucho bailar. Podemos pasarlo muy bien.\n¿Recuerdas al chico de ayer, el primo de Pablo? También va a venir; se llama Alberto y es muy simpático. Estudia español en Colombia y es del sur de Italia.\nEsta noche quiero estar muy guapa. No tengo dinero para comprarme los pantalones que me gustan, así que voy a ir a la cena con el vestido verde de mi hermana. ¿Qué te vas a poner tú?\nBueno, te veo a las nueve. Lo vamos a pasar muy bien, ya verás.\n\nUn abrazo,\n\nSusana",
+            "image-path": "",
+            "questions": [
+              {
+                "questionId": "A1_Sample_Susana_E1_Q1",
+                "text": "Susana envía el correo electrónico para...",
+                "image-path": "",
+                "correct-option": "B",
+                "options": [
+                  {
+                    "optionId": "A",
+                    "text": "salir de compras.",
+                    "image-path": ""
+                  },
+                  {
+                    "optionId": "B",
+                    "text": "invitar a Ana a salir con ella y con sus compañeros.",
+                    "image-path": ""
+                  },
+                  {
+                    "optionId": "C",
+                    "text": "pedir unos pantalones a Ana.",
+                    "image-path": ""
+                  },
+                  {
+                    "optionId": "D",
+                    "text": "contar a Ana que va a una fiesta con Pablo.",
+                    "image-path": ""
+                  }
+                ]
+              },
+              {
+                "questionId": "A1_Sample_Susana_E1_Q2",
+                "text": "Alberto es...",
+                "image-path": "",
+                "correct-option": "C",
+                "options": [
+                  {
+                    "optionId": "A",
+                    "text": "español.",
+                    "image-path": ""
+                  },
+                  {
+                    "optionId": "B",
+                    "text": "de Colombia.",
+                    "image-path": ""
+                  },
+                  {
+                    "optionId": "C",
+                    "text": "de Italia.",
+                    "image-path": ""
+                  },
+                  {
+                    "optionId": "D",
+                    "text": "mexicano.",
+                    "image-path": ""
+                  }
+                ]
+              },
+              {
+                "questionId": "A1_Sample_Susana_E1_Q3",
+                "text": "Es una cena...",
+                "image-path": "",
+                "correct-option": "A",
+                "options": [
+                  {
+                    "optionId": "A",
+                    "text": "de amigos.",
+                    "image-path": ""
+                  },
+                  {
+                    "optionId": "B",
+                    "text": "de trabajo.",
+                    "image-path": ""
+                  },
+                  {
+                    "optionId": "C",
+                    "text": "familiar.",
+                    "image-path": ""
+                  },
+                  {
+                    "optionId": "D",
+                    "text": "de cumpleaños.",
+                    "image-path": ""
+                  }
+                ]
+              },
+              {
+                "questionId": "A1_Sample_Susana_E1_Q4",
+                "text": "A la cena también va...",
+                "image-path": "",
+                "correct-option": "A",
+                "options": [
+                  {
+                    "optionId": "A",
+                    "text": "un chico italiano.",
+                    "image-path": ""
+                  },
+                  {
+                    "optionId": "B",
+                    "text": "el primo de Susana.",
+                    "image-path": ""
+                  },
+                  {
+                    "optionId": "C",
+                    "text": "un chico colombiano.",
+                    "image-path": ""
+                  },
+                  {
+                    "optionId": "D",
+                    "text": "la hermana de Susana.",
+                    "image-path": ""
+                  }
+                ]
+              },
+              {
+                "questionId": "A1_Sample_Susana_E1_Q5",
+                "text": "Susana va a llevar a la cena...",
+                "image-path": "",
+                "correct-option": "A",
+                "options": [
+                  {
+                    "optionId": "A",
+                    "text": "",
+                    "image-path": "img/A1_Sample_Susana_E1_Q5_A.png"
+                  },
+                  {
+                    "optionId": "B",
+                    "text": "",
+                    "image-path": "img/A1_Sample_Susana_E1_Q5_B.png"
+                  },
+                  {
+                    "optionId": "C",
+                    "text": "",
+                    "image-path": "img/A1_Sample_Susana_E1_Q5_C.png"
+                  },
+                  {
+                    "optionId": "D",
+                    "text": "",
+                    "image-path": "img/A1_Sample_Susana_E1_Q5_D.png"
+                  }
+                ]
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "level": "A1",
+      "examId": "A1_Sample_Pierre",
+      "exercises": [
+        {
+          "exerciseID": "A1_Sample_Pierre_E1",
+          "type": "multiple-choice",
+          "instructions": "Usted va a leer un correo electrónico. A continuación lea las preguntas (1-5) y seleccione la opción correcta (A, B, C o D).\nDebe marcar la selección en la Hoja de respuestas.",
+          "num-questions": 5,
+          "exercise": {
+            "text": "De: pierrelacroix@yahoo.com\nPara: maria.gonsalves@yahoo.com\n\n¡Hola María!\n\nTe escribo desde Málaga. Mi empresa necesita un informe sobre el turismo en el sur de España y voy a pasar un mes aquí. Es un trabajo difícil porque no hablo muy bien español y utilizo mucho el diccionario; pero la gente aquí es muy simpática y agradable.\n\n¡Tengo una idea! ¿Por qué no te vienes a pasar la última semana del mes conmigo? Volveré a Francia el día treinta de este mes. ¡Ah! Si quieres, puedes traer a tu pequeño perro, porque en este hotel admiten perros y gatos.\n\nMira, te cuento lo que hago cada día:\n\nVivo en un hotel que está a un minuto de la playa, y no muy lejos del centro de la ciudad. Es muy pequeño y muy agradable.\n\nPor las mañanas, me levanto a las ocho, desayuno en el hotel y, después, salgo a trabajar. Cada día visito una parte diferente de la costa; normalmente viajo en autobús porque no tengo coche. Estoy todo el día fuera y cuando vuelvo al hotel, escribo durante una hora en mi ordenador toda la información del día, la envío por correo electrónico a mi jefe en París y llamo por teléfono a mi casa.\n\nEspero tu respuesta, María; podemos divertirnos mucho. Un beso,\n\nPierre",
+            "image-path": "",
+            "questions": [
+              {
+                "questionId": "A1_Sample_Pierre_E1_Q1",
+                "text": "Pierre escribe un correo electrónico sobre...",
+                "image-path": "",
+                "correct-option": "D",
+                "options": [
+                  {
+                    "optionId": "A",
+                    "text": "sus vacaciones en la playa.",
+                    "image-path": ""
+                  },
+                  {
+                    "optionId": "B",
+                    "text": "su trabajo en Francia.",
+                    "image-path": ""
+                  },
+                  {
+                    "optionId": "C",
+                    "text": "su curso de español en Málaga.",
+                    "image-path": ""
+                  },
+                  {
+                    "optionId": "D",
+                    "text": "su trabajo en el sur de España.",
+                    "image-path": ""
+                  }
+                ]
+              },
+              {
+                "questionId": "A1_Sample_Pierre_E1_Q2",
+                "text": "El hotel de Pierre está...",
+                "image-path": "",
+                "correct-option": "A",
+                "options": [
+                  {
+                    "optionId": "A",
+                    "text": "al lado de la playa.",
+                    "image-path": ""
+                  },
+                  {
+                    "optionId": "B",
+                    "text": "lejos del mar.",
+                    "image-path": ""
+                  },
+                  {
+                    "optionId": "C",
+                    "text": "en el centro.",
+                    "image-path": ""
+                  },
+                  {
+                    "optionId": "D",
+                    "text": "fuera de la ciudad.",
+                    "image-path": ""
+                  }
+                ]
+              },
+              {
+                "questionId": "A1_Sample_Pierre_E1_Q3",
+                "text": "Pierre va a trabajar...",
+                "image-path": "",
+                "correct-option": "B",
+                "options": [
+                  {
+                    "optionId": "A",
+                    "text": "al mediodía.",
+                    "image-path": ""
+                  },
+                  {
+                    "optionId": "B",
+                    "text": "después de desayunar.",
+                    "image-path": ""
+                  },
+                  {
+                    "optionId": "C",
+                    "text": "cuando se levanta.",
+                    "image-path": ""
+                  },
+                  {
+                    "optionId": "D",
+                    "text": "antes de las ocho.",
+                    "image-path": ""
+                  }
+                ]
+              },
+              {
+                "questionId": "A1_Sample_Pierre_E1_Q4",
+                "text": "Pierre cuando vuelve al hotel escribe...",
+                "image-path": "",
+                "correct-option": "D",
+                "options": [
+                  {
+                    "optionId": "A",
+                    "text": "una carta a su amigo.",
+                    "image-path": ""
+                  },
+                  {
+                    "optionId": "B",
+                    "text": "una postal a su familia.",
+                    "image-path": ""
+                  },
+                  {
+                    "optionId": "C",
+                    "text": "un mensaje de móvil.",
+                    "image-path": ""
+                  },
+                  {
+                    "optionId": "D",
+                    "text": "un correo electrónico.",
+                    "image-path": ""
+                  }
+                ]
+              },
+              {
+                "questionId": "A1_Sample_Pierre_E1_Q5",
+                "text": "María, la amiga de Pierre, tiene...",
+                "image-path": "",
+                "correct-option": "A",
+                "options": [
+                  {
+                    "optionId": "A",
+                    "text": "",
+                    "image-path": "img/A1_Sample_Pierre_E1_Q5_A.png"
+                  },
+                  {
+                    "optionId": "B",
+                    "text": "",
+                    "image-path": "img/A1_Sample_Pierre_E1_Q5_B.png"
+                  },
+                  {
+                    "optionId": "C",
+                    "text": "",
+                    "image-path": "img/A1_Sample_Pierre_E1_Q5_C.png"
+                  },
+                  {
+                    "optionId": "D",
+                    "text": "",
+                    "image-path": "img/A1_Sample_Pierre_E1_Q5_D.png"
+                  }
+                ]
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "level": "A1",
+      "examId": "A1_2010-11-20",
+      "exercises": [
+        {
+          "exerciseID": "A1_2010-11-20_E1",
+          "type": "multiple-choice",
+          "instructions": "Lea este correo electrónico. A continuación responda a cinco preguntas sobre el texto.\n Elija la respuesta correcta [A, B, C o D).\n Debe marcar la selección en la Hoja de respuestas.",
+          "exercise": {
+            "text": "Para: Lorenzo@micso.it\nHola Luis:\n¿Cómo estás? ¿Qué tal la nueva casa? Seguro que tu mujer y tus hijos están muy felices con el cambio.\nYo ya estoy mejor de la pierna, ¡qué mala suerte rompérmela! El médico me ha dicho que en dos semanas ya puedo nadar otra vez.\nHoy he recibido tu carta con la invitación para la fiesta de ex estudiantes del instituto, muchas gracias. Me ha hecho mucha ilusión y claro que el sábado 14 del próximo mes voy a estar alli. Estoy muy contenta porque vamos a encontrarnos con los otros compañeros después de 20 años.\nLa verdad es que yo no veo a casi nadie del instituto, no me van a reconocer. Ya sabes que ahora tengo el pelo rubio y muy largo, y estoy más fuerte. Desde que hago deporte con mi marido y no como muchos dulces, me siento mucho mejor.\n¿Recuerdas a Cristina? El viernes me llamó por teléfono. Está muy contenta con su trabajo en la zapatería, cada día conoce a gente interesante y vende mucho. La próxima semana tiene vacaciones y se va a Ibiza a descansar. Continúa enamorada de Pedro y quiere saber si él también va a ir a la fiesta. Por favor, llámame al móvil y me lo dices.\nLuis, quiero pedirte un favor: lleva a la fiesta el reloj que te regalé el año pasado. Es que Cristina no quiere comprarle a su padre otra camisa por su cumpleaños y quiere ver tu reloj para ver si le gusta para él.\nHablamos pronto, un abrazo,\nElena",
+            "questions": [
+              {
+                "questionId": "A1_2010-11-20_E1_Q1",
+                "text": "La fiesta es para…",
+                "options": [
+                  {
+                    "optionId": "A",
+                    "text": "enseñar su casa a sus amigos."
+                  },
+                  {
+                    "optionId": "B",
+                    "text": "conocer a la familia de un amigo."
+                  },
+                  {
+                    "optionId": "C",
+                    "text": "reunirse con antiguos compañeros"
+                  },
+                  {
+                    "optionId": "D",
+                    "text": "celebrar un cumpleaños."
+                  }
+                ]
+              },
+              {
+                "questionId": "A1_2010-11-20_E1_Q2",
+                "text": "La fiesta es",
+                "options": [
+                  {
+                    "optionId": "A",
+                    "text": "hoy."
+                  },
+                  {
+                    "optionId": "B",
+                    "text": "un sábado."
+                  },
+                  {
+                    "optionId": "C",
+                    "text": "un viernes."
+                  },
+                  {
+                    "optionId": "D",
+                    "text": "la próxima semana."
+                  }
+                ]
+              },
+              {
+                "questionId": "A1_2010-11-20_E1_Q3",
+                "text": "Elena…",
+                "options": [
+                  {
+                    "optionId": "A",
+                    "text": "se ha cambiado de casa."
+                  },
+                  {
+                    "optionId": "B",
+                    "text": "se ha roto una pierna."
+                  },
+                  {
+                    "optionId": "C",
+                    "text": "trabaja en una zapatería."
+                  },
+                  {
+                    "optionId": "D",
+                    "text": "va a tener vacaciones."
+                  }
+                ]
+              },
+              {
+                "questionId": "A1_2010-11-20_E1_Q4",
+                "text": "Elena ahora…",
+                "options": [
+                  {
+                    "optionId": "A",
+                    "text": "se ha cortado el pelo."
+                  },
+                  {
+                    "optionId": "B",
+                    "text": "come menos dulces."
+                  },
+                  {
+                    "optionId": "C",
+                    "text": "tiene un hijo"
+                  },
+                  {
+                    "optionId": "D",
+                    "text": "se siente triste."
+                  }
+                ]
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "level": "A1",
+      "examId": "A1_2011-11-18",
+      "exercises": [
+        {
+          "exerciseID": "A1_2011-11-18_E1",
+          "type": "multiple-choice",
+          "instructions": "Usted va a leer un correo electrónico de Cristina a su amiga Susana. A continuación lea\nlas preguntas (1-5) y seleccione la opción correcta [A, B, C o D).\nDebe marcar la selección en la Hoja de respuestas.",
+          "exercise": {
+            "text": "email para: Susana@lahoo.com \n; Asunto: Hola...\nHola Susana:\n¿Qué tal? Mira, te escribo porque este fin de semana Alberto y yo vamos a ir a Segovia. ¿Quieres \nvenir con nosotros? \nEstá muy cerca de Madrid y es una ciudad muy bonita. Vamos a salir el\n viernes después de comer porque no tenemos que trabajar por la tarde. Tú tampoco, ¿verdad?\nBueno, te explico mi plan:\nEl viernes por la tarde hay un concierto de guitarra a las 20 h en el teatro Liceo y tengo dos \nentradas pero Alberto no quiere ir, prefiere visitar una exposición de libros antiguos. Después del \nconcierto, podemos ir de fiesta los tres, ¿qué te parece?\nEl sábado, el plan es ir de excursión a la montaña para caminar, tomar el sol... Podemos llevar\nunos bocadillos y comer allí. Por la noche, vamos a cenar en un restaurante típico. ¿Te acuerdas\nde María, mi mejor amiga de la universidad? Ella vive ahora en Segovia y quiere venir con\nnosotros.\nEl domingo, a las 9 de la mañana tenemos una visita turistica: los museos, la catedral... No\npodemos comer en Segovia porque, por la tarde, tengo que ir a la fiesta de cumpleaños de mi\nabuelo.\n¿Te gusta el plan? Escríbeme. Un beso,\nCristina",
+            "questions": [
+              {
+                "questionId": "A1_2011-11-18_E1_Q1",
+                "text": "Alberto y Cristina van a Segovia…",
+                "options": [
+                  {
+                    "optionId": "A",
+                    "text": "a las 20h."
+                  },
+                  {
+                    "optionId": "B",
+                    "text": "por la mañana."
+                  },
+                  {
+                    "optionId": "C",
+                    "text": "este fin de semana."
+                  },
+                  {
+                    "optionId": "D",
+                    "text": "el fin de semana que viene."
+                  }
+                ]
+              },
+              {
+                "questionId": "A1_2011-11-18_E1_Q2",
+                "text": "Cristina quiere…",
+                "options": [
+                  {
+                    "optionId": "A",
+                    "text": "ir al cine."
+                  },
+                  {
+                    "optionId": "B",
+                    "text": "comprar libros antiguos."
+                  },
+                  {
+                    "optionId": "C",
+                    "text": "ver una obra de teatro"
+                  },
+                  {
+                    "optionId": "D",
+                    "text": "escuchar música."
+                  }
+                ]
+              },
+              {
+                "questionId": "A1_2011-11-18_E1_Q3",
+                "text": "El sábado, Alberto y Cristina van a",
+                "options": [
+                  {
+                    "optionId": "A",
+                    "text": "comer en el campo."
+                  },
+                  {
+                    "optionId": "B",
+                    "text": "visitar la universidad."
+                  },
+                  {
+                    "optionId": "C",
+                    "text": "ir de fiesta."
+                  },
+                  {
+                    "optionId": "D",
+                    "text": "cenar en casa de María."
+                  }
+                ]
+              },
+              {
+                "questionId": "A1_2011-11-18_E1_Q4",
+                "text": "El domingo, Alberto y Cristina quieren…",
+                "options": [
+                  {
+                    "optionId": "A",
+                    "text": "ver monumentos"
+                  },
+                  {
+                    "optionId": "B",
+                    "text": "comer en Segovia"
+                  },
+                  {
+                    "optionId": "C",
+                    "text": "salir tarde del hotel."
+                  },
+                  {
+                    "optionId": "D",
+                    "text": "levantarse a las nueve"
+                  }
+                ]
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "level": "A1",
+      "examId": "A1_2011-11-19",
+      "exercises": [
+        {
+          "exerciseID": "A1_2011-11-19_E1",
+          "type": "multiple-choice",
+          "instructions": "Usted va a leer un correo electrónico de Isabel a sus amigos. A continuación lea las\npreguntas [1-5) y seleccione la opción correcta (A, B, C o D).\n\nDebe marcar la selección en la Hoja de respuestas.",
+          "exercise": {
+            "text": "Para: Mis amigos\nAsunto: ¿Qué tal?\n¡Hola a todos!\n¿Qué tal? Ya sabéis que este sábado es el cumpleaños de mi hermana Teresa. ¡Estáis todos invitados, pero necesito vuestra ayuda! ¿Tenéis tiempo? ¿Qué me decís?\nOs cuento:\nQuiero organizar para ella una fiesta sorpresa en nuestra casa el viernes por la tarde.El sábado Teresa no está aquí porque va de excursión a Sevilla con sus compañeros de clase, por eso la fiesta tiene que ser el viernes.\nTeresa va al gimnasio todos los días de cinco a siete y después vuelve a casa; podemos esperarla allí, en casa, y hacer la fiesta a las ocho. Tenemos toda la casa para nosotros porque mis padres no regresan hasta las once de la noche porque esta semana tienen mucho trabajo. Una fiesta sin padres es más divertida, ¿no?\nEl miércoles quiero ir a comprar el regalo para Teresa, un CD de su cantante favorito, ella prefiere una cámara de fotos pero no puedo comprarla porque es muy cara. Mis padres le van a comprar un MP4 y su novio flores.\nBueno, si tenéis alguna idea más, me la podéis contar.\nBesos,\nIsabel",
+            "questions": [
+              {
+                "questionId": "A1_2011-11-19_E1_Q1",
+                "text": "El cumpleaños de Teresa es…",
+                "options": [
+                  {
+                    "optionId": "A",
+                    "text": "el sábado."
+                  },
+                  {
+                    "optionId": "B",
+                    "text": "el viernes que viene."
+                  },
+                  {
+                    "optionId": "C",
+                    "text": "el próximo mes."
+                  },
+                  {
+                    "optionId": "D",
+                    "text": "el miércoles."
+                  }
+                ]
+              },
+              {
+                "questionId": "A1_2011-11-19_E1_Q2",
+                "text": "El texto dice que Isabel quiere…",
+                "options": [
+                  {
+                    "optionId": "A",
+                    "text": "ir de excursión a Sevilla."
+                  },
+                  {
+                    "optionId": "B",
+                    "text": "ver a sus amigos el sábado."
+                  },
+                  {
+                    "optionId": "C",
+                    "text": "preparar una fiesta con sus amigos."
+                  },
+                  {
+                    "optionId": "D",
+                    "text": "ir al gimnasio el viernes."
+                  }
+                ]
+              },
+              {
+                "questionId": "A1_2011-11-19_E1_Q3",
+                "text": "La fiesta de cumpleaños empieza a las…",
+                "options": [
+                  {
+                    "optionId": "A",
+                    "text": "17 h."
+                  },
+                  {
+                    "optionId": "B",
+                    "text": "19 h."
+                  },
+                  {
+                    "optionId": "C",
+                    "text": "20 h."
+                  },
+                  {
+                    "optionId": "D",
+                    "text": "22 h."
+                  }
+                ]
+              },
+              {
+                "questionId": "A1_2011-11-19_E1_Q4",
+                "text": "Los padres de Isabel…",
+                "options": [
+                  {
+                    "optionId": "A",
+                    "text": "son muy divertidos."
+                  },
+                  {
+                    "optionId": "B",
+                    "text": "van a salir muy tarde del trabajo."
+                  },
+                  {
+                    "optionId": "C",
+                    "text": "están en casa por la tarde."
+                  },
+                  {
+                    "optionId": "D",
+                    "text": "quieren comprar el regalo el miércoles."
+                  }
+                ]
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "level": "A1",
+      "examId": "A1_2012-05-25",
+      "exercises": [
+        {
+          "exerciseID": "A1_2012-05-25_E1",
+          "type": "multiple-choice",
+          "instructions": "Usted va a leer un correo electrónico de Cristina a su amiga Elena. A continuación debe\nleer las preguntas [de la 1 a la 5) y seleccionarla opción correcta (A, B, C o D).\nDebe marcar la selección en la Hoja de respuestas.",
+          "exercise": {
+            "text": "Para: elena@mail.com\nAsunto: ¿quë tal?\nHola Elena:\n¿Qué tal por Sevilla? Yo estoy bien, pero un poco nerviosa porque tengo muchos exámenes. ¡Qué mal!\nOye, vienes en Navidades al pueblo, ¿verdad? Es que quiero organizar una cena para los amigos antes del día 24 de diciembre. Yo creo que el día 21, porque es sábado y mi novio está aquí. Él no puede el domingo por la tarde.\nMira, la cena va a ser en mi casa. Ahora tengo una casa nueva que es más grande. Por eso voy a hacer una fiesta y una cena especial. Tú sabes que me gusta mucho cocinar y preparo muy bien los pescados y las verduras.\nPor cierto, muchas gracias por tu regalo de cumpleaños. Es una falda muy bonita, me la pongo con una camisa y unos zapatos del mismo color. ¡Ah!, y con el bolso azul.\nTe mando una foto de las vacaciones; estamos las dos muy guapas, al lado del mar.\nYa sabes, estás invitada. Besos.\nCristina",
+            "questions": [
+              {
+                "questionId": "A1_2012-05-25_E1_Q1",
+                "text": "Cristina escribe un correo para…",
+                "options": [
+                  {
+                    "optionId": "A",
+                    "text": "describir su casa."
+                  },
+                  {
+                    "optionId": "B",
+                    "text": "contar que está mal."
+                  },
+                  {
+                    "optionId": "C",
+                    "text": "invitar a su amiga."
+                  },
+                  {
+                    "optionId": "D",
+                    "text": "hablar de los exámenes."
+                  }
+                ]
+              },
+              {
+                "questionId": "A1_2012-05-25_E1_Q2",
+                "text": "Cristina quiere ver a sus amigos…",
+                "options": [
+                  {
+                    "optionId": "A",
+                    "text": "el día de Navidad."
+                  },
+                  {
+                    "optionId": "B",
+                    "text": "el sábado, día 21."
+                  },
+                  {
+                    "optionId": "C",
+                    "text": "el 24 de diciembre."
+                  },
+                  {
+                    "optionId": "D",
+                    "text": "el domingo por la tarde."
+                  }
+                ]
+              },
+              {
+                "questionId": "A1_2012-05-25_E1_Q3",
+                "text": "En el texto se dice que…",
+                "options": [
+                  {
+                    "optionId": "A",
+                    "text": "Cristina es una buena cocinera."
+                  },
+                  {
+                    "optionId": "B",
+                    "text": "la casa de Cristina es pequeña."
+                  },
+                  {
+                    "optionId": "C",
+                    "text": "a Cristina no le gusta la verdura."
+                  },
+                  {
+                    "optionId": "D",
+                    "text": "Cristina va a cocinar con sus amigos."
+                  }
+                ]
+              },
+              {
+                "questionId": "A1_2012-05-25_E1_Q4",
+                "text": "El regalo de Cristina es…",
+                "options": [
+                  {
+                    "optionId": "A",
+                    "text": "un bolso."
+                  },
+                  {
+                    "optionId": "B",
+                    "text": "unos zapatos."
+                  },
+                  {
+                    "optionId": "C",
+                    "text": "una camisa."
+                  },
+                  {
+                    "optionId": "D",
+                    "text": "una falda."
+                  }
+                ]
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "level": "A1",
+      "examId": "A1_2012-11-09",
+      "exercises": [
+        {
+          "exerciseID": "A1_2012-11-09_E1",
+          "type": "multiple-choice",
+          "instructions": "Usted va a leer un correo electrónico de Eva a sus padres. A continuación, debe leer las preguntas (de la 1 a la 5) y seleccionar la opción correcta (A, B, C o D}.\nDebe marcar la selección en la Hoja de respuestas",
+          "exercise": {
+            "text": "email para: martin@hotmail.com, carmen@hotmail.com\nAsunto: Saludos\nHola a los dos: \n¿Qué tal? Yo estoy bien, ya tengo muchos amigos y no estoy triste como antes. Aquí hace mucho -\nfrío y llueve todos los días, pero la casa tiene buena calefacción y no paso frío.\nEstoy muy contenta con mis clases, son geniales. Hay una cosa que no me gusta, no puedo ir a\nla universidad andando porque vivo lejos y la parada de autobús no está cerca de mi casa, por\n eso voy a alquilar una bicicleta la próxima semana.\nEn abril, después de los exámenes, tengo una semana de vacaciones. Mis amigos y yo\nqueremos ir a Granada para visitar la ciudad y sus monumentos. En las montañas de Granada\n \nse puede esquiar, pero ahora no hay nieve. ¡Ah!, vamos a ir en coche y a dormir en un camping porque los hoteles son caros.\n\nBueno, ahora me voy de compras. Necesito un bolso nuevo porque el que tengo es pequeño y\nno puedo meter el ordenador y los libros.\n\nOs llamo el domingo al móvil. Un beso grande,\nEva",
+            "questions": [
+              {
+                "questionId": "A1_2012-11-09_E1_Q1",
+                "text": "Eva escribe el correo a sus padres para…",
+                "options": [
+                  {
+                    "optionId": "A",
+                    "text": "informar del horario de clases."
+                  },
+                  {
+                    "optionId": "B",
+                    "text": "decir cuándo son los exámenes."
+                  },
+                  {
+                    "optionId": "C",
+                    "text": "hablar de sus próximas vacaciones."
+                  },
+                  {
+                    "optionId": "D",
+                    "text": "explicar lo que hace cada día."
+                  }
+                ]
+              },
+              {
+                "questionId": "A1_2012-11-09_E1_Q2",
+                "text": "En el texto se dice que…",
+                "options": [
+                  {
+                    "optionId": "A",
+                    "text": "Eva se siente triste."
+                  },
+                  {
+                    "optionId": "B",
+                    "text": "el tiempo es malo."
+                  },
+                  {
+                    "optionId": "C",
+                    "text": "la casa no tiene calefacción."
+                  },
+                  {
+                    "optionId": "D",
+                    "text": "los amigos de Eva son buenos."
+                  }
+                ]
+              },
+              {
+                "questionId": "A1_2012-11-09_E1_Q3",
+                "text": "Eva cuenta a sus padres que…",
+                "options": [
+                  {
+                    "optionId": "A",
+                    "text": "vive cerca de la universidad."
+                  },
+                  {
+                    "optionId": "B",
+                    "text": "va a clase en autobús."
+                  },
+                  {
+                    "optionId": "C",
+                    "text": "le gustan las clases."
+                  },
+                  {
+                    "optionId": "D",
+                    "text": "tiene una bicicleta nueva."
+                  }
+                ]
+              },
+              {
+                "questionId": "A1_2012-11-09_E1_Q4",
+                "text": "Según el texto, Eva y sus amigos…",
+                "options": [
+                  {
+                    "optionId": "A",
+                    "text": "van a viajar en coche."
+                  },
+                  {
+                    "optionId": "B",
+                    "text": "quieren ir a un hotel."
+                  },
+                  {
+                    "optionId": "C",
+                    "text": "van a esquiar en vacaciones."
+                  },
+                  {
+                    "optionId": "D",
+                    "text": "prefieren ir a la montaña en abril."
+                  }
+                ]
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "level": "A1",
+      "examId": "A1_2013-05-24",
+      "exercises": [
+        {
+          "exerciseID": "A1_2013-05-24_E1",
+          "type": "multiple-choice",
+          "instructions": "Usted va a leer un correo electrónico de Andrés a un amigo. A continuacion, debe leer las\npreguntas [de la 1 a la 5) y seleccionar la opción correcta [A, B, C o D).\nDebe marcar la selección en la Hoja de respuestas.",
+          "exercise": {
+            "text": "Para: juan@gmail.com\nAsunto: Saludos desde Londres.\nHola, Juan:\n¿Qué tal? Yo estoy muy bien aquí en Londres, pero muy ocupado con esto del cambio de país, idioma..\nYa sabes que aquí vivo con una familia. Todos son muy simpáticos y estoy contento de estar aquí. Hay dos niños pequeños que dicen que soy su\nhermano mayor. La casa no es muy céntrica, está a 5 km de la ciudad, pero al lado de la universidad.\nTengo una habitación bonita pero no tiene mucha luz porque la ventana no da al jardín. Mi cama es cómoda, pero no muy grande, también hay un armario y al lado una mesa para estudiar.\nOtra cosa: mis padres vienen el próximo mes y mi novia en junio. Ellos van a estar en un hotel cerca de la casa, ¿quieres venir tú también?\nYa termino, es que voy a ayudar al niño de la familia a hacer los deberes antes de cenar y luego quiero ducharme. Normalmente, aquí se cena a las seis, por eso tengo mucho tiempo para estudiar antes de acostarme.\nBueno Juan, mañana hablamos por WhatsApp y te cuento más.\nAndrés",
+            "questions": [
+              {
+                "questionId": "A1_2013-05-24_E1_Q1",
+                "text": "Eneste correo electrónico, Andrés…",
+                "options": [
+                  {
+                    "optionId": "A",
+                    "text": "explica por qué estudia inglés."
+                  },
+                  {
+                    "optionId": "B",
+                    "text": "dice que va ir a Londres."
+                  },
+                  {
+                    "optionId": "C",
+                    "text": "describe el lugar donde vive."
+                  },
+                  {
+                    "optionId": "D",
+                    "text": "cuenta qué hace su familia."
+                  }
+                ]
+              },
+              {
+                "questionId": "A1_2013-05-24_E1_Q2",
+                "text": "En el texto se dice que…",
+                "options": [
+                  {
+                    "optionId": "A",
+                    "text": "la familia vive fuera de la ciudad."
+                  },
+                  {
+                    "optionId": "B",
+                    "text": "Andrés tiene dos hermanos."
+                  },
+                  {
+                    "optionId": "C",
+                    "text": "la universidad está en el centro"
+                  },
+                  {
+                    "optionId": "D",
+                    "text": "los niños están contentos"
+                  }
+                ]
+              },
+              {
+                "questionId": "A1_2013-05-24_E1_Q3",
+                "text": "Andrés dice a Juan que…",
+                "options": [
+                  {
+                    "optionId": "A",
+                    "text": "su habitación está al lado del jardín."
+                  },
+                  {
+                    "optionId": "B",
+                    "text": "la mesa de estudio es grande."
+                  },
+                  {
+                    "optionId": "C",
+                    "text": "el armario es de color blanco."
+                  },
+                  {
+                    "optionId": "D",
+                    "text": "la cama es un poco pequeña."
+                  }
+                ]
+              },
+              {
+                "questionId": "A1_2013-05-24_E1_Q4",
+                "text": "En el texto se dice que…",
+                "options": [
+                  {
+                    "optionId": "A",
+                    "text": "Juan va a ir a ver a Andrés."
+                  },
+                  {
+                    "optionId": "B",
+                    "text": "los padres de Andrés van a visitarlo en junio."
+                  },
+                  {
+                    "optionId": "C",
+                    "text": "la novia de Andrés va a estar en un hotel."
+                  },
+                  {
+                    "optionId": "D",
+                    "text": "Andrés quiere viajar con Juan."
+                  }
+                ]
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "level": "A1",
+      "examId": "A1_2013-11-23",
+      "exercises": [
+        {
+          "exerciseID": "A1_2013-11-23_E1",
+          "type": "multiple-choice",
+          "instructions": "Usted va a leer un correo electrónico de Carmen a una amiga. A continuación, debe leer las preguntas (de\nla 1 ala5) y seleccionar la opción correcta (a, b, c o d).\nDebe marcar la selección en la Hoja de respuestas.",
+          "exercise": {
+            "text": "Para: liasanchez@hotmail.com\nAunto: Noticias\nHola, Lia:\n¿Qué tal? Por fin, tengo tiempo para contarte algunas cosas. Pero antes quiero invitarte a cenar en mi casa el próximo sábado. Es que estoy muy contenta porque desde el martes ya vivo en mi casa nueva. Por eso quiero invitar a todos mis amigos.\nLa casa tiene cuatro dormitorios y dos baños, una sala que da al jardín y que tiene mucha luz, una cocina muy moderna y un estudio que es mi oficina. Lo que menos me gusta es el garaje porque es pequeño y no hay espacio para dos coches.\nYa no vivo en el centro como antes, y por eso tengo que ir en coche a todas partes, como por ejemplo al supermercado. Pero estoy a cinco minutos del colegio de mis hijos y ellos van andando o en bicicleta.\nOye, Lía, todavía no sé qué hacer para cenar el sábado: ¿carne o pescado? ¿Tú qué prefieres? Mi madre va a hacer una ensalada y mi hermana unas tortillas de patata y una tarta de chocolate, que es su especialidad.\n¡Ah!, otra noticia: tengo un perro, se llama Oso. Te va a gustar mucho. Es muy bonito, de color negro y marrón, y solo tiene cuatro meses.\nEspero tu respuesta.\nUn beso,\nCarmen",
+            "questions": [
+              {
+                "questionId": "A1_2013-11-23_E1_Q1",
+                "text": "En este correo electrónico, Carmen…",
+                "options": [
+                  {
+                    "optionId": "A",
+                    "text": "explica por qué tiene tiempo ahora."
+                  },
+                  {
+                    "optionId": "B",
+                    "text": "quiere invitar a Lía el martes."
+                  },
+                  {
+                    "optionId": "C",
+                    "text": "cuenta por qué está feliz."
+                  },
+                  {
+                    "optionId": "D",
+                    "text": "dice que se va a cambiar de casa."
+                  }
+                ]
+              },
+              {
+                "questionId": "A1_2013-11-23_E1_Q2",
+                "text": "En el texto se dice que la casa tiene…",
+                "options": [
+                  {
+                    "optionId": "A",
+                    "text": "una cocina con mucha luz."
+                  },
+                  {
+                    "optionId": "B",
+                    "text": "un jardín cerca de la cocina."
+                  },
+                  {
+                    "optionId": "C",
+                    "text": "una habitación para trabajar."
+                  },
+                  {
+                    "optionId": "D",
+                    "text": "un garaje para dos coches."
+                  }
+                ]
+              },
+              {
+                "questionId": "A1_2013-11-23_E1_Q3",
+                "text": "Carmen le cuenta a Lía que…",
+                "options": [
+                  {
+                    "optionId": "A",
+                    "text": "la casa está cerca del centro."
+                  },
+                  {
+                    "optionId": "B",
+                    "text": "la escuela de sus hijos está cerca."
+                  },
+                  {
+                    "optionId": "C",
+                    "text": "sus hijos usan mucho el coche."
+                  },
+                  {
+                    "optionId": "D",
+                    "text": "ella va al supermercado en bici."
+                  }
+                ]
+              },
+              {
+                "questionId": "A1_2013-11-23_E1_Q4",
+                "text": "Para la cena, la madre de Carmen va a preparar…",
+                "options": [
+                  {
+                    "optionId": "A",
+                    "text": "la carne."
+                  },
+                  {
+                    "optionId": "B",
+                    "text": "la ensalada."
+                  },
+                  {
+                    "optionId": "C",
+                    "text": "las tortillas."
+                  },
+                  {
+                    "optionId": "D",
+                    "text": "el postre."
+                  }
+                ]
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "level": "A1",
+      "examId": "A1_2014-04-01",
+      "exercises": [
+        {
+          "exerciseID": "A1_2014-04-01_E1",
+          "type": "multiple-choice",
+          "instructions": "Vas a leer un correo que Andrea escribe a su amiga Natalia. A continuación tienes que leer las preguntas (de la 1 a la 5) y seleccionar la opción correcta (A, B o C).\nTienes que marcar la opción elegida en la Hoja de respuestas.",
+          "exercise": {
+            "text": "email para: leobc@gmail.com \n; Asunto: ¿Qué tal?; Hola, Yolanda:\nHola, Leo: \n¿Qué tal? Te escribo para decirte que no puedo ir contigo y con Paula a jugar al tenis el fin de semana. Tengo muchas cosas que hacer porque me voy a Zaragoza y vuelvo el lunes. \n¿Sabes que Paula quiere hacer una fiesta con todos los amigos para celebrar que se casa en julio? Tú y yo podemos prepararla porque ella está muy ocupada con las cosas de la boda, la nueva casa y el trabajo. ¿Qué te parece? \nPodemos ir a cenar al restaurante que está al lado del hotel de mis padres. Allí la comida es fantástica. Y luego vamos a bailar a una discoteca del centro. Es una buena idea, ¿no? Podemos llevar nuestros coches porque son grandes. \nOtra cosa, hay que pensar también el regalo. Mi hermana dice que todos los amigos podemos poner un dinero común y comprarle algo bonito. A mí me gusta mucho esta idea, ¿y a ti? Voy a mandar un correo a todos y se lo pregunto. \nUna última cosa, tienes que mirar en mi Facebook porque están tus fotos del concierto. Son perfectas, eres muy bueno con la cámara. Hay una muy divertida en la que yo canto. Me gusta mucho. \nOtra noticia, ¡ya tengo el carné de conducir de motos! \nRodrigo ",
+            "questions": [
+              {
+                "questionId": "A1_2014-04-01_E1_Q1",
+                "text": "En el correo, Rodrigo dice a Leo que…",
+                "options": [
+                  {
+                    "optionId": "A",
+                    "text": "va a ir con Paula a hacer deporte."
+                  },
+                  {
+                    "optionId": "B",
+                    "text": "va a viajar el fin de semana."
+                  },
+                  {
+                    "optionId": "C",
+                    "text": "no tiene tiempo para hacer deporte."
+                  },
+                  {
+                    "optionId": "D",
+                    "text": "se va a Zaragoza el lunes."
+                  }
+                ]
+              },
+              {
+                "questionId": "A1_2014-04-01_E1_Q2",
+                "text": "En el texto se dice que Rodrigo…",
+                "options": [
+                  {
+                    "optionId": "A",
+                    "text": "quiere organizar una fiesta."
+                  },
+                  {
+                    "optionId": "B",
+                    "text": "tiene una casa nueva."
+                  },
+                  {
+                    "optionId": "C",
+                    "text": "va a casarse en verano."
+                  },
+                  {
+                    "optionId": "D",
+                    "text": "tiene mucho trabajo."
+                  }
+                ]
+              },
+              {
+                "questionId": "A1_2014-04-01_E1_Q3",
+                "text": "Los padres de Rodrigo tienen…",
+                "options": [
+                  {
+                    "optionId": "A",
+                    "text": "un coche grande."
+                  },
+                  {
+                    "optionId": "B",
+                    "text": "un hotel."
+                  },
+                  {
+                    "optionId": "C",
+                    "text": "un restaurante."
+                  },
+                  {
+                    "optionId": "D",
+                    "text": "una discoteca."
+                  }
+                ]
+              },
+              {
+                "questionId": "A1_2014-04-01_E1_Q4",
+                "text": "Rodrigo le cuenta a Leo que…",
+                "options": [
+                  {
+                    "optionId": "A",
+                    "text": "tiene un regalo para Paula."
+                  },
+                  {
+                    "optionId": "B",
+                    "text": "quiere hablar con su hermana."
+                  },
+                  {
+                    "optionId": "C",
+                    "text": "está de acuerdo con él."
+                  },
+                  {
+                    "optionId": "D",
+                    "text": "va a escribir a los amigos."
+                  }
+                ]
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "level": "A2",
+      "examId": "A2_2010-05-22",
+      "exercises": [
+        {
+          "exerciseID": "A2_2010-05-22_E2",
+          "type": "multiple-choice",
+          "instructions": "Lea el correo electrónico que Beatriz le ha escrito a su amiga Ángela. A continuación, responda a las preguntas (8-12). Elija la respuesta correcta (A, B o C). \nMarque las opciones elegidas en la Hoja de respuestas.",
+          "exercise": {
+            "text": "Para: Ángela\nAsunto: RE: ¿Qué tal?\nYa veo que no has parado en toda la semana. ¡Qué bien vives!\nYo también he estado fuera un par de días y tengo una propuesta. ¿Te apetece venir a la final de la Copa de baloncesto femenina? Juega el Estudiantes, ¡mi equipo del alma!, contra el Gran Canaria, el próximo sábado en Barcelona. Yo tengo amigos allí; nos podemos quedaren su casa y ver la ciudad. ¿Qué te parece?\nEs que este fin de semana he estado en Bilbao. El Estudiantes jugaba la semifinal contra el Caja-Bilbao y, como tengo unos tíos que viven allí, me fui a ver el partido.\nMi primo Álvaro me ha enseñado Bilbao, y me ha encantado; he comido muchísimo y muy bien (¡mi tío cocina fenomenal!), y además ha hecho muy buen tiempo. Bueno, el cielo estaba un poco gris y hacía algo de viento, pero por lo menos no he tenido que usar el paraguas.\nEn resumen, todo fenomenal. ¡Ah!, y no te he contado lo más divertido. Antes del partido hicieron un concurso. El premio era una camiseta de cada equipo firmada por las jugadoras… iY gané yo! Me la dieron las jugadoras y salí en televisión. Ya he tenido mi minuto de fama.\nPero bueno, lo más importante es que ganamos. Ahora estamos en la final, y yo estoy feliz ¡Todavía no me lo creo! Podemos pasarlo muy bien en Barcelona. Anímate, y dime algo pronto, ¿vale? Besos,\nBeatriz",
+            "questions": [
+              {
+                "questionId": "A2_2010-05-22_E2_Q8",
+                "text": "Beatriz cuenta lo que hizo…",
+                "options": [
+                  {
+                    "optionId": "A",
+                    "text": "el fin de semana."
+                  },
+                  {
+                    "optionId": "B",
+                    "text": "la semana pasada."
+                  },
+                  {
+                    "optionId": "C",
+                    "text": "en vacaciones."
+                  }
+                ]
+              },
+              {
+                "questionId": "A2_2010-05-22_E2_Q9",
+                "text": "Beatriz fue a Bilbao para…",
+                "options": [
+                  {
+                    "optionId": "A",
+                    "text": "salir en la televisión."
+                  },
+                  {
+                    "optionId": "B",
+                    "text": "jugar un partido."
+                  },
+                  {
+                    "optionId": "C",
+                    "text": "ver y animar a su equipo."
+                  }
+                ]
+              },
+              {
+                "questionId": "A2_2010-05-22_E2_Q10",
+                "text": "En estos días de descanso, Beatriz…",
+                "options": [
+                  {
+                    "optionId": "A",
+                    "text": "ha estado con amigos."
+                  },
+                  {
+                    "optionId": "B",
+                    "text": "visitó a su familia."
+                  },
+                  {
+                    "optionId": "C",
+                    "text": "comió en un restaurante."
+                  }
+                ]
+              },
+              {
+                "questionId": "A2_2010-05-22_E2_Q11",
+                "text": "Cuando Beatriz estuvo en Bilbao…",
+                "options": [
+                  {
+                    "optionId": "A",
+                    "text": "estaba lloviendo."
+                  },
+                  {
+                    "optionId": "B",
+                    "text": "hacía mucho calor."
+                  },
+                  {
+                    "optionId": "C",
+                    "text": "hacía un poco de aire."
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "exerciseID": "A2_2010-05-22_E30.0",
+          "type": "multiple-choice",
+          "instructions": "A continuación le presentamos un texto. Conteste a las preguntas que se le hacen marcando la opción correcta.",
+          "exercise": {
+            "text": "¿Te gusta hacer deporte? Apúntate al nuevo equipo de fútbol femenino de la universidad. Necesitamos jugadoras de 18 a 25 años para todas las posiciones. Las pruebas de selección son este sábado a las 7 de la tarde en el pabellón municipal de Cáceres. Entrenamos los sábados por la mañana. Si te interesa, escribe a futbolclub@cmail.com",
+            "questions": [
+              {
+                "questionId": "A2_2010-05-22_E3_Q0",
+                "text": "En este anuncio buscan…",
+                "options": [
+                  {
+                    "optionId": "A",
+                    "text": "chicas para jugar al fútbol."
+                  },
+                  {
+                    "optionId": "B",
+                    "text": "un lugar donde hacer deporte."
+                  },
+                  {
+                    "optionId": "C",
+                    "text": "jugadoras profesionales."
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "exerciseID": "A2_2010-05-22_E31.0",
+          "type": "multiple-choice",
+          "instructions": "A continuación le presentamos un texto. Conteste a las preguntas que se le hacen marcando la opción correcta.",
+          "exercise": {
+            "text": "CEAA, CENTRO DE ESTUDIOS ANGLO-AMERICANOS\nEnseñanza de inglés desde 1975\n• Todos los niveles y edades.\n• Profesores nativos y cualificados.\n• Enseñanza individual o en grupos reducidos.\n• Flexibilidad absoluta. Tú decides semana a semana tu horario. \n• Cursos en empresas.\n• Preparación de exámenes de Cambridge.\n• Ofrecemos cursos en Irlanda. Niños, jóvenes y adultos. \nInformación en el centro CEAA de tu ciudad o en nuestra página\nwww.ceaa.com\nE-mail: ceaa@ceaa.es",
+            "questions": [
+              {
+                "questionId": "A2_2010-05-22_E3_Q13",
+                "text": "CEAA ofrece…",
+                "options": [
+                  {
+                    "optionId": "A",
+                    "text": "cursos por internet."
+                  },
+                  {
+                    "optionId": "B",
+                    "text": "clases con pocos alumnos."
+                  },
+                  {
+                    "optionId": "C",
+                    "text": "un certificado al final del curso."
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "exerciseID": "A2_2010-05-22_E32.0",
+          "type": "multiple-choice",
+          "instructions": "A continuación le presentamos un texto. Conteste a las preguntas que se le hacen marcando la opción correcta.",
+          "exercise": {
+            "text": "FESTILANDIA\n¿Quieres hacer algo especial para sorprender a tu hijo en su próximo cumpleaños? ¡Llámanos! Nosotros lo organizamos: la comida, la decoración, la música, las invitaciones… y todo lo necesario para hacer del cumpleaños de tu hijo un día mágico e irrepetible. \nNos adaptamos a cualquier espacio y a cualquier sugerencia, en cualquier lugar del ámbito nacional.\nPonte en contacto con nosotros llamando al 9573377266 o a través de nuestra página web www.festilandia.es.",
+            "questions": [
+              {
+                "questionId": "A2_2010-05-22_E3_Q14",
+                "text": "Festilandia…",
+                "options": [
+                  {
+                    "optionId": "A",
+                    "text": "organiza excursiones en autobús para niños."
+                  },
+                  {
+                    "optionId": "B",
+                    "text": "ofrece descuentos para grupos grandes."
+                  },
+                  {
+                    "optionId": "C",
+                    "text": "prepara fiestas de cumpleaños en cualquier local."
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "exerciseID": "A2_2010-05-22_E33.0",
+          "type": "multiple-choice",
+          "instructions": "A continuación le presentamos un texto. Conteste a las preguntas que se le hacen marcando la opción correcta.",
+          "exercise": {
+            "text": "BUSCAMOS COMPAÑERO/A DE PISO\nSe alquila habitación en piso compartido con chico y chica en Sevilla, c/Romeros. 170 euros al mes más gastos de luz, agua y gas (calefacción individual). A dos minutos de la parada del autobús que va al centro. Tiene Internet gratuito en las habitaciones. Pequeño supermercado al lado del portal.\nLlamar por las tardes de 5 a 9 al 6758499344. e-mail: compañero@hotmail.com.",
+            "questions": [
+              {
+                "questionId": "A2_2010-05-22_E3_Q15",
+                "text": "La habitación que se alquila…",
+                "options": [
+                  {
+                    "optionId": "A",
+                    "text": "está en el centro de la ciudad."
+                  },
+                  {
+                    "optionId": "B",
+                    "text": "incluye todos los gastos en el precio."
+                  },
+                  {
+                    "optionId": "C",
+                    "text": "tiene una tienda muy cerca."
+                  }
+                ]
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "level": "A2",
+      "examId": "A2_2015-11-21",
+      "exercises": [
+        {
+          "exerciseID": "A2_2015-11-21_E35.0",
+          "type": "multiple-choice",
+          "instructions": "A continuación le presentamos un texto. Conteste a las preguntas que se le hacen marcando la opción correcta.",
+          "exercise": {
+            "text": "http://www.laprensamericana.com.ni.cultura\nCentroamérica cuenta, un evento literario\nCentroamérica cuenta, un encuentro literario de escritores que empezó en la ciudad de Managua el pasado 19 de mayo, se cerró ayer por la tarde en la ciudad universitaria de León. Después de una semana de charlas y presentaciones de libros, los escritores tuvieron tiempo libre para ir a la Casa Museo Rubén Darío y ver libros y objetos personales de este escritor nicaragüense. Con esta actividad terminaba, un año más, el encuentro literario.",
+            "questions": [
+              {
+                "questionId": "A2_2015-11-21_E3_Q17",
+                "text": "Según el texto, el encuentro Centroamérica cuenta…",
+                "options": [
+                  {
+                    "optionId": "A",
+                    "text": "terminó el 19 de mayo."
+                  },
+                  {
+                    "optionId": "B",
+                    "text": "se cerró con una visita cultural."
+                  },
+                  {
+                    "optionId": "C",
+                    "text": "se celebró en la Universidad de León."
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "exerciseID": "A2_2015-11-21_E36.0",
+          "type": "multiple-choice",
+          "instructions": "A continuación le presentamos un texto. Conteste a las preguntas que se le hacen marcando la opción correcta.",
+          "exercise": {
+            "text": "Estación de esquí La Parva\n(A 50 km de Santiago de Chile)\nPróxima salida: 7 y 8 de julio.\nHora de salida: 5 h de la mañana del día 7.\nLugar de salida: Centro comercial Cantagallos.\nPresentarse 10 minutos antes para meter el equipaje en el autobús.\nPlazas: 48 máximo. \nPrecio: 56000 pesos: transporte, alojamiento (albergue en habitaciones múltiples) y seguro médico. Sin desayuno, almuerzo ni cena. \nPrecio del alquiler de esquíes, botas, casco y bastones: 4000 pesos por día (no incluye la ropa).",
+            "questions": [
+              {
+                "questionId": "A2_2015-11-21_E3_Q18",
+                "text": "En este anuncio de la estación de esquí se dice que…",
+                "options": [
+                  {
+                    "optionId": "A",
+                    "text": "el autobús sale a las siete."
+                  },
+                  {
+                    "optionId": "B",
+                    "text": "el precio incluye la comida."
+                  },
+                  {
+                    "optionId": "C",
+                    "text": "el material para esquiar se alquila."
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "exerciseID": "A2_2015-11-21_E5",
+          "type": "multiple-choice",
+          "instructions": "Usted va a leer un texto sobre la escritora Carmen Posadas. A continuación,  conteste a las preguntas (de la 25 a la 30). Seleccione la opción correcta (A, B o C).\nMarque las opciones elegidas en la Hoja de respuestas.",
+          "exercise": {
+            "text": "Carmen Posadas\nLa escritora Carmen Posadas nació en Montevideo (Uruguay) en 1953 y vivió allí hasta los doce años. Es hija de un diplomático y de una restauradora. La profesión de su padre le llevó a vivir en diferentes países como Argentina, España, Rusia e Inglaterra, donde fue al colegio. Comenzó sus estudios universitarios en la Universidad de Oxford (Inglaterra), pero los dejó en el primer curso para casarse. \nDesde que era pequeña le gustaba escribir sus propias historias, pero no lo hizo de forma profesional hasta los veintitrés años. Empezó escribiendo literatura para niños y jóvenes porque creía que era más difícil escribir para los mayores y porque las editoriales publicaban los libros infantiles con más facilidad. En ese momento, tenía dos niñas pequeñas y solía leerles por las noches lo que escribía.  \nEn 1984  por  su libro El señor Viento Norte recibió el Premio del Ministerio de Cultura al mejor libro infantil que se publicó ese año. En 1986 salió a la venta Escena improbable, un libro de entrevistas que fue su primer trabajo para adultos. Un año después, presentó el programa de literatura Entre líneas en Televisión Española.\nEn 1996 publicó su primera novela Cinco moscas azules que estuvo durante varias semanas en las listas españolas de los libros más vendidos. Un año después escribió la colección de cuentos Nada es lo que parece.  En 1998 recibió el Premio Planeta por su novela, Pequeñas infamias. Este premio fue muy importante para su carrera porque desde ese momento sus libros empezaron a traducirse a veintitrés idiomas y a venderse en más de cuarenta países.  \nEn 2007 el periodista y profesor de la Universidad Europea de Madrid en la que Carmen Posadas colabora, Moisés Ruiz, escribió una biografía de Carmen en la que cuenta cómo ha sido su vida. En 2008 Carmen Posadas publicó un libro, Hoy caviar, mañana sardinas, en el que colaboró su hermano pequeño Gervasio. También ha escrito artículos en el periódico ABC cada semana con su hija mayor Sofía.\nFuera de su trabajo, Carmen Posadas tiene la suerte de hacer lo que le gusta. Le gusta estar sola, es reservada y tímida. Hace gimnasia todos los días unos diez minutos, también juega al tenis una vez por semana y le gustaría tener otras aficiones como jugar a las cartas o al golf. Le encanta ir al supermercado y al mercado, pero no le gusta hacer la compra online porque ella dice que no le gusta la informática.\n(Información extraída de http://www.carmenposadas.net/biografia.php y de http://www.buscabiografias.com/biografia/verDetalle/4223/Carmen%20Posadas y de http://www.carmenposadas.net/resenas-entrevistas-home.php) ",
+            "questions": [
+              {
+                "questionId": "A2_2015-11-21_E5_Q25",
+                "text": "Según el texto, Carmen Posadas…",
+                "options": [
+                  {
+                    "optionId": "A",
+                    "text": "vivió con su padre hasta los doce años."
+                  },
+                  {
+                    "optionId": "B",
+                    "text": "se casó antes de ir a la universidad."
+                  },
+                  {
+                    "optionId": "C",
+                    "text": "salió de su país cuando era una niña."
+                  }
+                ]
+              },
+              {
+                "questionId": "A2_2015-11-21_E5_Q26",
+                "text": "Carmen Posadas empezó a escribir para niños porque…",
+                "options": [
+                  {
+                    "optionId": "A",
+                    "text": "tenía dos hijas pequeñas."
+                  },
+                  {
+                    "optionId": "B",
+                    "text": "le parecía que era fácil."
+                  },
+                  {
+                    "optionId": "C",
+                    "text": "se lo pidió una editorial."
+                  }
+                ]
+              },
+              {
+                "questionId": "A2_2015-11-21_E5_Q27",
+                "text": "En el texto se dice que Carmen Posadas…",
+                "options": [
+                  {
+                    "optionId": "A",
+                    "text": "publicó un libro para niños en 1984."
+                  },
+                  {
+                    "optionId": "B",
+                    "text": "ganó un premio por Escena improbable."
+                  },
+                  {
+                    "optionId": "C",
+                    "text": "presentó un programa de televisión en 1986."
+                  }
+                ]
+              },
+              {
+                "questionId": "A2_2015-11-21_E5_Q28",
+                "text": "Según el texto, la novela Pequeñas infamias…",
+                "options": [
+                  {
+                    "optionId": "A",
+                    "text": "fue el libro más vendido en 1998."
+                  },
+                  {
+                    "optionId": "B",
+                    "text": "formó parte de una colección."
+                  },
+                  {
+                    "optionId": "C",
+                    "text": "se tradujo a diferentes lenguas."
+                  }
+                ]
+              },
+              {
+                "questionId": "A2_2015-11-21_E5_Q29",
+                "text": "Carmen Posadas escribió Hoy caviar, mañana sardinas con…",
+                "options": [
+                  {
+                    "optionId": "A",
+                    "text": "Sofía, su hija mayor."
+                  },
+                  {
+                    "optionId": "B",
+                    "text": "su hermano Gervasio."
+                  },
+                  {
+                    "optionId": "C",
+                    "text": "el periodista Moisés Rubio."
+                  }
+                ]
+              },
+              {
+                "questionId": "A2_2015-11-21_E5_Q30",
+                "text": "De su vida personal, el texto dice que Carmen…",
+                "options": [
+                  {
+                    "optionId": "A",
+                    "text": "es una persona que habla poco."
+                  },
+                  {
+                    "optionId": "B",
+                    "text": "hace compras por internet."
+                  },
+                  {
+                    "optionId": "C",
+                    "text": "juega a las cartas un día a la semana."
+                  }
+                ]
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "level": "A2",
+      "examId": "A2_2016-02-19",
+      "exercises": [
+        {
+          "exerciseID": "A2_2016-02-19_E2",
+          "type": "multiple-choice",
+          "instructions": "Usted va a leer el correo electrónico que David ha escrito a su amigo Rubén. A continuación, conteste a las \npreguntas (de la 8 a la 12).\nSeleccione la opción correcta (a, b o c).\nMarque las opciones elegidas en la Hoja de respuestas.",
+          "exercise": {
+            "text": "Hola, Rubén:\n¿Qué tal todo? Por aquí todo igual, pero quería contarte que el viernes fui a ver el concierto de tu grupo \nfavorito Los Héroes. Al principio, no sabía si ir o no porque mis amigos no querían ir, pero, finalmente, me \ndecidí y fui. Cuando llegué, en la cola vi a algunos compañeros de clase y me quedé con ellos. \nTodo me encantó, la música se oía perfectamente y el cantante lo hizo muy bien. La pena fue que no \npude hacer ninguna foto porque no tenía batería en el móvil. A la salida, me compré una camiseta con \nel nombre del grupo, también vendían sus discos, pero eran algo caros.\n¿Sabes? Estoy muy contento porque tengo unas clases de guitarra eléctrica que son buenísimas y me \nlo paso genial. Además, he conocido a algunos chicos que estudian aquí desde hace tiempo y ya han \ncompuesto algunas canciones. Yo lo he intentado, pero es más difícil que tocar la guitarra. \nPor cierto, el otro día me encontré con Raúl y me dijo que te ha enviado varios correos y no le has \ncontestado y que no sabe si estás enfadado con él. Bueno, yo le expliqué que estuviste de vacaciones en \nlas montañas y que allí no había conexión a Internet.\nPara terminar, ¿qué te parece si quedamos el viernes por la tarde? Yo voy al gimnasio de cuatro a \ncinco, pero después no tengo nada que hacer. Si quieres, podemos vernos en el bar de tapas que te \ngusta tanto. Bueno, mándame un mensaje para decirme si quieres quedar.\nNos vemos,\nDavid",
+            "questions": [
+              {
+                "questionId": "A2_2016-02-19_E2_Q8",
+                "text": "En este correo se dice que David…",
+                "options": [
+                  {
+                    "optionId": "A",
+                    "text": "ha visto a su grupo favorito de rock."
+                  },
+                  {
+                    "optionId": "B",
+                    "text": "ha quedado con sus amigos para ver un concierto."
+                  },
+                  {
+                    "optionId": "C",
+                    "text": "se encontró con unos compañeros el viernes."
+                  }
+                ]
+              },
+              {
+                "questionId": "A2_2016-02-19_E2_Q9",
+                "text": "David le cuenta a Rubén que…",
+                "options": [
+                  {
+                    "optionId": "A",
+                    "text": "le pareció que el grupo tocó muy bien."
+                  },
+                  {
+                    "optionId": "B",
+                    "text": "le hizo una foto al cantante de Los Héroes."
+                  },
+                  {
+                    "optionId": "C",
+                    "text": "se compró un disco del grupo cuando salió."
+                  }
+                ]
+              },
+              {
+                "questionId": "A2_2016-02-19_E2_Q10",
+                "text": "Según el texto, David piensa que…",
+                "options": [
+                  {
+                    "optionId": "A",
+                    "text": "aprender música es divertido."
+                  },
+                  {
+                    "optionId": "B",
+                    "text": "hacer una canción lleva mucho tiempo."
+                  },
+                  {
+                    "optionId": "C",
+                    "text": "tocar la guitarra eléctrica es difícil."
+                  }
+                ]
+              },
+              {
+                "questionId": "A2_2016-02-19_E2_Q11",
+                "text": "En el texto se dice que Rubén…",
+                "options": [
+                  {
+                    "optionId": "A",
+                    "text": "se ha enfado con Raúl."
+                  },
+                  {
+                    "optionId": "B",
+                    "text": "ha enviado varios correos."
+                  },
+                  {
+                    "optionId": "C",
+                    "text": "ha estado unos días fuera de casa."
+                  }
+                ]
+              },
+              {
+                "questionId": "A2_2016-02-19_E2_Q12",
+                "text": "El viernes por la tarde, David…",
+                "options": [
+                  {
+                    "optionId": "A",
+                    "text": "propone a Rubén ir juntos al gimnasio."
+                  },
+                  {
+                    "optionId": "B",
+                    "text": "tiene tiempo libre para ver a su amigo."
+                  },
+                  {
+                    "optionId": "C",
+                    "text": "va a ir a un bar de tapas que le gusta."
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "exerciseID": "A2_2016-02-19_E30.0",
+          "type": "multiple-choice",
+          "instructions": "A continuación le presentamos un texto. Conteste a las preguntas que se le hacen marcando la opción correcta.",
+          "exercise": {
+            "text": "TALLER DE COCINA\nEste viernes, dia 20, se celebra un taller de cocina en la escuela de hostelería. El objetivo de este es aprender a cocinar comida sana. Los estudiantes de la escuela de hostelería serán los encargados de enseñar diferentes recetas. Pueden participar personas de todas las edades. Matrícula: antes del día 18. Plazas limitadas.\nPrecio: 5 euros por persona. Niños menores de 10 años: entrada gratuita.",
+            "questions": [
+              {
+                "questionId": "A2_2016-02-19_E3_Q0",
+                "text": "El taller de cocina…",
+                "options": [
+                  {
+                    "optionId": "A",
+                    "text": "cuesta 5 euros para los mayores de 10 años."
+                  },
+                  {
+                    "optionId": "B",
+                    "text": "está dirigido a estudiantes de hostelería."
+                  },
+                  {
+                    "optionId": "C",
+                    "text": "admite a 18 personas como máximo."
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "exerciseID": "A2_2016-02-19_E31.0",
+          "type": "multiple-choice",
+          "instructions": "A continuación le presentamos un texto. Conteste a las preguntas que se le hacen marcando la opción correcta.",
+          "exercise": {
+            "text": "Revista Casacien\nSi quieres dar un nuevo estilo a tu casa y buscas las mejores ideas al mejor \nprecio, puedes elegir:\nOPCIÓN A - 12 ejemplares de Casacien, uno para cada mes, con un 20% de \ndescuento, durante todo el año por 9 euros. \nOPCIÓN B - 12 ejemplares de Casacien + 2 revistas de cocina por 18 euros.\nSolicítala ya en el 902 913 912* o en nuestra web: www.casacien.ss\n*De lunes a viernes de 9 h a 19 h.\nGastos de envío incluidos.",
+            "questions": [
+              {
+                "questionId": "A2_2016-02-19_E3_Q13",
+                "text": "En este anuncio se dice que la revista Casacien…",
+                "options": [
+                  {
+                    "optionId": "A",
+                    "text": "cuesta nueve euros al mes."
+                  },
+                  {
+                    "optionId": "B",
+                    "text": "regala una revista de cocina."
+                  },
+                  {
+                    "optionId": "C",
+                    "text": "se puede pedir por Internet."
+                  }
+                ]
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "level": "B1",
+      "examId": "B1_2015-07-01",
+      "exercises": [
+        {
+          "exerciseID": "B1_2015-07-01_E2",
+          "type": "multiple-choice",
+          "instructions": "Usted va a leer un texto sobre el Scrabble, un juego de palabras cruzadas. A continuación, conteste a las preguntas (7 - 12). Seleccione la opción correcta (a / b / c).\nMarque las opciones elegidas en la Hoja de respuestas.",
+          "exercise": {
+            "text": "México, campeón mundial de Scrabble en español\nJesús Ortega Calzada, de 35 años y originario del Distrito Federal, ha sido el primer mexicano campeón Mundial de Scrabble en español. El Scrabble es un juego de palabras cruzadas que se colocan sobre un tablero; cada cuadro del tablero cuenta un número de puntos y el ganador es el que obtiene la mayor cantidad.\nEn entrevista, comentó que él tiene unos quince años en este juego. Al inicio practicaba ajedrez, pero, en el club en el que participaba, un compañero del colegio llevó un Scrabble y les enseñó cómo se jugaba, práctica a la que finalmente se inclinó y dedicó su tiempo, lo que le facilitó su gusto por los crucigramas. Entre ambos juegos, dijo, encontró ciertas coincidencias, como el hecho de que hay que prepararse, tener disciplina para destacar. También hay estrategias a seguir; no obstante, interviene la fortuna por las piezas o letras que le toquen al jugador. Anotó que de manera formal empezó a jugar desde 2003, cuando se unió a un club y jugó su primer torneo, en el que, por cierto, no le fue tan bien.\nSin embargo, añadió, la preparación para el torneo mundial de este año consistió en aprender más vocabulario y practicar más con la computadora e incluso los celulares inteligentes, en línea. Un elemento más para que consiguiera el triunfo fue la mentalización, tratar de mantener la calma, lo que finalmente logró.\nDe las partidas con las que ganó, explicó que la primera la perdió porque se sentía un poco cansado, luego de veintiuna rondas, además de que su contrincante jugó bien, pero en la segunda se relajó más, al inicio empezó bien, luego decayó un poco pero al final se recuperó y consiguió el campeonato mundial. Así, ha mejorado su juego para, en el próximo encuentro, acudir a defender su campeonato mundial a Cali, Colombia.\nPor su parte, Carlos Espinosa, presidente de la Federación Mexicana de Scrabble, comentó que la Federación Mexicana surgió luego de que en 1997 se llevó a cabo el primer torneo nacional del juego, y al año siguiente se fundó la asociación, de tal manera que pudo organizar el primer campeonato mundial, lo que se repitió en 2003 y en 2011.\nMientras que el también mexicano Francisco Javier Guerrero, secretario de la Federación Internacional de Scrabble en Español, expresó su orgullo porque la nación tenga a su primer campeón mundial, aseguró que su potencial en México es enorme, pues se trata de un país con 120 millones de habitantes, por lo que consideró que se debería enseñar en las escuelas, ya que es un detonador del conocimiento del lenguaje y de la estrategia mental.",
+            "questions": [
+              {
+                "questionId": "B1_2015-07-01_E2_Q7",
+                "text": "Jesús descubrió este juego porque…",
+                "options": [
+                  {
+                    "optionId": "A",
+                    "text": "lo aprendió en la escuela."
+                  },
+                  {
+                    "optionId": "B",
+                    "text": "un amigo le enseñó a jugar."
+                  },
+                  {
+                    "optionId": "C",
+                    "text": "era muy parecido a otros juegos."
+                  }
+                ]
+              },
+              {
+                "questionId": "B1_2015-07-01_E2_Q8",
+                "text": "Según el texto, en este juego…",
+                "options": [
+                  {
+                    "optionId": "A",
+                    "text": "la concentración es la clave."
+                  },
+                  {
+                    "optionId": "B",
+                    "text": "también influye la suerte."
+                  },
+                  {
+                    "optionId": "C",
+                    "text": "lo fundamental es practicar."
+                  }
+                ]
+              },
+              {
+                "questionId": "B1_2015-07-01_E2_Q9",
+                "text": "Para preparar el campeonato mundial, Jesús…",
+                "options": [
+                  {
+                    "optionId": "A",
+                    "text": "estudió muchas palabras."
+                  },
+                  {
+                    "optionId": "B",
+                    "text": "practicó con amigos."
+                  },
+                  {
+                    "optionId": "C",
+                    "text": "jugaba a otros juegos de mesa."
+                  }
+                ]
+              },
+              {
+                "questionId": "B1_2015-07-01_E2_Q10",
+                "text": "Durante el campeonato mundial, Jesús perdió la primera partida porque…",
+                "options": [
+                  {
+                    "optionId": "A",
+                    "text": "se puso muy nervioso."
+                  },
+                  {
+                    "optionId": "B",
+                    "text": "se relajó demasiado."
+                  },
+                  {
+                    "optionId": "C",
+                    "text": "su oponente era bueno."
+                  }
+                ]
+              },
+              {
+                "questionId": "B1_2015-07-01_E2_Q11",
+                "text": "La Federación Mexicana de Scrabble…",
+                "options": [
+                  {
+                    "optionId": "A",
+                    "text": "celebró su último campeonato en 2003."
+                  },
+                  {
+                    "optionId": "B",
+                    "text": "organizó un importante torneo en 2011."
+                  },
+                  {
+                    "optionId": "C",
+                    "text": "se creó un año después del primer torneo."
+                  }
+                ]
+              },
+              {
+                "questionId": "B1_2015-07-01_E2_Q12",
+                "text": "Según el texto, en México…",
+                "options": [
+                  {
+                    "optionId": "A",
+                    "text": "este juego tiene un gran futuro."
+                  },
+                  {
+                    "optionId": "B",
+                    "text": "se organizará un torneo nacional."
+                  },
+                  {
+                    "optionId": "C",
+                    "text": "este juego se practica en los colegios."
+                  }
+                ]
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "level": "B1",
+      "examId": "B1_2015-11-20",
+      "exercises": [
+        {
+          "exerciseID": "B1_2015-11-20_E2",
+          "type": "multiple-choice",
+          "instructions": "Usted va a leer un texto sobre un descubrimiento arqueológico realizado en Chile. A continuación, conteste a las preguntas (7 - 12). Seleccione la opción correcta (a / b / c).\nMarque las opciones elegidas en la Hoja de respuestas.",
+          "exercise": {
+            "text": "En busca del primer chileno\nEl sitio arqueológico de Monte Verde fue descubierto en 1976 y, aunque la mayor parte fue excavada a finales de los 70 y principios de los 80, ahora, casi treinta años después, los arqueólogos vuelven a este lugar con el objetivo de definir espacialmente los límites del asentamiento para el Consejo de Monumentos Nacionales y la UNESCO. \nEl descubrimiento se realizó cuando una familia local, mientras movía la tierra con sus bueyes, encontró un fósil, una muela, de una especie, similar al elefante actual. Como conocían a un estudiante de la Universidad Austral, le dieron el objeto y fue este quien lo llevó al Departamento de Antropología de esa casa de estudios. Fue entonces cuando comenzaron las exploraciones.\nDespués de años de duro trabajo, la prueba confirmó la antigüedad del lugar, un asentamiento de tiendas hechas de pieles y madera de más de 10 mil años en el que se cree que vivieron unos 50 indígenas. A pesar de lo que se esperaba al encontrar en el suelo del lugar varias marcas agrupadas de pisadas de niños y herramientas fabricadas en minerales de diversos tipos, nunca se localizaron restos humanos.\nAunque el sitio es muy antiguo, se mantiene en perfectas condiciones. Se trata de uno de los descubrimientos mejor conservados en todo el continente y es el más importante realizado en el país, porque las condiciones naturales del área evitaron una descomposición más rápida y que se perdieran posibles restos. \nTodo lo que se ha encontrado demuestra que los habitantes de entonces vivían con un nivel de desarrollo importante. Por ejemplo, eran capaces de gestionar los diferentes espacios y fabricar herramientas, las casas tenían estructuras de madera y los fuegos funcionaban fuera y dentro para poder vivir en las duras condiciones del clima de entonces, más frío y húmedo que ahora. La calidad de la madera encontrada nos dice que era un grupo que sabía seleccionar los mejores árboles, lo que parece indicar que seguían los procesos y sistemas de trabajo de sus antepasados.\nEl alcalde de la ciudad, Gervoy Paredes, espera que ahora se pueda hacer realidad la idea que nació hace más de treinta años: la construcción de un museo para exponer todas las piezas que hasta ahora están almacenadas en la Universidad Austral. Esta construcción, según él mismo, puede darle a Puerto Montt más fama dentro y fuera del país, además de ser un atractivo extra para los turistas que llegan a la ciudad. Por desgracia, aún falta solucionar el problema de los terrenos de Monte Verde, ya que una parte de las tierras son propiedad privada, aunque ya se está buscando la oportunidad para poder conversar y buscar una solución.",
+            "questions": [
+              {
+                "questionId": "B1_2015-11-20_E2_Q7",
+                "text": "Según el texto, los arqueólogos han vuelto a Monte Verde…",
+                "options": [
+                  {
+                    "optionId": "A",
+                    "text": "para continuar la excavación."
+                  },
+                  {
+                    "optionId": "B",
+                    "text": "para señalar la superficie del lugar."
+                  },
+                  {
+                    "optionId": "C",
+                    "text": "por exigencias de la UNESCO."
+                  }
+                ]
+              },
+              {
+                "questionId": "B1_2015-11-20_E2_Q8",
+                "text": "En el texto se dice que la familia…",
+                "options": [
+                  {
+                    "optionId": "A",
+                    "text": "encontró el fósil cuando trabajaba."
+                  },
+                  {
+                    "optionId": "B",
+                    "text": "vendió el fósil a un estudiante."
+                  },
+                  {
+                    "optionId": "C",
+                    "text": "regaló el fósil a la Universidad."
+                  }
+                ]
+              },
+              {
+                "questionId": "B1_2015-11-20_E2_Q9",
+                "text": "Según el texto, en este lugar se han encontrado…",
+                "options": [
+                  {
+                    "optionId": "A",
+                    "text": "huesos de personas."
+                  },
+                  {
+                    "optionId": "B",
+                    "text": "varios grupos de huellas."
+                  },
+                  {
+                    "optionId": "C",
+                    "text": "diversos objetos de madera."
+                  }
+                ]
+              },
+              {
+                "questionId": "B1_2015-11-20_E2_Q10",
+                "text": "El texto dice que este lugar…",
+                "options": [
+                  {
+                    "optionId": "A",
+                    "text": "se encuentra en buenas condiciones de conservación."
+                  },
+                  {
+                    "optionId": "B",
+                    "text": "tiene restos que están muy estropeados."
+                  },
+                  {
+                    "optionId": "C",
+                    "text": "sufrió muchos daños por las condiciones naturales."
+                  }
+                ]
+              },
+              {
+                "questionId": "B1_2015-11-20_E2_Q11",
+                "text": "En el texto se dice que los habitantes de este lugar…",
+                "options": [
+                  {
+                    "optionId": "A",
+                    "text": "vivían en un clima más templado que el actual."
+                  },
+                  {
+                    "optionId": "B",
+                    "text": "habían conseguido un alto grado de progreso."
+                  },
+                  {
+                    "optionId": "C",
+                    "text": "tenían viviendas con varias habitaciones."
+                  }
+                ]
+              },
+              {
+                "questionId": "B1_2015-11-20_E2_Q12",
+                "text": "Según el texto, el museo de la ciudad…",
+                "options": [
+                  {
+                    "optionId": "A",
+                    "text": "se construirá en los terrenos privados de Monte Verde."
+                  },
+                  {
+                    "optionId": "B",
+                    "text": "será la principal atracción turística de la ciudad."
+                  },
+                  {
+                    "optionId": "C",
+                    "text": "mostrará la colección guardada en la Universidad."
+                  }
+                ]
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "level": "B1",
+      "examId": "B1_2016-07-01",
+      "exercises": [
+        {
+          "exerciseID": "B1_2016-07-01_E2",
+          "type": "multiple-choice",
+          "instructions": "Usted va a leer un texto sobre la Noche de los Museos en Buenos Aires. A continuación, conteste a las preguntas (7 - 12). Seleccione la opción correcta (a / b / c).\nMarque las opciones elegidas en la Hoja de respuestas.",
+          "exercise": {
+            "text": "La Noche de los Museos\nEste sábado, Buenos Aires vuelve a ser sede de la Noche de los Museos, una celebración que cada año reúne a multitudes en los museos y espacios culturales de la ciudad. Pocos son los que no abren sus puertas desde las ocho hasta las tres de la madrugada con diversas propuestas libres y gratuitas destinadas a toda la familia. Organizada por el Ministerio de Cultura, esta edición suma nuevos centros a la lista, que ya incluye 208 puntos de visita.\nEste año gran parte de la programación está relacionada con personajes fundamentales de la cultura argentina, como Troilo, Cortázar, Borges, Bioy Casares y Quino. Con esta iniciativa la Noche de los Museos completa la serie de actividades que la ciudad ha organizado por el nacimiento hace 100 años de Troilo y Cortázar.\nQuino, por su parte, tiene doble motivo para alegrarse: Mafalda cumple 50 años, y él, como autor, cumple seis décadas desde su primera publicación en un medio gráfico. Dirigidas por el propio autor, en la Usina del Arte se podrá visitar «Quino por Mafalda», que cuenta con primeras publicaciones originales, revistas de época y objetos, y en el Museo del Humor, «El mundo según Mafalda», una exposición para todas las edades. Además, es muy posible que sus seguidores puedan encontrarse con el autor en esos dos museos a lo largo de la noche.\nPero también habrá otras opciones para todas las edades y gustos. La programación cuenta, entre otras actividades, con una noche especial en el Planetario con una orquesta de 40 músicos al aire libre, un paseo por la historia de los clubes de fútbol y sus personajes más conocidos como River y Boca. En la Noche de los Museos también habrá un espacio para la música con conciertos de tangos y milongas por toda la ciudad.\nCon estas propuestas, los organizadores quieren olvidar el parón de crecimiento que se produjo el año pasado y volver a los récords progresivos de asistentes de ediciones anteriores: hace dos años unas 750.000 personas visitaron alguna de las 183 salas. El objetivo para este año es que la cifra llegue al menos a los 800.000, gracias a la gran cantidad de puntos para visitar. \nPara Hernán Lombardi, ministro de Cultura porteño, lo más importante sería conseguir una buena participación de público: «La gran atracción de esta edición es la presencia de personajes de nuestra cultura contemporánea. Con los años vamos creciendo, y eso hace de la Noche de los Museos una fiesta cultural en comunidad. Lo fundamental es que la gente viene con alegría porque se siente parte de una ciudad donde la cultura es parte de su vida cotidiana».",
+            "questions": [
+              {
+                "questionId": "B1_2016-07-01_E2_Q7",
+                "text": "Según el texto, la Noche de los Museos…",
+                "options": [
+                  {
+                    "optionId": "A",
+                    "text": "ha conseguido una oferta mayor este año."
+                  },
+                  {
+                    "optionId": "B",
+                    "text": "la preparan los museos de Buenos Aires."
+                  },
+                  {
+                    "optionId": "C",
+                    "text": "se celebra en todos los museos de la ciudad."
+                  }
+                ]
+              },
+              {
+                "questionId": "B1_2016-07-01_E2_Q8",
+                "text": "Esta edición de la Noche de los Museos se centra especialmente en…",
+                "options": [
+                  {
+                    "optionId": "A",
+                    "text": "un homenaje a Troilo y Cortázar."
+                  },
+                  {
+                    "optionId": "B",
+                    "text": "la figura de varios artistas nacionales."
+                  },
+                  {
+                    "optionId": "C",
+                    "text": "el 100 aniversario de varios personajes."
+                  }
+                ]
+              },
+              {
+                "questionId": "B1_2016-07-01_E2_Q9",
+                "text": "Las exposiciones «Quino por Mafalda» y «El mundo según Mafalda»…",
+                "options": [
+                  {
+                    "optionId": "A",
+                    "text": "celebran los 50 años de Quino como dibujante."
+                  },
+                  {
+                    "optionId": "B",
+                    "text": "están pensadas para público adulto."
+                  },
+                  {
+                    "optionId": "C",
+                    "text": "se han organizado con la colaboración de Quino."
+                  }
+                ]
+              },
+              {
+                "questionId": "B1_2016-07-01_E2_Q10",
+                "text": "El programa de la Noche de los Museos incluye…",
+                "options": [
+                  {
+                    "optionId": "A",
+                    "text": "conciertos en espacios abiertos."
+                  },
+                  {
+                    "optionId": "B",
+                    "text": "varias actividades deportivas."
+                  },
+                  {
+                    "optionId": "C",
+                    "text": "la venta de comics y caricaturas."
+                  }
+                ]
+              },
+              {
+                "questionId": "B1_2016-07-01_E2_Q11",
+                "text": "Según el texto, el número de visitantes…",
+                "options": [
+                  {
+                    "optionId": "A",
+                    "text": "bajó el año pasado."
+                  },
+                  {
+                    "optionId": "B",
+                    "text": "se ha mantenido estable."
+                  },
+                  {
+                    "optionId": "C",
+                    "text": "debería crecer este año."
+                  }
+                ]
+              },
+              {
+                "questionId": "B1_2016-07-01_E2_Q12",
+                "text": "El ministro de Cultura asegura que lo más importante es…",
+                "options": [
+                  {
+                    "optionId": "A",
+                    "text": "el reconocimiento a los grandes creadores argentinos."
+                  },
+                  {
+                    "optionId": "B",
+                    "text": "que la gente pueda disfrutar de la cultura habitualmente."
+                  },
+                  {
+                    "optionId": "C",
+                    "text": "el desarrollo que ha experimentado esta actividad cultural."
+                  }
+                ]
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "level": "B1",
+      "examId": "B1_2004-05-15",
+      "exercises": [
+        {
+          "exerciseID": "B1_2004-05-15_E1",
+          "type": "multiple-choice",
+          "instructions": "A continuación encontrará usted un texto y tres preguntas sobre él.\nMarque la opción correcta en la Hoja de Respuestas Número 1.",
+          "exercise": {
+            "text": "JAMES BOND, AGENTE 007\nEl personaje  creado por Ian Fleming, James Bond, fue el símbolo de una década: los años sesenta. Antes de Bond, los agentes secretos, detectives, policías y demás investigadores eran muy pobres y su vida era muy difícil. Veíamos sus aventuras en un modesto blanco y negro, y en el caso de los mejores, como Bogart o Alan Ladd, el ambiente siempre era oscuro. El bienestar de los años sesenta cambió todo y Bond abrió el camino hacia una imagen nueva de esta profesión a todo color.\nBogart llevaba gabardina gris; Bond, esmoquin blanco. Aunque este vestuario sólo era el utilizado en la versión cinematográfica, ya que el personaje literario de Fleming no era tan sofisticado. Bogart se emborrachaba con whisky; mientras que Bond bebía champán o vinos selectos. Bogart y sus compañeros conducían coches viejos para recorrer oscuras calles de Nueva York o desiertas avenidas de Los Ángeles; Bond sin embargo, contaba con todos los medios de transporte imaginables para recorrer tierra, mar y aire, y sus aventuras se situaban en cualquier parte del mundo. Aunque las escenas de interior se grababan en el estudio londinense de Pinewood.\nLa primera película de Bond, Agente 007 contra el Dr. No (Dr. No) se estrenó en 1962, y no fue el éxito que se ha contado después; éste llegó con la segunda película Desde Rusia con amor (From Russia with love), en 1963 y con James Bond contra Goldfinger (Goldfinger) en 1964, todas ellas con Sean Connery como protagonista.",
+            "questions": [
+              {
+                "questionId": "B1_2004-05-15_E1_Q1",
+                "text": "En el texto se dice que:",
+                "options": [
+                  {
+                    "optionId": "A",
+                    "text": "James Bond cambió completamente la imagen de los agentes secretos."
+                  },
+                  {
+                    "optionId": "B",
+                    "text": "las primeras películas de James Bond eran en blanco y negro."
+                  },
+                  {
+                    "optionId": "C",
+                    "text": "James Bond fue un personaje real de los años sesenta."
+                  }
+                ]
+              },
+              {
+                "questionId": "B1_2004-05-15_E1_Q2",
+                "text": "En el texto se dice que:",
+                "options": [
+                  {
+                    "optionId": "A",
+                    "text": "el personaje literario y cinematográfico son exactamente iguales."
+                  },
+                  {
+                    "optionId": "B",
+                    "text": "James Bond viajaba en coches, barcos o aviones."
+                  },
+                  {
+                    "optionId": "C",
+                    "text": "las escenas de interior se hacían en cualquier parte del mundo."
+                  }
+                ]
+              },
+              {
+                "questionId": "B1_2004-05-15_E1_Q3",
+                "text": "El texto dice que:",
+                "options": [
+                  {
+                    "optionId": "A",
+                    "text": "la primera película de James Bond fue un gran éxito."
+                  },
+                  {
+                    "optionId": "B",
+                    "text": "en las tres primeras películas trabaja el mismo actor."
+                  },
+                  {
+                    "optionId": "C",
+                    "text": "pasaron varios años entre la primera y la segunda película de James Bond."
+                  }
+                ]
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "level": "A1",
+      "examId": "A1_2020-07-01",
+      "exercises": [
+        {
+          "exerciseID": "A1_2020-07-01_E1",
+          "type": "multiple-choice",
+          "instructions": "Usted va a leer un correo electrónico de Luisa a su amigo Javier. A continuación, tiene que leer las preguntas (de la 1 a la 5) y seleccionar la opción correcta (A, Β, ο C).\nTiene que marcar la opción elegida en la Hoja de respuestas.\n",
+          "num-questions": 5,
+          "exercise": {
+            "text": "email para: Javier123@gmail.com\nAsunto: Saludos\nHola, Javier:\n¿Qué tal? A ver si esta semana salimos y tomamos algo. Juan y yo vamos a jugar al tenis el miércoles a las cinco y luego al cine. ¿Quieres venir?\nAh, estoy muy contenta porque este año en la universidad puedo aprender chino por la tarde. Son dos días a la semana, de cinco a siete. Para mi es perfecto; es que por la mañana tengo que ir a trabajar al restaurante de mis tíos.\nOye, quiero alquilar una habitación de mi casa a una estudiante, ¿conoces a alguien? La habitación es grande, con todo nuevo: la cama, el armario, la mesa....\nOtra cosa: el próximo mes es el cumpleaños de mi hermano y no sé qué comprarle. Quiero\nir a tu tienda y comprarle algo de ropa: unos pantalones, una camisa... Si no le gustan, puede cambiarlos, ¿verdad?\nBueno, te dejo que voy a dar un paseo con el perro. Esta noche no quiero cocinar. Voy a Ilamar luego al restaurante chino donde vamos siempre para pedir allí la cena.\nNos vemos.\nLuisa",
+            "image-path": "",
+            "questions": [
+              {
+                "questionId": "A1_2020-07-01_E1_Q1",
+                "text": "Luisa le dice a Javier que esta semana va a…",
+                "image-path": "",
+                "correct-option": "B",
+                "options": [
+                  {
+                    "optionId": "A",
+                    "text": "tomar algo con Juan.",
+                    "image-path": ""
+                  },
+                  {
+                    "optionId": "B",
+                    "text": "hacer deporte con un amigo.",
+                    "image-path": ""
+                  },
+                  {
+                    "optionId": "C",
+                    "text": "ver una película a las cinco.",
+                    "image-path": ""
+                  }
+                ]
+              },
+              {
+                "questionId": "A1_2020-07-01_E1_Q2",
+                "text": "En el texto se dice que Luisa…",
+                "image-path": "",
+                "correct-option": "C",
+                "options": [
+                  {
+                    "optionId": "A",
+                    "text": "tiene un restaurante.",
+                    "image-path": ""
+                  },
+                  {
+                    "optionId": "B",
+                    "text": "es profesora de idiomas.",
+                    "image-path": ""
+                  },
+                  {
+                    "optionId": "C",
+                    "text": "va a estudiar por la tarde.",
+                    "image-path": ""
+                  }
+                ]
+              },
+              {
+                "questionId": "A1_2020-07-01_E1_Q3",
+                "text": "Luisa le dice a Javier que…",
+                "image-path": "",
+                "correct-option": "B",
+                "options": [
+                  {
+                    "optionId": "A",
+                    "text": "tiene un piso grande.",
+                    "image-path": ""
+                  },
+                  {
+                    "optionId": "B",
+                    "text": "busca una compañera de piso.",
+                    "image-path": ""
+                  },
+                  {
+                    "optionId": "C",
+                    "text": "va a comprar cosas para su piso.",
+                    "image-path": ""
+                  }
+                ]
+              },
+              {
+                "questionId": "A1_2020-07-01_E1_Q4",
+                "text": "Luisa le dice a Javier que…",
+                "image-path": "",
+                "correct-option": "A",
+                "options": [
+                  {
+                    "optionId": "A",
+                    "text": "va a ir a su tienda a comprar algo.",
+                    "image-path": ""
+                  },
+                  {
+                    "optionId": "B",
+                    "text": "ya tiene el regalo de su hermano.",
+                    "image-path": ""
+                  },
+                  {
+                    "optionId": "C",
+                    "text": "quiere cambiar un regalo que no le gusta.",
+                    "image-path": ""
+                  }
+                ]
+              },
+              {
+                "questionId": "A1_2020-07-01_E1_Q5",
+                "text": "¿Qué va a hacer Luisa ahora?",
+                "image-path": "",
+                "correct-option": "C",
+                "options": [
+                  {
+                    "optionId": "A",
+                    "text": "",
+                    "image-path": "img/A1_2020-07-01_E1_Q5_A.png"
+                  },
+                  {
+                    "optionId": "B",
+                    "text": "",
+                    "image-path": "img/A1_2020-07-01_E1_Q5_B.png"
+                  },
+                  {
+                    "optionId": "C",
+                    "text": "",
+                    "image-path": "img/A1_2020-07-01_E1_Q5_C.png"
+                  }
+                ]
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "level": "B2",
+      "examId": "B2_2005-11-18",
+      "exercises": [
+        {
+          "exerciseID": "B2_2005-11-18_E1B",
+          "type": "multiple-choice",
+          "instructions": "A continuación le presentamos un texto. Conteste a las preguntas que se le hacen marcando la opción correcta.",
+          "exercise": {
+            "text": "INÉDITO DESCUBRIMIENTO\nUn hecho sin precedentes se suscitó hace un par de semanas al noroeste de la isla Grande de Chiloé, cuando unos investigadores vieron un grupo de veintitrés ballenas azules. En el descubrimiento participaron, entre otros cientíﬁcos, Elsa Cabrera, directora del Centro de Conservación Cetácea (CCC), y José Truda Palazzo, vicecomisionado brasileño de la comisión ballenera internacional; sobrevolaron en un helicóptero naval de la Gobernación Marítima una amplia zona costera, unos cien kilómetros, y pudieron registrar el suceso en una fotografía donde aparecen siete de estos ejemplares en peligro de extinción. Según los expertos, estamos ante un hito histórico, ya que “no hay ningún lugar en el mundo en este momento donde se pueda ver la ballena azul a tan poca distancia de la costa.”\nTal vez convenga recordar que la ballena azul, que suele vivir unos ochenta años, es el animal mayor que existe en el planeta: puede llegar a medir treinta y tres metros y alcanzar un peso superior a las cien toneladas. Los ejemplares que se han visto en Chile miden de veinticinco a veintisiete metros.\nEl acontecimiento tuvo lugar en el marco de una investigación más amplia que realiza el CCC, patrocinada por Directemar (Dirección General del Territorio Marítimo y de Marina Mercante), que busca establecer una red de visión de cetáceos (ballenas, orcas y cachalotes) a lo largo del país para identiﬁcar las zonas con mayor presencia y así poder establecer medidas de protección y conservación hacia esas zonas marítimas.\nLos investigadores Cabrera y Truda manifestaron su interés en presentar ante los organismos competentes un proyecto para proponer medidas de conservación de esta especie animal en una zona como ésta que, por sus características geográﬁcas y la falta de plataforma continental, genera las condiciones adecuadas para que estos animales puedan acercarse a la costa y alimentarse de un pequeño crustáceo, el ‘krill’, muy abundante.\nEste hecho es de enorme importancia si consideramos que los cetáceos fotograﬁados han sido vistos tan sólo a cinco kilómetros de la costa, lo que lo convierte en un caso de presencia cercana único en el mundo. Si triunfara el proyecto, Chile se convertiría en uno de los principales destinos de turismo para observar ballenas.",
+            "questions": [
+              {
+                "questionId": "B2_2005-11-18_E1_Q5",
+                "text": "El descubrimiento en Chile es importante porque las ballenas:",
+                "options": [
+                  {
+                    "optionId": "A",
+                    "text": "estaban cerca de la costa."
+                  },
+                  {
+                    "optionId": "B",
+                    "text": "eran jóvenes."
+                  },
+                  {
+                    "optionId": "C",
+                    "text": "tenían un gran tamaño."
+                  }
+                ]
+              },
+              {
+                "questionId": "B2_2005-11-18_E1_Q6",
+                "text": "En el texto se aﬁrma que el proyecto para conservar las ballenas:",
+                "options": [
+                  {
+                    "optionId": "A",
+                    "text": "lo patrocina Directemar."
+                  },
+                  {
+                    "optionId": "B",
+                    "text": "lo presentaron dos organismos."
+                  },
+                  {
+                    "optionId": "C",
+                    "text": "todavía no se ha presentado."
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "exerciseID": "B2_2005-11-18_E1C",
+          "type": "multiple-choice",
+          "instructions": "A continuación le presentamos un texto. Conteste a las preguntas que se le hacen marcando la opción correcta.",
+          "exercise": {
+            "text": "EJECUTIVOS A LA MODA\nA primera vista, la moda puede parecer una manifestación individual de vanidad; pero también reﬂeja la cultura, los vaivenes socioeconómicos y los estilos de vida de un determinado país. Carola Castillo, directora de relaciones institucionales del Centro de Altos Estudios de la Moda de Perú, está convencida de que la imagen de los ejecutivos consolida o debilita la de la compañía para la que trabajan; para Castillo “la apariencia de los trabajadores nos brinda el primer indicio acerca de la ﬁrma con la que se está tratando”.\nSi hace unos años el interés por la forma de vestir era casi exclusivo de las mujeres, en la actualidad la vestimenta se ha convertido en un factor crucial para cualquier ejecutivo de este país, sea hombre o sea mujer. Pero todavía los caballeros peruanos no se encuentran completamente a gusto con la moda; esto es debido al conservadurismo, tanto de los ejecutivos como de los diseñadores peruanos, y puede corroborarse por la gran popularidad de los ternos clásicos (chaqueta, pantalón y chaleco) y por el predominio absoluto, a lo largo de todo el año, de los tonos oscuros y sobrios.\nCarlos del Solar, gerente de una empresa de marcas de ropa de reconocido prestigio internacional, señala que en Perú los diseñadores deberían apostar por tendencias más modernas en los cortes de los ternos y por una mayor variedad de colores; lo lógico sería que, al menos en la temporada de verano, como pasa en otras partes del mundo, se utilizarán tonos claros y vivos.\nPara la diseñadora peruana Lidia Morote las joyas de plata (dijes, aretes, pulseras y anillos) son un complemento ideal para el vestuario formal de una ejecutiva, ya que el uso de estos accesorios otorga a quien lo lleve un toque a la vez fresco y personalizado, artístico e informal, moderno y tradicional.\nTodos los expertos coinciden en que el calzado que usen los ejecutivos –hombres y mujeres– determinará su imagen ﬁnal. Los zapatos, que deben ser cómodos y elegantes, juegan un papel muy importante en el buen vestir porque resaltan la ropa de los ejecutivos; un calzado inadecuado afea la vestimenta, por muy elegante que ésta sea.",
+            "questions": [
+              {
+                "questionId": "B2_2005-11-18_E1_Q7",
+                "text": "Según Carola Castillo, la apariencia de los ejecutivos:",
+                "options": [
+                  {
+                    "optionId": "A",
+                    "text": "inﬂuye en la imagen de su empresa."
+                  },
+                  {
+                    "optionId": "B",
+                    "text": "es lo primero que ven los clientes."
+                  },
+                  {
+                    "optionId": "C",
+                    "text": "les preocupa más a las mujeres."
+                  }
+                ]
+              },
+              {
+                "questionId": "B2_2005-11-18_E1_Q8",
+                "text": "En el texto se aﬁrma que los ejecutivos peruanos suelen llevar ropa:",
+                "options": [
+                  {
+                    "optionId": "A",
+                    "text": "cómoda."
+                  },
+                  {
+                    "optionId": "B",
+                    "text": "clásica."
+                  },
+                  {
+                    "optionId": "C",
+                    "text": "elegante."
+                  }
+                ]
+              },
+              {
+                "questionId": "B2_2005-11-18_E1_Q9",
+                "text": "Los especialistas opinan que para tener una buena imagen son básicos:",
+                "options": [
+                  {
+                    "optionId": "A",
+                    "text": "los colores."
+                  },
+                  {
+                    "optionId": "B",
+                    "text": "los complementos."
+                  },
+                  {
+                    "optionId": "C",
+                    "text": "los zapatos."
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "exerciseID": "B2_2005-11-18_E1D",
+          "type": "multiple-choice",
+          "instructions": "A continuación le presentamos un texto. Conteste a las preguntas que se le hacen marcando la opción correcta.",
+          "exercise": {
+            "text": "EN EL CINE\nDiego nunca entra en el cine con la película empezada. Más tarde pensará que esa ruptura de sus costumbres fue lo que propició el accidente de reencontrarse con Laura.\nEs la segunda vez en lo que va de semana que ve esa película.\nEsquiva la linterna del acomodador que acude a su encuentro, y se desliza por el pasillo lateral hasta las primeras ﬁlas. Le gusta sentarse cerca de la pantalla, tener que mover la cabeza para poder abarcar todo lo que en ella sucede. En la oscuridad de la sala repara en una silueta femenina sentada en la ﬁla de delante, cuatro butacas más a la izquierda. Esa mujer le resulta vagamente familiar, pero no le da mayor importancia. Poco después, en una escena exterior de la película en que la protagonista va montada en bicicleta, vuelve a mirar a la mujer, a la que reconoce como su primera novia.\nLaura. Su verdadero nombre no es Laura, pero él la bautizó así por su parecido con Gene Tierney en la película de Otto Preminger ‘Laura’. En unos instantes recordó el verano en que se conocieron, ella tenía dieciséis años y él acababa de cumplir los dieciocho, las tardes en la playa, besándose, su cabello mojado, abrazada a sus rodillas, la toalla azul sobre sus hombros como en una postal.\nSu primer pensamiento fue el de agacharse, aunque ella no lo había visto, y silenciosamente, rompiendo otra de sus costumbres, salir de la sala. Pero no lo hace.\nAl encender las luces de la sala, permanece sentado a la espera de que ella se levante primero para incorporarse él también y hacerse el encontradizo. Laura revuelve en su bolso y saca un pañuelo con el que se seca los ojos y se suena la nariz; el ﬁnal de la película, como a él la primera vez que la vio, la ha emocionado hasta las lágrimas. Se levanta y al girarse topa con la sonrisa desplegada de él.\n– ¿Diego? (Dice Laura con los ojos vidriosos.) ¿Diego?\n– Laura.\nElla sonríe al oír su antiguo sobrenombre y, sin importarle las butacas que los separan, estira los brazos esperando un abrazo.\n– Leí tu crítica de la película. (Dice Laura señalando la pantalla.) Siempre sigo todas tus críticas.\n– Cuánto tiempo, ¿eh? Creo que siete años y medio.\n– Sí. Bueno, yo te vi hace un par de años en una librería, pero no te dije nada porque ibas con una chica.\n– Podías haberme saludado. Estás preciosa.\n– Me he cortado el pelo.\n– Te sienta estupendamente, de veras.\nLaura mira detrás de Diego; la sala se ha quedado vacía.\n– ¿Tienes prisa? –pregunta ella–. Si quieres podemos ir a tomar un café. Vaya, si tienes tiempo.\n– Por supuesto, y así charlamos.",
+            "questions": [
+              {
+                "questionId": "B2_2005-11-18_E1_Q10",
+                "text": "Según el texto, Diego",
+                "options": [
+                  {
+                    "optionId": "A",
+                    "text": "es la primera vez que entra tarde al cine."
+                  },
+                  {
+                    "optionId": "B",
+                    "text": "había visto esa película la semana pasada."
+                  },
+                  {
+                    "optionId": "C",
+                    "text": "se sentó en la primera ﬁla del cine."
+                  }
+                ]
+              },
+              {
+                "questionId": "B2_2005-11-18_E1_Q11",
+                "text": "Cuando termina la película, Laura:",
+                "options": [
+                  {
+                    "optionId": "A",
+                    "text": "está llorando."
+                  },
+                  {
+                    "optionId": "B",
+                    "text": "no reconoce a Diego."
+                  },
+                  {
+                    "optionId": "C",
+                    "text": "abraza a Diego."
+                  }
+                ]
+              },
+              {
+                "questionId": "B2_2005-11-18_E1_Q12",
+                "text": "Según el texto, Laura y Diego:",
+                "options": [
+                  {
+                    "optionId": "A",
+                    "text": "habían estado juntos más de siete años."
+                  },
+                  {
+                    "optionId": "B",
+                    "text": "se habían visto hace dos años en una librería."
+                  },
+                  {
+                    "optionId": "C",
+                    "text": "deciden continuar hablando fuera del cine."
+                  }
+                ]
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "level": "B2",
+      "examId": "B2_2005-11-19",
+      "exercises": [
+        {
+          "exerciseID": "B2_2005-11-19_E1A",
+          "type": "multiple-choice",
+          "instructions": "A continuación le presentamos un texto. Conteste a las preguntas que se le hacen marcando la opción correcta.",
+          "exercise": {
+            "text": "EL MIEDO A LA PRIMAVERA\nLa cantidad de lluvias caídas durante el invierno tiene una relación directa con el nivel de polinización. Si el invierno ha sido muy lluvioso, hay un empeoramiento de los síntomas alérgicos y un aumento de nuevos pacientes. Además, si la polinización se adelanta y coincide con el frío y las infecciones virales, se producirá un aumento de los síntomas respiratorios que sufren los alérgicos, por lo que el panorama de esas afecciones se puede complicar. Otro factor que agrava estos procesos es la contaminación, que hace más sensible la zona respiratoria y potencia la acción alérgica de los pólenes.\nEstornudos, lagrimeo y picor de garganta son los principales síntomas de un mal que aumenta cada año. El 60% de los pacientes presenta los primeros síntomas antes de los treinta años y la enfermedad predomina en los varones.\nEs muy importante que los alérgicos al polen eviten la excesiva exposición a esta sustancia para poder reducir sus síntomas. Para ello conviene tomar precauciones, utilizar pequeños trucos con los que se consigue que la vida de los alérgicos sea más agradable durante la primavera.\nEs muy conveniente conocer el hábitat y la época de polinización de las plantas a las que se es alérgico y durante esta temporada intentar no dejar las ventanas abiertas, no cortar el césped y no cuidar el jardín. Evitar salir al aire libre los días de viento, llevar gafas de sol y visitar zonas costeras en lugar de sitios con abundante vegetación son otras recomendaciones.\nLas precauciones dentro del hogar son también fundamentales, pues en él pasamos gran parte del día; es aconsejable lavar con frecuencia la ropa de cama, retirar las alfombras y moquetas, utilizar cortinas ligeras y lavarlas con frecuencia, hacer la limpieza con un paño húmedo, secar la ropa y el calzado antes de guardarlo, evitar la humedad en la habitación y, sobre todo, no olvidarnos nunca de tener medicación sintomática a mano.",
+            "questions": [
+              {
+                "questionId": "B2_2005-11-19_E1_Q1",
+                "text": "Según el texto, los inviernos lluviosos reducen los síntomas alérgicos.",
+                "options": [
+                  {
+                    "optionId": "A",
+                    "text": "Verdadero."
+                  },
+                  {
+                    "optionId": "B",
+                    "text": "Falso."
+                  }
+                ]
+              },
+              {
+                "questionId": "B2_2005-11-19_E1_Q2",
+                "text": "En el texto se afirma que las alergias primaverales afectan más a hombres que a mujeres.",
+                "options": [
+                  {
+                    "optionId": "A",
+                    "text": "Verdadero."
+                  },
+                  {
+                    "optionId": "B",
+                    "text": "Falso."
+                  }
+                ]
+              },
+              {
+                "questionId": "B2_2005-11-19_E1_Q3",
+                "text": "Según el texto, las personas alérgicas deben quedarse en casa si hace viento.",
+                "options": [
+                  {
+                    "optionId": "A",
+                    "text": "Verdadero."
+                  },
+                  {
+                    "optionId": "B",
+                    "text": "Falso."
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "exerciseID": "B2_2005-11-19_E1B",
+          "type": "multiple-choice",
+          "instructions": "A continuación le presentamos un texto. Conteste a las preguntas que se le hacen marcando la opción correcta.",
+          "exercise": {
+            "text": "GAUDÍ TRIUNFA EN LA RED\nJordi Jordan, profesor de Tecnología de un Instituto de Enseñanza Secundaria de Lleida, ha visto cómo su página web sobre ‘Gaudí’ y la tecnología ha sido premiada en 2005 como el mejor recurso de enseñanza en red por el portal de la Comisión europea ‘eLearning Europa.info’.\nJordan, de 42 años, ingeniero de formación, eligió a Gaudí porque para él el arquitecto catalán es el más sobresaliente de la historia: “Gaudí es el gran maestro, el observador, el sintetizador, el artesano, el cientíﬁco y, sobre todo, el tecnólogo por excelencia”. Jordan explica la relación del genial arquitecto con la enseñanza actual: “Muchas de sus soluciones vinieron de la observación, del conocimiento de los materiales y de su manipulación, que son una parte fundamental de los objetivos de la asignatura ‘Tecnología industrial’ en el Bachillerato”.\nLa página premiada es una aproximación, desde el punto de vista de la tecnología, a la vida y a la obra de Gaudí. “Se ha hablado de Gaudí desde todas las ramas del saber, desde la arquitectura, hasta el arte o la sociología, pero en muy pocas ocasiones desde la tecnología”, insiste Jordan tratando de reivindicar la tecnología como una de las fuentes del saber.\nAl principio la página nos introduce, de forma muy amena, en la época en que vivió el artista, para explicarnos posteriormente, con mucha claridad, el proceso de diseño y construcción de algunas de sus obras más importantes. Jordan utiliza, con rigor y creatividad, una gran cantidad de recursos multimedia. “Nunca me conformo sólo con el rigor de las explicaciones; creo, como Gaudí, que es necesario hacer bellas las cosas, por muy simples o técnicas que sean”.\nCon anterioridad a este reconocimiento internacional, ya habían sido premiadas en dos ocasiones por la Generalitat sus unidades didácticas en Internet; incluso llegó a ser ﬁnalista, en 2003, de los premios europeos ‘Schoolnet eLearning’. Gracias a sus trabajos en Internet, ha conseguido para su instituto el Sello Europeo para proyectos innovadores de enseñanza y aprendizaje de lenguas extranjeras, un reconocimiento que se otorga sólo a seis centros españoles cada año.\nPese a su pasión por Internet, Jordan está convencido de que la Red nunca podrá sustituir al maestro, sino que se convertirá en su inseparable aliado, en su mejor apoyo.",
+            "questions": [
+              {
+                "questionId": "B2_2005-11-19_E1_Q4",
+                "text": "Según el texto, Jordi Jordan:",
+                "options": [
+                  {
+                    "optionId": "A",
+                    "text": "estudió arquitectura."
+                  },
+                  {
+                    "optionId": "B",
+                    "text": "opina que Gaudí era un tecnólogo."
+                  },
+                  {
+                    "optionId": "C",
+                    "text": "es profesor de informática."
+                  }
+                ]
+              },
+              {
+                "questionId": "B2_2005-11-19_E1_Q5",
+                "text": "En el texto se nos informa de que la página web de Jordi Jordan:",
+                "options": [
+                  {
+                    "optionId": "A",
+                    "text": "muestra cómo Gaudí manipulaba los materiales."
+                  },
+                  {
+                    "optionId": "B",
+                    "text": "contiene el programa de la asignatura ‘Tecnología industrial’."
+                  },
+                  {
+                    "optionId": "C",
+                    "text": "relaciona a Gaudí con la tecnología."
+                  }
+                ]
+              },
+              {
+                "questionId": "B2_2005-11-19_E1_Q6",
+                "text": "En el texto se aﬁrma que el instituto donde trabaja Jordan ha conseguido:",
+                "options": [
+                  {
+                    "optionId": "A",
+                    "text": "dos premios en Internet."
+                  },
+                  {
+                    "optionId": "B",
+                    "text": "un reconocimiento europeo."
+                  },
+                  {
+                    "optionId": "C",
+                    "text": "tener uno de los mejores métodos de enseñanza."
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "exerciseID": "B2_2005-11-19_E1C",
+          "type": "multiple-choice",
+          "instructions": "A continuación le presentamos un texto. Conteste a las preguntas que se le hacen marcando la opción correcta.",
+          "exercise": {
+            "text": "LA NUEVA PIRATERÍA\nSi hoy te hablan de piratería ya no piensas en una bandera negra con una calavera blanca, sino en un delito contra la propiedad física o intelectual. El delito de la piratería, con el extraordinario avance de las tecnologías en las áreas de informática y telecomunicaciones, ha crecido a una velocidad vertiginosa. Actualmente todas las obras intelectuales pueden ser objeto de imitación, falsiﬁcación o plagio por parte de terceros con gran facilidad, lo que causa un grave perjuicio a los autores y a sus derechos. Artistas, comerciantes, editores, músicos, inventores, cualquier creador puede verse afectado por la llamada piratería, tanto moral como económicamente. Pero también se verán afectados el productor, el consumidor y el Estado, lo cual produce evidentes daños a la sociedad de tipo económico, social y ﬁscal.\nEl comerciante honesto y titular de los derechos intelectuales se ve afectado al encontrarse en el mercado a un pirata que coloca los mismos productos de forma engañosa a un coste menor. En este caso, las personas que distribuyen o comercializan este tipo de productos, como en el caso de las películas o los programas informáticos, actúan sin una licencia por parte del productor o de la persona autorizada para ello, incurriendo así en una actividad ilegal.\nTambién el consumidor se ve perjudicado, pues las copias, de peor calidad que los originales y mal conﬁguradas, carecen de garantía y llegan incluso a producir daños; muchos vídeos piratas, casetes de música y programas informáticos terminan creando problemas a los equipos en los que se usan (VHS, reproductores, computadoras, etc.). También la economía del país sufre daños, ya que con toda esta actividad de piratería se crea una disminución de fuentes de empleo, de las ventas de productos legítimos y de la inversión extranjera en el sector especíﬁco donde exista piratería.\nPor todo esto deberíamos llevar a cabo una movilización colectiva para frenar el pirateo de los bienes culturales a través de Internet, para que se aumenten los medios policiales que repriman la venta callejera de estos productos y para concienciar a los ciudadanos para que no compren productos pirateados en soporte digital.",
+            "questions": [
+              {
+                "questionId": "B2_2005-11-19_E1_Q7",
+                "text": "Según el texto, el delito de la piratería ha aumentado por:",
+                "options": [
+                  {
+                    "optionId": "A",
+                    "text": "el progreso de la informática e Internet."
+                  },
+                  {
+                    "optionId": "B",
+                    "text": "la venta de computadoras."
+                  },
+                  {
+                    "optionId": "C",
+                    "text": "el aumento del precio de los derechos intelectuales."
+                  }
+                ]
+              },
+              {
+                "questionId": "B2_2005-11-19_E1_Q8",
+                "text": "En el texto se aﬁrma que las copias piratas:",
+                "options": [
+                  {
+                    "optionId": "A",
+                    "text": "suelen estar estropeadas."
+                  },
+                  {
+                    "optionId": "B",
+                    "text": "se venden más que las originales."
+                  },
+                  {
+                    "optionId": "C",
+                    "text": "pueden estropear el equipo reproductor."
+                  }
+                ]
+              },
+              {
+                "questionId": "B2_2005-11-19_E1_Q9",
+                "text": "El autor del texto opina que la piratería, en general:",
+                "options": [
+                  {
+                    "optionId": "A",
+                    "text": "hace que la inversión extranjera sea menor."
+                  },
+                  {
+                    "optionId": "B",
+                    "text": "es una actividad colectiva."
+                  },
+                  {
+                    "optionId": "C",
+                    "text": "está disminuyendo gracias a la acción policial."
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "exerciseID": "B2_2005-11-19_E1D",
+          "type": "multiple-choice",
+          "instructions": "A continuación le presentamos un texto. Conteste a las preguntas que se le hacen marcando la opción correcta.",
+          "exercise": {
+            "text": "LA CARTA\nSan Salvador, 21 de septiembre de 1979\nQueridísimo Juan Manuel:\nRecibí tu carta desde Mallorca, y siento que tienes razón. Mis últimas cartas no fueron muy lindas ni muy cariñosas, y eso debe de haberte herido. Te pido perdón. Estoy segura de que esta carta, en la que tengo mucho que decirte, te hará menos daño, por ser más real y más mía.\nPrimero, el viaje de septiembre se canceló. Al ﬁn, mandaron a otro de la oﬁcina, un vendedor que acaba de casarse, y la empresa aprovechó para que viajara con su esposa y pasara su luna de miel allá, mientras asistía al curso. Tengo que admitir que me pareció una decisión muy humana y correcta, aunque yo tenía muchas ganas de ir. Tal vez más adelante.\nAhora te hablaré de mí, de mi estado de ánimo, con la mayor honradez y todo el cariño que te debo.\nHe pasado este tiempo bastante sola. Recuperando mis lugares, mis costumbres, mi vida. Tenía muchas ganas de estar completamente sola y de pensar con tranquilidad. Y he conseguido mucho. Para empezar estoy tranquila y contenta. He arreglado bastante mi casa, que tenía bastantes cosas en estado de reparación y limpieza. Ahora, ya parece mía otra vez. No he visto a gente para nada. Y he salido poco, porque el tiempo ha estado muy lluvioso. Y los niños no pueden salir con esta lluvia. En ﬁn, muy casera, me he comprado unos buenos discos, y he recuperado en la casa la serenidad de los espacios en paz. Hasta la veo mayor. En la oﬁcina he pedido que me aumenten el sueldo, y con eso las horas de trabajo.\nEn cuanto a Enrique, ha escrito varias veces. Parece que le hacemos bastante falta, y que nos quiere mucho. Va a regresar, quizás a ﬁnes de septiembre, y vamos a intentar recuperar nuestra relación. Yo también creo sinceramente que eso es lo que debemos hacer, ya que Enrique adora a sus niños y, si puede funcionar la cosa, pues mucho mejor.\nConfío en que estarás de acuerdo con esto, aunque sé que te vas a sentir triste. De cualquier manera, y pase lo que pase, tendrás en mí la más admiradora y la más ﬁel amiga, con un enorme amor para ti. Escríbeme, te lo ruego, y cuéntame tu reacción y tus sentimientos. Abrazos.\nFernanda",
+            "questions": [
+              {
+                "questionId": "B2_2005-11-19_E1_Q10",
+                "text": "Según el texto, Fernanda le pide perdón a Juan Manuel porque:",
+                "options": [
+                  {
+                    "optionId": "A",
+                    "text": "había estado poco cariñosa."
+                  },
+                  {
+                    "optionId": "B",
+                    "text": "no le había escrito antes."
+                  },
+                  {
+                    "optionId": "C",
+                    "text": "no había hecho un viaje."
+                  }
+                ]
+              },
+              {
+                "questionId": "B2_2005-11-19_E1_Q11",
+                "text": "Según el texto, después de arreglar la casa, Fernanda se siente:",
+                "options": [
+                  {
+                    "optionId": "A",
+                    "text": "muy sola."
+                  },
+                  {
+                    "optionId": "B",
+                    "text": "tranquila."
+                  },
+                  {
+                    "optionId": "C",
+                    "text": "bastante incómoda."
+                  }
+                ]
+              },
+              {
+                "questionId": "B2_2005-11-19_E1_Q12",
+                "text": "En la carta Fernanda cuenta que Enrique:",
+                "options": [
+                  {
+                    "optionId": "A",
+                    "text": "le ha pedido ver a sus hijos."
+                  },
+                  {
+                    "optionId": "B",
+                    "text": "los echa de menos."
+                  },
+                  {
+                    "optionId": "C",
+                    "text": "quiere que ella vaya a verlo."
+                  }
+                ]
+              }
+            ]
+          }
+        }
+      ]
+    }
+  ]
+}
