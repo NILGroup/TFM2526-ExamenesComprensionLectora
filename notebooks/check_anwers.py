@@ -50,4 +50,4 @@ def check_dataset_and_answers(dataset_file, answers_file):
             print(f"  - Pregunta {q_id}: respondió '{info['provided']}', pero las opciones eran {info['valid_options']}")
 
 # Ejecutar la comprobación con tus ficheros
-check_dataset_and_answers('../data/test_dataset/multiple_choice_dataset.json', '../data/zs_gemma4_test_formatted.json')
+check_dataset_and_answers('../data/test_dataset/multiple_choice_dataset.json', '../data/zs_ministral_test_formatted.json')

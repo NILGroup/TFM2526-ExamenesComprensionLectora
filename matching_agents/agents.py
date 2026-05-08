@@ -2,6 +2,9 @@ from __future__ import annotations
 
 from collections.abc import Callable
 from dataclasses import dataclass
+import time
+import random
+import requests
 
 from .ollama_client import OllamaClient
 from .schemas import (
@@ -43,10 +46,10 @@ Tu tarea es analizar una única pregunta y seleccionar la respuesta correcta de 
 A_REVIEWER_SYSTEM = """Eres un experto en corregir ejercicios de comprensión lectora.
 Debes analizar la pareja pregunta-respuesta propuesta y compararla con el resto de opciones disponibles para asegurar que no haya una mejor alternativa.
 
-Revisa la pregunta, la respuesta seleccionada y el resto de opciones posibles asegurándote de que la respuesta elegida es la que mejor encaja.
+Revisa la pregunta, la respuesta seleccionada y el resto de opciones posibles para descartarlas una a una, asegurándote de que la respuesta elegida es la que mejor encaja.
 Fíjate en que el alumno no haya caído en alguna trampa de palabras clave o se haya confundido con un distractor.
-Recuerda que en estos ejercicios el emparejamiento rara vez es literal. A menudo se conectan necesidades o intereses con soluciones afines.
-Tu trabajo no es juzgar si la respuesta es perfecta en el mundo real, sino determinar si es la MEJOR entre las opciones disponibles.
+Recuerda que en estos ejercicios el emparejamiento puede no ser literal. A menudo se conectan necesidades o intereses con soluciones afines.
+Tu trabajo no es juzgar si la respuesta es perfecta en el mundo real, sino determinar si es la MEJOR entre las opciones disponibles, basándote en el texto y las imágenes (si las hay) proporcionadas.
 
 ### Criterios de Decisión:
 - **PASS**: Si la respuesta escogida es la mejor disponible.
@@ -87,7 +90,7 @@ Tu objetivo es determinar a qué pregunta pertenece una respuesta específica o 
 B_AUDIT_SYSTEM = """Eres un experto en resolver ejercicios de comprensión lectora. Tu especialidad es la resolución de ambigüedades en ejercicios de emparejamiento complejos.
 Tu tarea es resolver un conflicto de opciones evaluando SIMULTÁNEAMENTE múltiples respuestas candidatas para una misma pregunta.
 
-### Reglas de Arbitraje:
+### Instrucciones:
 1. Compara la pregunta con las posibles respuestas para ver cuál es la que mejor encaja o responde a la pregunta.
 2. Identifica si alguna opción ha sido diseñada para confundir.
 3. Penaliza los distractores o respuestas genéricas si hay una opción más específica.
@@ -100,10 +103,57 @@ Devuelve exclusivamente un JSON válido con la decisión final.
 class MatchingAgents:
     llm: OllamaClient
     tracer: Callable[[str], None] | None = None
+    delay_seconds: float = 0.5
 
     def _trace(self, message: str) -> None:
         if self.tracer is not None:
             self.tracer(message)
+
+    def _call_with_retry(
+        self,
+        system_prompt: str,
+        user_prompt: str,
+        response_model: type,
+        images: list[str] | None = None,
+        max_retries: int = 4,
+    ):
+        backoff_base = 1.0
+        attempt = 1
+        while True:
+            try:
+                out = self.llm.chat_structured(
+                    system_prompt=system_prompt,
+                    user_prompt=user_prompt,
+                    response_model=response_model,
+                    images=images,
+                )
+                if self.delay_seconds and self.delay_seconds > 0:
+                    time.sleep(self.delay_seconds)
+                return out
+            except Exception as exc:  # retryable errors handling
+                is_requests_exc = isinstance(exc, requests.exceptions.RequestException)
+                resp = getattr(exc, "response", None)
+                status_429 = bool(resp and getattr(resp, "status_code", None) == 429)
+
+                # Model validation errors (ValueError) usually indicate output issues;
+                # allow one extra retry then fail.
+                if isinstance(exc, ValueError) and attempt >= 2:
+                    self._trace(f"LLM output validation failed: {exc}")
+                    raise
+
+                retryable = is_requests_exc or isinstance(exc, TimeoutError) or isinstance(exc, ValueError)
+                if not retryable or attempt >= max_retries:
+                    self._trace(f"LLM call failed permanently on attempt {attempt}: {exc}")
+                    raise
+
+                sleep_for = backoff_base * (2 ** (attempt - 1))
+                if status_429:
+                    sleep_for *= 2
+                sleep_for += random.uniform(0, 0.5)
+
+                self._trace(f"LLM call failed ({exc}); retry {attempt}/{max_retries} after {sleep_for:.1f}s")
+                time.sleep(sleep_for)
+                attempt += 1
 
     @staticmethod
     def _item_repr(item: Item) -> str:
@@ -138,7 +188,7 @@ class MatchingAgents:
             f"- Cantidad de respuestas: {len(answers)}\n"
             'Devuelve solo JSON con task_type igual a "A" o "B".'
         )
-        out = self.llm.chat_structured(
+        out = self._call_with_retry(
             system_prompt=ORCHESTRATOR_SYSTEM,
             user_prompt=user_prompt,
             response_model=OrchestratorOutput,
@@ -168,7 +218,7 @@ class MatchingAgents:
         images = [question["image_b64"]] if question.get("image_b64") else []
         images.extend(a["image_b64"] for a in answers if a.get("image_b64"))
 
-        out = self.llm.chat_structured(
+        out = self._call_with_retry(
             system_prompt=A_RESOLVER_SYSTEM,
             user_prompt=user_prompt,
             response_model=MicroResolverOutput,
@@ -213,7 +263,7 @@ class MatchingAgents:
         for a in other_answers:
             _push_img(a.get("image_b64"))
 
-        out = self.llm.chat_structured(
+        out = self._call_with_retry(
             system_prompt=A_REVIEWER_SYSTEM,
             user_prompt=user_prompt,
             response_model=MicroReviewerOutput,
@@ -240,7 +290,7 @@ class MatchingAgents:
         )
         images = [question["image_b64"]] if question.get("image_b64") else []
         images.extend(a["image_b64"] for a in answers if a.get("image_b64"))
-        out = self.llm.chat_structured(
+        out = self._call_with_retry(
             system_prompt=B_Q2A_SYSTEM,
             user_prompt=user_prompt,
             response_model=PathBq2aOutput,
@@ -269,7 +319,7 @@ class MatchingAgents:
         )
         images = [answer["image_b64"]] if answer.get("image_b64") else []
         images.extend(q["image_b64"] for q in questions if q.get("image_b64"))
-        out = self.llm.chat_structured(
+        out = self._call_with_retry(
             system_prompt=B_A2Q_SYSTEM,
             user_prompt=user_prompt,
             response_model=PathBa2qOutput,
@@ -302,7 +352,7 @@ class MatchingAgents:
             img_b64 = item.get("image_b64")
             if img_b64 and img_b64 not in images:
                 images.append(img_b64)
-        out = self.llm.chat_structured(
+        out = self._call_with_retry(
             system_prompt=B_AUDIT_SYSTEM,
             user_prompt=user_prompt,
             response_model=PathBAuditBatchOutput,

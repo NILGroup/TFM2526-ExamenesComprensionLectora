@@ -2,6 +2,7 @@ from __future__ import annotations
 
 from dataclasses import dataclass
 from pathlib import Path
+from types import SimpleNamespace
 
 from langgraph.graph import END, START, StateGraph
 
@@ -79,12 +80,17 @@ class MatchingAgentSystem:
 
         def orchestrator_node(state: MatchingGraphState) -> dict:
             self._trace("Nodo orquestador: iniciando clasificacion de ruta.")
-            out = self.agents.orchestrate(
-                state["original_questions"],
-                state["available_answers"],
-                state["exercise_instructions"],
-            )
-            return {"task_type": out.task_type}
+            try:
+                out = self.agents.orchestrate(
+                    state["original_questions"],
+                    state["available_answers"],
+                    state["exercise_instructions"],
+                )
+                return {"task_type": out.task_type}
+            except Exception as exc:
+                self._trace(f"Orchestrator error: {exc}")
+                fallback_task = "A" if len(state["original_questions"]) > len(state["available_answers"]) else "B"
+                return {"task_type": fallback_task, "orchestrator_error": str(exc)}
 
         def path_a_resolver_node(state: MatchingGraphState) -> dict:
             idx = state["current_question_index"]
@@ -92,17 +98,26 @@ class MatchingAgentSystem:
             self._trace(
                 f"Path A - Resolver: pregunta_idx={idx} pregunta_id={question['id']} intentos={state['current_question_attempts']}"
             )
-            out = self.agents.micro_resolve(
-                question=question,
-                answers=state["available_answers"],
-                previous_feedback=state.get("latest_review_feedback", ""),
-            )
-            return {
-                "latest_micro_candidate": {
-                    "question_id": out.question_id,
-                    "selected_answer_id": out.selected_answer_id,
+            try:
+                out = self.agents.micro_resolve(
+                    question=question,
+                    answers=state["available_answers"],
+                    previous_feedback=state.get("latest_review_feedback", ""),
+                )
+                return {
+                    "latest_micro_candidate": {
+                        "question_id": out.question_id,
+                        "selected_answer_id": out.selected_answer_id,
+                    }
                 }
-            }
+            except Exception as exc:
+                self._trace(f"micro_resolve error for q={question['id']}: {exc}")
+                attempts = state.get("current_question_attempts", 0) + 1
+                return {
+                    "latest_micro_candidate": {"question_id": question["id"], "selected_answer_id": ""},
+                    "current_question_attempts": attempts,
+                    "latest_review_feedback": str(exc),
+                }
 
         def path_a_reviewer_node(state: MatchingGraphState) -> dict:
             idx = state["current_question_index"]
@@ -122,11 +137,15 @@ class MatchingAgentSystem:
                     f"Path A - Reviewer: candidato invalido, se usa fallback a={selected_id}"
                 )
 
-            review = self.agents.micro_review(
-                question=question,
-                selected_answer=selected_answer,
-                answers=state["available_answers"],
-            )
+            try:
+                review = self.agents.micro_review(
+                    question=question,
+                    selected_answer=selected_answer,
+                    answers=state["available_answers"],
+                )
+            except Exception as exc:
+                self._trace(f"micro_review error for q={question_id} a={selected_id}: {exc}")
+                review = SimpleNamespace(status="fail", feedback=str(exc))
 
             if review.status == "pass":
                 matches = dict(state["current_matches"])
@@ -185,9 +204,15 @@ class MatchingAgentSystem:
             direct_answer_for_question: dict[str, str] = {}
             direct_pool = dict(available_by_id)
             for question in unresolved:
-                direct_out = self.agents.path_b_q2a(question, list(direct_pool.values()))
+                try:
+                    direct_out = self.agents.path_b_q2a(question, list(direct_pool.values()))
+                    aid = (direct_out.selected_answer_id or "").strip()
+                except Exception as exc:
+                    self._trace(f"path_b_q2a error for q={question['id']}: {exc}")
+                    aid = ""
+                    direct_out = SimpleNamespace(selected_answer_id="")
+
                 qid = question["id"]
-                aid = direct_out.selected_answer_id.strip()
                 direct_draft[qid] = aid
                 if aid in direct_pool:
                     direct_answer_for_question[qid] = aid
@@ -195,8 +220,12 @@ class MatchingAgentSystem:
 
             inverse_draft: dict[str, str | None] = {}
             for answer in state["available_answers"]:
-                inverse_out = self.agents.path_b_a2q(answer, state["original_questions"])
-                matched_qid = (inverse_out.question_id or "").strip() or None
+                try:
+                    inverse_out = self.agents.path_b_a2q(answer, state["original_questions"])
+                    matched_qid = (inverse_out.question_id or "").strip() or None
+                except Exception as exc:
+                    self._trace(f"path_b_a2q error for a={answer['id']}: {exc}")
+                    matched_qid = None
                 inverse_draft[answer["id"]] = matched_qid
 
             board = dict(state["current_matches"])
@@ -240,8 +269,12 @@ class MatchingAgentSystem:
                         if len(candidate_objs) == 1:
                             selected = candidate_objs[0]
                         else:
-                            audit = self.agents.path_b_audit_candidates(question, candidate_objs)
-                            selected_id = (audit.selected_answer_id or "").strip()
+                            try:
+                                audit = self.agents.path_b_audit_candidates(question, candidate_objs)
+                                selected_id = (audit.selected_answer_id or "").strip()
+                            except Exception as exc:
+                                self._trace(f"path_b_audit_candidates error for q={question['id']}: {exc}")
+                                selected_id = ""
                             if selected_id:
                                 selected = next((cand for cand in candidate_objs if cand["id"] == selected_id), None)
 
@@ -269,8 +302,12 @@ class MatchingAgentSystem:
                     if not question_obj:
                         continue
 
-                    sweep_out = self.agents.path_b_q2a(question_obj, list(remaining_answers.values()))
-                    selected_id = (sweep_out.selected_answer_id or "").strip()
+                    try:
+                        sweep_out = self.agents.path_b_q2a(question_obj, list(remaining_answers.values()))
+                        selected_id = (sweep_out.selected_answer_id or "").strip()
+                    except Exception as exc:
+                        self._trace(f"path_b_q2a (sweeper) error for q={qid}: {exc}")
+                        selected_id = ""
 
                     if selected_id in remaining_answers:
                         board[qid] = selected_id
