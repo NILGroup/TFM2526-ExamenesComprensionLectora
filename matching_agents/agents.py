@@ -103,7 +103,7 @@ Devuelve exclusivamente un JSON válido con la decisión final.
 class MatchingAgents:
     llm: OllamaClient
     tracer: Callable[[str], None] | None = None
-    delay_seconds: float = 0.5
+    delay_seconds: float = 0.25
 
     def _trace(self, message: str) -> None:
         if self.tracer is not None:

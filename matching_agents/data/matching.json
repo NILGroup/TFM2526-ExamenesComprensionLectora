@@ -1,7 +1,7 @@
 {
     "exams": [
         {
-        	"level": "B2",
+            "level": "B2",
             "examId": "B2_2013-08-23",
             "exercises": [
                 {
@@ -99,197 +99,102 @@
             ]
         },
         {
-
-           "level": "B2",
-
-           "examId": "B2_2013-11-22",
-
-           "exercises": [
-
+            "level": "B2",
+            "examId": "B2_2013-11-22",
+            "exercises": [
                 {
-
-                   "exerciseID": "B2_2013-11-22_E2",
-
-                   "type": "matching",
-
-                   "instructions": "Usted va a leer cuatro textos en los que cuatro personas cuentan cuál fue el libro que más les influyó en\nsu infancia. Relacione las preguntas (7-16) con los textos (A, B, C o D).\nMarque las opciones elegidas en la Hoja de respuestas.",
-
-                   "num-questions": 10,
-
-                   "exercise": {
-
-                       "set1": [
-
-                           {
-
-                               "optionId": "A",
-
-                               "text": "PABLO\nCuando les digan que lo audiovisual es enemigo de la lectura, no hagan caso. A través del oído y de las imágenes se puede llegar a descubrir la literatura. Así fue en mi caso. La isla del tesoro, mi relato preferido desde los siete años hasta hoy, lo escuché primero en disco antes de leerlo. Y en uno de los tebeos que devoraba semanalmente con apetito insaciable, me encontré con el cuento El corazón delator, que sirvió de base a mi pasión de lector. Pero no convierto esas obras en fetiches de valor universal: si yo tuviese hoy aquella edad, seguro que me iniciaría en la literatura a través de algún juego de videoconsola. Solo una cosa es segura: los libros que nos enganchan en la infancia son los que nos gustan a nosotros, no a los educadores, porque leer es un vicio maravilloso, no una  virtuosa necesidad formativa.",
-
-                               "image-path": ""
-
-                           },
-
-                           {
-
-                               "optionId": "B",
-
-                               "text": "ÁNGEL\nLa serie de novelas que me enganchó a la ficción fue la de Tarzán. Debí de leerla con siete u ocho años. Cuando mi madre me apagaba la luz, yo encendía la linterna debajo de las sábanas para seguir leyendo, o bien esperaba hasta que sus pasos se alejaban y oía el televisor. Entonces salía sigilosamente al pasillo y me encerraba en el baño con mi libro.\nHasta donde me alcanza la memoria, la primera imagen narrativa fuerte que guardo de la serie es cuando la mona que va a adoptar a Tarzán lo encuentra y lo coge en brazos. Si la marca del buen narrador es ser capaz de encarnar un personaje o una emoción en una\nacción o una actitud que se grabe para siempre en los espíritus, está claro que, conmigo, el autor lo consiguió. Desde entonces, no he dejado de leer.",
-
-                               "image-path": ""
-
-                           },
-
-                           {
-
-                               "optionId": "C",
-
-                               "text": "JORGE\nHubo un libro en mi infancia que me produjo una vivísima impresión. Empecé a leerlo el día de mi primera comunión, a los siete años. Con los altibajos típicos de un acontecimiento excitante en el que puedes pasar muy fácilmente del júbilo exacerbado a la rabieta total, a media tarde escapé disgustado del bullicio del banquete familiar, me encerré en mi cuarto y me puse a leer un libro que me había traído un pariente. Se trataba de una versión extensa, en tapa dura, de La isla misteriosa, de Julio Verne. Seguí leyendo, sorprendido,\nintrigado, expectante y confuso, y cuando al cabo de un rato llamaron a la puerta del cuarto reclamando mi presencia, el disgusto se había desvanecido por completo, y solo tenía ganas de seguir con la lectura, pues la historia me había atrapado desde el principio. Ese\nfue mi primer y muy inesperado encuentro con la literatura.",
-
-                               "image-path": ""
-
-                           },
-
-                           {
-
-                               "optionId": "D",
-
-                               "text": "RAÚL\nEl primer libro que dejó un rastro indeleble en mí fue, sin el menor asomo de duda, El cartero del Rey, de Tagore. Tuve una madre con la sana costumbre de leerme en voz alta cuando yo era muy chico, y ese fue el libro que, aún recuerdo, me encantaba que me leyera una y otra vez cuando yo apenas había aprendido a leer. Todavía permanece, por otro lado, vívida en mí, la impresión que me causó la lectura de La vuelta al mundo en 80 días. Creo que su lectura marcó mi carácter viajero. Desde entonces supe que había un universo vasto y maravilloso que me aguardaba y en el que merecía la pena inmiscuirse. La lectura supuso, para el niño solitario y cerrado que yo era antes, la vía por la que podía conectarme con el mundo.",
-
-                               "image-path": ""
-
-                           }
-
-                       ],
-
-                       "set2": [
-
-                           {
-
-                               "optionId": 7,
-
-                               "text": "¿Quién dice que su primer libro se lo regaló un\nfamiliar?",
-
-                               "image-path": "",
-
-                               "set1-correct-match": "C"
-
-                           },
-
-                           {
-
-                               "optionId": 8,
-
-                               "text": "¿Quién dice que se inició en la literatura con una \ncolección?",
-
-                               "image-path": "",
-
-                               "set1-correct-match": "B"
-
-                           },
-
-                           {
-
-                               "optionId": 9,
-
-                               "text": "¿Quién dice que de pequeño solía leer a escondidas?",
-
-                               "image-path": "",
-
-                               "set1-correct-match": "B"
-
-                           },
-
-                           {
-
-                               "optionId": 10,
-
-                               "text": "¿Quién dice que el libro que más le influyó lo escuchó muchas veces?",
-
-                               "image-path": "",
-
-                               "set1-correct-match": "D"
-
-                           },
-
-                           {
-
-                               "optionId": 11,
-
-                               "text": "¿Quién se aficionó a la literatura en medio de una\n celebración?",
-
-                               "image-path": "",
-
-                               "set1-correct-match": "C"
-
-                           },
-
-                           {
-
-                               "optionId": 12,
-
-                               "text": "¿Quién dice que era un niño introvertido?",
-
-                               "image-path": "",
-
-                               "set1-correct-match": "D"
-
-                           },
-
-                           {
-
-                               "optionId": 13,
-
-                               "text": "¿Quién dice que el primer libro que leyó le enganchó desde las primeras páginas?",
-
-                               "image-path": "",
-
-                               "set1-correct-match": "C"
-
-                           },
-
-                           {
-
-                               "optionId": 14,
-
-                               "text": "¿Quién recuerda vivamente una escena de su historia favorita?",
-
-                               "image-path": "",
-
-                               "set1-correct-match": "B"
-
-                           },
-
-                           {
-
-                               "optionId": 15,
-
-                               "text": "¿Quién estaba enfadado cuando empezó a leer su primer libro?",
-
-                               "image-path": "",
-
-                               "set1-correct-match": "C"
-
-                           },
-
-                           {
-
-                               "optionId": 16,
-
-                               "text": "¿Quién se aficionó a la lectura a través de un cómic?",
-
-                               "image-path": "",
-
-                               "set1-correct-match": "A"
-
-                           }
-
-                       ]
-
-                   }
-
-               },
-               {
+                    "exerciseID": "B2_2013-11-22_E2",
+                    "type": "matching",
+                    "instructions": "Usted va a leer cuatro textos en los que cuatro personas cuentan cuál fue el libro que más les influyó en\nsu infancia. Relacione las preguntas (7-16) con los textos (A, B, C o D).\nMarque las opciones elegidas en la Hoja de respuestas.",
+                    "num-questions": 10,
+                    "exercise": {
+                        "set1": [
+                            {
+                                "optionId": "A",
+                                "text": "PABLO\nCuando les digan que lo audiovisual es enemigo de la lectura, no hagan caso. A través del oído y de las imágenes se puede llegar a descubrir la literatura. Así fue en mi caso. La isla del tesoro, mi relato preferido desde los siete años hasta hoy, lo escuché primero en disco antes de leerlo. Y en uno de los tebeos que devoraba semanalmente con apetito insaciable, me encontré con el cuento El corazón delator, que sirvió de base a mi pasión de lector. Pero no convierto esas obras en fetiches de valor universal: si yo tuviese hoy aquella edad, seguro que me iniciaría en la literatura a través de algún juego de videoconsola. Solo una cosa es segura: los libros que nos enganchan en la infancia son los que nos gustan a nosotros, no a los educadores, porque leer es un vicio maravilloso, no una  virtuosa necesidad formativa.",
+                                "image-path": ""
+                            },
+                            {
+                                "optionId": "B",
+                                "text": "ÁNGEL\nLa serie de novelas que me enganchó a la ficción fue la de Tarzán. Debí de leerla con siete u ocho años. Cuando mi madre me apagaba la luz, yo encendía la linterna debajo de las sábanas para seguir leyendo, o bien esperaba hasta que sus pasos se alejaban y oía el televisor. Entonces salía sigilosamente al pasillo y me encerraba en el baño con mi libro.\nHasta donde me alcanza la memoria, la primera imagen narrativa fuerte que guardo de la serie es cuando la mona que va a adoptar a Tarzán lo encuentra y lo coge en brazos. Si la marca del buen narrador es ser capaz de encarnar un personaje o una emoción en una\nacción o una actitud que se grabe para siempre en los espíritus, está claro que, conmigo, el autor lo consiguió. Desde entonces, no he dejado de leer.",
+                                "image-path": ""
+                            },
+                            {
+                                "optionId": "C",
+                                "text": "JORGE\nHubo un libro en mi infancia que me produjo una vivísima impresión. Empecé a leerlo el día de mi primera comunión, a los siete años. Con los altibajos típicos de un acontecimiento excitante en el que puedes pasar muy fácilmente del júbilo exacerbado a la rabieta total, a media tarde escapé disgustado del bullicio del banquete familiar, me encerré en mi cuarto y me puse a leer un libro que me había traído un pariente. Se trataba de una versión extensa, en tapa dura, de La isla misteriosa, de Julio Verne. Seguí leyendo, sorprendido,\nintrigado, expectante y confuso, y cuando al cabo de un rato llamaron a la puerta del cuarto reclamando mi presencia, el disgusto se había desvanecido por completo, y solo tenía ganas de seguir con la lectura, pues la historia me había atrapado desde el principio. Ese\nfue mi primer y muy inesperado encuentro con la literatura.",
+                                "image-path": ""
+                            },
+                            {
+                                "optionId": "D",
+                                "text": "RAÚL\nEl primer libro que dejó un rastro indeleble en mí fue, sin el menor asomo de duda, El cartero del Rey, de Tagore. Tuve una madre con la sana costumbre de leerme en voz alta cuando yo era muy chico, y ese fue el libro que, aún recuerdo, me encantaba que me leyera una y otra vez cuando yo apenas había aprendido a leer. Todavía permanece, por otro lado, vívida en mí, la impresión que me causó la lectura de La vuelta al mundo en 80 días. Creo que su lectura marcó mi carácter viajero. Desde entonces supe que había un universo vasto y maravilloso que me aguardaba y en el que merecía la pena inmiscuirse. La lectura supuso, para el niño solitario y cerrado que yo era antes, la vía por la que podía conectarme con el mundo.",
+                                "image-path": ""
+                            }
+                        ],
+                        "set2": [
+                            {
+                                "optionId": 7,
+                                "text": "¿Quién dice que su primer libro se lo regaló un\nfamiliar?",
+                                "image-path": "",
+                                "set1-correct-match": "C"
+                            },
+                            {
+                                "optionId": 8,
+                                "text": "¿Quién dice que se inició en la literatura con una \ncolección?",
+                                "image-path": "",
+                                "set1-correct-match": "B"
+                            },
+                            {
+                                "optionId": 9,
+                                "text": "¿Quién dice que de pequeño solía leer a escondidas?",
+                                "image-path": "",
+                                "set1-correct-match": "B"
+                            },
+                            {
+                                "optionId": 10,
+                                "text": "¿Quién dice que el libro que más le influyó lo escuchó muchas veces?",
+                                "image-path": "",
+                                "set1-correct-match": "D"
+                            },
+                            {
+                                "optionId": 11,
+                                "text": "¿Quién se aficionó a la literatura en medio de una\n celebración?",
+                                "image-path": "",
+                                "set1-correct-match": "C"
+                            },
+                            {
+                                "optionId": 12,
+                                "text": "¿Quién dice que era un niño introvertido?",
+                                "image-path": "",
+                                "set1-correct-match": "D"
+                            },
+                            {
+                                "optionId": 13,
+                                "text": "¿Quién dice que el primer libro que leyó le enganchó desde las primeras páginas?",
+                                "image-path": "",
+                                "set1-correct-match": "C"
+                            },
+                            {
+                                "optionId": 14,
+                                "text": "¿Quién recuerda vivamente una escena de su historia favorita?",
+                                "image-path": "",
+                                "set1-correct-match": "B"
+                            },
+                            {
+                                "optionId": 15,
+                                "text": "¿Quién estaba enfadado cuando empezó a leer su primer libro?",
+                                "image-path": "",
+                                "set1-correct-match": "C"
+                            },
+                            {
+                                "optionId": 16,
+                                "text": "¿Quién se aficionó a la lectura a través de un cómic?",
+                                "image-path": "",
+                                "set1-correct-match": "A"
+                            }
+                        ]
+                    }
+                },
+                {
                     "exerciseID": "B1_2013-11-22_E1",
                     "type": "matching",
                     "instructions": "Usted va a leer seis enunciados que resumen los textos de algunos signos del horóscopo para la próxima semana y diez textos que corresponden a distintos signos. Relacione los enunciados (1-6) con los textos del horóscopo (A-J). HAY TRES TEXTOS QUE NO DEBE RELACIONAR. \nMarque las opciones elegidas en la Hoja de respuestas.",
@@ -393,232 +298,655 @@
                         ]
                     }
                 }
-
-           ]
-
-      
-
-       },
-       {
-
-           "level": "A1",
-
-           "examId": "A1_2019-11-23",
-
-           "exercises": [
-
-                 {
-
-                   "exerciseID": "A1_2019-11-23_E3",
-
-                   "type": "matching",
-
-                   "instructions": "Usted va a leer una información sobre los cines de la ciudad. Tiene que relacionar los anuncios (A - J)\ncon los textos (del 12 al 17). Hay diez anuncios, incluido el ejemplo. Seleccione seis.\n \nTiene que marcar la opción elegida en la Hoja de respuestas.",
-
-                   "num-questions": 7,
-
-                   "exercise": {
-
-                       "set1": [
-
-                           {
-
-                               "optionId": "A",
-
-                               "text": "Cine Gran Vía\nCine de verano: Martes. 22 Hora: 18.30 h.\nPelícula: Picasso Exposición de fotografías: Picasso y el color.\nPrecio: 4 euros\nHorario: 20.30 h.",
-
-                               "image-path": ""
-
-                           },
-
-                           {
-
-                               "optionId": "B",
-
-                               "text": "Cine Bretón\nOctubre: Cine argentino. El programa empieza con una pelicula que cuenta la historia de\ncuatro policías que viven en Buenos Aires.\nHorario: 20 h.",
-
-                               "image-path": ""
-
-                           },
-
-                           {
-
-                               "optionId": "C",
-
-                               "text": "Cine Cervantes\nLos martes y los jueves, las películas son en versión original: inglés, francés, alemán y chino.\nHorario: 19.30 h. Venta de entradas: www.cinecervantes.es\n",
-
-                               "image-path": ""
-
-                           },
-
-                           {
-
-                               "optionId": "D",
-
-                               "text": "Cine Asturias\nPresentación de la nueva pelicula de Javier López. Una divertida historia que\ncuenta la vida de tres jóvenes muy simpáticos. Horario: 20 h y 22.30 h",
-
-                               "image-path": ""
-
-                           },
-
-                           {
-
-                               "optionId": "E",
-
-                               "text": "Cine Alcalá\nLa Escuela de Cine de  Madrid presenta seis películas de los estudiantes del curso superior.\nInformación: www.cinemadrid.es",
-
-                               "image-path": ""
-
-                           },
-
-                           {
-
-                               "optionId": "F",
-
-                               "text": "Cine Ayala \n\nEl próximo viernes podemos ver la película musical, Bailar toda la noche. Los actores cantan y bailan durante dos horas. Para toda la familia. Horario: 17 .30 h -19.30 h. ",
-
-                               "image-path": ""
-
-                           },
-
-                           {
-
-                               "optionId": "G",
-
-                               "text": "Cine Ramblas \nDe lunes a jueves: Precios especiales para estudiantes mayores de 18 años. Es necesario presentar el carné. \nHorario: 19 h. \nPrecio: 2 euros. ",
-
-                               "image-path": ""
-
-                           },
-
-                           {
-
-                               "optionId": "H",
-
-                               "text": "Cine Buñuel \nInformación: \nTodos los fines de semana, a las 11 h, películas para los más pequeños de la casa. Precios: \nDe 2 a 13 años: \n2 euros. \nDe 14 a 18 años: \n3 euros. \nMayores de 18 años: 5 euros. ",
-
-                               "image-path": ""
-
-                           },
-
-                           {
-
-                               "optionId": "I",
-
-                               "text": "Cine Paraíso \nPelículas clásicas en blanco y negro. \nEste domingo podemos ver la historia de amor de dos personas de diferente nacionalidad. Precio: 4 euros. ",
-
-                               "image-path": ""
-
-                           },
-
-                           {
-
-                               "optionId": "J",
-
-                               "text": "Cine Trueba \nPrograma especial de películas sobre la naturaleza. \nEl próximo miércoles, Los espacios naturales de Hispanoamérica, una película de Chile. Horario: 18 h. ",
-
-                               "image-path": ""
-
-                           }
-
-                       ],
-
-                       "set2": [
-
-                           {
-
-                               "optionId": 0,
-
-                               "text": "Me gusta mucho el arte, especialmente la pintura de artistas modernos. ",
-
-                               "image-path": "img/A1_2019-11-23_E3_set2_0.jpg",
-
-                               "set1-correct-match": "A"
-
-                           },
-
-                           {
-
-                               "optionId": 12,
-
-                               "text": "Normalmente, mis amigas y yo vamos al cine el miércoles porque es más barato. ",
-
-                               "image-path": "img/A1_2019-11-23_E3_set2_12.jpg",
-
-                               "set1-correct-match": "G"
-
-                           },
-
-                           {
-
-                               "optionId": 13,
-
-                               "text": "El sábado por la mañana, queremos ir al cine con nuestros hijos porque tenemos tiempo libre. ",
-
-                               "image-path": "img/A1_2019-11-23_E3_set2_13.jpg",
-
-                               "set1-correct-match": "H"
-
-                           },
-
-                           {
-
-                               "optionId": 14,
-
-                               "text": "En vacaciones vamos a la montaña para caminar y hacer fotografías de los árboles, de las plantas, del campo ... ",
-
-                               "image-path": "img/A1_2019-11-23_E3_set2_14.jpg",
-
-                               "set1-correct-match": "J"
-
-                           },
-
-                           {
-
-                               "optionId": 15,
-
-                               "text": "Yo prefiero ver una historia divertida, para reír; las películas de miedo no me gustan nada. ",
-
-                               "image-path": "img/A1_2019-11-23_E3_set2_15.jpg",
-
-                               "set1-correct-match": "D"
-
-                           },
-
-                           {
-
-                               "optionId": 16,
-
-                               "text": "Estudio en la Escuela Oficial de Idiomas. Siempre voy al cine para ver películas en otras lenguas. ",
-
-                               "image-path": "img/A1_2019-11-23_E3_set2_16.jpg",
-
-                               "set1-correct-match": "C"
-
-                           },
-
-                           {
-
-                               "optionId": 17,
-
-                               "text": "Me gusta mucho cantar, escuchar música y tocar el piano. ",
-
-                               "image-path": "img/A1_2019-11-23_E3_set2_17.jpg",
-
-                               "set1-correct-match": "F"
-
-                           }
-
-                       ]
-
-                   }
-
-               }
-
-           ]
-
-      
-
-       }
+            ]
+        },
+        {
+            "level": "A1",
+            "examId": "A1_2019-11-23",
+            "exercises": [
+                {
+                    "exerciseID": "A1_2019-11-23_E3",
+                    "type": "matching",
+                    "instructions": "Usted va a leer una información sobre los cines de la ciudad. Tiene que relacionar los anuncios (A - J)\ncon los textos (del 12 al 17). Hay diez anuncios, incluido el ejemplo. Seleccione seis.\n \nTiene que marcar la opción elegida en la Hoja de respuestas.",
+                    "num-questions": 7,
+                    "exercise": {
+                        "set1": [
+                            {
+                                "optionId": "A",
+                                "text": "Cine Gran Vía\nCine de verano: Martes. 22 Hora: 18.30 h.\nPelícula: Picasso Exposición de fotografías: Picasso y el color.\nPrecio: 4 euros\nHorario: 20.30 h.",
+                                "image-path": ""
+                            },
+                            {
+                                "optionId": "B",
+                                "text": "Cine Bretón\nOctubre: Cine argentino. El programa empieza con una pelicula que cuenta la historia de\ncuatro policías que viven en Buenos Aires.\nHorario: 20 h.",
+                                "image-path": ""
+                            },
+                            {
+                                "optionId": "C",
+                                "text": "Cine Cervantes\nLos martes y los jueves, las películas son en versión original: inglés, francés, alemán y chino.\nHorario: 19.30 h. Venta de entradas: www.cinecervantes.es\n",
+                                "image-path": ""
+                            },
+                            {
+                                "optionId": "D",
+                                "text": "Cine Asturias\nPresentación de la nueva pelicula de Javier López. Una divertida historia que\ncuenta la vida de tres jóvenes muy simpáticos. Horario: 20 h y 22.30 h",
+                                "image-path": ""
+                            },
+                            {
+                                "optionId": "E",
+                                "text": "Cine Alcalá\nLa Escuela de Cine de  Madrid presenta seis películas de los estudiantes del curso superior.\nInformación: www.cinemadrid.es",
+                                "image-path": ""
+                            },
+                            {
+                                "optionId": "F",
+                                "text": "Cine Ayala \n\nEl próximo viernes podemos ver la película musical, Bailar toda la noche. Los actores cantan y bailan durante dos horas. Para toda la familia. Horario: 17 .30 h -19.30 h. ",
+                                "image-path": ""
+                            },
+                            {
+                                "optionId": "G",
+                                "text": "Cine Ramblas \nDe lunes a jueves: Precios especiales para estudiantes mayores de 18 años. Es necesario presentar el carné. \nHorario: 19 h. \nPrecio: 2 euros. ",
+                                "image-path": ""
+                            },
+                            {
+                                "optionId": "H",
+                                "text": "Cine Buñuel \nInformación: \nTodos los fines de semana, a las 11 h, películas para los más pequeños de la casa. Precios: \nDe 2 a 13 años: \n2 euros. \nDe 14 a 18 años: \n3 euros. \nMayores de 18 años: 5 euros. ",
+                                "image-path": ""
+                            },
+                            {
+                                "optionId": "I",
+                                "text": "Cine Paraíso \nPelículas clásicas en blanco y negro. \nEste domingo podemos ver la historia de amor de dos personas de diferente nacionalidad. Precio: 4 euros. ",
+                                "image-path": ""
+                            },
+                            {
+                                "optionId": "J",
+                                "text": "Cine Trueba \nPrograma especial de películas sobre la naturaleza. \nEl próximo miércoles, Los espacios naturales de Hispanoamérica, una película de Chile. Horario: 18 h. ",
+                                "image-path": ""
+                            }
+                        ],
+                        "set2": [
+                            {
+                                "optionId": 0,
+                                "text": "Me gusta mucho el arte, especialmente la pintura de artistas modernos. ",
+                                "image-path": "img/A1_2019-11-23_E3_set2_0.png",
+                                "set1-correct-match": "A"
+                            },
+                            {
+                                "optionId": 12,
+                                "text": "Normalmente, mis amigas y yo vamos al cine el miércoles porque es más barato. ",
+                                "image-path": "img/A1_2019-11-23_E3_set2_12.png",
+                                "set1-correct-match": "G"
+                            },
+                            {
+                                "optionId": 13,
+                                "text": "El sábado por la mañana, queremos ir al cine con nuestros hijos porque tenemos tiempo libre. ",
+                                "image-path": "img/A1_2019-11-23_E3_set2_13.png",
+                                "set1-correct-match": "H"
+                            },
+                            {
+                                "optionId": 14,
+                                "text": "En vacaciones vamos a la montaña para caminar y hacer fotografías de los árboles, de las plantas, del campo ... ",
+                                "image-path": "img/A1_2019-11-23_E3_set2_14.png",
+                                "set1-correct-match": "J"
+                            },
+                            {
+                                "optionId": 15,
+                                "text": "Yo prefiero ver una historia divertida, para reír; las películas de miedo no me gustan nada. ",
+                                "image-path": "img/A1_2019-11-23_E3_set2_15.png",
+                                "set1-correct-match": "D"
+                            },
+                            {
+                                "optionId": 16,
+                                "text": "Estudio en la Escuela Oficial de Idiomas. Siempre voy al cine para ver películas en otras lenguas. ",
+                                "image-path": "img/A1_2019-11-23_E3_set2_16.png",
+                                "set1-correct-match": "C"
+                            },
+                            {
+                                "optionId": 17,
+                                "text": "Me gusta mucho cantar, escuchar música y tocar el piano. ",
+                                "image-path": "img/A1_2019-11-23_E3_set2_17.png",
+                                "set1-correct-match": "F"
+                            }
+                        ]
+                    }
+                }
+            ]
+        },
+        {
+            "level": "A1",
+            "examId": "A1_2020-04",
+            "exercises": [
+                {
+                    "exerciseID": "A1_2020-04_E3",
+                    "type": "matching",
+                    "instructions": "Usted va a leer unos anuncios informativos sobre casas. Tiene que relacionar los anuncios (A - J) con los textos (del 12 al 17). Hay diez anuncios, incluido el ejemplo. Seleccione seis.\nTiene que marcar la opción elegida en la Hoja de respuestas.",
+                    "num-questions": 7,
+                    "exercise": {
+                        "set1": [
+                            {
+                                "optionId": "A",
+                                "text": "Alicante\nSe alquila\nPiso exterior, al lado de la playa. Todo el año, menos en agosto. Dos dormitorios, baño, piscina y garaje.\nPrecio: 600 euros al mes.\nTeléfono: 606990044",
+                                "image-path": ""
+                            },
+                            {
+                                "optionId": "B",
+                                "text": "Barcelona\nSe vende\nCasa de 100 años, necesita reformas; zona centro, 2 dormitorios, salón, cocina, baño.\n260.000 euros.\nalbertob@mail.com",
+                                "image-path": ""
+                            },
+                            {
+                                "optionId": "C",
+                                "text": "Madrid\nSe vende\nBonito piso en el centro de 100m², exterior, 4 dormitorios, 2 baños, cocina. Zona con servicios (parques, colegios, hospital).\n300.000 euros.\n91 345 245 211",
+                                "image-path": ""
+                            },
+                            {
+                                "optionId": "D",
+                                "text": "Sevilla\nSe vende\nApartamento completamente nuevo. Salón, 1 dormitorio, baño y cocina. Muebles y aire acondicionado.\n602 11 33 55 (preguntar por María)",
+                                "image-path": ""
+                            },
+                            {
+                                "optionId": "E",
+                                "text": "Salamanca\nSe alquila\nPiso para estudiantes. Tres dormitorios, salón, dos baños y cocina. Zona del campus universitario, al lado de la estación de autobuses. Bien comunicado con el centro. Durante el curso.\n600 euros / mes.\nmarisa@gmail.com",
+                                "image-path": ""
+                            },
+                            {
+                                "optionId": "F",
+                                "text": "Cáceres\nSe alquila\nChalet, 5 dormitorios, 3 baños, salón-cocina, piscina y 300 metros de jardín.\n1.500 euros al mes.\ngero@yahoo.es",
+                                "image-path": ""
+                            },
+                            {
+                                "optionId": "G",
+                                "text": "Valencia\nSe vende\nCasa a 30 km de Valencia. Tres habitaciones, baño y aseo, cocina-comedor. Garaje para tres coches. Piscina interior y exterior, jardín y una pista de tenis y cancha de baloncesto.\nTeléfono: 94 437 00 00 (preguntar por Sandra).",
+                                "image-path": ""
+                            },
+                            {
+                                "optionId": "H",
+                                "text": "Murcia\nSe alquila\nPiso en primera línea de playa, cocina, salón, baño, 3 dormitorios. Meses julio, agosto y septiembre. Mínimo una semana.\nggarcia@mail.com",
+                                "image-path": ""
+                            },
+                            {
+                                "optionId": "I",
+                                "text": "Huesca\nSe alquila\nCasa en la montaña, al lado de la estación de esquí de Candanchú. Cocina, salón, 3 baños, 6 dormitorios dobles. Meses de invierno.\nwww.casamonte.es",
+                                "image-path": ""
+                            },
+                            {
+                                "optionId": "J",
+                                "text": "Gijón\nSe alquila\nCasa rural, a tres kilómetros de Gijón. 5 dormitorios, 2 baños, salón-comedor, cocina, garaje grande y jardín. Durante todo el año.\nTeléfono: 657 67 88 00",
+                                "image-path": ""
+                            }
+                        ],
+                        "set2": [
+                            {
+                                "optionId": 0,
+                                "text": "Buscamos un piso para el mes de mayo en una ciudad con playa.",
+                                "image-path": "img/A1_2020-04_E3_0.jpg",
+                                "set1-correct-match": "A"
+                            },
+                            {
+                                "optionId": 12,
+                                "text": "Somos un grupo de amigos y nos gusta mucho esquiar. Buscamos una casa grande para las vacaciones de Navidad.",
+                                "image-path": "img/A1_2020-04_E3_12.jpg",
+                                "set1-correct-match": "I"
+                            },
+                            {
+                                "optionId": 13,
+                                "text": "Quiero comprar un piso pequeño para mí sola.",
+                                "image-path": "img/A1_2020-04_E3_13.jpg",
+                                "set1-correct-match": "D"
+                            },
+                            {
+                                "optionId": 14,
+                                "text": "Tenemos dos hijas y queremos comprar un piso grande en una zona con colegio e instituto para ellas.",
+                                "image-path": "img/A1_2020-04_E3_14.jpg",
+                                "set1-correct-match": "C"
+                            },
+                            {
+                                "optionId": 15,
+                                "text": "Para el próximo curso queremos alquilar un piso para tres personas. Buscamos uno cerca de la universidad, de septiembre a junio. Máximo, 650 euros al mes.",
+                                "image-path": "img/A1_2020-04_E3_15.jpg",
+                                "set1-correct-match": "E"
+                            },
+                            {
+                                "optionId": 16,
+                                "text": "Buscamos un piso cerca del mar para ir de vacaciones del 1 al 15 de agosto.",
+                                "image-path": "img/A1_2020-04_E3_16.jpg",
+                                "set1-correct-match": "H"
+                            },
+                            {
+                                "optionId": 17,
+                                "text": "Queremos comprar una casa en el campo, con un garaje grande, piscina y mucho espacio para practicar deporte con nuestros hijos.",
+                                "image-path": "img/A1_2020-04_E3_17.jpg",
+                                "set1-correct-match": "G"
+                            }
+                        ]
+                    }
+                }
+            ]
+        },
+        {
+            "level": "C1",
+            "examId": "C1_modelo-0",
+            "exercises": [
+                {
+                    "exerciseID": "C1_modelo-0_E4",
+                    "type": "matching",
+                    "instructions": "A continuación, tiene seis textos (A - F) y ocho enunciados (19 - 26). Léalos y elija el texto que corresponde a cada enunciado.\nRECUERDE QUE HAY TEXTOS QUE DEBEN SER ELEGIDOS MÁS DE UNA VEZ.\nMarque las opciones elegidas en la Hoja de respuestas.",
+                    "num-questions": 8,
+                    "exercise": {
+                        "set1": [
+                            {
+                                "optionId": "A",
+                                "text": "Reyes de las montañas. Matt Rendell\nEste libro, escrito por el periodista Matt Rendell, se ha vuelto uno de los títulos clave para entender la historia del ciclismo colombiano. En él, Rendell incluye visitas y entrevistas a varios personajes claves en este deporte dentro del país. Resulta fundamental su destreza como cronista para documentar toda la historia, desde que las competencias se realizaban aún en caminos pedregosos hasta los destacados logros de figuras como Zipa Forero, Cochise Rodríguez, Fabio Parra y Lucho Herrera. Por otra parte, el autor consigue articular la historia del ciclismo con la historia sociopolítica de Colombia, por lo que Reyes de las montañas es un libro de ciclismo, pero, sobre todo, una lección de historia del país.",
+                                "image-path": ""
+                            },
+                            {
+                                "optionId": "B",
+                                "text": "El ciclista. Tim Krabbé\nSe trata de una crónica kilómetro a kilómetro del Tour del Mont Aigoual de 1977 protagonizada por su autor, Tim Krabbé, que se ha convertido en un libro de culto para los entendidos y periodistas deportivos del mundo. Para muchos es la mejor novela subjetiva sobre el ciclismo escrita hasta la fecha. En el libro, Krabbé va intercalando su propia historia como ciclista en los años setenta con la narración del ascenso y el descenso de la montaña, para retratar el sufrimiento, la concentración y las fibras emocionales de la estrategia y la creatividad deportiva de los grandes corredores. Como escribe el periodista Ramón González Rey: «El ciclista es, por cortesía del autor, un viaje al centro del ser humano. Subido a la bicicleta, el corredor recibe al tiempo los latigazos de las dos emociones que definen nuestro paso por el mundo: el dolor y el deseo».",
+                                "image-path": ""
+                            },
+                            {
+                                "optionId": "C",
+                                "text": "Muerte contrarreloj. Jorge Zepeda Patterson\nEsta ficción de Jorge Zepeda Patterson mezcla el thriller policial con las competencias deportivas para construir una novela que se ha popularizado entre los fanáticos del ciclismo en Iberoamérica. En un Tour de Francia, alrededor de un ciclista colombo-francés, Marc Moreau, comienzan a ocurrir una serie de misteriosos asesinatos. En la tensión de los relatos de detectives, Zepeda Patterson logra una gran ambientación deportiva a través de sus términos específicos y la sensación de estar viviendo una competencia por etapas, al tiempo que trata de explicar por qué los colombianos nos destacamos en el deporte. En palabras del reseñista José Luis Conde: «Día a día, etapa a etapa, el protagonista repasa la clasificación general del Tour, que se convierte en realidad en un ranking de sospechosos. La tensión deportiva unida a la tensión delictiva, una fórmula acertada».",
+                                "image-path": ""
+                            },
+                            {
+                                "optionId": "D",
+                                "text": "Plomo en los bolsillos. Ander Izagirre\n«Ander Izagirre reconcilia el periodismo deportivo con la literatura en su libro Plomo en los bolsillos», escribe el periodista Iñaki Pardo Torregrosa sobre el libro del escritor vasco. «Allí se descubre el lado humano del ciclismo, un deporte de extraterrestres y sacrificios inhumanos. Se hace un repaso a las victorias más ilustres y sonadas de la historia, así como de las derrotas». La narración incluye también algunos aspectos pertenecientes al lado más oscuro de este deporte, el dopaje. En palabras de su autor: «El ciclismo es un papel de tornasol muy eficaz para reconocer el carácter de las personas: compitiendo en bici, el egoísmo apesta y la generosidad brilla».",
+                                "image-path": ""
+                            },
+                            {
+                                "optionId": "E",
+                                "text": "Los esforzados de la ruta: Tour de Francia, 1924. Albert Londres\n«Existen seres fantásticos que se tragan ladrillos o ranas vivas. He visto a faquires que \"escupen\" plomo fundido. Son personas normales. Los verdaderos locos son algunos iluminados que el 22 de junio abandonaron París para comer polvo. Los conozco bien; formo parte de ellos». Así describe Albert Londres, sobresaliente cronista francés del siglo XX, a los participantes del Tour de Francia de 1924, «prisioneros de la carretera que, persiguiendo una incierta gloria, soportaron toda clase de sufrimientos y condiciones extremas». En sus crónicas ya se prefiguraban los grandes temas sociales que han rodeado el deporte: las relaciones entre los equipos, entre los ciclistas y la dirección de Tour, la configuración del capital social y la popularización de esta mítica carrera.",
+                                "image-path": ""
+                            },
+                            {
+                                "optionId": "F",
+                                "text": "Llegar a la cima. José Ángel Báez\nAunque el ciclista Nairo Quintana sea un constante foco de atención en la prensa por sus triunfos y dificultades, con especial énfasis en el relato de ese hombre humilde que, con sus pedaladas, escala hacia el éxito profesional, poco se ha visto de una manera profunda ese tránsito. «Me interesaba más abordar su salto de ciclista aficionado a profesional, es decir, de cambiar su vida bucólica de Cómbita y Arcabuco a un mundo nuevo, altamente competitivo». Así presenta el periodista y escritor José Ángel Báez su juicioso perfil sobre este ciclista originario de la región de Boyacá. El libro combina anécdotas personales y públicas de Nairo y de sus seres más cercanos para penetrar, según sus palabras, «en las facetas emocionales y espirituales de uno de los atletas más singulares de la historia de Colombia».",
+                                "image-path": ""
+                            }
+                        ],
+                        "set2": [
+                            {
+                                "optionId": 19,
+                                "text": "Entre otras cosas, pretende mostrar las causas que determinan la excelencia de los ciclistas colombianos.",
+                                "image-path": "",
+                                "set1-correct-match": "C"
+                            },
+                            {
+                                "optionId": 20,
+                                "text": "Alternan elementos autobiográficos con secuencias donde se exponen las sensaciones que conlleva este deporte.",
+                                "image-path": "",
+                                "set1-correct-match": "B"
+                            },
+                            {
+                                "optionId": 21,
+                                "text": "Destaca, junto al enorme esfuerzo y los grandes triunfos, la parte más negativa del ciclismo.",
+                                "image-path": "",
+                                "set1-correct-match": "D"
+                            },
+                            {
+                                "optionId": 22,
+                                "text": "La intención del libro es ahondar en la trayectoria más íntima de un extraordinario ciclista.",
+                                "image-path": "",
+                                "set1-correct-match": "F"
+                            },
+                            {
+                                "optionId": 23,
+                                "text": "Se trata de una obra muy difundida entre los grandes apasionados de este deporte.",
+                                "image-path": "",
+                                "set1-correct-match": "B"
+                            },
+                            {
+                                "optionId": 24,
+                                "text": "Hace un exhaustivo recorrido por el mundo del ciclismo colombiano desde sus orígenes.",
+                                "image-path": "",
+                                "set1-correct-match": "A"
+                            },
+                            {
+                                "optionId": 25,
+                                "text": "El libro recuerda a algunos hombres que, aun sin garantías de alcanzar el éxito, fueron capaces de todo.",
+                                "image-path": "",
+                                "set1-correct-match": "E"
+                            },
+                            {
+                                "optionId": 26,
+                                "text": "Narra las conquistas de deportistas que han resultado cruciales para el desarrollo del ciclismo colombiano.",
+                                "image-path": "",
+                                "set1-correct-match": "A"
+                            }
+                        ]
+                    }
+                }
+            ]
+        },
+        {
+            "level": "B2",
+            "examId": "B2_modelo-0",
+            "exercises": [
+                {
+                    "exerciseID": "B2_modelo-0_E2",
+                    "type": "matching",
+                    "instructions": "Usted va a leer cuatro textos en los que cuatro escritores recuerdan cómo publicaron su primer libro. Relacione las preguntas (7-16) con los textos (A, B, C y D).\nMarque las opciones elegidas en la Hoja de respuestas.",
+                    "num-questions": 10,
+                    "exercise": {
+                        "set1": [
+                            {
+                                "optionId": "A",
+                                "text": "Rafael\nEra un periodista joven e inexperto cuando, en 1995, entregué mi primera novela a la editorial Planeta. Se llamaba Invierno en la torre, y el diario El Mercurio publicó una reseña que se llamaba «A patadas con las palabras» y decía que la condena para el autor era pasar cinco años y un día sin escribir.\nEn un programa de televisión donde había críticos y escritores preguntaron: «¿Cuál es el peor escritor de Chile?», y una señorita dijo: «Rafael Gumucio». Me quedé bloqueado, pero decidí no tirar la toalla y al año siguiente escribí Memorias prematuras, y dije: «Bueno, si está mal, es el final de todo». Pero hubo críticas halagüeñas y ahí empezó mi carrera real. Pensar que publicar un libro te transforma en escritor es lo mismo que pensar que cuando eres padre por primera vez te transformas en padre. Es algo que vas a tener que demostrarte a ti mismo todos los días.",
+                                "image-path": ""
+                            },
+                            {
+                                "optionId": "B",
+                                "text": "Alberto\nConseguí mi primer contrato porque el escritor Antonio Skármeta, a cuyo taller asistía, le habló con admiración de un texto mío a un editor de Planeta. El editor me citó en un café y me hizo firmar un contrato en una servilleta. Fue como existir antes de existir. Tardé tanto en escribir esa novela que antes escribí un cuento, Sobredosis, con el que me presenté a un premio. Es muy importante cómo se lanza un escritor y en ese sentido yo siento que sobreviví a pesar de todo. La fiesta de lanzamiento se hizo en una discoteca, con actrices y gente famosa. Aunque en un programa de televisión la crítica fue atroz, el libro se agotó en cuatro días. Si bien me importaba no ser aceptado, tampoco me destrozó porque yo quería ser director de cine. Y entonces me envalentonaba, y pensaba: «¿Quieren pelear? Vamos a pelear».",
+                                "image-path": ""
+                            },
+                            {
+                                "optionId": "C",
+                                "text": "Mariana\nMi familia creía que yo merecía el Nobel, y para demostrarles que estaban equivocados junté diez cuentos, los presenté a un certamen y resulta que gané. Después le dejé el manuscrito de mi primera novela a un colega de trabajo que conocía al editor de Planeta. Al tiempo, recibí un correo electrónico diciendo que me iban a publicar. Se llamó El núcleo del disturbio, se publicó en 2002, y salieron algunas reseñas buenas. Pero fue devastador. Para el lanzamiento del libro me llevaron a un programa de televisión y un periodista me preguntó si yo estaba con la línea de los escritores autorreferenciales o narrativistas, y yo no tenía idea de qué era eso, entonces di una respuesta muy ignorante: «Bueno, me gustan las dos». Durante mucho tiempo ese libro me dio vergüenza. El segundo es de 2009, para que veas el tamaño del trauma.",
+                                "image-path": ""
+                            },
+                            {
+                                "optionId": "D",
+                                "text": "Ricardo\nEn 1998 trabajaba como profesor de filosofía y me habían destinado a un instituto de Oviedo. Una noche en que tenía una hora libre, subí a mi departamento y me encontré a Benito García Noriega ojeando unos papeles. Eran unas galeradas del Viaje sentimental de Laurence Sterne. Descubrimos dos cosas: que él, aparte de catedrático de Filosofía, era el dueño y editor de KRK, y que yo, aparte de un profesor interino del sistema público, había escrito una novela que había presentado a un premio. Benito me pidió que le mandara el manuscrito. Se lo dejé un viernes por la tarde y el sábado por la mañana me llamó entusiasmado. En febrero de 1999, KRK publicó La filosofía en invierno. El libro pasó desapercibido. Hoy no solo ha conocido una segunda edición en KRK, sino que ha sido traducido al francés, lo cual no deja de causarme asombro.",
+                                "image-path": ""
+                            }
+                        ],
+                        "set2": [
+                            {
+                                "optionId": 7,
+                                "text": "¿Quién dice que antes de que escribiera su primera novela ya sabía que se la iban a publicar?",
+                                "image-path": "",
+                                "set1-correct-match": "B"
+                            },
+                            {
+                                "optionId": 8,
+                                "text": "¿Quién dice que su primera novela la editó un compañero de trabajo?",
+                                "image-path": "",
+                                "set1-correct-match": "C"
+                            },
+                            {
+                                "optionId": 9,
+                                "text": "¿Quién dice que un periódico publicó una mala crítica de su primer libro?",
+                                "image-path": "",
+                                "set1-correct-match": "A"
+                            },
+                            {
+                                "optionId": 10,
+                                "text": "¿Quién dice que para promocionar su novela se organizó un evento?",
+                                "image-path": "",
+                                "set1-correct-match": "B"
+                            },
+                            {
+                                "optionId": 11,
+                                "text": "¿Quién dice que tardó mucho en escribir su segunda novela?",
+                                "image-path": "",
+                                "set1-correct-match": "C"
+                            },
+                            {
+                                "optionId": 12,
+                                "text": "¿Quién dice que antes de publicar su primera novela ya había recibido un premio?",
+                                "image-path": "",
+                                "set1-correct-match": "C"
+                            },
+                            {
+                                "optionId": 13,
+                                "text": "¿Quién dice que su segunda novela tuvo mejores críticas que la primera?",
+                                "image-path": "",
+                                "set1-correct-match": "A"
+                            },
+                            {
+                                "optionId": 14,
+                                "text": "¿Quién dice que su primera novela tuvo escasa repercusión?",
+                                "image-path": "",
+                                "set1-correct-match": "D"
+                            },
+                            {
+                                "optionId": 15,
+                                "text": "¿Quién dice que para promocionar su primer libro fue a un programa de televisión?",
+                                "image-path": "",
+                                "set1-correct-match": "C"
+                            },
+                            {
+                                "optionId": 16,
+                                "text": "¿Quién dice que su primer libro se vendió muy bien?",
+                                "image-path": "",
+                                "set1-correct-match": "B"
+                            }
+                        ]
+                    }
+                }
+            ]
+        },
+        {
+            "level": "A2",
+            "examId": "A2_modelo-0",
+            "exercises": [
+                {
+                    "exerciseID": "A2_modelo-0_E3",
+                    "type": "matching",
+                    "instructions": "Usted va a leer tres textos de tres españolas que hablan de su experiencia de trabajo fuera de España. Relacione las preguntas (14 - 19) con los textos (A, B o C).\nMarque las opciones elegidas en la Hoja de respuestas.",
+                    "num-questions": 6,
+                    "exercise": {
+                        "set1": [
+                            {
+                                "optionId": "A",
+                                "text": "Alicia\nHace tres años, mi hermana me habló de unos amigos suyos españoles que estaban en Amsterdam y querían una chica para cuidar a sus dos hijos. No lo pensé y me fui a Holanda. Me pagaban muy poco pero comía y dormía gratis. Los primeros meses no tenía amigos porque no hablaba el idioma, solo un poco de inglés. Por las mañanas iba a clases de holandés e inglés y allí conocí a un chico que era profesor de la escuela. Dos años más tarde, nos casamos y tuvimos un hijo. Ahora hablo holandés y trabajo en una tienda de ropa en Amsterdam.",
+                                "image-path": "img/A2_modelo-0_E3_A.jpg"
+                            },
+                            {
+                                "optionId": "B",
+                                "text": "Eva\nYo vine a Suecia hace un año. Soy informática y tenía trabajo en España en una oficina de ayuda internacional, pero solo para tres meses. Ya llevaba un tiempo pensando en salir fuera del país para trabajar pero no sabía dónde. Mi amigo Lucas me ayudó a elegir Suecia porque él vivió aquí y me contó mucho de este país. Busqué trabajo por internet, pero solo miraba las ofertas donde no pedían sueco porque yo solo hablo inglés. Tuve mucha suerte y encontré un trabajo en otra empresa parecida donde hay personas de muchos países y solo se habla inglés. Ahora quiero empezar a estudiar sueco.",
+                                "image-path": "img/A2_modelo-0_E3_B.jpg"
+                            },
+                            {
+                                "optionId": "C",
+                                "text": "Silvia\nYo estudié para ser cocinera y sabía que quería irme a conocer otros países. Quería estudiar inglés y me fui a EE.UU. a una escuela en verano. Fue una buena experiencia porque cambió toda mi vida. El padre de un compañero, cuando se enteró de que yo era cocinera, me presentó a un amigo suyo que tenía un restaurante muy famoso en Chicago y me preguntó si quería trabajar en su restaurante. Fue difícil tener el permiso de trabajo pero cuando me lo dieron, empecé a trabajar y aprendí muchísimo. Hoy tengo dos restaurantes en EE.UU.",
+                                "image-path": "img/A2_modelo-0_E3_C.jpg"
+                            }
+                        ],
+                        "set2": [
+                            {
+                                "optionId": 14,
+                                "text": "¿Quién no necesita hablar el idioma del país en su trabajo?",
+                                "image-path": "",
+                                "set1-correct-match": "B"
+                            },
+                            {
+                                "optionId": 15,
+                                "text": "¿Quién no tenía que pagar el alojamiento?",
+                                "image-path": "",
+                                "set1-correct-match": "A"
+                            },
+                            {
+                                "optionId": 16,
+                                "text": "¿Quién tenía un amigo que le habló de ese país?",
+                                "image-path": "",
+                                "set1-correct-match": "B"
+                            },
+                            {
+                                "optionId": 17,
+                                "text": "¿A quién le presentaron a una persona que le dio trabajo en ese país?",
+                                "image-path": "",
+                                "set1-correct-match": "C"
+                            },
+                            {
+                                "optionId": 18,
+                                "text": "¿Quién fue a ese país para aprender el idioma?",
+                                "image-path": "",
+                                "set1-correct-match": "C"
+                            },
+                            {
+                                "optionId": 19,
+                                "text": "¿Quién conoció a su pareja en ese país?",
+                                "image-path": "",
+                                "set1-correct-match": "A"
+                            }
+                        ]
+                    }
+                }
+            ]
+        },
+        {
+            "level": "C2",
+            "examId": "C2_modelo-0",
+            "exercises": [
+                {
+                    "exerciseID": "C2_modelo-0_E3",
+                    "type": "matching",
+                    "instructions": "A continuación, tiene seis textos (A - F) y ocho enunciados (19 - 26). Léalos y elija el texto que corresponde a cada enunciado.\nRECUERDE QUE HAY TEXTOS QUE DEBEN SER ELEGIDOS MÁS DE UNA VEZ.\nMarque las opciones elegidas en la Hoja de respuestas.",
+                    "num-questions": 8,
+                    "exercise": {
+                        "set1": [
+                            {
+                                "optionId": "A",
+                                "text": "Danzón\nEste ritmo surge a finales del siglo XIX de la mano del compositor Miguel Faílde, con su pieza «Las alturas de Simpson». Supone una evolución de la contradanza española introducida en Cuba en el siglo XVIII. Al acriollarse el ritmo, comienza a adquirir rasgos propios de la cultura afrocubana, francesa y española, del folclor y la música popular.\nEn las primeras décadas del siglo XX, el género asimiló nuevas sonoridades como el son cubano y el son montuno. Así, y gracias al surgimiento de grandes orquestas, el danzón ganó muchos admiradores durante esa época.\nEl género se esparció por Latinoamérica y el mundo, alcanzando gran popularidad principalmente en México. Es considerado el baile nacional de Cuba, y su influencia ha sido fundamental para la evolución de la música popular del país.",
+                                "image-path": ""
+                            },
+                            {
+                                "optionId": "B",
+                                "text": "Mambo\nEl sabroso mambo surge en Cuba a finales de los años 30. Se trata de una nueva forma del danzón con influencias africanas, ritmo sincopado y eliminación del cantante.\nSe baila con cuatro pasos por compás, con un movimiento fuerte y rápido. Se practicaba en todas las pistas de baile durante los años 40 y 50, al principio en Cuba, luego en México y, después, en Estados Unidos. Su llegada a este país hace que surja una verdadera fascinación por este ritmo y, por consiguiente, los expertos deciden que sea un baile con una estructura más accesible para el público.\nFue tal la irrupción del mambo en el mundo que introdujo otros bailes y ritmos cubanos, como el son y la rumba cubana. Bailarines de todo el mundo empezaron a bailar estos ritmos cubanos en las salas de baile, y aun hoy se enseña el mambo como baile de salón.",
+                                "image-path": ""
+                            },
+                            {
+                                "optionId": "C",
+                                "text": "Chachachá\nSe hizo famoso en los años posteriores a la Segunda Guerra Mundial. El primer chachachá fue compuesto por Enrique Jorrín en 1953. Este músico componía fundamentalmente danzones, a los que introdujo un coro de voces que fue gustando al público, porque podía entonces bailar más suelto, dando pasos de un lado hacia al otro. El género toma como base musical el danzón y el son montuno.\nEn su evolución se incorporan las orquestas llamadas charangas, que incluían timbales, bajo, flauta, piano y conjunto de violines. Algunas agrupaciones como la Orquesta Aragón, Los Cariñositos y la Orquesta América, entre otras, incluyeron el chachachá entre su repertorio. En la actualidad, muchos de los que se acercan a la música cubana quieren aprender este ritmo, ya que resulta muy pegajoso y armonioso.",
+                                "image-path": ""
+                            },
+                            {
+                                "optionId": "D",
+                                "text": "Rumba\nPese a ser un ritmo de origen africano, se ha enraizado tanto en Cuba que hoy se considera el más clásico de los bailes latinoamericanos.\nDesde su surgimiento en los barracones y plantaciones de azúcar del siglo XVIII, su instrumentación se constituye a partir de tres tumbadoras, que replican fuertemente. Era la vía de escape espiritual para los trabajadores de dichas explotaciones. Posteriormente, se tocaba en los barrios de La Habana y en las zonas rurales, donde mejor se conservaba la tradición africana.\nAdquirió popularidad en la isla, pero, con los años, muchos lo excluyeron de los principales circuitos del baile. Se baila en pareja, con movimientos bruscos de cadera y pelvis, por lo que un baile tan sensual llegó a ser censurado; era considerado inmoral e indecente. Sin embargo, hoy es un género ampliamente fomentado en la isla y reconocido en todo el mundo.",
+                                "image-path": ""
+                            },
+                            {
+                                "optionId": "E",
+                                "text": "Son cubano\nGénero musical básico para la música popular cubana que mezcla sonidos de cuerda con percusión. Surge a finales del siglo XIX en las provincias orientales de Cuba y comienza a popularizarse con la radiodifusión.\nEn sus comienzos, el son se vio como una música de los barrios populares, pero pronto se extendió su reconocimiento. Con los años, se originaron nuevas variantes, como el changüí o el sucu-sucu, entre otros. A su vez, su ritmo se ha incorporado a otros géneros como al jazz, el bolero, el danzón, y a la base rítmica de la cancionística cubana.\nEste género ha sido el que más brillantes compositores, músicos y arreglistas ha aportado a la cultura cubana. En su evolución surge la salsa, género bailable que hoy recorre el mundo con mucha popularidad. Los que llegan a la isla siempre quieren bailarla y nutrirse de la música y la vida nocturna del país.",
+                                "image-path": ""
+                            },
+                            {
+                                "optionId": "F",
+                                "text": "Conga\nEs quizá el baile popular cubano más añejo. En la celebración del Día de los Reyes se bailaba y cantaba ardientemente al ritmo de la conga, un movimiento que se producía al son de tambores e instrumentos rústicos.\nSe caracteriza por arrastrar una gran cantidad de personas bailando y cantando; así surgen los llamados carnavales, donde la conga es la protagonista. Estas fiestas tradicionales se mantienen aun hoy en la isla con los carnavales de La Habana, los de Santiago de Cuba y las parrandas de Remedios en Villa Clara y de Bejucal en Mayabeque.\nCada región ha desarrollado y personalizado el género. El baile únicamente consiste en seguir a los músicos con su ritmo característico. Las fiestas populares asociadas a la conga son patrimonio musical y cultural de la nación, y son eventos de masas donde participa todo el pueblo, incluidos los visitantes.",
+                                "image-path": ""
+                            }
+                        ],
+                        "set2": [
+                            {
+                                "optionId": 19,
+                                "text": "Avala a este ritmo el hecho de haber contribuido a la música con un significativo número de loables profesionales.",
+                                "image-path": "",
+                                "set1-correct-match": "E"
+                            },
+                            {
+                                "optionId": 20,
+                                "text": "Su compás melódico y repetitivo lo convierte en uno de los bailes más demandados.",
+                                "image-path": "",
+                                "set1-correct-match": "C"
+                            },
+                            {
+                                "optionId": 21,
+                                "text": "Constituye una variante de otro ritmo cubano en la que se optó por la supresión de la voz.",
+                                "image-path": "",
+                                "set1-correct-match": "B"
+                            },
+                            {
+                                "optionId": 22,
+                                "text": "El compás de este bullicioso baile está marcado por el sonido de instrumentos de carácter rudimentario.",
+                                "image-path": "",
+                                "set1-correct-match": "F"
+                            },
+                            {
+                                "optionId": 23,
+                                "text": "Por sus insinuantes pasos fue un ritmo que estuvo vetado en las más relevantes salas de baile.",
+                                "image-path": "",
+                                "set1-correct-match": "D"
+                            },
+                            {
+                                "optionId": 24,
+                                "text": "Una vez que se extendió, se optó por una simplificación de los pasos de baile a fin de que pudiera llegar a más gente.",
+                                "image-path": "",
+                                "set1-correct-match": "B"
+                            },
+                            {
+                                "optionId": 25,
+                                "text": "Su popularización se vincula al hecho de nutrirse de otros ritmos y a que comenzaron a aflorar importantes grupos de instrumentistas.",
+                                "image-path": "",
+                                "set1-correct-match": "A"
+                            },
+                            {
+                                "optionId": 26,
+                                "text": "El canto dotó a este baile de una mayor libertad en su ejecución.",
+                                "image-path": "",
+                                "set1-correct-match": "C"
+                            }
+                        ]
+                    }
+                }
+            ]
+        },
+        {
+      "level": "B1",
+      "examId": "B1_modelo-0",
+      "exercises": [
+        {
+          "exerciseID": "B1_modelo-0_E3",
+          "type": "matching",
+          "instructions": "Usted va a leer tres textos en los que unos padres nos hablan de la organización de la fiesta de cumpleaños de sus hijos. Relacione las preguntas (13-18) con los textos (A, B o C).\nMarque las opciones elegidas en la Hoja de respuestas.",
+          "num-questions": 6,
+          "exercise": {
+            "set1": [
+              {
+                "optionId": "A",
+                "text": "Pablo\nDebía decorar el salón para el cumpleaños de mi hijo pequeño, pero mi presupuesto era bajo y no resultaba fácil. De repente se me ocurrió: ¡cubrir las paredes con carteles! Todo lo que les guste a los niños está bien: sus actores y cantantes favoritos de TV, los personajes de los dibujos animados, etc.\nEn una de las paredes del salón puse un gran papel blanco que la cubría entera para que los niños hicieran sus propias creaciones con pinturas al agua, ya que estas se lavan fácilmente. Fue un éxito rotundo. Los niños disfrutaron mucho dejando volar su imaginación y manchándose las manos y la pared sin que ningún adulto les riñera. Al final, cada pequeño recibió un premio como recompensa a su esfuerzo creativo.",
+                "image-path": "img/B1_modelo-0_E3_set1_A.jpg"
+              },
+              {
+                "optionId": "B",
+                "text": "Ana\nCreo firmemente que hay que ser respetuoso con el medio ambiente. Por eso decidí organizar un cumpleaños un poco diferente a lo que estaba acostumbrada, aunque eso representara un mayor esfuerzo y gasto.\nEmpecé con el tema de las invitaciones. Usé Internet en lugar de invitaciones de papel, así ahorré papel y dinero.\nLuego también compré vasos y platos reutilizables en vez de comprarlos de papel.\nPara la decoración, rechacé la idea de usar globos, que a menudo explotan antes de que finalice la fiesta. En su lugar, utilicé papel reciclado para hacer flores y carteles e hice sombreros de fiesta que los niños colorearon con pinturas y les sirvieron de disfraz.",
+                "image-path": "img/B1_modelo-0_E3_set1_B.jpg"
+              },
+              {
+                "optionId": "C",
+                "text": "Nicolás\nMi hijo tiene seis años. A esa edad los niños tienen una energía agotadora y, cuantos más niños hay, más energía parecen tener. Por eso hice caso a mis padres, que viven en una urbanización, y celebré el cumpleaños en su casa. Para evitar las quejas, pedí permiso a todos los vecinos.\nCelebramos el cumpleaños en la zona comunitaria ajardinada de la urbanización, lo que me permitió organizar actividades que en el salón de casa hubiera sido complicado llevar a cabo. Por ejemplo, contraté a unos payasos que lograron entretener un buen rato a los niños.\nTambién organizamos una fiesta de disfraces, y al final los críos votaron el disfraz más original, el más divertido..., y entregamos un obsequio a cada uno de los niños.",
+                "image-path": "img/B1_modelo-0_E3_set1_C.jpg"
+              }
+            ],
+            "set2": [
+              {
+                "optionId": 13,
+                "text": "¿Qué persona dice que celebraron la fiesta al aire libre?",
+                "image-path": "",
+                "set1-correct-match": "C"
+              },
+              {
+                "optionId": 14,
+                "text": "¿Qué persona dice que en la fiesta hubo un espectáculo?",
+                "image-path": "",
+                "set1-correct-match": "C"
+              },
+              {
+                "optionId": 15,
+                "text": "¿Qué persona dice que organizar el cumpleaños le supuso más trabajo del habitual?",
+                "image-path": "",
+                "set1-correct-match": "B"
+              },
+              {
+                "optionId": 16,
+                "text": "¿Qué persona dice que disponía de poco dinero para los adornos?",
+                "image-path": "",
+                "set1-correct-match": "A"
+              },
+              {
+                "optionId": 17,
+                "text": "¿Qué persona dice que su idea triunfó entre los niños?",
+                "image-path": "",
+                "set1-correct-match": "A"
+              },
+              {
+                "optionId": 18,
+                "text": "¿Qué persona dice que hubo un concurso en la celebración?",
+                "image-path": "",
+                "set1-correct-match": "C"
+              }
+            ]
+          }
+        }
+      ]
+    }
     ]
 }

@@ -1,0 +1,59 @@
+{
+  "overall": {
+    "correct": 68,
+    "total": 79,
+    "accuracy": 0.8608
+  },
+  "per_exercise": {
+    "B2_2013-08-23_E2": {
+      "correct": 8,
+      "total": 10,
+      "accuracy": 0.8
+    },
+    "B2_2013-11-22_E2": {
+      "correct": 8,
+      "total": 10,
+      "accuracy": 0.8
+    },
+    "B1_2013-11-22_E1": {
+      "correct": 7,
+      "total": 7,
+      "accuracy": 1.0
+    },
+    "A1_2019-11-23_E3": {
+      "correct": 5,
+      "total": 7,
+      "accuracy": 0.7143
+    },
+    "A1_2020-04_E3": {
+      "correct": 7,
+      "total": 7,
+      "accuracy": 1.0
+    },
+    "C1_modelo-0_E4": {
+      "correct": 8,
+      "total": 8,
+      "accuracy": 1.0
+    },
+    "B2_modelo-0_E2": {
+      "correct": 7,
+      "total": 10,
+      "accuracy": 0.7
+    },
+    "A2_modelo-0_E3": {
+      "correct": 5,
+      "total": 6,
+      "accuracy": 0.8333
+    },
+    "C2_modelo-0_E3": {
+      "correct": 7,
+      "total": 8,
+      "accuracy": 0.875
+    },
+    "B1_modelo-0_E3": {
+      "correct": 6,
+      "total": 6,
+      "accuracy": 1.0
+    }
+  }
+}

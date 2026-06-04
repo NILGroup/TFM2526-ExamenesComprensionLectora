@@ -23,3 +23,7 @@ dist/
 
 .env
 
+matching_agents/data/img
+
+matching_agents/data/img_dev
+
