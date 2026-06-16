@@ -1,14 +1,12 @@
 # 📓 Notebooks y Experimentación
 
-Este directorio contiene todo el código de experimentación, entrenamiento y evaluación del Trabajo de Fin de Máster. 
-
-La mayoría de las soluciones, pipelines de datos y pruebas de concepto se han desarrollado e implementado en **Jupyter Notebooks (`.ipynb`)**. Esta decisión de diseño permite que el código sea altamente interactivo, visual y, lo más importante, **fácilmente reproducible en Google Colab** sin necesidad de complejas configuraciones de entorno local.
+Este directorio contiene todo el código de experimentación, entrenamiento y evaluación de la mayoría de las soluciones desarrolladas durante el trabajo. Muchas de ellas se han implementado en **Jupyter Notebooks (`.ipynb`)**, ya que permite reproducir los experimentos directamente en un entorno de **Google Colab** sin necesidad de ninguna configuración adicional.
 
 ---
 
 ## 📂 Estructura del Directorio
 
-El repositorio está dividido en tres áreas lógicas principales, separando el análisis previo de las dos tareas centrales del proyecto:
+El directorio está dividido en tres áreas principales, separando el análisis previo de los datos de las dos tareas en las que se centra el proyecto:
 
 ```text
 notebooks/
@@ -44,25 +42,18 @@ notebooks/
 
 ## 🏷️ Convención de Nomenclatura
 
-Para facilitar la lectura y la evaluación cronológica del proyecto, todos los archivos siguen un sistema estricto de nomenclatura basado en prefijos numéricos y fases de desarrollo:
+Para facilitar la lectura y la evaluación del proyecto, todos los archivos siguen un sistema de nomenclatura basado en prefijos numéricos y fases de desarrollo:
 
 Formato general: `[Número]_[Fase]_[Modelo/Estrategia].ipynb`
 
 ### 1. Prefijos Numéricos (Series)
-* **Serie `00` (Dataset Analysis):** Notebooks dedicados exclusivamente a la carga, limpieza, análisis estadístico y comprensión inicial de los corpus de datos (UNED, PROFE 2025, etc.).
-* **Serie `10` (Exploration & Training):** El "entorno de pruebas". Aquí se encuentran las pruebas de concepto (baselines), experimentación con técnicas de *prompting* (Zero/Few-Shot, Multimodal) y los procesos de entrenamiento (*Fine-Tuning*).
-* **Serie `20` (Evaluation):** Ejecuciones formales y definitivas. Estos notebooks utilizan los modelos o prompts definidos en la fase anterior para generar las inferencias finales sobre los conjuntos de evaluación y calcular las métricas de rendimiento.
+* **Serie `00` (Dataset Analysis):** Notebooks dedicados al análisis inicial de los corpus de datos (UNED, PROFE 2025, etc.).
+* **Serie `10` (Exploration & Training):** Aquí se encuentran las pruebas de concepto (baselines), experimentación con técnicas de *prompting* (Zero/Few-Shot, Multimodal) y los procesos de entrenamiento (*Fine-Tuning*).
+* **Serie `20` (Evaluation):** Ejecuciones definitivas sobre el conjunto de test oficial. Estos notebooks utilizan los modelos o prompts definidos en la fase anterior para generar las inferencias finales sobre los conjuntos de evaluación y poder enviar los resultados a la tarea PROFE 2026.
 
 ### 2. Fases
 * `analysis`: Análisis de datos y métricas.
 * `exploration`: Pruebas de concepto y refinamiento de prompts.
 * `training`: Proceso de ajuste fino (*Fine-Tuning*) de modelos locales/abiertos.
-* `evaluation`: Inferencia final sobre el conjunto de test.
+* `evaluation`: Inferencia final sobre el conjunto de test oficial de la tarea PROFE 2026.
 
----
-
-## 🚀 Guía de Ejecución en Google Colab
-
-1. **Entorno de GPU:** Para los notebooks de la fase `training` y aquellos que cargan modelos en local (Gemma 4, Qwen 3.5), asegúrate de habilitar un entorno de ejecución con aceleración por hardware (T4 GPU o superior) en Google Colab.
-2. **Límites de API:** Al ejecutar los notebooks de la fase `evaluation` que realizan peticiones a APIs externas para tareas como *Zero-Shot* o *Chain-of-Thought*, ten en cuenta que el código está estructurado para procesar las peticiones en lotes. Esto garantiza que la ejecución respete el límite de **15 peticiones por minuto** de las cuentas gratuitas, evitando interrupciones por cuota excedida durante la inferencia de grandes conjuntos de datos.
-3. **Rutas de Datos:** Todos los notebooks están configurados para leer los conjuntos de datos asumiendo que la carpeta `data/` se encuentra en el directorio padre o subida directamente al entorno temporal de Colab.
