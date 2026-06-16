@@ -1,0 +1,1002 @@
+[
+    {
+        "questionId": "A1_2010-11-19_E1_Q1",
+        "nivel": "A1",
+        "pregunta": "Marta va a viajar…",
+        "respuesta_real": "D",
+        "prediccion_modelo": "D",
+        "explicacion": "Marta va a viajar a Barcelona.",
+        "error_procesamiento_json": false,
+        "estado": "CORRECTO"
+    },
+    {
+        "questionId": "A1_2010-11-19_E1_Q2",
+        "nivel": "A1",
+        "pregunta": "El curso…",
+        "respuesta_real": "B",
+        "prediccion_modelo": "B",
+        "explicacion": "El curso es de cine.",
+        "error_procesamiento_json": false,
+        "estado": "CORRECTO"
+    },
+    {
+        "questionId": "A1_2010-11-19_E1_Q3",
+        "nivel": "A1",
+        "pregunta": "Marta quiere.",
+        "respuesta_real": "B",
+        "prediccion_modelo": "D",
+        "explicacion": "Marta quiere descansar unos días, ya que en el texto se menciona que Marta va a Barcelona con Luis y su hija Celia, y Luis prefiere ir a la playa porque a él no le gusta mucho caminar y quiere descansar unos días.",
+        "error_procesamiento_json": false,
+        "estado": "INCORRECTO"
+    },
+    {
+        "questionId": "A1_2010-11-19_E1_Q4",
+        "nivel": "A1",
+        "pregunta": "El hotel…",
+        "respuesta_real": "A",
+        "prediccion_modelo": "A",
+        "explicacion": "El hotel está al lado de un restaurante nuevo muy caro, por lo que se puede inferir que está en un lugar comercializado y de alto costo, lo que coincide con el centro de la ciudad.",
+        "error_procesamiento_json": false,
+        "estado": "CORRECTO"
+    },
+    {
+        "questionId": "A1_2010-11-20_E1_Q1",
+        "nivel": "A1",
+        "pregunta": "La fiesta es para…",
+        "respuesta_real": "C",
+        "prediccion_modelo": "C",
+        "explicacion": "La fiesta es para reunirse con antiguos compañeros.",
+        "error_procesamiento_json": false,
+        "estado": "CORRECTO"
+    },
+    {
+        "questionId": "A1_2010-11-20_E1_Q2",
+        "nivel": "A1",
+        "pregunta": "La fiesta es",
+        "respuesta_real": "B",
+        "prediccion_modelo": "B",
+        "explicacion": "La fiesta es un sábado, según lo indicado en el texto.",
+        "error_procesamiento_json": false,
+        "estado": "CORRECTO"
+    },
+    {
+        "questionId": "A1_2010-11-20_E1_Q3",
+        "nivel": "A1",
+        "pregunta": "Elena…",
+        "respuesta_real": "B",
+        "prediccion_modelo": "A",
+        "explicacion": "Elena no se refiere a ninguno de los eventos que involucran a sí misma en el texto, por lo tanto no se ha cambiado de casa, no se ha roto una pierna, no trabaja en una zapatería y no va a tener vacaciones.",
+        "error_procesamiento_json": false,
+        "estado": "INCORRECTO"
+    },
+    {
+        "questionId": "A1_2010-11-20_E1_Q4",
+        "nivel": "A1",
+        "pregunta": "Elena ahora…",
+        "respuesta_real": "B",
+        "prediccion_modelo": "B",
+        "explicacion": "Elena se siente mucho mejor debido a que ha empezado a hacer deporte con su marido y no come muchos dulces.",
+        "error_procesamiento_json": false,
+        "estado": "CORRECTO"
+    },
+    {
+        "questionId": "A1_2011-11-18_E1_Q1",
+        "nivel": "A1",
+        "pregunta": "Alberto y Cristina van a Segovia…",
+        "respuesta_real": "C",
+        "prediccion_modelo": "C",
+        "explicacion": "Alberto y Cristina van a Segovia este fin de semana.",
+        "error_procesamiento_json": false,
+        "estado": "CORRECTO"
+    },
+    {
+        "questionId": "A1_2011-11-18_E1_Q2",
+        "nivel": "A1",
+        "pregunta": "Cristina quiere…",
+        "respuesta_real": "D",
+        "prediccion_modelo": "D",
+        "explicacion": "Cristina quiere escuchar música, ya que en el texto se menciona que hay un concierto de guitarra a las 20 h en el teatro Liceo.",
+        "error_procesamiento_json": false,
+        "estado": "CORRECTO"
+    },
+    {
+        "questionId": "A1_2011-11-18_E1_Q3",
+        "nivel": "A1",
+        "pregunta": "El sábado, Alberto y Cristina van a",
+        "respuesta_real": "A",
+        "prediccion_modelo": "A",
+        "explicacion": "El texto indica que el sábado, el plan es ir de excursión a la montaña para caminar, tomar el sol y comer allí. No se menciona que vayan a comer en el campo, visitar la universidad, ir de fiesta o cenar en casa de María.",
+        "error_procesamiento_json": false,
+        "estado": "CORRECTO"
+    },
+    {
+        "questionId": "A1_2011-11-18_E1_Q4",
+        "nivel": "A1",
+        "pregunta": "El domingo, Alberto y Cristina quieren…",
+        "respuesta_real": "A",
+        "prediccion_modelo": "A",
+        "explicacion": "El texto menciona que el domingo, Cristina tiene una visita turística a los museos y la catedral en Segovia, por lo que Alberto y Cristina quieren ir a esas visitas turísticas.",
+        "error_procesamiento_json": false,
+        "estado": "CORRECTO"
+    },
+    {
+        "questionId": "A1_2011-11-19_E1_Q1",
+        "nivel": "A1",
+        "pregunta": "El cumpleaños de Teresa es…",
+        "respuesta_real": "A",
+        "prediccion_modelo": "B",
+        "explicacion": "La fiesta para Teresa es el viernes por la tarde, como se indica en el texto.",
+        "error_procesamiento_json": false,
+        "estado": "INCORRECTO"
+    },
+    {
+        "questionId": "A1_2011-11-19_E1_Q2",
+        "nivel": "A1",
+        "pregunta": "El texto dice que Isabel quiere…",
+        "respuesta_real": "A",
+        "prediccion_modelo": "C",
+        "explicacion": "El texto dice que Isabel quiere preparar una fiesta con sus amigos.",
+        "error_procesamiento_json": false,
+        "estado": "INCORRECTO"
+    },
+    {
+        "questionId": "A1_2011-11-19_E1_Q3",
+        "nivel": "A1",
+        "pregunta": "La fiesta de cumpleaños empieza a las…",
+        "respuesta_real": "C",
+        "prediccion_modelo": "C",
+        "explicacion": "La fiesta de cumpleaños empieza a las 20 h., ya que Isabel menciona que la fiesta tendrá lugar a las ocho, y Teresa va al gimnasio todos los días de cinco a siete y después vuelve a casa.",
+        "error_procesamiento_json": false,
+        "estado": "CORRECTO"
+    },
+    {
+        "questionId": "A1_2011-11-19_E1_Q4",
+        "nivel": "A1",
+        "pregunta": "Los padres de Isabel…",
+        "respuesta_real": "B",
+        "prediccion_modelo": "B",
+        "explicacion": "Los padres de Isabel no están en casa por la tarde, ya que regresan hasta las once de la noche.",
+        "error_procesamiento_json": false,
+        "estado": "CORRECTO"
+    },
+    {
+        "questionId": "A1_2012-05-25_E1_Q1",
+        "nivel": "A1",
+        "pregunta": "Cristina escribe un correo para…",
+        "respuesta_real": "C",
+        "prediccion_modelo": "C",
+        "explicacion": "Cristina escribe un correo para invitar a su amiga.",
+        "error_procesamiento_json": false,
+        "estado": "CORRECTO"
+    },
+    {
+        "questionId": "A1_2012-05-25_E1_Q2",
+        "nivel": "A1",
+        "pregunta": "Cristina quiere ver a sus amigos…",
+        "respuesta_real": "B",
+        "prediccion_modelo": "B",
+        "explicacion": "Cristina quiere ver a sus amigos el sábado, día 21.",
+        "error_procesamiento_json": false,
+        "estado": "CORRECTO"
+    },
+    {
+        "questionId": "A1_2012-05-25_E1_Q3",
+        "nivel": "A1",
+        "pregunta": "En el texto se dice que…",
+        "respuesta_real": "A",
+        "prediccion_modelo": "A",
+        "explicacion": "Cristina es una buena cocinera.",
+        "error_procesamiento_json": false,
+        "estado": "CORRECTO"
+    },
+    {
+        "questionId": "A1_2012-05-25_E1_Q4",
+        "nivel": "A1",
+        "pregunta": "El regalo de Cristina es…",
+        "respuesta_real": "D",
+        "prediccion_modelo": "D",
+        "explicacion": "El regalo de Cristina es una falda.",
+        "error_procesamiento_json": false,
+        "estado": "CORRECTO"
+    },
+    {
+        "questionId": "A1_2012-11-09_E1_Q1",
+        "nivel": "A1",
+        "pregunta": "Eva escribe el correo a sus padres para…",
+        "respuesta_real": "C",
+        "prediccion_modelo": "C",
+        "explicacion": "Eva escribe el correo a sus padres para hablar de sus próximas vacaciones.",
+        "error_procesamiento_json": false,
+        "estado": "CORRECTO"
+    },
+    {
+        "questionId": "A1_2012-11-09_E1_Q2",
+        "nivel": "A1",
+        "pregunta": "En el texto se dice que…",
+        "respuesta_real": "B",
+        "prediccion_modelo": "B",
+        "explicacion": "The text indicates that the weather is bad.",
+        "error_procesamiento_json": false,
+        "estado": "CORRECTO"
+    },
+    {
+        "questionId": "A1_2012-11-09_E1_Q3",
+        "nivel": "A1",
+        "pregunta": "Eva cuenta a sus padres que…",
+        "respuesta_real": "C",
+        "prediccion_modelo": "D",
+        "explicacion": "Eva cuenta a sus padres que va a alquilar una bicicleta la próxima semana.",
+        "error_procesamiento_json": false,
+        "estado": "INCORRECTO"
+    },
+    {
+        "questionId": "A1_2012-11-09_E1_Q4",
+        "nivel": "A1",
+        "pregunta": "Según el texto, Eva y sus amigos…",
+        "respuesta_real": "A",
+        "prediccion_modelo": "A",
+        "explicacion": "Eva y sus amigos van a ir a Granada en coche y dormir en un camping, según lo mencionado en el texto.",
+        "error_procesamiento_json": false,
+        "estado": "CORRECTO"
+    },
+    {
+        "questionId": "A1_2013-05-24_E1_Q1",
+        "nivel": "A1",
+        "pregunta": "Eneste correo electrónico, Andrés…",
+        "respuesta_real": "C",
+        "prediccion_modelo": "C",
+        "explicacion": "Andrés describe el lugar donde vive, incluyendo que está a 5 km de la ciudad y al lado de la universidad.",
+        "error_procesamiento_json": false,
+        "estado": "CORRECTO"
+    },
+    {
+        "questionId": "A1_2013-05-24_E1_Q2",
+        "nivel": "A1",
+        "pregunta": "En el texto se dice que…",
+        "respuesta_real": "A",
+        "prediccion_modelo": "A",
+        "explicacion": "La familia vive fuera de la ciudad, a 5 km de la ciudad.",
+        "error_procesamiento_json": false,
+        "estado": "CORRECTO"
+    },
+    {
+        "questionId": "A1_2013-05-24_E1_Q3",
+        "nivel": "A1",
+        "pregunta": "Andrés dice a Juan que…",
+        "respuesta_real": "D",
+        "prediccion_modelo": "D",
+        "explicacion": "La cama es un poco pequeña.",
+        "error_procesamiento_json": false,
+        "estado": "CORRECTO"
+    },
+    {
+        "questionId": "A1_2013-05-24_E1_Q4",
+        "nivel": "A1",
+        "pregunta": "En el texto se dice que…",
+        "respuesta_real": "C",
+        "prediccion_modelo": "C",
+        "explicacion": "La opción correcta es C, ya que se menciona que los padres de Andrés van a estar en un hotel cerca de la casa.",
+        "error_procesamiento_json": false,
+        "estado": "CORRECTO"
+    },
+    {
+        "questionId": "A1_2013-11-23_E1_Q1",
+        "nivel": "A1",
+        "pregunta": "En este correo electrónico, Carmen…",
+        "respuesta_real": "C",
+        "prediccion_modelo": "C",
+        "explicacion": "Carmen cuenta por qué está feliz.",
+        "error_procesamiento_json": false,
+        "estado": "CORRECTO"
+    },
+    {
+        "questionId": "A1_2013-11-23_E1_Q2",
+        "nivel": "A1",
+        "pregunta": "En el texto se dice que la casa tiene…",
+        "respuesta_real": "C",
+        "prediccion_modelo": "D",
+        "explicacion": "La casa tiene cuatro dormitorios, dos baños, una sala que da al jardín y que tiene mucha luz, una cocina muy moderna, y un estudio que es la oficina de Carmen. Sin embargo, el garaje es el que menos le gusta a Carmen porque es pequeño y no hay espacio para dos coches.",
+        "error_procesamiento_json": false,
+        "estado": "INCORRECTO"
+    },
+    {
+        "questionId": "A1_2013-11-23_E1_Q3",
+        "nivel": "A1",
+        "pregunta": "Carmen le cuenta a Lía que…",
+        "respuesta_real": "B",
+        "prediccion_modelo": "B",
+        "explicacion": "La escuela de sus hijos está cerca.",
+        "error_procesamiento_json": false,
+        "estado": "CORRECTO"
+    },
+    {
+        "questionId": "A1_2013-11-23_E1_Q4",
+        "nivel": "A1",
+        "pregunta": "Para la cena, la madre de Carmen va a preparar…",
+        "respuesta_real": "B",
+        "prediccion_modelo": "B",
+        "explicacion": "La madre de Carmen va a preparar una ensalada para la cena.",
+        "error_procesamiento_json": false,
+        "estado": "CORRECTO"
+    },
+    {
+        "questionId": "A1_2014-04-01_E1_Q1",
+        "nivel": "A1",
+        "pregunta": "En el correo, Rodrigo dice a Leo que…",
+        "respuesta_real": "B",
+        "prediccion_modelo": "B",
+        "explicacion": "Rodrigo no dice a Leo que va a ir con Paula a hacer deporte, sino que le comenta que no puede ir contigo y con Paula a jugar al tenis el fin de semana.",
+        "error_procesamiento_json": false,
+        "estado": "CORRECTO"
+    },
+    {
+        "questionId": "A1_2014-04-01_E1_Q2",
+        "nivel": "A1",
+        "pregunta": "En el texto se dice que Rodrigo…",
+        "respuesta_real": "A",
+        "prediccion_modelo": "A",
+        "explicacion": "Rodrigo no se refiere a ninguna de las opciones en el texto.",
+        "error_procesamiento_json": false,
+        "estado": "CORRECTO"
+    },
+    {
+        "questionId": "A1_2014-04-01_E1_Q3",
+        "nivel": "A1",
+        "pregunta": "Los padres de Rodrigo tienen…",
+        "respuesta_real": "B",
+        "prediccion_modelo": "A",
+        "explicacion": "Los padres de Rodrigo no tienen directamente mencionado un coche, hotel, restaurante o discoteca en el texto. Sin embargo, se menciona que Rodrigo puede llevar su coche a una discoteca, lo que implica que sus padres tienen un coche. Por lo tanto, la opción A es la correcta.",
+        "error_procesamiento_json": false,
+        "estado": "INCORRECTO"
+    },
+    {
+        "questionId": "A1_2014-04-01_E1_Q4",
+        "nivel": "A1",
+        "pregunta": "Rodrigo le cuenta a Leo que…",
+        "respuesta_real": "D",
+        "prediccion_modelo": "D",
+        "explicacion": "Rodrigo le cuenta a Leo que va a escribir a todos los amigos.",
+        "error_procesamiento_json": false,
+        "estado": "CORRECTO"
+    },
+    {
+        "questionId": "A2_2010-05-22_E2_Q8",
+        "nivel": "A2",
+        "pregunta": "Beatriz cuenta lo que hizo…",
+        "respuesta_real": "A",
+        "prediccion_modelo": "A",
+        "explicacion": "Beatriz cuenta lo que hizo en el fin de semana.",
+        "error_procesamiento_json": false,
+        "estado": "CORRECTO"
+    },
+    {
+        "questionId": "A2_2010-05-22_E2_Q9",
+        "nivel": "A2",
+        "pregunta": "Beatriz fue a Bilbao para…",
+        "respuesta_real": "C",
+        "prediccion_modelo": "C",
+        "explicacion": "Beatriz fue a Bilbao para ver y animar a su equipo.",
+        "error_procesamiento_json": false,
+        "estado": "CORRECTO"
+    },
+    {
+        "questionId": "A2_2010-05-22_E2_Q10",
+        "nivel": "A2",
+        "pregunta": "En estos días de descanso, Beatriz…",
+        "respuesta_real": "B",
+        "prediccion_modelo": "A",
+        "explicacion": "Beatriz menciona haber estado fuera un par de días y tener una propuesta, luego habla de su amigo allí y de poder quedarse en su casa. Esto indica que ha estado con amigos.",
+        "error_procesamiento_json": false,
+        "estado": "INCORRECTO"
+    },
+    {
+        "questionId": "A2_2010-05-22_E2_Q11",
+        "nivel": "A2",
+        "pregunta": "Cuando Beatriz estuvo en Bilbao…",
+        "respuesta_real": "C",
+        "prediccion_modelo": "C",
+        "explicacion": "Beatriz estuvo en Bilbao y menciona que el cielo estaba un poco gris y hacía algo de viento, lo que indica que el tiempo estaba un poco frío y ventoso.",
+        "error_procesamiento_json": false,
+        "estado": "CORRECTO"
+    },
+    {
+        "questionId": "A2_2010-05-22_E3_Q0",
+        "nivel": "A2",
+        "pregunta": "En este anuncio buscan…",
+        "respuesta_real": "A",
+        "prediccion_modelo": "A",
+        "explicacion": "El anuncio busca jugadoras para un equipo de fútbol femenino de la universidad.",
+        "error_procesamiento_json": false,
+        "estado": "CORRECTO"
+    },
+    {
+        "questionId": "A2_2010-05-22_E3_Q13",
+        "nivel": "A2",
+        "pregunta": "CEAA ofrece…",
+        "respuesta_real": "B",
+        "prediccion_modelo": "B",
+        "explicacion": "CEAA ofrece clases con pocos alumnos.",
+        "error_procesamiento_json": false,
+        "estado": "CORRECTO"
+    },
+    {
+        "questionId": "A2_2010-05-22_E3_Q14",
+        "nivel": "A2",
+        "pregunta": "Festilandia…",
+        "respuesta_real": "C",
+        "prediccion_modelo": "C",
+        "explicacion": "Festilandia prepara fiestas de cumpleaños en cualquier local.",
+        "error_procesamiento_json": false,
+        "estado": "CORRECTO"
+    },
+    {
+        "questionId": "A2_2010-05-22_E3_Q15",
+        "nivel": "A2",
+        "pregunta": "La habitación que se alquila…",
+        "respuesta_real": "C",
+        "prediccion_modelo": "C",
+        "explicacion": "The text mentions that the bus stop is two minutes away from the apartment, which implies that the apartment is not in the center of the city. The rent price is specified as 170 euros per month plus additional costs for utilities, so the utilities are not included in the price. The text also mentions a small supermarket near the apartment, so there is a store nearby.",
+        "error_procesamiento_json": false,
+        "estado": "CORRECTO"
+    },
+    {
+        "questionId": "A2_2015-11-21_E3_Q17",
+        "nivel": "A2",
+        "pregunta": "Según el texto, el encuentro Centroamérica cuenta…",
+        "respuesta_real": "C",
+        "prediccion_modelo": "B",
+        "explicacion": "El encuentro Centroamérica cuenta con una visita cultural.",
+        "error_procesamiento_json": false,
+        "estado": "INCORRECTO"
+    },
+    {
+        "questionId": "A2_2015-11-21_E3_Q18",
+        "nivel": "A2",
+        "pregunta": "En este anuncio de la estación de esquí se dice que…",
+        "respuesta_real": "C",
+        "prediccion_modelo": "C",
+        "explicacion": "El material para esquiar se alquila.",
+        "error_procesamiento_json": false,
+        "estado": "CORRECTO"
+    },
+    {
+        "questionId": "A2_2015-11-21_E5_Q25",
+        "nivel": "A2",
+        "pregunta": "Según el texto, Carmen Posadas…",
+        "respuesta_real": "C",
+        "prediccion_modelo": "A",
+        "explicacion": "Carmen Posadas vivió con su padre hasta los doce años porque su profesión de diplomático la llevó a vivir en diferentes países.",
+        "error_procesamiento_json": false,
+        "estado": "INCORRECTO"
+    },
+    {
+        "questionId": "A2_2015-11-21_E5_Q26",
+        "nivel": "A2",
+        "pregunta": "Carmen Posadas empezó a escribir para niños porque…",
+        "respuesta_real": "A",
+        "prediccion_modelo": "A",
+        "explicacion": "Carmen Posadas comenzó a escribir para niños porque creía que era más difícil escribir para los mayores y porque las editoriales publicaban los libros infantiles con más facilidad.",
+        "error_procesamiento_json": false,
+        "estado": "CORRECTO"
+    },
+    {
+        "questionId": "A2_2015-11-21_E5_Q27",
+        "nivel": "A2",
+        "pregunta": "En el texto se dice que Carmen Posadas…",
+        "respuesta_real": "A",
+        "prediccion_modelo": "C",
+        "explicacion": "El texto menciona que Carmen Posadas presentó un programa de televisión en 1986.",
+        "error_procesamiento_json": false,
+        "estado": "INCORRECTO"
+    },
+    {
+        "questionId": "A2_2015-11-21_E5_Q28",
+        "nivel": "A2",
+        "pregunta": "Según el texto, la novela Pequeñas infamias…",
+        "respuesta_real": "C",
+        "prediccion_modelo": "C",
+        "explicacion": "El texto menciona que la novela Pequeñas infamias recibió el Premio Planeta en 1998, lo que fue muy importante para la carrera de Carmen Posadas porque desde ese momento sus libros empezaron a traducirse a veintitrés idiomas y a venderse en más de cuarenta países.",
+        "error_procesamiento_json": false,
+        "estado": "CORRECTO"
+    },
+    {
+        "questionId": "A2_2015-11-21_E5_Q29",
+        "nivel": "A2",
+        "pregunta": "Carmen Posadas escribió Hoy caviar, mañana sardinas con…",
+        "respuesta_real": "B",
+        "prediccion_modelo": "B",
+        "explicacion": "El libro Hoy caviar, mañana sardinas fue escrito por Carmen Posadas y su hermano Gervasio.",
+        "error_procesamiento_json": false,
+        "estado": "CORRECTO"
+    },
+    {
+        "questionId": "A2_2015-11-21_E5_Q30",
+        "nivel": "A2",
+        "pregunta": "De su vida personal, el texto dice que Carmen…",
+        "respuesta_real": "A",
+        "prediccion_modelo": "A",
+        "explicacion": "Carmen Posadas es reservada y tímida, lo que implica que habla poco.",
+        "error_procesamiento_json": false,
+        "estado": "CORRECTO"
+    },
+    {
+        "questionId": "A2_2016-02-19_E2_Q8",
+        "nivel": "A2",
+        "pregunta": "En este correo se dice que David…",
+        "respuesta_real": "C",
+        "prediccion_modelo": "C",
+        "explicacion": "David se encontró con sus compañeros el viernes.",
+        "error_procesamiento_json": false,
+        "estado": "CORRECTO"
+    },
+    {
+        "questionId": "A2_2016-02-19_E2_Q9",
+        "nivel": "A2",
+        "pregunta": "David le cuenta a Rubén que…",
+        "respuesta_real": "A",
+        "prediccion_modelo": "C",
+        "explicacion": "David le cuenta a Rubén que se compró un disco del grupo cuando salió.",
+        "error_procesamiento_json": false,
+        "estado": "INCORRECTO"
+    },
+    {
+        "questionId": "A2_2016-02-19_E2_Q10",
+        "nivel": "A2",
+        "pregunta": "Según el texto, David piensa que…",
+        "respuesta_real": "A",
+        "prediccion_modelo": "C",
+        "explicacion": "David piensa que tocar la guitarra eléctrica es difícil.",
+        "error_procesamiento_json": false,
+        "estado": "INCORRECTO"
+    },
+    {
+        "questionId": "A2_2016-02-19_E2_Q11",
+        "nivel": "A2",
+        "pregunta": "En el texto se dice que Rubén…",
+        "respuesta_real": "C",
+        "prediccion_modelo": "C",
+        "explicacion": "Raúl le informó a David que Rubén ha estado de vacaciones en las montañas y que allí no había conexión a Internet.",
+        "error_procesamiento_json": false,
+        "estado": "CORRECTO"
+    },
+    {
+        "questionId": "A2_2016-02-19_E2_Q12",
+        "nivel": "A2",
+        "pregunta": "El viernes por la tarde, David…",
+        "respuesta_real": "B",
+        "prediccion_modelo": "C",
+        "explicacion": "David propone a Rubén ir juntos al bar de tapas que le gusta.",
+        "error_procesamiento_json": false,
+        "estado": "INCORRECTO"
+    },
+    {
+        "questionId": "A2_2016-02-19_E3_Q0",
+        "nivel": "A2",
+        "pregunta": "El taller de cocina…",
+        "respuesta_real": "A",
+        "prediccion_modelo": "C",
+        "explicacion": "El taller de cocina admite a 18 personas como máximo.",
+        "error_procesamiento_json": false,
+        "estado": "INCORRECTO"
+    },
+    {
+        "questionId": "A2_2016-02-19_E3_Q13",
+        "nivel": "A2",
+        "pregunta": "En este anuncio se dice que la revista Casacien…",
+        "respuesta_real": "C",
+        "prediccion_modelo": "A",
+        "explicacion": "El anuncio indica que la opción de suscripción a 12 ejemplares de Casacien durante todo el año cuesta 9 euros.",
+        "error_procesamiento_json": false,
+        "estado": "INCORRECTO"
+    },
+    {
+        "questionId": "B1_2015-07-01_E2_Q7",
+        "nivel": "B1",
+        "pregunta": "Jesús descubrió este juego porque…",
+        "respuesta_real": "B",
+        "prediccion_modelo": "B",
+        "explicacion": "Jesús descubrió este juego porque un compañero del colegio le enseñó cómo se jugaba.",
+        "error_procesamiento_json": false,
+        "estado": "CORRECTO"
+    },
+    {
+        "questionId": "B1_2015-07-01_E2_Q8",
+        "nivel": "B1",
+        "pregunta": "Según el texto, en este juego…",
+        "respuesta_real": "B",
+        "prediccion_modelo": "B",
+        "explicacion": "El texto indica que en el juego de Scrabble, además de la preparación y disciplina, también influye la suerte por las piezas o letras que le toquen al jugador.",
+        "error_procesamiento_json": false,
+        "estado": "CORRECTO"
+    },
+    {
+        "questionId": "B1_2015-07-01_E2_Q9",
+        "nivel": "B1",
+        "pregunta": "Para preparar el campeonato mundial, Jesús…",
+        "respuesta_real": "A",
+        "prediccion_modelo": "A",
+        "explicacion": "Jesús estudió muchas palabras para preparar el campeonato mundial.",
+        "error_procesamiento_json": false,
+        "estado": "CORRECTO"
+    },
+    {
+        "questionId": "B1_2015-07-01_E2_Q10",
+        "nivel": "B1",
+        "pregunta": "Durante el campeonato mundial, Jesús perdió la primera partida porque…",
+        "respuesta_real": "C",
+        "prediccion_modelo": "A",
+        "explicacion": "Jesús perdió la primera partida porque se sentía un poco cansado.",
+        "error_procesamiento_json": false,
+        "estado": "INCORRECTO"
+    },
+    {
+        "questionId": "B1_2015-07-01_E2_Q11",
+        "nivel": "B1",
+        "pregunta": "La Federación Mexicana de Scrabble…",
+        "respuesta_real": "C",
+        "prediccion_modelo": "B",
+        "explicacion": "La Federación Mexicana de Scrabble organizó un importante torneo en 2011.",
+        "error_procesamiento_json": false,
+        "estado": "INCORRECTO"
+    },
+    {
+        "questionId": "B1_2015-07-01_E2_Q12",
+        "nivel": "B1",
+        "pregunta": "Según el texto, en México…",
+        "respuesta_real": "A",
+        "prediccion_modelo": "C",
+        "explicacion": "El texto menciona que el secretario de la Federación Internacional de Scrabble en Español, Francisco Javier Guerrero, considera que el potencial en México es enorme, ya que se trata de un país con 120 millones de habitantes, lo que sugiere que se debería enseñar en las escuelas.",
+        "error_procesamiento_json": false,
+        "estado": "INCORRECTO"
+    },
+    {
+        "questionId": "B1_2015-11-20_E2_Q7",
+        "nivel": "B1",
+        "pregunta": "Según el texto, los arqueólogos han vuelto a Monte Verde…",
+        "respuesta_real": "B",
+        "prediccion_modelo": "C",
+        "explicacion": "Los arqueólogos han vuelto a Monte Verde con el objetivo de definir espacialmente los límites del asentamiento para el Consejo de Monumentos Nacionales y la UNESCO.",
+        "error_procesamiento_json": false,
+        "estado": "INCORRECTO"
+    },
+    {
+        "questionId": "B1_2015-11-20_E2_Q8",
+        "nivel": "B1",
+        "pregunta": "En el texto se dice que la familia…",
+        "respuesta_real": "A",
+        "prediccion_modelo": "A",
+        "explicacion": "La familia local encontró el fósil mientras movía la tierra con sus bueyes.",
+        "error_procesamiento_json": false,
+        "estado": "CORRECTO"
+    },
+    {
+        "questionId": "B1_2015-11-20_E2_Q9",
+        "nivel": "B1",
+        "pregunta": "Según el texto, en este lugar se han encontrado…",
+        "respuesta_real": "C",
+        "prediccion_modelo": "B",
+        "explicacion": "Los habitantes de entonces vivían en un asentamiento de tiendas hechas de pieles y madera, pero nunca se localizaron restos humanos.",
+        "error_procesamiento_json": false,
+        "estado": "INCORRECTO"
+    },
+    {
+        "questionId": "B1_2015-11-20_E2_Q10",
+        "nivel": "B1",
+        "pregunta": "El texto dice que este lugar…",
+        "respuesta_real": "A",
+        "prediccion_modelo": "A",
+        "explicacion": "El texto dice que este lugar se encuentra en buenas condiciones de conservación.",
+        "error_procesamiento_json": false,
+        "estado": "CORRECTO"
+    },
+    {
+        "questionId": "B1_2015-11-20_E2_Q11",
+        "nivel": "B1",
+        "pregunta": "En el texto se dice que los habitantes de este lugar…",
+        "respuesta_real": "B",
+        "prediccion_modelo": "B",
+        "explicacion": "Los habitantes de este lugar tenían viviendas con estructuras de madera y los fuegos funcionaban fuera y dentro para poder vivir en las duras condiciones del clima de entonces, más frío y húmedo que ahora.",
+        "error_procesamiento_json": false,
+        "estado": "CORRECTO"
+    },
+    {
+        "questionId": "B1_2015-11-20_E2_Q12",
+        "nivel": "B1",
+        "pregunta": "Según el texto, el museo de la ciudad…",
+        "respuesta_real": "C",
+        "prediccion_modelo": "C",
+        "explicacion": "El texto indica que el museo de la ciudad mostrará la colección guardada en la Universidad Austral.",
+        "error_procesamiento_json": false,
+        "estado": "CORRECTO"
+    },
+    {
+        "questionId": "B1_2016-07-01_E2_Q7",
+        "nivel": "B1",
+        "pregunta": "Según el texto, la Noche de los Museos…",
+        "respuesta_real": "A",
+        "prediccion_modelo": "A",
+        "explicacion": "La Noche de los Museos se celebra en múltiples museos y espacios culturales de Buenos Aires, y esta edición incluye nuevos centros a la lista de visitas.",
+        "error_procesamiento_json": false,
+        "estado": "CORRECTO"
+    },
+    {
+        "questionId": "B1_2016-07-01_E2_Q8",
+        "nivel": "B1",
+        "pregunta": "Esta edición de la Noche de los Museos se centra especialmente en…",
+        "respuesta_real": "B",
+        "prediccion_modelo": "B",
+        "explicacion": "Esta edición de la Noche de los Museos se centra especialmente en la figura de varios artistas nacionales.",
+        "error_procesamiento_json": false,
+        "estado": "CORRECTO"
+    },
+    {
+        "questionId": "B1_2016-07-01_E2_Q9",
+        "nivel": "B1",
+        "pregunta": "Las exposiciones «Quino por Mafalda» y «El mundo según Mafalda»…",
+        "respuesta_real": "C",
+        "prediccion_modelo": "C",
+        "explicacion": "Las exposiciones 'Quino por Mafalda' y 'El mundo según Mafalda' se han organizado con la colaboración de Quino.",
+        "error_procesamiento_json": false,
+        "estado": "CORRECTO"
+    },
+    {
+        "questionId": "B1_2016-07-01_E2_Q10",
+        "nivel": "B1",
+        "pregunta": "El programa de la Noche de los Museos incluye…",
+        "respuesta_real": "A",
+        "prediccion_modelo": "A",
+        "explicacion": "El programa de la Noche de los Museos incluye conciertos en espacios abiertos.",
+        "error_procesamiento_json": false,
+        "estado": "CORRECTO"
+    },
+    {
+        "questionId": "B1_2016-07-01_E2_Q11",
+        "nivel": "B1",
+        "pregunta": "Según el texto, el número de visitantes…",
+        "respuesta_real": "C",
+        "prediccion_modelo": "C",
+        "explicacion": "El texto indica que el objetivo para este año es que la cifra de visitantes llegue al menos a los 800.000, lo que implica que el número de visitantes debería crecer este año.",
+        "error_procesamiento_json": false,
+        "estado": "CORRECTO"
+    },
+    {
+        "questionId": "B1_2016-07-01_E2_Q12",
+        "nivel": "B1",
+        "pregunta": "El ministro de Cultura asegura que lo más importante es…",
+        "respuesta_real": "C",
+        "prediccion_modelo": "B",
+        "explicacion": "El ministro de Cultura asegura que lo más importante es que la gente venga con alegría porque se siente parte de una ciudad donde la cultura es parte de su vida cotidiana.",
+        "error_procesamiento_json": false,
+        "estado": "INCORRECTO"
+    },
+    {
+        "questionId": "B1_2004-05-15_E1_Q1",
+        "nivel": "B1",
+        "pregunta": "En el texto se dice que:",
+        "respuesta_real": "A",
+        "prediccion_modelo": "A",
+        "explicacion": "El texto indica que James Bond cambió la imagen de los agentes secretos, por lo que la opción correcta es A.",
+        "error_procesamiento_json": false,
+        "estado": "CORRECTO"
+    },
+    {
+        "questionId": "B1_2004-05-15_E1_Q2",
+        "nivel": "B1",
+        "pregunta": "En el texto se dice que:",
+        "respuesta_real": "B",
+        "prediccion_modelo": "A",
+        "explicacion": "Las escenas de interior se grababan en el estudio londinense de Pinewood.",
+        "error_procesamiento_json": false,
+        "estado": "INCORRECTO"
+    },
+    {
+        "questionId": "B1_2004-05-15_E1_Q3",
+        "nivel": "B1",
+        "pregunta": "El texto dice que:",
+        "respuesta_real": "B",
+        "prediccion_modelo": "B",
+        "explicacion": "La primera película de James Bond no fue un gran éxito, sino que el éxito llegó con la segunda película Desde Rusia con amor.",
+        "error_procesamiento_json": false,
+        "estado": "CORRECTO"
+    },
+    {
+        "questionId": "B2_2005-11-18_E1_Q5",
+        "nivel": "B2",
+        "pregunta": "El descubrimiento en Chile es importante porque las ballenas:",
+        "respuesta_real": "A",
+        "prediccion_modelo": "A",
+        "explicacion": "El descubrimiento en Chile es importante porque las ballenas estaban cerca de la costa.",
+        "error_procesamiento_json": false,
+        "estado": "CORRECTO"
+    },
+    {
+        "questionId": "B2_2005-11-18_E1_Q6",
+        "nivel": "B2",
+        "pregunta": "En el texto se aﬁrma que el proyecto para conservar las ballenas:",
+        "respuesta_real": "A",
+        "prediccion_modelo": "A",
+        "explicacion": "El proyecto para conservar las ballenas es patrocinado por Directemar, como se indica en el texto.",
+        "error_procesamiento_json": false,
+        "estado": "CORRECTO"
+    },
+    {
+        "questionId": "B2_2005-11-18_E1_Q7",
+        "nivel": "B2",
+        "pregunta": "Según Carola Castillo, la apariencia de los ejecutivos:",
+        "respuesta_real": "A",
+        "prediccion_modelo": "A",
+        "explicacion": "La apariencia de los ejecutivos, según Carola Castillo, influye en la imagen de su empresa.",
+        "error_procesamiento_json": false,
+        "estado": "CORRECTO"
+    },
+    {
+        "questionId": "B2_2005-11-18_E1_Q8",
+        "nivel": "B2",
+        "pregunta": "En el texto se aﬁrma que los ejecutivos peruanos suelen llevar ropa:",
+        "respuesta_real": "B",
+        "prediccion_modelo": "B",
+        "explicacion": "El texto indica que los ejecutivos peruanos suelen llevar ropa clásica.",
+        "error_procesamiento_json": false,
+        "estado": "CORRECTO"
+    },
+    {
+        "questionId": "B2_2005-11-18_E1_Q9",
+        "nivel": "B2",
+        "pregunta": "Los especialistas opinan que para tener una buena imagen son básicos:",
+        "respuesta_real": "A",
+        "prediccion_modelo": "C",
+        "explicacion": "Los zapatos son considerados básicos para tener una buena imagen según los especialistas.",
+        "error_procesamiento_json": false,
+        "estado": "INCORRECTO"
+    },
+    {
+        "questionId": "B2_2005-11-18_E1_Q10",
+        "nivel": "B2",
+        "pregunta": "Según el texto, Diego",
+        "respuesta_real": "A",
+        "prediccion_modelo": "B",
+        "explicacion": "Diego no es la primera vez que ve esa película en lo que va de semana.",
+        "error_procesamiento_json": false,
+        "estado": "INCORRECTO"
+    },
+    {
+        "questionId": "B2_2005-11-18_E1_Q11",
+        "nivel": "B2",
+        "pregunta": "Cuando termina la película, Laura:",
+        "respuesta_real": "A",
+        "prediccion_modelo": "C",
+        "explicacion": "Laura reconoce a Diego y abraza a él.",
+        "error_procesamiento_json": false,
+        "estado": "INCORRECTO"
+    },
+    {
+        "questionId": "B2_2005-11-18_E1_Q12",
+        "nivel": "B2",
+        "pregunta": "Según el texto, Laura y Diego:",
+        "respuesta_real": "C",
+        "prediccion_modelo": "B",
+        "explicacion": "Laura y Diego se habían visto hace dos años en una librería.",
+        "error_procesamiento_json": false,
+        "estado": "INCORRECTO"
+    },
+    {
+        "questionId": "B2_2005-11-19_E1_Q1",
+        "nivel": "B2",
+        "pregunta": "Según el texto, los inviernos lluviosos reducen los síntomas alérgicos.",
+        "respuesta_real": "B",
+        "prediccion_modelo": "B",
+        "explicacion": "El texto indica que si el invierno ha sido muy lluvioso, hay un empeoramiento de los síntomas alérgicos y un aumento de nuevos pacientes.",
+        "error_procesamiento_json": false,
+        "estado": "CORRECTO"
+    },
+    {
+        "questionId": "B2_2005-11-19_E1_Q2",
+        "nivel": "B2",
+        "pregunta": "En el texto se afirma que las alergias primaverales afectan más a hombres que a mujeres.",
+        "respuesta_real": "A",
+        "prediccion_modelo": "A",
+        "explicacion": "El texto indica que la enfermedad predomina en los varones.",
+        "error_procesamiento_json": false,
+        "estado": "CORRECTO"
+    },
+    {
+        "questionId": "B2_2005-11-19_E1_Q3",
+        "nivel": "B2",
+        "pregunta": "Según el texto, las personas alérgicas deben quedarse en casa si hace viento.",
+        "respuesta_real": "A",
+        "prediccion_modelo": "A",
+        "explicacion": "El texto sugiere que evitar salir al aire libre los días de viento es una recomendación para los alérgicos, lo que implica que si hace viento, es mejor que los alérgicos se queden en casa.",
+        "error_procesamiento_json": false,
+        "estado": "CORRECTO"
+    },
+    {
+        "questionId": "B2_2005-11-19_E1_Q4",
+        "nivel": "B2",
+        "pregunta": "Según el texto, Jordi Jordan:",
+        "respuesta_real": "B",
+        "prediccion_modelo": "B",
+        "explicacion": "Jordi Jordan es profesor de Tecnología de un Instituto de Enseñanza Secundaria, no se menciona que haya estudiado arquitectura, pero se afirma que él opina que Gaudí era un tecnólogo.",
+        "error_procesamiento_json": false,
+        "estado": "CORRECTO"
+    },
+    {
+        "questionId": "B2_2005-11-19_E1_Q5",
+        "nivel": "B2",
+        "pregunta": "En el texto se nos informa de que la página web de Jordi Jordan:",
+        "respuesta_real": "C",
+        "prediccion_modelo": "C",
+        "explicacion": "The text informs us that the web page of Jordi Jordan relates Gaudí to technology.",
+        "error_procesamiento_json": false,
+        "estado": "CORRECTO"
+    },
+    {
+        "questionId": "B2_2005-11-19_E1_Q6",
+        "nivel": "B2",
+        "pregunta": "En el texto se aﬁrma que el instituto donde trabaja Jordan ha conseguido:",
+        "respuesta_real": "B",
+        "prediccion_modelo": "A",
+        "explicacion": "The text states that the institute where Jordan works has been awarded two prizes on the internet, and also received a European recognition.",
+        "error_procesamiento_json": false,
+        "estado": "INCORRECTO"
+    },
+    {
+        "questionId": "B2_2005-11-19_E1_Q7",
+        "nivel": "B2",
+        "pregunta": "Según el texto, el delito de la piratería ha aumentado por:",
+        "respuesta_real": "A",
+        "prediccion_modelo": "A",
+        "explicacion": "El delito de la piratería ha aumentado por el progreso de la informática e Internet.",
+        "error_procesamiento_json": false,
+        "estado": "CORRECTO"
+    },
+    {
+        "questionId": "B2_2005-11-19_E1_Q8",
+        "nivel": "B2",
+        "pregunta": "En el texto se aﬁrma que las copias piratas:",
+        "respuesta_real": "C",
+        "prediccion_modelo": "C",
+        "explicacion": "Las copias piratas pueden estropear el equipo reproductor.",
+        "error_procesamiento_json": false,
+        "estado": "CORRECTO"
+    },
+    {
+        "questionId": "B2_2005-11-19_E1_Q9",
+        "nivel": "B2",
+        "pregunta": "El autor del texto opina que la piratería, en general:",
+        "respuesta_real": "A",
+        "prediccion_modelo": "A",
+        "explicacion": "La piratería, en general, hace que la inversión extranjera sea menor.",
+        "error_procesamiento_json": false,
+        "estado": "CORRECTO"
+    },
+    {
+        "questionId": "B2_2005-11-19_E1_Q10",
+        "nivel": "B2",
+        "pregunta": "Según el texto, Fernanda le pide perdón a Juan Manuel porque:",
+        "respuesta_real": "A",
+        "prediccion_modelo": "A",
+        "explicacion": "Fernanda le pide perdón a Juan Manuel porque había estado poco cariñosa.",
+        "error_procesamiento_json": false,
+        "estado": "CORRECTO"
+    },
+    {
+        "questionId": "B2_2005-11-19_E1_Q11",
+        "nivel": "B2",
+        "pregunta": "Según el texto, después de arreglar la casa, Fernanda se siente:",
+        "respuesta_real": "B",
+        "prediccion_modelo": "B",
+        "explicacion": "Fernanda se siente tranquila después de arreglar la casa.",
+        "error_procesamiento_json": false,
+        "estado": "CORRECTO"
+    },
+    {
+        "questionId": "B2_2005-11-19_E1_Q12",
+        "nivel": "B2",
+        "pregunta": "En la carta Fernanda cuenta que Enrique:",
+        "respuesta_real": "B",
+        "prediccion_modelo": "B",
+        "explicacion": "En la carta, Fernanda cuenta que Enrique le hace falta y que quiere mucho.",
+        "error_procesamiento_json": false,
+        "estado": "CORRECTO"
+    }
+]
