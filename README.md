@@ -18,3 +18,5 @@ Descripción breve:
 - `pyproject.toml`: configuración del proyecto Python.
 - `data/multiple_choice.json`: dataset de preguntas de opción múltiple.
 - `notebooks/analisis_dataset.ipynb`: notebook de análisis exploratorio.
+
+Add links to img folders and explain how to download them
