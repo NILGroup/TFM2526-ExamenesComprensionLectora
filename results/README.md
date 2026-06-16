@@ -1,14 +1,12 @@
 # 📊 Resultados y Predicciones
 
-Este directorio almacena todos los artefactos estáticos generados durante la ejecución de los modelos. Está diseñado para separar claramente las pruebas de concepto iniciales de las predicciones oficiales enviadas a evaluación, garantizando la total reproducibilidad y transparencia del Trabajo de Fin de Máster.
-
-Además, se incluye el registro del impacto ambiental y consumo energético de las inferencias oficiales, alineándose con las buenas prácticas de la Inteligencia Artificial sostenible.
+Este directorio contiene todos los resultados de los experimentos y pruebas realizadas durante el desarrollo del proyecto. Esta diseñado para separar claramente las pruebas de concepto y pruebas iniciales de las predicciones oficiales enviadas a la tarea PROFE 2026. Además, se incluye el registro del impacto ambiental y consumo energético de las soluciones presentadas a la competición.
 
 ---
 
 ## 📂 Estructura del Directorio
 
-El repositorio mantiene la división por tareas principales (`01_multiple_choice` y `02_matching`) e introduce una sub-jerarquía numérica para clasificar el tipo de resultado:
+El repositorio se divide en las dos tareas principales (`01_multiple_choice` y `02_matching`) e introduce una sub-jerarquía numérica para clasificar el tipo de resultado:
 
 ```text
 results/
@@ -70,15 +68,15 @@ results/
 
 ## 🏷️ Convención de Nomenclatura y Subcarpetas
 
-Para evitar la mezcla de datos y facilitar la auditoría de los resultados, cada tarea se divide en tres carpetas con propósitos específicos:
+Para tener todos los resultados organizados, cada tarea se divide en tres carpetas con propósitos específicos:
 
 ### `01_experiments/` (Entorno de Desarrollo)
-Contiene las inferencias crudas generadas durante la fase de diseño de *prompts*, selección de modelos y calibración. Son archivos de uso interno que respaldan las decisiones metodológicas tomadas en los *notebooks* de la serie `10`, pero **no** forman parte de la evaluación final del sistema.
+Contiene las inferencias generadas durante la fase pruebas y experimentación sobre el conjunto de desarrollo correspondiente. Son archivos de uso interno que respaldan las decisiones metodológicas tomadas en los *notebooks* de la serie `10`, pero **no** forman parte de las soluciones propuestas en la competición oficial.
 
 ### `02_predictions/` (Resultados Oficiales)
-Almacena las predicciones definitivas sobre los conjuntos de prueba (*test*). Los archivos aquí siguen una estricta convención de sufijos:
-* **`_raw.json`**: La respuesta exacta y sin procesar generada por el Modelo de Lenguaje (LLM). Fundamental para analizar alucinaciones o errores de formato.
-* **`_formatted.json`**: El archivo final tras pasar por el script de post-procesamiento. Este es el formato estandarizado que se envía para el cálculo de las métricas de rendimiento y la competición oficial.
+Almacena las predicciones definitivas sobre los conjuntos de *test*. Los archivos aquí siguen la siguiente convención:
+* **`_raw.json`**: Salida cruda de los notebooks que incluye la respuesta del modelo,su razonamiento, el nivel del examen, etc.
+* **`_formatted.json`**: El archivo final tras pasar por el script de post-procesamiento que sigue el formato requerido para el envío de las soluciones a la competición.
 
 ### `03_emissions/` (Sostenibilidad)
-Archivos `.csv` que documentan el consumo de energía y las emisiones estimadas de CO2 (usualmente medidos a través de librerías como CodeCarbon). Cada archivo corresponde directamente a una estrategia documentada en la carpeta `02_predictions/`, permitiendo evaluar no solo el rendimiento (*Accuracy* / *F1-Score*), sino también la eficiencia energética y viabilidad de cada enfoque.
+Archivos `.csv` que documentan el consumo de energía y las emisiones estimadas de CO2 (medidas con [CodeCarbon](https://codecarbon.io/)). Cada archivo corresponde directamente a una estrategia documentada en la carpeta `02_predictions/`, permitiendo evaluar no solo el rendimiento, sino también la eficiencia energética y el coste de cada enfoque.
