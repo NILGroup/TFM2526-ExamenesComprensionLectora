@@ -6,7 +6,7 @@ Este directorio contiene todo el código de experimentación, entrenamiento y ev
 
 ## 📂 Estructura del Directorio
 
-El directorio está dividido en tres áreas principales, separando el análisis previo de los datos de las dos tareas en las que se centra el proyecto:
+El directorio está dividido en tres directorios principales, separando el análisis de los datos de las dos tareas en las que se centra el proyecto:
 
 ```text
 notebooks/
@@ -38,17 +38,19 @@ notebooks/
     └── 21_evaluation_zs_qwen35.ipynb
 ```
 
+> Los notebooks de los directorios `01_multiple_choice/` y `02_matching` están pensados para ejecutarse en Google Colab.
+
 ---
 
 ## 🏷️ Convención de Nomenclatura
 
-Para facilitar la lectura y la evaluación del proyecto, todos los archivos siguen un sistema de nomenclatura basado en prefijos numéricos y fases de desarrollo:
+Para facilitar la lectura del contenido del directorio, los archivos siguen un sistema de nomenclatura basado en prefijos numéricos y fases de desarrollo:
 
 Formato general: `[Número]_[Fase]_[Modelo/Estrategia].ipynb`
 
 ### 1. Prefijos Numéricos (Series)
-* **Serie `00` (Dataset Analysis):** Notebooks dedicados al análisis inicial de los corpus de datos (UNED, PROFE 2025, etc.).
-* **Serie `10` (Exploration & Training):** Aquí se encuentran las pruebas de concepto (baselines), experimentación con técnicas de *prompting* (Zero/Few-Shot, Multimodal) y los procesos de entrenamiento (*Fine-Tuning*).
+* **Serie `00` (Dataset Analysis):** Notebooks dedicados al análisis inicial de los corpus de datos (IC-UNED-RC-ES, PROFE 2025, etc.).
+* **Serie `10` (Exploration & Training):** Aquí se encuentran las pruebas de concepto (baselines), experimentación con técnicas de *prompting* (Zero/Few-Shot, Multimodal) y los procesos de entrenamiento (*Fine-Tuning*) de los modelos.
 * **Serie `20` (Evaluation):** Ejecuciones definitivas sobre el conjunto de test oficial. Estos notebooks utilizan los modelos o prompts definidos en la fase anterior para generar las inferencias finales sobre los conjuntos de evaluación y poder enviar los resultados a la tarea PROFE 2026.
 
 ### 2. Fases
