@@ -3,7 +3,7 @@ repos:
     hooks:
       - id: fix-notebook-widgets
         name: Fix notebook widgets metadata
-        entry: uv run python src/utils/fix_notebook_widgets.py
+        entry: uv run src/utils/fix_notebook_widgets.py
         language: system
         pass_filenames: false
         types: [jupyter]
