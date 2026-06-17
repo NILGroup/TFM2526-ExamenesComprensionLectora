@@ -22,7 +22,7 @@ A continuación se presenta una visión general de la organización del proyecto
 
 ```text
 TFM2526-ExamenesComprensionLectora/
-├── data/                  # Conjuntos de datos (archivos JSON e imágenes)
+├── data/                  # Conjuntos de datos utilizados
 │   ├── dev_matching/
 │   │   ├── matching.json
 │   │   └── ...
@@ -34,7 +34,7 @@ TFM2526-ExamenesComprensionLectora/
 │       ├── fill_the_gap_dataset.json
 │       ├── multiple_choice_dataset.json
 │       └── ...
-├── notebooks/             # Entornos interactivos de desarrollo y validación
+├── notebooks/             # Notebooks de prueba y desarrollo de soluciones
 │   ├── README.md
 │   ├── 00_dataset_analysis/
 │   │   ├── 01_IC-UNED-RC-ES_dataset_analysis.ipynb
@@ -46,7 +46,7 @@ TFM2526-ExamenesComprensionLectora/
 │   └── 02_matching/
 │       ├── 10_exploration_zs_gemma4.ipynb
 │       └── ...
-├── results/               # Predicciones, parámetros y métricas de emisiones (CO2)
+├── results/               # Predicciones, resultados y métricas de emisiones (CO2)
 │   ├── README.md
 │   ├── 01_multiple_choice/
 │   │   ├── 01_experiments/
@@ -58,7 +58,7 @@ TFM2526-ExamenesComprensionLectora/
 │   │       └── ...
 │   └── 02_matching/
 │       └── ...
-├── src/                   # Código fuente principal del proyecto
+├── src/                   # Código del sistema multi-agente y utilidades
 │   ├── __init__.py
 │   ├── matching_agents/
 │   │   ├── agents.py
