@@ -104,9 +104,7 @@ Para levantar el entorno local, este proyecto utiliza `uv` como gestor de paquet
 
 ### 🤖 Ejecución del Sistema Multi-agente
 
-El sistema multi-agente requiere cierta configuración previa de variables de entorno (como la API key de Gemini, cuyo límite de 15 peticiones por minuto de la capa gratuita ya está gestionado internamente por el código mediante tiempos de espera). 
-
-Para ver cómo funciona, configurar las claves y ejecutar el sistema, por favor consulta la documentación detallada en su directorio correspondiente:
+El sistema multi-agente requiere cierta configuración previa de variables de entorno. Por ello, para poder comprender el funcionamiento del sistema y ejecutarlo, se debe consultar la documentación del directorio correspondiente:
 
 👉 **[Guía de configuración y ejecución del Sistema Multi-agente](https://github.com/NILGroup/TFM2526-ExamenesComprensionLectora/tree/main/src/matching_agents)**
 
