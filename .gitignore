@@ -27,8 +27,4 @@ matching_agents/data/img
 
 matching_agents/data/img_dev
 
-data/dev_multiple_choice/img
-
-data/dev_matching/img
-
-data/test/img
+**/img/
