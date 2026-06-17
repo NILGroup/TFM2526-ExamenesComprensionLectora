@@ -1,4 +1,4 @@
-# Matching Agents
+# 🤖 Matching Agents
 
 Este directorio contiene el código del sistema multiagente diseñado para resolver la tarea de **Matching** (emparejamiento) de la tarea PROFE 2026.
 
