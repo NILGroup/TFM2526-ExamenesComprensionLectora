@@ -11,8 +11,8 @@ fi
 
 # Variables de configuración
 INPUT_FILE=${MATCHING_INPUT_FILE:-"data/dev_matching/matching.json"}
-OUTPUT_FILE=${MATCHING_OUTPUT_FILE:-"results/02_matching/02_predictions/results_all.json"}
-ACCURACY_REPORT=${MATCHING_ACCURACY_REPORT:-"results/02_matching/02_predictions/accuracy_report.json"}
+OUTPUT_FILE=${MATCHING_OUTPUT_FILE:-"results/02_matching/02_predictions/agents_test_formatted.json"}
+ACCURACY_REPORT=${MATCHING_ACCURACY_REPORT:-"results/02_matching/02_predictions/agents_accuracy_report.json"}
 BACKEND=${MATCHING_BACKEND:-"gemini"}
 GEMINI_MODEL=${MATCHING_GEMINI_MODEL:-"gemini-2.5-flash-lite"}
 
