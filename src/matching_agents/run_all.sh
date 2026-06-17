@@ -3,12 +3,21 @@
 
 set -e
 
+# Cargar variables de entorno si existe el fichero .env
+if [ -f .env ]; then
+  # shellcheck disable=SC2046
+  export $(grep -v '^#' .env | xargs)
+fi
+
 # Variables de configuración
-INPUT_FILE="data/matching.json"
-OUTPUT_FILE="results_all.json"
-ACCURACY_REPORT="accuracy_report.json"
-BACKEND="gemini"
-GEMINI_MODEL="gemini-2.5-flash-lite"
+INPUT_FILE=${MATCHING_INPUT_FILE:-"data/dev_matching/matching.json"}
+OUTPUT_FILE=${MATCHING_OUTPUT_FILE:-"results/02_matching/02_predictions/results_all.json"}
+ACCURACY_REPORT=${MATCHING_ACCURACY_REPORT:-"results/02_matching/02_predictions/accuracy_report.json"}
+BACKEND=${MATCHING_BACKEND:-"gemini"}
+GEMINI_MODEL=${MATCHING_GEMINI_MODEL:-"gemini-2.5-flash-lite"}
+
+# Crear directorio de resultados si no existe
+mkdir -p "$(dirname "$OUTPUT_FILE")"
 
 echo "========================================="
 echo "Procesando todos los ejercicios..."

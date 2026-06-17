@@ -4,8 +4,11 @@ import argparse
 import json
 import time
 from pathlib import Path
+from dotenv import load_dotenv
 
 from .graph import MatchingAgentSystem
+
+load_dotenv()
 
 
 def parse_args() -> argparse.Namespace:
