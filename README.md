@@ -69,6 +69,7 @@ TFM2526-ExamenesComprensionLectora/
 │       ├── check_anwers.py
 │       └── ...
 ├── pyproject.toml         # Configuración del proyecto y gestión de dependencias
+├── report.pdf             # Documentación técnica del proyecto
 └── README.md              # Documentación principal
 ```
 
